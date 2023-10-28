@@ -73,9 +73,9 @@ def list_pages(base=BASEDIR):
         pages.append(root.replace(base, '')[1:])
   return sorted(pages)
 
-def find_media(path):
+def find_media(path, md=None):
   images = []
-  md = open(path, 'r').read()
+  md = md or open(path, 'r').read()
   html = markdown.markdown(md, extensions=['extra', 'toc'])
   soup = BeautifulSoup(html, 'html5lib')
   for param in soup.find_all('param'):
@@ -117,11 +117,14 @@ def move_image(src, dst, image, dryrun=False, **kwargs):
       logger.info(f'+ {yaml_path}.yaml')
 
 def _find_item(obj, type, attr=None, attr_val=None, sub_attr=None):
-  if 'items' in obj and isinstance(obj['items'], list):
-    for item in obj['items']:
-      if item.get('type') == type and (attr is None or item.get(attr) == attr_val):
-          return item[sub_attr] if sub_attr else item
-      return _find_item(item, type, attr, attr_val, sub_attr)
+  try:
+    if 'items' in obj and isinstance(obj['items'], list):
+      for item in obj['items']:
+        if item.get('type') == type and (attr is None or item.get(attr) == attr_val):
+            return item[sub_attr] if sub_attr else item
+        return _find_item(item, type, attr, attr_val, sub_attr)
+  except:
+    pass
 
 def get_manifest(url):
   manifest = cache.get(url)
@@ -142,35 +145,38 @@ def get_manifest(url):
 def manifest_props(img, manifest):
   props = {}
   if manifest:
-    props['label'] = manifest['label']['en'][0]
-    if 'summary' in manifest: props['summary'] = manifest['summary']['en'][0]
-    if 'requiredStatement' in manifest:
-      label = manifest['requiredStatement']['label']['en'][0] or 'attribution'
-      value = manifest['requiredStatement']['value']['en'][0]
-      props['requiredStatement'] = {label: value}
-    if 'metadata' in manifest:
-      for md in manifest['metadata']:
-        label = md['label']['en'][0].lower()
-        value = md['value']['en'][0]
-        if label and value:
-          if label == 'description':
-            if 'summary' not in props:
-              props['summary'] = value
-          elif label == 'attribution':
-            if 'requiredStatement' not in props:
-              props['requiredStatement'] = {label: value}
-          elif label not in ('acct', 'repo', 'essay', 'ref'):
-            props[label] = value
-    if 'label' in img:
-      props['label'] = img['label']
-    if 'attribution' in img:
-      props['requiredStatement'] = {'attribution': value}
-    if 'license' in img:
-      props['license'] = img['license']
-    if 'source' in img:
-      props['source'] = img['source']
-    if 'author' in img:
-      props['author'] = img['author']
+    try:
+      props['label'] = manifest['label']['en'][0]
+      if 'summary' in manifest: props['summary'] = manifest['summary']['en'][0]
+      if 'requiredStatement' in manifest:
+        label = manifest['requiredStatement']['label']['en'][0] or 'attribution'
+        value = manifest['requiredStatement']['value']['en'][0]
+        props['requiredStatement'] = {label: value}
+      if 'metadata' in manifest:
+        for md in manifest['metadata']:
+          label = md['label']['en'][0].lower()
+          value = md['value']['en'][0]
+          if label and value:
+            if label == 'description':
+              if 'summary' not in props:
+                props['summary'] = value
+            elif label == 'attribution':
+              if 'requiredStatement' not in props:
+                props['requiredStatement'] = {label: value}
+            elif label not in ('acct', 'repo', 'essay', 'ref'):
+              props[label] = value
+    except:
+      logger.info(json.dumps(manifest, indent=2))
+  if 'label' in img:
+    props['label'] = img['label']
+  if 'attribution' in img:
+    props['requiredStatement'] = {'attribution': value}
+  if 'license' in img:
+    props['license'] = img['license']
+  if 'source' in img:
+    props['source'] = img['source']
+  if 'author' in img:
+    props['author'] = img['author']
   return props
 
 def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
@@ -182,11 +188,13 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
     md = open(path, 'r').read()
     md_updated = False
     num_updated = 0
-    for img in find_media(path):
+    for img in find_media(path, md):
       src = None
       manifest = None
+      props = {}
       if 'url' in img:
         url = img['url']
+        fname = urllib.parse.unquote(url.split('/')[-1]).replace(' ', '_')
         if not url.startswith('http'):
           src = url[1:] if url.startswith('/') else f'{page}/{url}'
         elif 'jstor-labs/plant-humanities' in img['url'].lower():
@@ -213,17 +221,31 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
         '''
 
       elif 'manifest' in img:
-        manifest = get_manifest(img['manifest'])
-        if img['manifest'].startswith('https://iiif.juncture-digital.org'):
+        manifest_url = img['manifest']
+        if manifest_url.startswith('https://iiif.juncture-digital.org'):
+          manifest = get_manifest(manifest_url)
           image_data = _find_item(manifest, type='Annotation', attr='motivation', attr_val='painting', sub_attr='body')
-          url = image_data['id']
-          if 'jstor-labs/plant-humanities' in url.lower():
-            src = '/'.join(pe for pe in url.replace('?raw=true','').split('/') if pe and pe.lower() not in('https:', 'github.com', 'raw.githubusercontent.com', '52bc9a2', 'blob', 'master', 'main', 'raw', 'develop', 'staging-3', 'staging-7', 'jstor-labs', 'plant-humanities'))
+          if image_data and 'id' in image_data:
+            url = image_data['id']
+            m_name, ext = os.path.splitext( urllib.parse.unquote(url.split('/')[-1]).replace(' ', '_'))
+            props = manifest_props(img, manifest) if manifest else {}
+            props['hash'] = hashlib.sha256(url.encode('utf-8')).hexdigest()[:8]
+            if 'plant-humanities' in url.lower():
+              src = '/'.join(pe for pe in url.replace('?raw=true','').split('/') if pe and pe.lower() not in('https:', 'jstor-labs.github.io', 'github.com', 'raw.githubusercontent.com', '52bc9a2', 'blob', 'master', 'main', 'raw', 'develop', 'staging-3', 'staging-7', 'jstor-labs', 'plant-humanities'))
+            else:
+              logger.info(url)
+              props['image_url'] = url
+              src = f'{page.lower()}/{hashlib.sha256(m_name.encode("utf-8")).hexdigest()}.yaml'
+            src_path = f'{essays}/{urllib.parse.unquote(src)}' if src else None
+            # if src_path: logger.info(f'{src_path} ({os.path.exists(src_path)})')
+            manifest_short = f'https://iiif.juncture-digital.org/gh:plant-humanities/media/{m_name}' + (ext if src_path and os.path.exists(src_path) else '.yaml') + '/manifest.json'
+            md = md.replace(manifest_url, manifest_short)
+            md_updated = True
+            # logger.info(manifest_short)
       else:
         continue
       
-      props = manifest_props(img, manifest) if manifest else {}
-      props['hash'] = hashlib.sha256(url.encode('utf-8')).hexdigest()[:8]
+
 
       if src:
         src_path = f'{essays}/{src}'
@@ -234,18 +256,18 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
         dst_path = f'{media}/{"/".join(dst)}'
         
   
-        if os.path.exists(src_path):
+        if os.path.exists(src_path) and os.path.isfile(src_path):
           if not dryrun:
             os.makedirs(os.path.dirname(dst_path), exist_ok=True)
             shutil.copyfile(src_path, dst_path)
 
+      if props:
         yaml_path, _ = os.path.splitext(dst_path)
         logger.info(f'+ {yaml_path}.yaml')
         os.makedirs(os.path.dirname(yaml_path), exist_ok=True)
         with open(f'{yaml_path}.yaml', 'w') as f:
           f.write(yaml.safe_dump(props, sort_keys=False, width=float('inf')))
 
-    '''
     if md_updated:
       num_updated += 1
       if dryrun:
@@ -255,7 +277,6 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
           f.write(md)
           logger.info(f'-> {path}')
       if num_updated == max: break
-    '''
   
   '''
   if names_map_updated:

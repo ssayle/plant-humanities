@@ -162,16 +162,10 @@ module.exports = {
         : 'contain'
     },
     currentItemSource() {
-      return this.currentItem
-        ? this.currentItem.sequences
-          ? this.currentItem.sequences[0].canvases[this.currentItem.manifest && this.currentItem.manifest.seq || 0].images[0].resource['@id']
-          : this.currentItem.url
-        : null
+      return this.currentItem && this.findItem({type:'Annotation', motivation:'painting'}, this.currentItem).body.id
     },
-    currentItemSourceHash() { 
-      let hash = this.currentItemSource ? this.sha256(this.currentItemSource).slice(0,8) : ''
-      console.log(this.currentItemSource, hash)
-      return hash
+    currentItemSourceHash() {
+      return this.currentItemSource ? this.sha256(this.currentItemSource).slice(0,8) : ''
     },
     annosUrl() { return `${this.contentSource.assetsBaseUrl || this.contentSource.baseUrl}/${this.mdDir}${this.currentItemSourceHash}.json` },
     target() {
@@ -199,7 +193,8 @@ module.exports = {
       return this.currentItem && this.metadata && this.metadata.title_formatted
         ? this.metadata.title_formatted
         : this.currentItem && this.currentItem.label
-        ? this.currentItem.label['@value'] || this.currentItem.label : null
+          ? this.currentItem.label['@value'] || (this.currentItem.label.en ? this.currentItem.label.en[0] : this.currentItem.label)
+          : null
     },
     title() {
       if (this.viewerItems.length > 0){
@@ -239,7 +234,7 @@ module.exports = {
       // console.log(`${this.$options.name}.init`, this.viewerItems, this.viewerIsActive, this.width, this.height, this.selected, this.currentItme)
       if (this.viewerIsActive) {
         this.initViewer()
-        this.loadManifests(this.viewerItems)
+        this.loadManifests(this.viewerItems).then(manifests => this.manifests = manifests)
       }
       //this.displayInfoBox()
     },
@@ -253,7 +248,7 @@ module.exports = {
       this.$nextTick(() => {
         let options = {
           id: 'osd',
-          prefixUrl: 'https://visual-essays.netlify.app/images/',
+          prefixUrl: 'https://openseadragon.github.io/openseadragon/images/',
           // toolbar:        'osd-toolbar',
           zoomInButton:   'zoom-in',
           zoomOutButton:  'zoom-out',
@@ -310,12 +305,7 @@ module.exports = {
 
           // TODO: finish positioning for multiple images in layers and curtain mode
           const itemId = e.item.source['@id'] || e.item.source.url
-          const manifest = this.manifests.find(m => {
-            const resourceId = m.sequences[0].canvases[0].images[0].resource.service
-              ? m.sequences[0].canvases[0].images[0].resource.service['@id']
-              : m.sequences[0].canvases[0].images[0].resource['@id']
-            return itemId === resourceId
-          })
+          const manifest = this.manifests.find(m => this.getService(m)?.id === itemId)
 
           if (manifest && manifest.crop) {
             let [x,y,w,h] = manifest.crop.split(',').map(v => parseInt(v))
@@ -346,44 +336,63 @@ module.exports = {
     toggleAnnotationsNavigators() {
       this.showAnnotationsNavigator = !this.showAnnotationsNavigator
     },
-    /*
-    drawRect(rect) {
-      console.log('drawRect', rect)
-      if (!this.overlay) this.overlay = this.viewer.fabricjsOverlay({scale: 1})
-      this.overlay.resize()
-      return this.overlay.fabricCanvas().add(new fabric.Rect(rect))
+      
+    // find an item in a IIIF manifest
+    findItem(toMatch, current, seq = 1) {
+      const found = this._findItems(toMatch, current)
+      return found.length >= seq ? found[seq-1] : null
     },
-    */
-    loadManifests(items) {
-      let promises = items.map(item => {
-        if (item.manifest) {
-          return fetch(item.manifest).then(resp => resp.json())
-        } else if (item.url) {
-          let data = {};
-          ['url', 'label', 'description', 'attribution', 'license'].forEach(field => {
-            if (item[field]) data[field] = item[field]
-          })
-          return fetch(`${iiifService}/manifest/`, {
-            method: 'POST',
-            headers: {'Content-type': 'application/json'},
-            body: JSON.stringify(data)
-          }).then(resp => resp.json())
+
+    // recursive helper for finding items in a IIIF manifest
+    _findItems(toMatch, current, found = []) {
+      found = found || []
+      if (current.items) {
+        for (let i = 0; i < current.items.length; i++ ) {
+          let item = current.items[i]
+          let isMatch = !Object.entries(toMatch).find(([attr, val]) => item[attr] && item[attr] !== val)
+          if (isMatch) found.push(item)
+          else this._findItems(toMatch, item, found)
         }
-      })
-      Promise.all(promises).then(manifests => {
-          this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...items[idx]}})
-          this.tileSources = this.manifests.map((manifest, idx) => {
-            const opacity = idx === 0 ? 1 : this.mode === 'layers' ? 0 : 1
-            const tileSource = manifest.sequences[0].canvases[manifest.seq || 0].images[0].resource.service
-              ? `${manifest.sequences[0].canvases[manifest.seq || 0].images[0].resource.service['@id']}/info.json`
-              : { url: manifest.sequences[0].canvases[manifest.seq || 0].images[0].resource['@id'] || manifest.metadata.find(md => md.label === 'source').value,
-                 type: 'image', buildPyramid: true }
-            return { tileSource, opacity }
-          })
-          this.loadTileSources()
-          this.displayInfoBox()
-        })
+      }
+      return found
     },
+
+    getService(manifest) {
+      let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
+      return itemInfo.service && itemInfo.service.length > 0 ? itemInfo.service[0] : null
+    },
+    
+    async loadManifests(items) {
+      let requests = items.filter(item => item.manifest).map(item =>  fetch(item.manifest))
+      let responses = await Promise.all(requests)
+      let manifests = await Promise.all(responses.map(resp => resp.json()))
+      requests = manifests
+        .filter(manifest => !Array.isArray(manifest['@context']) && parseFloat(manifest['@context'].split('/').slice(-2,-1).pop()) < 3)
+        .map(manifest => fetch('https://iiif.juncture-digital.org/prezi2to3/', {
+          method: 'POST', 
+          body: JSON.stringify(manifest)
+        }))
+      if (requests.length > 0) {
+        responses = await Promise.all(requests)
+        let convertedManifests = await Promise.all(responses.map(resp => resp.json()))
+        for (let i = 0; i < manifests.length; i++) {
+          let mid =  manifests[i].id ||manifests[i]['@id']
+          let found = convertedManifests.find(manifest => (manifest.id || manifest['@id']) === mid)
+          if (found) manifests[i] = found
+        }
+      }
+      return manifests
+    },
+
+    // convert IIIF v2 manifest to v3; all operations in this component are based on v3
+    async prezi2to3(manifest) {
+      let resp = await fetch('https://iiif.juncture-digital.org/prezi2to3/', {
+        method: 'POST', 
+        body: JSON.stringify(manifest)
+      })
+      if (resp.ok) return (await resp).json()
+    },
+
     positionImage (immediately) {
       immediately = immediately || false
       if (this.currentItem) {
@@ -439,7 +448,7 @@ module.exports = {
       }
     },
     async loadAnnotations() {
-      console.log('loadAnnotations')
+      // console.log('loadAnnotations')
       let annosFile = `${this.currentItemSourceHash}.json`
       // let files = await this.dir(this.mdDir, this.contentSource.repo ? this.contentSource : null)
       // if (files[annosFile]) { 
@@ -680,27 +689,24 @@ module.exports = {
       let manifest = x;
 
       if (this.manifests.length != 0){
-        if (manifest['attribution']) { content['attribution'] = manifest['attribution'] }
-        if (manifest['description']) { content['description'] = manifest['description'] }
-        if (manifest['label']) { content['label'] = manifest['label'] }
-        if (manifest['metadata']){
-          manifest['metadata'].forEach(message => {
+        if (manifest.attribution) { content['attribution'] = manifest.attribution }
+        if (manifest.description) { content['description'] = manifest.description }
+        if (manifest.label) { content['label'] = manifest.label.en ? manifest.label.en[0] : manifest.label }
+        if (manifest.metadata){
+          manifest.metadata.forEach(message => {
             if (!content[message['label']] && message['label'] != 'mode' && message['label'] != 'repo' && message['label'] != 'acct' && message['label'] != 'essay' && message['label'] != 'title_formatted'){
-              content[message['label']] = message['value']
+              // content[message['label']] = message['value']
             }
           })
           //this.viewerItems[0]['metadata'].forEach(a => authors[parseInt(a.ordinal)-1] = a['label'])
         }
-        if (manifest['sequences']){
-          if (manifest['sequences'][0]['canvases'][0]){
-            if (manifest['sequences'][0]['canvases'][0]['images']){
-              content['image format'] = manifest['sequences'][0]['canvases'][0]['images'][0]['resource']['format']
-              content['image height'] = manifest['sequences'][0]['canvases'][0]['images'][0]['resource']['height']
-              content['image width'] = manifest['sequences'][0]['canvases'][0]['images'][0]['resource']['width']
-            }
-          }
+        let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
+        if (itemInfo){
+          content['image format'] = itemInfo.format
+          content['image height'] = itemInfo.height
+          content['image width'] = itemInfo.width
         }
-        if (manifest['@id']) { content['IIIF id'] = manifest['@id'] }
+        content['IIIF id'] = manifest.id
 
         for(var key in content){
           
@@ -800,7 +806,7 @@ module.exports = {
       handler: function (isActive) {
         if (isActive) {
           if (!this.viewer) this.initViewer()
-          this.loadManifests(this.viewerItems)
+          this.loadManifests(this.viewerItems).then(manifests => this.manifests = manifests)
         }
       },
       immediate: false
@@ -820,7 +826,7 @@ module.exports = {
       const prev = previous ? previous.map(item => this.stringifyKeysInOrder(item)) : []
       if (this.viewer && this.viewerIsActive) {
         if (cur.join() !== prev.join()) {
-          this.loadManifests(this.viewerItems)
+          this.loadManifests(this.viewerItems).then(manifests => this.manifests = manifests)
         } else {
           this.page = 0
           // this.currentItem = { ...this.manifests[this.page], ...sorted[0] }
@@ -829,8 +835,18 @@ module.exports = {
       }
     },
     manifests(manifests) {
-      // console.log('manifests', manifests)
       if (manifests) {
+        this.tileSources = manifests.map((manifest, idx) => {
+          let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
+          let tileSource = itemInfo.service
+            ? `${(itemInfo.service[0].id || itemInfo.service[0]['@id'])}/info.json`
+            : { url: itemInfo.id, type: 'image', buildPyramid: true }
+          const opacity = idx === 0 ? 1 : this.mode === 'layers' ? 0 : 1
+          return { tileSource, opacity }
+        })
+        this.loadTileSources()
+        this.displayInfoBox()
+
         this.page = 0
         this.currentItem = manifests[this.page]
       }
@@ -877,7 +893,7 @@ module.exports = {
       */
     },
     currentItemSourceHash() { 
-      // console.log(`currentItemSource=${this.currentItemSource} hash=${this.currentItemSourceHash}`)
+      console.log(`currentItemSource=${this.currentItemSource} hash=${this.currentItemSourceHash}`)
     },
     mode() {
       if (this.viewer) this.initViewer()

@@ -25,7 +25,8 @@ module.exports = {
       'https://jstor-labs.github.io/juncture/js/openseadragon-curtain-sync.min.js'
     ],
     tileSources: [],
-    viewer: null
+    viewer: null,
+    manifests: null
   }),
   computed: {
     containerStyle() { return { height: this.viewerIsActive ? '100%' : '0' } },
@@ -40,7 +41,13 @@ module.exports = {
   },
   mounted() { this.loadDependencies(this.dependencies, 0, this.init) },
   methods: {
-    init() { this.loadManifests() },
+    init() { 
+      this.loadManifests()
+        .then(manifests => {
+          console.log('init.manifests', manifests)
+          this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}})
+        })
+    },
     initViewer() {
       if (this.viewerIsActive) {
       let main = document.getElementById('main')
@@ -76,7 +83,42 @@ module.exports = {
       })
       }
     },
-    loadManifests() {
+    async loadManifests() {
+      let requests = this.compareItems.map(item => {
+        if (item.manifest) return fetch(item.manifest)
+        else if (item.url) {
+          let data = {};
+          ['url', 'label', 'description', 'attribution', 'license'].forEach(field => {
+            if (item[field]) data[field] = item[field]
+          })
+          return fetch(`${iiifService}/manifest/`, {
+            method: 'POST',
+            headers: {'Content-type': 'application/json'},
+            body: JSON.stringify(data)
+          })
+        }
+        else return Promise.resolve()
+      })
+      let responses = await Promise.all(requests)
+      let manifests = await Promise.all(responses.map(resp => resp.json()))
+      requests = manifests
+        .filter(manifest => !Array.isArray(manifest['@context']) && parseFloat(manifest['@context'].split('/').slice(-2,-1).pop()) < 3)
+        .map(manifest => fetch('https://iiif.juncture-digital.org/prezi2to3/', {
+          method: 'POST', 
+          body: JSON.stringify(manifest)
+        }))
+      if (requests.length > 0) {
+        responses = await Promise.all(requests)
+        let convertedManifests = await Promise.all(responses.map(resp => resp.json()))
+        for (let i = 0; i < manifests.length; i++) {
+          let mid =  manifests[i].id ||manifests[i]['@id']
+          let found = convertedManifests.find(manifest => (manifest.id || manifest['@id']) === mid)
+          if (found) manifests[i] = found
+        }
+      }
+      return manifests
+    },
+    loadManifests1() {
       let promises = this.compareItems.map(item => {
         if (item.manifest) {
           return fetch(item.manifest).then(resp => resp.json())
@@ -103,10 +145,46 @@ module.exports = {
             return tileSource
           })
         })
-    }
+    },
+
+    // find an item in a IIIF manifest
+    findItem(toMatch, current, seq = 1) {
+      const found = this._findItems(toMatch, current)
+      return found.length >= seq ? found[seq-1] : null
+    },
+
+    // recursive helper for finding items in a IIIF manifest
+    _findItems(toMatch, current, found = []) {
+      found = found || []
+      if (current.items) {
+        for (let i = 0; i < current.items.length; i++ ) {
+          let item = current.items[i]
+          let isMatch = !Object.entries(toMatch).find(([attr, val]) => item[attr] && item[attr] !== val)
+          if (isMatch) found.push(item)
+          else this._findItems(toMatch, item, found)
+        }
+      }
+      return found
+    },
   },     
   watch: {
-    compareItems() { this.loadManifests() },
+    compareItems() {
+      this.loadManifests().then(manifests => this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}}))
+    },
+    manifests() {
+      console.log('manifests', this.manifests)
+      this.tileSources = this.manifests.map((manifest, idx) => {
+        let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
+        let tileSource = itemInfo.service
+          ? `${(itemInfo.service[0].id || itemInfo.service[0]['@id'])}/info.json`
+          : { url: itemInfo.id, type: 'image', buildPyramid: true }
+        const opacity = idx === 0 ? 1 : this.mode === 'layers' ? 0 : 1
+        return { tileSource, opacity }
+      })
+    },
+    tileSources() { 
+      console.log('tileSources', this.tileSources)
+    },
     images() { this.initViewer() },
     active() { this.initViewer() }
   }

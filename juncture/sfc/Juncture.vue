@@ -760,7 +760,7 @@ Vue.mixin({
       repo = repo || this.contentSource.repo
       ref = ref || this.contentSource.ref
       // let ghToken = oauthAccessToken || ghUnscopedToken
-      console.log(`getFile: path=${path} acct=${acct} repo=${repo} ref=${ref} ghToken=${ghToken}`)
+      // console.log(`getFile: path=${path} acct=${acct} repo=${repo} ref=${ref} ghToken=${ghToken}`)
       if (repo) {
         // let url = `https://api.github.com/repos/${acct}/${repo}/contents${path}?ref=${ref}`
         // let resp = await fetch(url, ghToken ? {headers: {Authorization:`Token ${ghToken}`}} : {})

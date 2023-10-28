@@ -83,7 +83,7 @@ def find_media(path, md=None):
     page = path.replace(f'{BASEDIR}/', '').replace('/README.md', '')
     if 've-config' in param.attrs and 'banner' in param.attrs:
       image = {'page': page, 'url': param.attrs['banner']}
-    elif 've-image' in param.attrs:
+    elif 've-image' in param.attrs or 've-compare' in param.attrs:
       if 'url' in param.attrs or 'manifest' in param.attrs:
         image = {**{'page': page}, **dict([(k, v) for k, v in param.attrs.items() if k not in ['ve-image']])}
     
@@ -163,16 +163,40 @@ def manifest_props(img, manifest):
             elif label == 'attribution':
               if 'requiredStatement' not in props:
                 props['requiredStatement'] = {label: value}
-            elif label not in ('acct', 'repo', 'essay', 'ref'):
+            elif label == 'attribution-url':
+              if 'requiredStatement' in props:
+                props['requiredStatement']['url'] = value
+              else:
+                props['requiredStatement'] = {'url': value}
+            elif label == 'license':
+              props['sourceLicense'] = value
+              license = value
+              if 'Public domain' in license or 'Not in copyright' in license or 'PDM' in license:
+                props['reuseRights'] = 'https://creativecommons.org/publicdomain/mark/1.0'
+              elif 'CC0' in license: props['reuseRights'] = 'https://creativecommons.org/publicdomain/zero/1.0'
+              elif 'CC BY 2.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by/4.0'
+              elif 'CC BY 4.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by/4.0'
+              elif 'CC BY-SA 2.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-sa/4.0'
+              elif 'CC-BY-SA-4.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-sa/4.0'
+              elif 'CC BY-NC-SA' in license or 'Attribution, Non-Commercial, ShareAlike' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en'
+              elif 'CC BY-NC-SA 2.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en'
+              elif 'CC BY-NC-SA 4.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en'
+              elif 'CC BY-NC 3.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-nc/4.0/deed.en'
+              elif 'CC BY-NC 4.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-nc/4.0/deed.en'
+              elif 'CC BY-NC-ND 2.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en'
+              elif 'CC BY-NC-ND 3.0' in license: props['reuseRights'] = 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en'
+            elif label not in ('acct', 'repo', 'essay', 'ref', 'image-source-url'):
               props[label] = value
     except:
-      logger.info(json.dumps(manifest, indent=2))
+      # logger.info(json.dumps(manifest, indent=2))
+      raise
   if 'label' in img:
     props['label'] = img['label']
   if 'attribution' in img:
     props['requiredStatement'] = {'attribution': value}
+
   if 'license' in img:
-    props['license'] = img['license']
+    props['sourceLicense'] = img['license']
   if 'source' in img:
     props['source'] = img['source']
   if 'author' in img:
@@ -232,13 +256,19 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
             props['hash'] = hashlib.sha256(url.encode('utf-8')).hexdigest()[:8]
             if 'plant-humanities' in url.lower():
               src = '/'.join(pe for pe in url.replace('?raw=true','').split('/') if pe and pe.lower() not in('https:', 'jstor-labs.github.io', 'github.com', 'raw.githubusercontent.com', '52bc9a2', 'blob', 'master', 'main', 'raw', 'develop', 'staging-3', 'staging-7', 'jstor-labs', 'plant-humanities'))
+              m_name = f'gh:plant-humanities/media/{m_name}{ext}'
             else:
-              logger.info(url)
-              props['image_url'] = url
-              src = f'{page.lower()}/{hashlib.sha256(m_name.encode("utf-8")).hexdigest()}.yaml'
+              if url.startswith('https://upload.wikimedia.org'):
+                props = {}
+                m_name = 'wc:' + url.split('/')[-1]
+              else:
+                props['image_url'] = url
+                name_hash = hashlib.sha256(m_name.encode("utf-8")).hexdigest()
+                m_name = f'gh:plant-humanities/media/{page.lower()}/{name_hash}.yaml'
+                src = f'{page.lower()}/{name_hash}.yaml'
             src_path = f'{essays}/{urllib.parse.unquote(src)}' if src else None
             # if src_path: logger.info(f'{src_path} ({os.path.exists(src_path)})')
-            manifest_short = f'https://iiif.juncture-digital.org/gh:plant-humanities/media/{m_name}' + (ext if src_path and os.path.exists(src_path) else '.yaml') + '/manifest.json'
+            manifest_short = f'https://iiif.juncture-digital.org/{m_name}/manifest.json'
             md = md.replace(manifest_url, manifest_short)
             md_updated = True
             # logger.info(manifest_short)
@@ -260,14 +290,17 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
           if not dryrun:
             os.makedirs(os.path.dirname(dst_path), exist_ok=True)
             shutil.copyfile(src_path, dst_path)
-
-      if props:
-        yaml_path, _ = os.path.splitext(dst_path)
-        logger.info(f'+ {yaml_path}.yaml')
+            if props:
+              yaml_path, _ = os.path.splitext(dst_path)        
+              with open(f'{yaml_path}.yaml', 'w') as f:
+                f.write(yaml.safe_dump(props, sort_keys=False, width=float('inf')))
+      
+      if props and 'image_url' in props:
+        yaml_path, _ = os.path.splitext(dst_path)        
         os.makedirs(os.path.dirname(yaml_path), exist_ok=True)
         with open(f'{yaml_path}.yaml', 'w') as f:
           f.write(yaml.safe_dump(props, sort_keys=False, width=float('inf')))
-
+        
     if md_updated:
       num_updated += 1
       if dryrun:
@@ -275,7 +308,7 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
       else:
         with open(path, 'w') as f:
           f.write(md)
-          logger.info(f'-> {path}')
+          # logger.info(f'-> {path}')
       if num_updated == max: break
   
   '''

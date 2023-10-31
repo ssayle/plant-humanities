@@ -15,6 +15,8 @@ const isJunctureV1 = Array.from(document.querySelectorAll('param'))
   ) !== undefined
 
 function createJunctureV1App() {
+
+  console.log('createJunctureV1App')
   
   let main = document.querySelector('main')
   let tmp = new DOMParser().parseFromString(main.innerHTML, 'text/html').children[0].children[1]

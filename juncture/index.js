@@ -1,5 +1,5 @@
 const junctureDependencies = [
-  {tag: 'link', rel: 'stylesheet', href: '/juncture/index.css'},
+  {tag: 'link', rel: 'stylesheet', href: `${config.baseurl}juncture/index.css`},
   {tag: 'link', rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'},
   {tag: 'script', src: 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js'},
   {tag: 'script', src: 'https://cdn.jsdelivr.net/npm/http-vue-loader@1.4.2/src/httpVueLoader.min.js'},
@@ -15,8 +15,6 @@ const isJunctureV1 = Array.from(document.querySelectorAll('param'))
   ) !== undefined
 
 function createJunctureV1App() {
-
-  console.log('createJunctureV1App')
   
   let main = document.querySelector('main')
   let tmp = new DOMParser().parseFromString(main.innerHTML, 'text/html').children[0].children[1]

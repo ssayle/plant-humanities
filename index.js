@@ -307,6 +307,8 @@ async function init() {
 
   await getConfigExtras()
   config.components = config.components ? config.components.split(',').map(l => l.trim()) : []
+
+  console.log(isJunctureV1, config)
   loadDependencies(
     config.components.map(src => ({tag: 'script', type: 'module', src}) ), () => {
     if (isJunctureV1) loadDependencies(junctureDependencies, () => createJunctureV1App())    

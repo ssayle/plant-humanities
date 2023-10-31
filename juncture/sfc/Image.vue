@@ -363,7 +363,20 @@ module.exports = {
     },
     
     async loadManifests(items) {
-      let requests = items.filter(item => item.manifest).map(item =>  fetch(item.manifest))
+      let requests = items.map(item => {
+        if (item.manifest) return fetch(item.manifest)
+        else if (item.url) {
+          let data = {};
+          ['url', 'label', 'description', 'attribution', 'license'].forEach(field => {
+            if (item[field]) data[field] = item[field]
+          })
+          return fetch(`${iiifService}/manifest/`, {
+            method: 'POST',
+            headers: {'Content-type': 'application/json'},
+            body: JSON.stringify(data)
+          })
+        } 
+      })
       let responses = await Promise.all(requests)
       let manifests = await Promise.all(responses.map(resp => resp.json()))
       requests = manifests

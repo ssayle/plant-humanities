@@ -3,7 +3,7 @@
        title="Sunflower: Knowledge, Myth, and Meaning"
        author="Kristan M. Hanson"
        source-image="https://bibdigital.rjb.csic.es/"
-       banner="nepenthesrafflessiana_BHL_crop.jpg"
+       banner="https://raw.githubusercontent.com/plant-humanities/media/main/nepenthes/nepenthesrafflessiana_BHL_crop.jpg"
        eid="Q105748670"
 	about="Q171497"
        layout="vtl" title="Basilius Besler, _Flos Solis maior_ in _Hortus Eystettensis_ vol. 2, 1613, © BY-NC-SA 4.0, Biblioteca del Real Jardín Botánico, RJB-CSIC: https://bibdigital.rjb.csic.es"

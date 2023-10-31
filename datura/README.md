@@ -18,7 +18,7 @@
 
 This is a sample visual essay demonstrating a few key features of a Visual Essay. Additional [Documentation](https://github.com/JSTOR-Labs/juncture/wiki) and [examples](https://jstor-labs.github.io/juncture-examples) are available for reference.
 <param ve-image 
-       manifest="https://iiif.juncture-digital.org/manifest/6dd738aed85597cac540ad31dd5818e86ef7f2918c7b43a9eb3123d5538e6e4c">
+       manifest="https://iiif.juncture-digital.org/wc%3A1665_Girl_with_a_Pearl_Earring.jpg/manifest.json">
 
 # Basic usage
 
@@ -39,7 +39,7 @@ Visit the [Visual Essay Image Tag](https://github.com/jstor-labs/juncture/wiki/V
 
 Full digital facsimiles of select titles in the Dumbarton Oaks Rare Book Collection can be accessed [here.](https://www.doaks.org/resources/rare-books#c6-operator=or&c7-operator=or&b_start=0) You are welcome to work with our [Rare Book team](https://www.doaks.org/research/library-archives/rare-book-collection) to find something to feature.
 <param ve-compare sync fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="291">
-<param ve-compare manifest="https://iiif.juncture-digital.org/manifest/c5e3bb5b8f05a40314bba386bdc2df7bc32818a04dae348d0450feb3b63c5520" fit="contain">
+<param ve-compare manifest="https://iiif.juncture-digital.org/wc%3AArachis_hypogaea_003.JPG/manifest.json" fit="contain">
 
 ## Plant Specimen
 
@@ -62,7 +62,7 @@ literary treatments. In 2006, the Dutch public selected it as the most beautiful
 Multiple viewers may be defined for a single paragraph of text.  The first viewer defined is displayed as the default viewer.  
 Others are selectable using icons displayed in the top right margin of the paragraph.
 <param ve-image 
-       manifest="https://iiif.juncture-digital.org/manifest/6dd738aed85597cac540ad31dd5818e86ef7f2918c7b43a9eb3123d5538e6e4c">
+       manifest="https://iiif.juncture-digital.org/wc%3A1665_Girl_with_a_Pearl_Earring.jpg/manifest.json">
 <param ve-map center="Q36600" zoom="11">
 
 ## Timeline

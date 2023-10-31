@@ -14,9 +14,9 @@
 There was no flower on earth that Charles Dickens loved quite as much as the scarlet “geranium.”[^ref1] With its vibrant red blooms and showy foliage, this cheerful plant always adorned the dining table and dominated the garden in “a blaze of color” at his country home [Gad’s Hill Place,](https://thegardenstrust.blog/2020/01/25/dickens-and-gardens/) in Kent.[^ref2] Attendees at his public readings could always count on seeing the scarlet flower displayed in his jacket buttonhole, and his appreciation of the flower was such that his daughter, Mamie Dickens, recalls her sister saying to him, “I believe, papa, that when you become an angel your wings will be made of looking-glass and your crown of scarlet geraniums.”[^ref3]
 <param ve-entity eid="Q5686" title="Charles Dickens">
 <param ve-entity eid="Q3850458" title="Mary Dickens" aliases="Mamie Dickens">
-<param ve-image region="-81,1,813,667" primary manifest="https://iiif.juncture-digital.org/manifest/73b28e92d05e96596cc5bcc1dd0dae315b89785a3b3e409ab39a9c7ef5aee4f1">
-<param ve-image region="358,0,1503,1356" manifest="https://iiif.juncture-digital.org/manifest/843bce869996716508c59b7c36e7bd76b9f135cafc297af33b8a60063d7d5b33">
-<param ve-image region="-208,1978,4160,3448" manifest="https://iiif.juncture-digital.org/manifest/6751374048172a93d50cb0875449e63d86fc118aa8b3d09b45e4d6cc40d2d323">
+<param ve-image region="-81,1,813,667" primary manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Charles-Dickens-with-his-daughters-Mamie-Dickens-and-Catherine-Katey-Elizabeth-Macready-Perugini-ne-Dickens.jpg/manifest.json">
+<param ve-image region="358,0,1503,1356" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Pelargonium_CharlesDickensWindow_FLICKR.jpg/manifest.json">
+<param ve-image region="-208,1978,4160,3448" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Pelargonium_CharlesDickensMuseum_FLICKR.jpg/manifest.json">
 {#paragraph1}
 
 However, you might be surprised to learn that the scarlet “geranium” with which Dickens was so enamored was not a member of the genus [_Geranium_.](http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:327764-2) In fact, it belonged to an altogether different genus named _Pelargonium_ and was a bedding variety derived from _P. inquinans_ and _P. zonale_, probably the cultivar “Mrs Pollock” or “General Tom Thumb.”[^ref4] The misidentification of the pelargonium is common today because the plant has been confused with the geranium since its introduction into Europe in the early 1600s.[^ref5] As the debate over how to classify pelargoniums roiled in botanical circles of the eighteenth and early nineteenth centuries, new horticultural technologies and breeding techniques led to an astounding increase in the number of hybrids commercially available—and their popularity soared. By the mid-1800s, the public had grown accustomed to using the common name geranium for the pelargonium, as for the most part we continue to do today.
@@ -24,17 +24,17 @@ However, you might be surprised to learn that the scarlet “geranium” with wh
 <param ve-entity eid="Q4886" title="cultivar">
 <param ve-entity eid="Q3898877" title="Pelargonium zonale" aliases="P. zonale">
 <param ve-entity eid="Q18083598" title="Pelargonium inquinans" aliases="P. inquinans">
-<param ve-image region="-70,73,1394,1257" primary manifest="https://iiif.juncture-digital.org/manifest/09e2316efadd0a33176f9dddf68a41a90e265aa9e1d42d26f0a240d86588fead">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/e86a63acced5e69e65f4ad6a99ab2cd5c23f04ae5f1faa8bd0af5657233495f2">
-<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/manifest/d429f53cb26b9930265e51847ad087bbcd494aff9037f221183458f4cb2236d7">
+<param ve-image region="-70,73,1394,1257" primary manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/b50fd34d0a26f23938016ddd2e03708990b03ab25e493193657dd8d21d790eaa.yaml/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/b50fd34d0a26f23938016ddd2e03708990b03ab25e493193657dd8d21d790eaa.yaml/manifest.json">
+<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/wc%3AScarlet_geranium.jpg/manifest.json">
 {#paragraph2}
 
 So how can we tell the history of the neglected pelargonium, a plant that is now a familiar cultural fixture for so many of us, but one that so few people know by its true identity? Perhaps it is time to narrate the lesser-known story of the pelargonium and to relate its history—from its unique morphology and nomenclature to its far-reaching impact in the spheres of industry, technology, agriculture, culture, and society. Part of the larger cultural history of the pelargonium, this interdisciplinary narrative focuses on its uses in England, France, and Algeria during the nineteenth century to reveal that the modern pelargonium was an invention of the Industrial Age. Bred for use as an ornamental plant or an aromatic crop, these newfangled pelargoniums possessed aesthetic and fragrant traits tailored to Victorian sensibilities, with enduring mass appeal.
 <param ve-entity eid="Q182688" title="Victorian era" aliases="Victorian">
 <param ve-entity eid="Q6027480" title="Industrial Age">
-<param ve-image primary region="-112,32,1127,1033" manifest="https://iiif.juncture-digital.org/manifest/57360500a41905028ce59e807bcb9dcd6df1abb33e83f5bda091ccb5df620581">
-<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/manifest/715316cf2455d4c390f647f58f93d6d97d87ce49a08ff6617ff53be3bc02bd65">
-<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/manifest/cdbd97757c4113773f37cbfc018149fd90847166ba2b3333e22d92d8d65565bd">
+<param ve-image primary region="-112,32,1127,1033" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/ebbe39c6f4ac29da3fa900cb4bd73810ea24dfd8270a2a24efc917fc674b887c.yaml/manifest.json">
+<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Pelargoniums_BowoodHouse_FLICKR.jpg/manifest.json">
+<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/wc%3AFloriculture.jpg/manifest.json">
 {#paragraph3}
 
 ### Pelargonium Morphology: Seedpods and Flowers
@@ -43,15 +43,15 @@ The pelargonium and its relatives geranium and erodium belong to the family Gera
 <param ve-entity eid="Q155945" title="Geraniaceae"> 
 <param ve-entity eid="Q147768" title="capsule" aliases="capsules">
 <param ve-entity eid="Q162920" title="Erodium"> 
-<param ve-image primary region="0,312,1173,1060" manifest="https://iiif.juncture-digital.org/manifest/18b0fcd6b7947859c096f76c295552ee8a91ab8d61074f35e303887f654a1491">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/b6eb62ae82639f93ac2b9fbcf9d1f39a0603935b09806e8437c8b45a52a0ca8b">
+<param ve-image primary region="0,312,1173,1060" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/11654__Botany_U_1336491.jpeg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Vero%CC%81nica_Matallana_The_Geraniaceae%20family_Copyright_Vero%CC%81nica_Matallana_2020.png/manifest.json">
 {#paragraph4}
 
 Other morphological traits distinguish members of the genera pelargonium from geranium. This diagram highlights several key differences that can be observed by comparing the reproductive systems of the two plants: the flowers. The pelargonium flower parts are arranged bilaterally around one axis, making them quite distinct from the radially oriented ones of the geranium. Another difference is that, while the geranium has five nectaries (nectar-secreting glands) at the base of the petals, the pelargonium has only one embedded in the receptacle. Yet another divergence is the number of fertile stamens and their groupings. The pelargonium has between one and seven stamens, attached at the base; the geranium has either five or ten free stamens. Finally, pelargonium flowers are either red, light yellow, mauve, purple, pink, or white; geranium flowers are either dark blue, purple, pink, or white, but never scarlet (as Dickens would have known it).
 <param ve-entity eid="Q687699" title="Nectary" aliases="nectaries"> 
 <param ve-entity eid="Q506" title="flower" aliases="flowers"> 
 <param ve-entity eid="Q103129" title="stamen" aliases="stamens">
-<param ve-compare manifest="https://iiif.juncture-digital.org/manifest/468982a3ff60b54c50fa962ab969c17f1a03e226423e06dfd0780cb537616582">
+<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Bois_Atlas_des%20plantes_de_jardins_Bibliothe%CC%80que_nationale_de_France_public_domain.jpg/manifest.json">
 <param ve-compare url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/pelargonium/Vero%CC%81nica_Matallana_Differences_between_Geranium_and_Pelargonium_flowers_Copyright_Vero%CC%81nica_Matallana_2020.jpg?raw=true">
 {#paragraph5}
 
@@ -76,8 +76,8 @@ The nomenclature confusion surrounding pelargonium started when _Pelargonium tri
 <param ve-entity eid="Q10543296" title="Pelargonium triste">
 <param ve-entity eid="Q863247" title="nomenclature">
 <param ve-entity eid="Q355691" title="Jacques Philippe Cornut" aliases="Jacques Philippe Cornut's">
-<param ve-image region="-92,59,1498,1351" manifest="https://iiif.juncture-digital.org/manifest/fa4c1c9651a6fb070a32c0dee6a6348830438097fa23eb8cad19652bfb010294">
-<param ve-image manifest="https://iiif.juncture-digital.org/manifest/646513092838fde108e667aa50e78384e796129b8a08ca052c2be5a16bd27fad">
+<param ve-image region="-92,59,1498,1351" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/a3d95f4a7d9ba8e41a77e5827cb17d330cc8e6c61faccd3473ebf230d64c44ed.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3APelargonium_triste_4.jpg/manifest.json">
 {#paragraph8}
 
 In the wake of that initial nomenclature confusion, seventeenth-century botanists struggled to recognize the differences among the genera _Pelargonium_, _Geranium_, and _Erodium_. The interactive timeline gives an overview of the nomenclature history of the genus _Pelargonium_, providing insights into why there is still confusion surrounding the name and taxonomic designation of pelargoniums today.[^ref12]
@@ -89,17 +89,17 @@ In the wake of that initial nomenclature confusion, seventeenth-century botanist
 The genus _Pelargonium_ is amazingly varied, including both annual and perennial plants that naturally occur in temperate and tropical climates. For that reason, the first specimens to reach the Netherlands were cultivated in heated greenhouses to protect them from the region’s cold and frost.[^ref13] By the early 1800s, new technologies—both for fabricating iron and plate glass and for constructing buildings with these materials—fueled a fad among the social elite of Europe and America for purchasing conservatories in order to grow exotic plants.[^ref14] These innovations combined with new knowledge about hand-pollination techniques made pelargoniums, which are easily hybridized that way, an ideal choice for such cultivation by plant collectors and amateur breeders.[^ref15]
 <param ve-entity eid="Q165044" title="greenhouse" aliases="greenhouses">
 <param ve-entity eid="Q42621" title="hybrid" aliases="hybridized">
-<param ve-image primary region="-191,788,3131,2828" manifest="https://iiif.juncture-digital.org/manifest/c00f141c1dab971e6b1f569d8767a26da4aedd05a16ae4ec3de72aa3b5cf18d4">
+<param ve-image primary region="-191,788,3131,2828" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Pelargonium_QueenAdelaide_Europeana.jpg/manifest.json">
 <param ve-image fit="contain" manifest="https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=66250" title="Rembrandt Peale, _Rubens Peale with a Geranium_, 1801, oil on canvas, 71.4 x 61 cm">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/a8871432f74ebdbc834a720148ada32ea206dbf77072e069adf3e5ddfcadaa05">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/08412e188602616eb0586fab331a1fede501b89d58c0112647b8ed4dfa6ecc50.yaml/manifest.json">
 {#paragraph10}
 
 Another technology, the [Wardian case,](https://www.doaks.org/resources/online-exhibits/botany-of-empire/plant-transportation/on-the-growth-of-plants-in-closely-glazed-cases) contributed to a tremendous expansion of ornamental plant trades in early and mid-nineteenth-century Europe. The case, a sealed glass container invented by Nathaniel Bagshaw Ward, allowed naturalists, horticulturalists, and others to transport live specimens intact during lengthy overseas voyages.[^ref16] This advance in plant mobility made exotics more abundant, accessible, and affordable, increasing the popularity of gardening as a hobby for the upper and middle classes. The Wardian case had an impact in the domestic space as well, enabling home gardeners to cultivate foreign plants and mixed-species gardens indoors in such decorative glass furnishings.[^ref17] To meet the unprecedented demand for ornamental plants at midcentury, savvy nursery owners developed the zonal pelargonium for bedding in gardens and, later, the regal pelargonium for growing in domestic conservatories and the home. The marvelous modern pelargonium—part natural wonder, part human invention—bloomed just as mass consumer culture embraced fresh flowers and greenery to improve nearly every aspect of daily life.
 <param ve-entity eid="Q2779805" title="Wardian case">
 <param ve-entity eid="Q1966819" title="Nathaniel Bagshaw Ward" aliases="Nathaniel Ward">
-<param ve-image primary region="-36,188,719,650" manifest="https://iiif.juncture-digital.org/manifest/0af530bda23b4cea6b6a2f6275e9388fb339fb2668554e670ca6b891d23afa0f">
-<param ve-image region="75,1436,2006,1590" manifest="https://iiif.juncture-digital.org/manifest/2da002602728414f54ca548de80340192cdfbfa96615fa1be45244f9a033eb3c">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/d2fa8d75a88ac1ec7edb8da2b1d6d6b6f537216e8e006a16efed340570938786">
+<param ve-image primary region="-36,188,719,650" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml/manifest.json">
+<param ve-image region="75,1436,2006,1590" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/ed3d584111595aed7b4e0cd1e14f0fed9ee630e58226fbdc68b9ecfee02ac96e.yaml/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/1bc04b5291c26a46d918139138b992d2de976d6851d0893b0476b85bfbdfc6e6.yaml/manifest.json">
 {#paragraph11}
 
 ### Pelargonium-mania in the Victorian Era
@@ -107,24 +107,24 @@ Another technology, the [Wardian case,](https://www.doaks.org/resources/online-e
 It was against this backdrop that pelargoniums became a centerpiece of many municipal and private pleasure gardens in Victorian England. In the 1837 volume of the magazine [_The Floricultural Cabinet_,](https://www.biodiversitylibrary.org/page/15889416) a number of pelargoniums for bedding were well-known garden staples.[^ref18] As the number of commercially available hybrids increased, so did their profile in the era’s most fashionable green spaces, a trend celebrated by artist Edward Adveno Brooke’s 1858 book [_The Gardens of England_.](https://www.biodiversitylibrary.org/page/41414093)[^ref19] As he explains, the bright scarlet pelargonium bloomed nearly everywhere, from stone vases to flowerbeds and parterres. Indeed, [Brooke represented these locations in paintings](https://thegardenstrust.blog/2018/04/14/edward-adveno-brooke-and-the-gardens-of-england/) that were reproduced as chromolithographs for his book, including the ones depicting the upper and lower terrace gardens of Bowood House, the colonnade of Alton Gardens, as well as the parterre of Harewood House.
 <param ve-entity eid="Q444145" title="Bowood House">
 <param ve-entity eid="Q1585312" title="Harewood House">
-<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/manifest/7bb7b2497e60ddb143c61e1d2a292b1fd6c309d48e014234f85106312f67188e">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/9cf040f20798d94ea05d64813ec7922c3d2f7a6c0e65ec294115aa7ee7cbd982" rotate="90">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/e2f0b16d50e2dacb60cf19c5cc6ec1767b3c812d93379370c6e8c3bbb7ec32a5" rotate="90">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/a41e027536d2fdaec8316eb55115a0a4f575ad3e7c21ca88dd5fd9c5f5079861" rotate="90">
+<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json" rotate="90">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json" rotate="90">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json" rotate="90">
 {#paragraph12}
 
 Gardeners favored hardy zonal pelargoniums because they show off their blooms for extended periods, flowering even in slightly chilly climates.[^ref20] More significantly, nursery owners adored the pelargonium because it was easy to grow and hybridize, producing cultivars in a seemingly infinite variety year-round. By the late nineteenth century, vendors were falling over one another to market the newest, most magnificent plants that, in addition to those for bedding, included varieties of regals with <span data-click-image-zoomto="2482,2976,1359,1053">pretty-petal markings</span> and the ivy- and scented-leaf types, known for their pleasing foliage. Additional factors contributing to the pelargonium-mania were the arrival of mass-produced pots and planters for displaying ornamental flowers and dazzling greenery. Desire to obtain novel cultivars became so frenzied that some compared it to the now infamous <span data-click-image-zoomto="773,1278,2718,2106">tulip-buying spree</span>, known as tulipomania, that occurred in the Netherlands in the 1630s.[^ref21]
 <param ve-entity eid="Q219217" title="tulip mania" aliases="tulipomania">
 <param ve-image primary region="-375,1023,5436,4244" manifest="https://iiif.lib.harvard.edu/manifests/drs:435776315" seq="21">
-<param ve-image region="-12,-125,1526,1257" manifest="https://iiif.juncture-digital.org/manifest/8961cdc3e4ff15b3486e3c7ba1f80afcb21062be2948cf5c28579514dfdbe162">
+<param ve-image region="-12,-125,1526,1257" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa70f5a6f0b7f5fe2e73ba0bf614bb3542744b699f68302afa65c3ba10591ee7.yaml/manifest.json">
 {#paragraph13}
 
 The pelargonium, in all its many splendid aesthetic and aromatic varieties, was clearly firmly a staple of British domestic interiors, gardens, and patios. In his hugely popular book [_The Amateur's Flower Garden_,](https://www.biodiversitylibrary.org/item/244730#page/9/mode/1up) Shirley Hibberd included designs for creating a harmonious pelargonium garden—“geranium garden”—based on the plant’s striking color variations.[^ref22] In the layout of a panel garden, Hibberd suggests two potential summer schemes: a red-harmony garden and a blue-harmony garden. By 1895, writers such as Donald McDonald were celebrating the scented-leaf variety of the plant and its foreign provenance; McDonald wrote that, “no bouquet or basket of flowers was considered complete unless plentifully perfumed with the foliage of Cape or other sweet Pelargoniums,” a testament to the long-standing appeal of _Pelargoniums_ in British Victorian culture.[^ref23]
 <param ve-entity eid="Q7498765" title="Shirley Hibberd">
 <param ve-entity eid="Q2269" title="Industrial Revolution">
 <param ve-entity eid="Q99517825" title="Donald McDonald">
-<param ve-image primary region="-352,303,3523,3177" manifest="https://iiif.juncture-digital.org/manifest/edcec9581dee35a28c63d0fa221a4c129fafb5806420198ab32d40edc892fbe8">
-<param ve-image region="-88,76,882,796" manifest="https://iiif.juncture-digital.org/manifest/72c45a34017e2600778b9d9f5499b74d02cbc17ffea33831ed2ef5fba1f1b77f">
+<param ve-image primary region="-352,303,3523,3177" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/0a8847b67df62d110a5fc8e46aa2864e119541b539ba5dfd39a1a22ae5980b74.yaml/manifest.json">
+<param ve-image region="-88,76,882,796" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/cb529b3830f8d1f52a546d3086792af301b28a2bd20aeb951f99e7211ef1de4d.yaml/manifest.json">
 {#paragraph14}
 
 ### The “Genteel” Geranium and Working-class Culture
@@ -132,13 +132,13 @@ The pelargonium, in all its many splendid aesthetic and aromatic varieties, was 
 The ubiquity of the _Pelargonium_ in the Victorian era soon began to carry a cultural significance all its own—and it was not always a positive one. In the 1864 [_The Book of Flowers_,](https://www.biodiversitylibrary.org/page/56679001) Sarah Josepha Buell Hale follows the poet Leigh Hunt in describing the geranium (of course, really a pelargonium) as a genteel plant.[^ref24] She writes, “As the Geranium offers so large a variety of species to gratify every taste, it is appropriately called genteel.”[^ref25] Although we may construe her comment as merely an attestation to the pelargonium’s universal charms, her use of “genteel” takes on additional meaning when we consider the significance of the pelargonium in the context of working-class culture.
 <param ve-entity eid="Q655213" title="Leigh Hunt">
 <param ve-entity eid="Q430639" title="Sarah Josepha Hale" aliases="Sarah Josepha Buell Hale">
-<param ve-image primary region="-207,530,2077,1666" manifest="https://iiif.juncture-digital.org/manifest/f8ede66b5f7759f762f9a723eaa928f1cbfcbff530f616d98c562bc9eefb5ff3">
+<param ve-image primary region="-207,530,2077,1666" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/de89fcfb5672b1807bec8b486fa05e02af8882595b188b2b0bc9efbcae258b43.yaml/manifest.json">
 <param ve-image region="-104,407,1040,835" label="“Geranium,” Sarah Josepha Buell Hale , The Book of Flowers, London: Saunders and Otley, 1836, University of Toronto, Biodiversity Heritage Library. University of Toronto - Thomas Fisher Rare Book Library via archive.org, Copyright information not provided by BHL." url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/pelargonium/bookofflowers00kirk_0091-standard-scale-2_00x-gigapixel.jpg?raw=true">
 {#paragraph15}
 
 For many Victorian families who could not afford to have gardens, growing pelargoniums in pots and displaying them on windowsills or balconies became an expression not only of their aesthetic tastes, but also of their social aspirations. Perhaps because of such class-based bias, professional horticulturalists would often look down on the pelargonium with a certain derision. Gertrude Jekyll writes in 1919 that, “It is a common thing for friends to express surprise at seeing scarlet Geraniums ... in my garden, forgetting that it was not the fault of the plants that they were misused or employed in dull or even stupid ways.”[^ref26] Her comments imply that it was not the plants themselves that were offensive to garden specialists but, rather, the style and context in which they featured.
 <param ve-entity eid="Q452354" title="Gertrude Jekyll">
-<param ve-image primary region="-117,366,1174,942" manifest="https://iiif.juncture-digital.org/manifest/29636b92587cecf451e413c96b213ff1e4d4f5536c384af6df1d0684ff9d87c0">
+<param ve-image primary region="-117,366,1174,942" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/ddff2e4c6414474c4e26eb9510bfc60cdb259916647cf0bffb48afffa259d2f2.yaml/manifest.json">
 {#paragraph16}
 
 ### Pelargoniums, Imperial Splendor, and Colonial Profit
@@ -171,15 +171,15 @@ The Grasse-based [Chiris perfumerie,](https://monumentum.fr/anciennes-parfumerie
 Today, pelargonium oil continues to be industrially produced in factories across the globe, most notably in Egypt and China.[^ref34] Significantly, the confusion surrounding pelargonium nomenclature in European contexts also exists in China. More than 50 percent of Chinese packaging uses “Geranium Essential Oil” as its English translation, even though the product is labeled as _Tianzhu Kui You_ (Pelargonium Oil) in Chinese. It is said that the name _Tianzhu Kui_ was introduced by the Chinese horticulturalist Junyu Zhang in 1933 based on his studies in Japan.[^ref35] The words _Tianzhu Kui_ are from ゼラニウム, which is pronounced as _Geranium_ in English.
 <param ve-entity eid="Q79" title="Egypt">
 <param ve-entity eid="Q148" title="People's Republic of China" aliases="China">
-<param ve-image regiont="0,153,1220,1119" manifest="https://iiif.juncture-digital.org/manifest/a4a03fd2510a5b86085485036ecc1957e397abb4670ad1b176e6890394c8a83c">
+<param ve-image regiont="0,153,1220,1119" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/Tianzhu_Kui.png/manifest.json">
 {#paragraph20}
 
 ### Hiding in Plain Sight
 
 Although the _Pelargonium_ by any other name would smell as sweet, excepting those that are scentless or pungent, our recognition of its unique identity is long overdue. Indeed, the _Pelargonium_’s almost-forgotten global history is extremely rich, blossoming as it does at the intersections of colonial trade, botany, agriculture, gardening, art, culture, and industry. Telling the story of the _Pelargonium_ as an entity separate from the _Geranium_, illuminates just some of the many ways in which it has been interwoven with human histories–hiding in plain sight, as it were, by virtue of its long-persisting misnomer.
-<param ve-image primary manifest="https://iiif.juncture-digital.org/manifest/092ea486b795bdf4b2545d73dcc1c36ca8d15163873d38a152ce732296480ef9">
-<param ve-image manifest="https://iiif.juncture-digital.org/manifest/8f19722ee53f6120fb82cd1037ec48a9e66da7aa5b7c02fe6c7663200ec4adf4">
-<param ve-image manifest="https://iiif.juncture-digital.org/manifest/8697604449486b98fdc7f8a7144563f1954a3843f7cb8e384b1f7bf449dc5feb" rotate="270">
+<param ve-image primary manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Pelargoniums_RP-F-2013-85-14.jpg/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/e4ab4e3b1493d5a997b4e51cdefbaa10570ef3ea9432bd72e7b6a89654ceb7f6.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/543377d5e89cea88c677e6d4af6f9a713c34ab8fd5237e4cf1006081a801d7e6.yaml/manifest.json" rotate="270">
 {#paragraph21}
 
 ### References

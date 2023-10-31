@@ -20,13 +20,13 @@ When eaten raw, cassava is likely to leave a bitter taste in one’s mouth. Wors
 <param title="fufu" eid="Q941004">
 <param title="cyanide" eid="Q55076544">
 <param title="cassava root" eid="Q43304555"> 
-<param ve-compare region="76,-85,1897,1707" manifest="https://iiif.juncture-digital.org/manifest/7844162a121a0d2d260b4d3bea7635e947604d9a097b1d73462974b6d77d05b8">
-<param ve-compare manifest="https://iiif.juncture-digital.org/manifest/5e52af294f4f78d3d9e5724028f9cc9e65e61b659e763a820234a5a7efd51c5b">
+<param ve-compare region="76,-85,1897,1707" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_fufu_soup_fish_Flickr.jpg/manifest.json">
+<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_VitA_Nigeria_Flickr-standard-scale-2_00x-gigapixel.jpg/manifest.json">
 {#paragraph1}
 
 How did cassava come to occupy this pride of place in the global food system? How did cassava transform from a poisonous tuber into a major food staple, and from an exclusive dweller of South America into a cosmopolitan citizen of the world? To answer these questions, this essay looks at how human interactions with cassava helped shape the plant into the significant food crop that it is today. We first look at the elaborate method of processing cassava developed by the Indigenous peoples of Meso- and South America and then turn to the codification and spread of this knowledge, facilitated by European travelers to the New World. This meeting of Indigenous and European knowledge systems, combined with cassava’s tolerance for drought, resulted in a food crop that would create new hope for global food security in the twentieth and twenty-first centuries. Furthermore, as knowledge of cassava and its specimens circulated to different parts of the world, the plant took on additional cultural meanings through novel culinary uses and artistic representations.
 <param title="tuber" eid="Q183319"> 
-<param ve-image primary fit="cover" manifest="https://iiif.juncture-digital.org/manifest/cd8c60c5606f06f52ebf4c39ad566c9d05ff31e35d7898ec6083db171fb1e483">
+<param ve-image primary fit="cover" manifest="https://iiif.juncture-digital.org/wc%3ACassava_ap_001.JPG/manifest.json">
 <param ve-image region="2124,680,2903,1968" label="Global distribution of cassava. Cassava’s native habitat is marked in green, and regions where cassava was introduced by humans are marked in orange." url="https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/main/cassava/Cassava_distribution_map_4.jpg">
 {#paragraph2}
 
@@ -52,13 +52,13 @@ Representations of cassava made by Moche artists provide clues as to how the pla
 <param title="Smoky Jungle Frog" eid="Q2136945" aliases="Leptodactylus pentadactylus">
 <param title="Dumbarton Oaks" eid="Q1264942">
 <param title="Amazon rainforest" eid="Q177567" aliases="Amazon">
-<param ve-compare sync region="-328,-1428,6568,5816" manifest="https://iiif.juncture-digital.org/manifest/40346d8a1544f191ac8ccd648d5309bc1f62241fba9916756559e436eec72704">
-<param ve-compare manifest="https://iiif.juncture-digital.org/manifest/7a30a1786853d309b703750103aedbaa88d11a8064c895d09cf81921a6feec14">
+<param ve-compare sync region="-328,-1428,6568,5816" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Jar-depicting-the-botanical-frog.jpg/manifest.json">
+<param ve-compare manifest="https://iiif.juncture-digital.org/wc%3ABull_frog_%28Leptodactylus_pentadactylus%29.jpg/manifest.json">
 {#paragraph5}
 
 The Moche ceramic contains further clues as to early Andean understanding of cassava. Moche artists may have chosen to pair the cassava plant with the frog to highlight characteristics they share. Both were known for being poisonous and for their capacity to survive underground for long periods of time.[^ref6] Indeed, while cassava roots are the most commonly eaten part of the plant, they go bad quickly when dug up from the soil. However, if cassava is left in the ground, it can survive for up to four years and be harvested periodically.[^ref7]
-<param ve-image region="-130,635,2618,2319" manifest="https://iiif.juncture-digital.org/manifest/40346d8a1544f191ac8ccd648d5309bc1f62241fba9916756559e436eec72704">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/06d9b34e47e99a7440322bb7cd24b0b35519ca9eb9744c213819cc2bd3d664e5">
+<param ve-image region="-130,635,2618,2319" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Jar-depicting-the-botanical-frog.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_tuber_ground_Flickr.jpg/manifest.json">
 <param ve-image region="804,69,1529,1313" label="Rayed figure in a litter carried by anthropomorphic warriors. Drawing reproduces iconography on the body of a ceramic vessel held by the Ethnologisches Museum Berlin. To the left of the figure in the dais are anthropomorphic fox, feline, maize or corn plant known as the Botanical Frog. Harvard University, Dumbarton Oaks Research Library." manifest="https://iiif.lib.harvard.edu/manifests/ids:457658938">
 {#paragraph6}
 
@@ -72,15 +72,15 @@ While storing cassava in the soil addresses the issue of perishability, addition
 {#paragraph7}
 
 Some of the implements used for processing cassava include [graters, strainers or squeezers, and sieves.](https://www.spurlock.illinois.edu/blog/p/food-and-drink/294) Cassava graters are generally constructed by embedding small stones or nails into a wooden surface.[^ref11] The cassava root is rubbed along the device so that the stones or nails shred the tuber into small pieces. These pieces are soaked in water to form pulp, which is placed into a strainer or squeezer to remove the liquid. The toxins are removed during this straining process.[^ref12] Cassava squeezers have a similar form throughout South America: a circular woven tube that is designed to be hung from up high. The woven designs, however, may differ according to culture. After the liquid is drained, the cassava pulp is further passed through a sieve, after which it is suitable for cooking and consumption.
-<param ve-image fit="contain" primary manifest="https://iiif.juncture-digital.org/manifest/6b293c63e5ea71cf6e4ed6e8d3925ddea73786d442f3be299d681b872eb518eb">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/3aaebc981c53c65a2ffa5c6b52c2c859ea7cd2f106bc9c44eb7a7ea8992869f6">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/c937108d8927c9b6c71d6748d33a8b86fcbaef38bc2c4adbdd69e763e192d3c6">
+<param ve-image fit="contain" primary manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_grater_medium.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/18d40555bb4220c36b8e5fe0e1b7e691d934767a794bb59047725b5a4bd3f9f7.yaml/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a75660b3ac3a78a70dfa34f1d780b6e1bedffa5cd942abf7516e3fbb74c4a913.yaml/manifest.json">
 {#paragraph8}
 
 Despite the amount of work required to process cassava with high levels of cyanide, bitter cassava is more popularly cultivated than sweet cassava in the Amazon today. The indigenous Tukanoans of the Yapu village in the northern Amazon, for example, grow 100  different types of cassava, 98 of which are bitter.[^ref13] Archaeologist Warren Wilson and anthropologist Darna Dufour have demonstrated that bitter cassava yields a higher harvest than does its sweet counterpart, possibly due to its resistance to disease and insects.[^ref14] It is perhaps for this reason that bitter cassava is favored as a food crop over sweet cassava, despite the additional processing to render it edible.
 <param title="Tucanoan languages" eid="Q788144" aliases="Tukanoans">
-<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/manifest/5d2bcb26d37f96180b1e90ffa6cc29949c6fb0c0c171bcefc7b0f31aff4789fa">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/2e643e3c9499c6b49f0707de042ca9a87e37ecd3b3d390ecb3b2373c66aa3cd9">
+<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/fdb5dab1e66a26e81289a38bf318aedc193556010494a20e5255e6022512be30.yaml/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/8a0426ea40506f651cbf0474cfb95ee5362375f6d8fbdfbe807a454fbb2e25e1.yaml/manifest.json">
 {#paragraph9}
 
 ### Early Modern Encounters: European Codification of Indigenous Methods
@@ -110,8 +110,8 @@ Merian’s book exemplifies how knowledge accumulated and circulated through Eur
 
 In her book, Merian describes cassava root as the ingredient for cassava bread that was a common food among both the Indigenous Peoples and Europeans living in the American colonies by this time.[^ref18] Descriptions of cassava bread recur in other European texts, praising its value as a food source in the colonies as well as a provision for sea voyages.[^ref19] The original method of making cassava flour practiced by the Indigenous Peoples of South America, as well as variant methods used later on the African continent, can be found in these European texts.
 <param ve-image primary region="542,1729,1489,1114" manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537" seq="153">
-<param ve-image region="-87,133,878,748" manifest="https://iiif.juncture-digital.org/manifest/429c2cb183fc51f05c29735522abace18f988da7d7936e2f4fe264f9b58efd32">
-<param ve-image region="-87,119,878,748" manifest="https://iiif.juncture-digital.org/manifest/e8abab40512eaeb64a0c5c20ca5d8a3679cdc2eac9b07e5da74041484cd71019">
+<param ve-image region="-87,133,878,748" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/18a074e182f0ec83439eda0ae9738382d7f567d4f90be48fb2d9570cac59e671.yaml/manifest.json">
+<param ve-image region="-87,119,878,748" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/b2b80e4f3b05cdb04ffcff6586bd101ac2f60ec2dd0cddc9a375aaa820756dfa.yaml/manifest.json">
 {#paragraph13}
 
 European travelers also described the process of making cassava into fermented beverages. In his 1578 publication _History of a Voyage to the Land of Brazil_, French explorer Jean de Léry recorded a recipe for the alcoholic beverage _chicha_. Cassava was cut into pieces, then boiled, chewed in the mouth for some time to combine with saliva, then boiled again in a different vessel, and finally left to ferment for several days until it was ready for consumption.[^ref20] A few decades later, Spanish historian Antonio de León Pinelo recorded a similar account of the process in Peru, and British explorers Bedford Pim and Berthold Seemann encountered the same process of cassava fermentation in nineteenth-century Nicaragua.[^ref21] Depending on the location, the beverage was called _chicha_, _massato_ (a non-alcoholic variant mixed with honey), _acca_, _kufa_, or _mushla_. [^ref22]
@@ -120,39 +120,39 @@ European travelers also described the process of making cassava into fermented b
 <param title="Antonio de León Pinelo house" eid="Q4777064" aliases="Antonio de León Pinelo">
 <param title="Bedford Pim" eid="Q4879118">
 <param title="Berthold Seemann" eid="Q64899">
-<param ve-image primary region="-123,149,1076,930" manifest="https://iiif.juncture-digital.org/manifest/327e4b720969d1faf2d5a18c33887fbb9c04931fe0033b76828568643b89b53e">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/605ea3db7d0fd8412cdabc7d41f06b12f1c00cf0217ebcfd0480f35f73b3aed9">
-<param ve-image region="-150,-37,754,667" manifest="https://iiif.juncture-digital.org/manifest/3cff643fd985c29f359c9280babadf8515aaf31b3fc8c145905c2d73ae54a002">
+<param ve-image primary region="-123,149,1076,930" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a843ff2ad97faaa09471438907ea8f11b1989986ea413689f5f2b7df9d632193.yaml/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a843ff2ad97faaa09471438907ea8f11b1989986ea413689f5f2b7df9d632193.yaml/manifest.json">
+<param ve-image region="-150,-37,754,667" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a843ff2ad97faaa09471438907ea8f11b1989986ea413689f5f2b7df9d632193.yaml/manifest.json">
 {#paragraph14}
 
 Even today, many Indigenous Peoples in Meso- and South America still follow these recipes for fermented cassava beverages that were established by their ancestors and recorded by European travelers. In addition to such descriptions in travel writings, knowledge of cassava also entered other eighteenth-century European texts, such encyclopedias, and informed various fields of knowledge production, from baking and chemistry to agriculture.[^ref23]
-<param ve-image primary region="-224,-15,879,760" manifest="https://iiif.juncture-digital.org/manifest/ed091daba412388f225a5493d11ae6d040785542427478321ea587bb36f29b40">
-<param ve-image fit="contain" region="-206,75,1030,950" manifest="https://iiif.juncture-digital.org/manifest/1cd79c22797ade052563a19515c315ca1bd290d99fbe2fc64c49c1a3f70dddbf">
+<param ve-image primary region="-224,-15,879,760" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/25a52b7766a307043af42346c53bb75722f0788f7254abda137ae5abbfdf0ca5.yaml/manifest.json">
+<param ve-image fit="contain" region="-206,75,1030,950" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f.yaml/manifest.json">
 {#paragraph15}
 
 ### Cassava in Circulation
 
 As Europeans moved between continents, knowledge of cassava preparation, together with the plant itself, traveled with them. Cassava was initially transplanted to the west coast of Africa by Portuguese traders as early as the sixteenth century.[^ref24] At first, traders and slavers transported it in the form of a finished product, _farinha_ (manioc flour), that had been produced in Brazil.[^ref25] Eventually, Amerindian peoples from the New World who knew how to process the plant were also brought to Africa.[^ref26] Similarly, Africans brought back knowledge of cassava processing they had learned in the New World.[^ref27] Once it started being cultivated in Africa, cassava and the knowledge of its preparation became localized along the west coast of Africa, subsequently spreading inland and to other parts of the continent.[^ref28]
-<param ve-image region="2188,991,1452,1275" manifest="https://iiif.juncture-digital.org/manifest/81017ef7736a15721020d0a48762cb13950a939205c3c19c2cee983dd26798fc">
+<param ve-image region="2188,991,1452,1275" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_distribution_map_4.jpg/manifest.json">
 {#paragraph16}
 
 With this transfer of knowledge from South America to Africa, other innovations emerged. For example, African women learned that the bitter cassava root was poisonous and learned how to prepare its leaves instead.[^ref29] They discovered that young cassava leaves could be safely consumed after being boiled. A new method of processing the root also developed, which involved pressing it with stone weights instead of using the hanging method favored in South America.[^ref30] Another African innovation emerged in the form of _gari_, or toasted flakes, made from the dried pulp of processed cassava. They are not as refined as the _farinha_ produced in South America, but can be stored for a long period of time.[^ref31]
 <param title="garri" eid="Q1494252" aliases="gari">
-<param ve-compare manifest="https://iiif.juncture-digital.org/manifest/a92a8554b6005f82eb79be8400413ed9e9103160c677599fb395c668d8cc63e0">
-<param ve-compare manifest="https://iiif.juncture-digital.org/manifest/6029a21cd5ffedd9f2ba8bf9fb820a2e252c97803aeabf0830dfd5fd989cc66d">
+<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_leaf_Flickr.jpg/manifest.json">
+<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/25b71d314c539bf910224b4f131fcf97a37e0a50bc180d26ba66be53922979cb.yaml/manifest.json">
 {#paragraph17}
 
 ### Food of the Future?
 
 Today, Nigeria is the world’s largest producer of cassava, with over 34 million tons of cassava roots produced every year. A study carried out by Nigeria’s Department of Agriculture notes that cassava is a particularly suitable crop for the country’s predominantly smallholder farming. The plant’s most important characteristics that make it a crucial for household food are its year-round availability and resistance to drought, pests, and diseases.[^ref32] As more regions of the world face desertification, cassava’s ability to grow in dry climates will become even more important for preventing food scarcity in the future.
 <param title="desertification" eid="Q183481">
-<param ve-image fit="cover" url="IIT_weeded cassava field_Nigeria_Flickr.jpg" title="International Institute of Tropical Agriculture, _Weeded cassava field at Owiwi, Abeokuta, Nigeria_, November 3, 2012." attribution="Flickr, CC BY-NC 2.0">
+<param ve-image fit="cover" url="https://raw.githubusercontent.com/plant-humanities/media/main/cassava/IIT_weeded cassava field_Nigeria_Flickr.jpg" title="International Institute of Tropical Agriculture, _Weeded cassava field at Owiwi, Abeokuta, Nigeria_, November 3, 2012." attribution="Flickr, CC BY-NC 2.0">
 {#paragraph18}
 
 In spite of cassava’s potential for aiding global food security, the Food and Agriculture Organization (FAO) of the United Nations noted in 2002 that research on the plant has lagged behind other popular food crops.[^ref33] The FAO report further observed that cassava production had fallen behind its yield potential in Africa and that marketing attempts by cassava farmers had similarly been consistently lower than expected. Increases in cassava productivity had also consistently lagged behind other top food crops, such as rice, wheat, and corn.[^ref34] As a result, the FAO launched a biotechnology development program to increase cassava production by increasing its pest and disease resistance and improving its starch quality to ensure better marketability and higher nutrient levels.
 <param title="FAO" eid="Q82151" aliases="Food and Agriculture Organization">
-<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/manifest/f20175b8ed88d3e38830709cc15a434f77a7f67533c2fbe4a5a74f870da1e8b7">
-<param ve-image region="1,0,1143,1004" manifest="https://iiif.juncture-digital.org/manifest/a10a17c5238fac63435d5ce91338bca0eb3f3da99b1fb0c469bad9d07fac03ce" title="Disaggregated cassava production in sub-Saharan Africa and associated data sources. Density of cassava production layer (tonnes per approx. 1 km2) (a). Cassava production data sources and administrative resolution of production census data in each of the countries (b): FAO (fao.org/faostat), Resakss (resakss.org), Agro-MAPS (kids.fao.org/agromaps/) and IITA (personal correspondence with the International Institute of Tropical Agriculture in Ibadan, Nigeria). Basemap source: Esri, DeLorme, HERE, MapmyIndia.">
+<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen%20Shot%202021-01-06%20at%2012.02.11%20PM.jpg/manifest.json">
+<param ve-image region="1,0,1143,1004" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a662fa58c1954858a44103880681a72ae457b202071acf3436dc4b368ba2826f.yaml/manifest.json" title="Disaggregated cassava production in sub-Saharan Africa and associated data sources. Density of cassava production layer (tonnes per approx. 1 km2) (a). Cassava production data sources and administrative resolution of production census data in each of the countries (b): FAO (fao.org/faostat), Resakss (resakss.org), Agro-MAPS (kids.fao.org/agromaps/) and IITA (personal correspondence with the International Institute of Tropical Agriculture in Ibadan, Nigeria). Basemap source: Esri, DeLorme, HERE, MapmyIndia.">
 {#paragraph19}
 
 ### Place and Mobility: Njideka Akunyili Crosby’s Cassava Garden
@@ -162,23 +162,23 @@ In addition to food security, cassava plays an increasingly important and divers
 <param title="Dominican Republic" eid="Q786">
 <param title="Puerto Rico" eid="Q1183">
 <param title="Cuba" eid="Q241">
-<param ve-image primary manifest="https://iiif.juncture-digital.org/manifest/aba5b191ec01beaa31d407e7178a5ba28dce5e1d7c5ca88bda9b6af5dc82f723">
-<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/manifest/e16f91f6ac7cd929c1fb119a0f329518758b5709350118aaf122180653939899">
+<param ve-image primary manifest="https://iiif.juncture-digital.org/wc%3AMaking_fufu_Democratic_Republic_Congo.jpg/manifest.json">
+<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/CassavaProc_RootsTubersBananas_Mural_Flickr.jpg/manifest.json">
 {#paragraph20}
 
 Associated with specific cultures across the globe, but also symbolizing mobility—having spread from its native habitat in South America, across the ocean to Africa, and back to South America and the Caribbean via diasporic African communities—cassava has also been celebrated in contemporary art. Nigerian-American artist Njideka Akunyili Crosby, for example, features cassava prominently in her work as she explores the ability of people, plants, and paintings to inhabit multiple spaces.
 <param title="Njideka Akunyili Crosby" eid="Q21284874">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/61a0fe674fa8d7673b14a3ded9dbb7bfb12b849930ae8be5b7f06764685624bb">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Crosby_Cassava_Mural_Flickr.jpg/manifest.json">
 {#paragraph21}
 
 In her painting _Cassava Garden_, Crosby juxtaposes a cassava plant with an Indian rubber tree, two species of plants growing in Los Angeles, where she lives and works. Crosby is well aware that neither of these plants is native to the United States, having been brought there by people from different parts of the world. By representing them together, she speaks to different meanings of place-making. On the one hand, the painting represents an imagined garden, where two plants of different geographic origin can happily coexist.[^ref36] The juxtaposition of these plants refers to modern Los Angeles, where they _do_ coexist today.
 <param title="Los Angeles" eid="Q65">
 <param title="Ficus elastica" eid="Q160576" aliases="Indian rubber tree"> 
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/2615931e360860e519f958d42f76a8c84093f70a7103146efd46c38c977a2491">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava%20Garden_2015.jpg/manifest.json">
 {#paragraph22}
 
 On the other hand, Crosby associates cassava with Nigerian village life, which is why her painting incorporates imagery from her childhood in <span eid="Q1033">Nigeria</span>. Along the right side of the painting, we see a textile featuring a portrait of her mother, which came from her mother's funeral.[^ref37] Photographs from Nigeria are also incorporated into the cassava’s leaves, creating a layered effect that Crosby refers to as a “visual vibration.”[^ref38] This melding of present and past in the juxtaposition of a South American-cum-Nigerian plant and an Indian rubber tree makes these connections across time and space so strong. Much like its vegetal subject itself, Crosby’s painting seems to ask, “When does something belong to a place?”[^ref39]
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/2615931e360860e519f958d42f76a8c84093f70a7103146efd46c38c977a2491">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava%20Garden_2015.jpg/manifest.json">
 {#paragraph23}
 
 ### References

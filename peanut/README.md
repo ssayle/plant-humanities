@@ -13,7 +13,7 @@
 ### A Nut in Name Only
 Despite its English name and nutlike taste, the peanut is not a nut. This mighty <span eid="Q145909">legume</span> is grown around the world for a variety of uses including human consumption, oil production, and animal feed. It also plays an important role in crop rotation due to the nitrogen-fixing bacteria in its root nodules. The taxonomic name of the cultivated peanut, <span eid="Q37383">_Arachis hypogaea_</span>–hypo meaning under and gaea meaning earth–reflects this tropical plant’s ingenious means of reproduction: its aerial flowers undergo fertilization above the ground and burrow into the soil to bear their fruit.
 <param ve-compare curtain manifest="https://iiif.lib.harvard.edu/manifests/drs:493720026" seq="118">
-<param ve-compare manifest="https://iiif.juncture-digital.org/manifest/c5e3bb5b8f05a40314bba386bdc2df7bc32818a04dae348d0450feb3b63c5520" fit="contain">
+<param ve-compare manifest="https://iiif.juncture-digital.org/wc%3AArachis_hypogaea_003.JPG/manifest.json" fit="contain">
 {#paragraph1}
 
 While the largest peanut-producing nations are now China, India, Nigeria, and the United States, the plant was first cultivated by Andean civilizations in South America.[^1] Its migration around the world altered global food production and supply forever, rendering it one of the most successful of New World plants disseminated via the <span eid="Q767253">Columbian Exchange</span>. More than just a food source, the peanut has been a protagonist in histories of global trade, slavery, and colonization and has come to be imbued with rich cultural meanings.
@@ -36,7 +36,7 @@ In addition to being an important food source, peanuts were also a prestigious i
 {#paragraph4}
 
 Mestizo chronicler <span eid="Q334711">Inca Garcilaso de la Vega</span> (1539–1616) documented the presence of peanuts in colonial Peru. Born there and educated in Spain, [de la Vega](https://www.learner.org/series/american-passages-a-literary-survey/exploring-borderlands-video/garcilaso-de-la-vega-1539-1616/) drew on direct experience and knowledge of Incan culture shared through his matrilineal relatives to offer a unique perspective on <span eid="Q2037505">Inca cuisine</span>. In his [1609 history of the Inca civilization,](https://archive.org/details/primerapartedelo00vega/page/n443/mode/2up?q=ynchic) the author records peanuts–<span data-click-image-zoomto="278,1157,702,662">_ynchic_</span>–being eaten toasted and, in combination with honey, used to make a kind of nougat. He notes peanuts cause a headache when eaten raw and that peanut oil can be extracted and used to cure many illnesses.[^6]
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/dd37053e1facd1be2427dc711065d838b956968940b595da247d2d9499e9236a">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/peanut/f5f3bb9774c7ed2fbeb6029f29ba095cc3f22a9287c2f3acb3b0e1616906fb1f.yaml/manifest.json">
 {#paragraph5}
 
 Peanuts gradually spread from Peru to <span eid="Q13703">Mesoamerica</span> via Indigenous trade networks by the 1500s. In the Aztec capital of <span eid="Q13695">Tenochtitlan</span>, the location of present-day <span data-mouseover-map-flyto="19.433333, -99.133333,6">Mexico City</span>, the peanut was known as _tlalcacahuatl_ from the words _tlalli_ (earth) and _cacahuatl_ ([cacao]([https://lab.plant-humanities.org/cacao/)), giving rise to one of the Spanish words for peanut, _cacahuate/cacahuete_. This suggests that <span eid="Q13300">Nahuatl</span>-speaking people may have been the first humans to combine these two now-ubiquitous flavors.[^7]
@@ -76,18 +76,18 @@ The first mention of peanuts in a Chinese text dates to 1503, a mere decade afte
 {#paragraph10}
 
 In China, peanuts were a luxury food served at banquets and out of reach for many until the nineteenth century. The peanut came to be imbued with cultural meanings as well, as shown in this <span eid="Q8733">Qing Dynasty</span> agate carving depicting a pair of peanuts alongside red dates. The carving is a play on words: the characters for red date (枣, _zao_) and peanut (生, _sheng_), are homophones for the first two characters of the auspicious greeting [早生贵子 zao sheng gui zi,](https://www.metmuseum.org/art/collection/search/44155?ft=peanut&amp;offset=0&amp;rpp=40&amp;pos=13) an encouragement for newlywed couples to soon have children.
-<param ve-image primary manifest="https://iiif.juncture-digital.org/manifest/301bb420c0e417453482f433982a3ac33092eb8310ca5863685775d21715f8fe">
-<param ve-image manifest="https://iiif.juncture-digital.org/manifest/9f562d625a42e1a3328d75e345cae289fa6718eaff07878d3aeaeccad6e855e0">
+<param ve-image primary manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/peanut/ebbe39c6f4ac29da3fa900cb4bd73810ea24dfd8270a2a24efc917fc674b887c.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/peanut/ebbe39c6f4ac29da3fa900cb4bd73810ea24dfd8270a2a24efc917fc674b887c.yaml/manifest.json">
 {#paragraph11}
 
 ### African Diaspora Culture
 Peanuts’ journey north from South America was circuitous—in fact, they were introduced to North America through Africa, crossing the Atlantic in the [hulls of slave ships.](https://slaveryandremembrance.org/articles/article/?id=A0057) This history is embedded in the [language of peanuts](https://collections.telfair.org/objects/6549/untitled-peanuts)—the common moniker “goober” entered American English from _nguba_ in <span eid="Q35891">Kimbundu</span>, a language spoken in Angola; “pinder,” another term for peanuts in the American South, derives from _mpinda_ in the <span eid="Q33702">Kongo</span> language.[^14] The adoption of these loanwords by colonial English speakers in plantation societies evidences the ingenuity and exploitation of enslaved Africans: they grew peanuts in their food plots and their knowledge of cultivation methods was in turn appropriated by slaveholders along with African names for the plant.[^15]
-<param ve-image region="0,1653,2019,1800" manifest="https://iiif.juncture-digital.org/manifest/280bc3a14fc96e4940c0a0682567d33e470d29a2f1867d9b1d84aedc77e19d12">
+<param ve-image region="0,1653,2019,1800" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/peanut/a3b76f8e2daa3c13092cb23c92bcb2ce20a32aa7c4c65b86bc125aed4e0a7a46.yaml/manifest.json">
 {#paragraph12}
 
 ### Mass Consumption: Peanuts as American Staple 
 In the early 1800s, peanuts were planted by communities of enslaved persons and were otherwise used as feed for livestock in the southern United States. It was during the <span eid="Q8676">Civil War</span> that they became more widely popular among southern whites. Southerners turned to peanuts in the face of wartime food shortages, and the crop’s military utility was exploited as peanut oil replaced embargoed northern whale oil as machinery lubricant.[^16] The popularity of peanuts at the time is commemorated in [“Goober Peas,”](https://www.youtube.com/watch?v=RBOxw6vbDyo) a folk song sung by Confederate soldiers. The lyrics and music are humorously attributed to “A. Pinder” and “P. Nut,” both puns on the peanut’s name. 
-<param ve-image manifest="https://iiif.juncture-digital.org/manifest/d876610603307546a98f29c22ad653195a5ad115fa24011c10cc9092b101b937">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3A18660509_Goober_Peas_-_lyrics_-_Thomasville_Southern_Enterprise_%28Georgia%29.jpg/manifest.json">
 {#paragraph13}
 
 After the war, spurred on by advances in agricultural technology, the use of peanut spread throughout the country. Instrumental to this was <span eid="Q296898">George Washington Carver</span> (c.1864–1943), the pioneering [Black agricultural scientist](https://libguides.nybg.org/c.php?g=1003078&p=7264400) who devoted much of his career to popularizing the crop in the South. Carver, who was born into slavery in Missouri and taught at the <span eid="Q1682329">Tuskegee Institute</span> during his scientific career, sought to promote crops that could be planted as an alternative to cotton. Carver proposed the cultivation of peanuts as a means to rectify the widespread nutrient depletion and erosion in southern soils caused by the <span eid="Q220212">monoculture</span> of cotton. As nitrogen-fixing legumes, peanuts could return nutrients to the soil as part of a crop rotation that would boost the yield of future cotton plantings.
@@ -104,12 +104,12 @@ Peanut production in the United States increased with the advent and popularizat
 {#paragraph16}
 
 Throughout the first half of the twentieth century, a series of relentless American ad campaigns marketed peanut butter as suitable for all kinds of dishes, from peanut butter sandwiches and chocolate-peanut candies to savory roasts and soups. The <span eid="Q605269">American Empire</span> shaped the peanut-related foodways of its colonies as well, including the Philippines.[^20] And the peanut is comparatively prevalent in Germany due to the historical and contemporary presence of American troops.
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/13e4989019d42786266aff344ea48f88496a93c1cb96ab5016732d21bbfcb51b">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/peanut/979d093a0a23109148c4111dae4b0190b835e02657c6ad9e1a79d1ae89bd09b2.yaml/manifest.json">
 {#paragraph17}
 
 ### Selling Peanuts in Public Spaces
 A characteristic feature in the history and contemporary life of peanuts is their presence in public spaces. The peanut vendor sells peanuts: roasted or boiled, shelled or de-shelled, in street carts or on the roadside, in cones of newspaper or in paper bags. It is a global practice with similarities and differences specific to geographic and temporal context. Indeed, journalist Jori Lewis has [explored](https://civileats.com/2022/04/12/slaves-for-peanuts-tells-the-tragic-story-behind-americas-favorite-snack/) the significance of peanut vendors working in the United States after the Civil War. According to Lewis, vendors faced public scorn due to pejorative associations of the peanut with enslaved persons and [stereotypes of race and class.](https://nmaahc.si.edu/explore/stories/popular-and-pervasive-stereotypes-african-americans)[^21]
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/manifest/5dd69c36c3652669ac934726dce1a5f94b81f60c3c442a827d800311cd894b6c">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/peanut/9a69cdb4424d76504773d03ad66e4d75617f8b2ea6d0391f80ccf6a3b9017162.yaml/manifest.json">
 {#paragraph18}
 
 In contrast to the peanut vendor’s low social standing in the late nineteenth-century United States, the popularity of the street vendor in 1920s Havana is brilliantly conveyed in the song <span eid="Q3050049">“El Manisero” (“The Peanut Vendor”)</span> by the Cuban composer and songwriter <span eid="Q661928">Moisés Simons</span>.[^22] The 1927 composition is sung from the perspective of the seller and is a blending of the <span eid="Q4428744">_son_</span> and <span eid="Q5681688">_pregón_</span> genres. The lyrics tell of a vendor trying to tempt a housewife to buy a cone of peanuts: his repeated sales cry of “_maní_, _maní_, _maní_” is a typical feature of _pregones_. Like the song “El Manisero,” fusing African and Hispanic musical traditions, the peanut vendor and peanuts in 1920s Cuba would have held a blend of different cultural associations.
@@ -137,8 +137,8 @@ Humans and livestock are not the only consumers of the peanut plant for its nutr
 
 ### No Meager Legume
 Despite the use of the word [peanut](https://www.merriam-webster.com/dictionary/peanut) to denote a small or meager amount in the English language, we have seen over the course of this essay that the peanut has a rich history that is intricately tied to histories of global trade, slavery, and colonization. From luxury food to livestock feed, the social, cultural, and economic life of this legume has taken on many incarnations. Yet its importance to humans and its <span eid="Q37813">ecosystems</span> is hard to overstate. The peanut plant heals and replenishes soils and has therefore been cultivated as a global environmental intervention method to maintain soil health. Highly nutritious and protein-packed, it is beneficial to the many life-forms that consume it–including to humans in their varied culinary preparations.
-<param ve-compare curtain manifest="https://iiif.juncture-digital.org/manifest/90dd7a7b50de666ccccb98e3ff633ac04d55d37cb43ddb0dfd8639227e750553">
-<param ve-compare fit="contain" manifest="https://iiif.juncture-digital.org/manifest/d5edfb78628af8f31f5c0e400d1e7e75c86364236a7ccfefd91448efbfa1ea35">
+<param ve-compare curtain manifest="https://iiif.juncture-digital.org/wc%3AA_Peanut_Plant%2C_illustration_from_The_Encyclopedia_of_Food_by_Artemas_Ward_01.jpg/manifest.json">
+<param ve-compare fit="contain" manifest="https://iiif.juncture-digital.org/wc%3AArachis_hypogaea_006.JPG/manifest.json">
 {#paragraph24}
 
 ### References

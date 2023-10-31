@@ -38,7 +38,7 @@ if os.path.exists(f'{SCRIPT_DIR}/names_map.tsv'):
 else:
   names_map = {}
   
-default_workbook = 'plant-humanities'
+default_workbook = 'Plant Humanities'
 default_worksheet = 'media'
 
 import gspread
@@ -61,7 +61,7 @@ def as_hyperlink(url, label=None):
 def as_image(url):
   return f'=IMAGE("{url}")'
 
-ignore = ['juncture', '.venv', 'media']
+ignore = ['juncture', '.venv', 'media', 'John']
 def list_pages(base=BASEDIR):
   pages = []
   for root, _, files in os.walk(base):
@@ -221,12 +221,14 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
         fname = urllib.parse.unquote(url.split('/')[-1]).replace(' ', '_')
         if not url.startswith('http'):
           src = url[1:] if url.startswith('/') else f'{page}/{url}'
+          gh_url = f'https://raw.githubusercontent.com/plant-humanities/media/main/{src}'
+          md = md.replace(url, gh_url)
+          md_updated = True
         elif 'jstor-labs/plant-humanities' in img['url'].lower():
           src = '/'.join(pe for pe in url.replace('?raw=true','').split('/') if pe and pe.lower() not in('https:', 'github.com', 'raw.githubusercontent.com', '52bc9a2', 'blob', 'master', 'main', 'develop', 'raw', 'staging-3', 'staging-7', 'jstor-labs', 'plant-humanities'))
         else:
           continue
 
-      
         '''
         src_img = img['url']
         src_fname = src_img.split('/')[-1]
@@ -252,15 +254,20 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
           if image_data and 'id' in image_data:
             url = image_data['id']
             m_name, ext = os.path.splitext( urllib.parse.unquote(url.split('/')[-1]).replace(' ', '_'))
-            props = manifest_props(img, manifest) if manifest else {}
+            # props = manifest_props(img, manifest) if manifest else {}
             props['hash'] = hashlib.sha256(url.encode('utf-8')).hexdigest()[:8]
-            if 'plant-humanities' in url.lower():
-              src = '/'.join(pe for pe in url.replace('?raw=true','').split('/') if pe and pe.lower() not in('https:', 'jstor-labs.github.io', 'github.com', 'raw.githubusercontent.com', '52bc9a2', 'blob', 'master', 'main', 'raw', 'develop', 'staging-3', 'staging-7', 'jstor-labs', 'plant-humanities'))
-              m_name = f'gh:plant-humanities/media/{m_name}{ext}'
+            if 'jstor-labs' in url.lower() and 'plant-humanities' in url.lower():
+              parts = [pe for pe in url.replace('?raw=true','').split('/') if pe and pe.lower() not in('https:', 'jstor-labs.github.io', 'github.com', 'raw.githubusercontent.com', '52bc9a2', 'blob', 'master', 'main', 'raw', 'develop', 'staging-3', 'staging-7', 'jstor-labs', 'plant-humanities')]
+              # logger.info(parts)
+              src = urllib.parse.unquote('/'.join(parts))
+              parts[0] = parts[0].replace(' ', '-').replace('_', '-')
+              m_name = f'gh:plant-humanities/media/{"/".join(parts)}'
             else:
               if url.startswith('https://upload.wikimedia.org'):
                 props = {}
-                m_name = 'wc:' + url.split('/')[-1]
+                parts = url.split('/')
+                wc_file = parts[8] if parts[5] == 'thumb' else parts[-1]
+                m_name = f'wc:{wc_file}'
               else:
                 props['image_url'] = url
                 name_hash = hashlib.sha256(m_name.encode("utf-8")).hexdigest()
@@ -268,15 +275,16 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
                 src = f'{page.lower()}/{name_hash}.yaml'
             src_path = f'{essays}/{urllib.parse.unquote(src)}' if src else None
             # if src_path: logger.info(f'{src_path} ({os.path.exists(src_path)})')
+            m_name = urllib.parse.unquote(m_name)
+            m_name = urllib.parse.quote(m_name)
             manifest_short = f'https://iiif.juncture-digital.org/{m_name}/manifest.json'
+            logger.info(manifest_short)
             md = md.replace(manifest_url, manifest_short)
             md_updated = True
             # logger.info(manifest_short)
       else:
         continue
       
-
-
       if src:
         src_path = f'{essays}/{src}'
         dst = urllib.parse.unquote(src).split('/')
@@ -285,11 +293,12 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
           dst[i] = dst[i].lower().replace(' ', '-').replace('_', '-')
         dst_path = f'{media}/{"/".join(dst)}'
         
-  
+        # logger.info(f'{src_path} ({os.path.exists(src_path)}) -> {dst_path}')
         if os.path.exists(src_path) and os.path.isfile(src_path):
           if not dryrun:
             os.makedirs(os.path.dirname(dst_path), exist_ok=True)
             shutil.copyfile(src_path, dst_path)
+            os.remove(src_path)
             if props:
               yaml_path, _ = os.path.splitext(dst_path)        
               with open(f'{yaml_path}.yaml', 'w') as f:
@@ -301,6 +310,7 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
         with open(f'{yaml_path}.yaml', 'w') as f:
           f.write(yaml.safe_dump(props, sort_keys=False, width=float('inf')))
         
+    '''
     if md_updated:
       num_updated += 1
       if dryrun:
@@ -310,6 +320,7 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
           f.write(md)
           # logger.info(f'-> {path}')
       if num_updated == max: break
+    '''
   
   '''
   if names_map_updated:
@@ -328,7 +339,99 @@ def check_images(essays, **kwargs):
         found = requests.head(img['url']).status_code == 200
         if not found:
           logger.info(f'{page} {img["url"]}')
-    
+
+def inventory_images(essays, dryrun=False, **kwargs):
+  logger.info(f'inventory_images: essays={essays}')
+  fields = ['Essay', 'Thumbnail', 'Manifest', 'Image', 'Acct', 'Repo', 'Branch']
+  row = 2
+  ws_updates = []
+  for page in list_pages(essays):
+    path = f'{essays}/{page}/README.md' if page else f'{essays}/README.md'
+    md = open(path, 'r').read()
+    for img in find_media(path, md):
+      if 'url' in img:
+        if not img['url'].startswith('http'):
+          if img['url'].startswith('/'):
+            # img['url'] = f'https://github.com/JSTOR-Labs/plant-humanities/blob/main/{img["url"][1:]}?raw=true'
+            img['url'] = f'https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/main/{img["url"][1:]}'
+          else:
+            # img['url'] = f'https://github.com/JSTOR-Labs/plant-humanities/blob/main/{page}/{img["url"]}?raw=true'
+            img['url'] = f'https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/main/{page}/{img["url"]}'
+      if 'manifest' in img:
+        if img['manifest'].startswith('https://iiif.juncture-digital.org'):
+          manifest = get_manifest(img['manifest'])
+          if manifest:
+            image_data = _find_item(manifest, type='Annotation', attr='motivation', attr_val='painting', sub_attr='body')
+            if image_data and 'id' in image_data:
+              img['url'] = image_data['id']
+      
+      if dryrun:
+        print(f'{page}\t{img["manifest"] if "manifest" in img else ""}\t{img.get("url","Not found")}')
+      else:
+        row += 1
+        row_data = { 'Essay': as_hyperlink(f'https://beta.plant-humanities.org/{page}', page or 'Home') }
+        if 'manifest' in img:
+          m = urllib.parse.urlparse(img['manifest'])
+          if m.hostname == 'iiif.juncture-digital.org':
+            row_data['Manifest'] = as_hyperlink(f'https://iiif.juncture-digital.org#{img["manifest"]}', 'Juncture')
+          elif m.hostname.endswith('harvard.edu'):
+            row_data['Manifest'] = as_hyperlink(img['manifest'], 'Harvard')
+          elif m.hostname.endswith('loc.gov'):
+            row_data['Manifest'] = as_hyperlink(img['manifest'], 'Library of Congress')
+          else:
+            logger.info(m.hostname)
+            row_data['Manifest'] = as_hyperlink(img['manifest'], m.hostname)
+        if 'url' in img:
+          u = urllib.parse.urlparse(img['url'])
+          if u.hostname == 'raw.githubusercontent.com':
+            [acct, repo, branch] = u.path.split('/')[1:4]
+            row_data['Acct'] = acct
+            row_data['Repo'] = repo
+            row_data['Branch'] = branch
+            row_data['Image'] = as_hyperlink(img['url'], 'Github')
+          elif u.hostname == 'github.com':
+            [acct, repo, _, branch] = u.path.split('/')[1:5]
+            row_data['Acct'] = acct
+            row_data['Repo'] = repo
+            row_data['Branch'] = branch
+            row_data['Image'] = as_hyperlink(img['url'], 'Github')
+          elif u.hostname == 'jstor-labs.github.io':
+            row_data['Acct'] = 'JSTOR-Labs'
+            row_data['Repo'] = u.path.split('/')[2]
+            row_data['Branch'] = 'main'
+            row_data['Image'] = as_hyperlink(img['url'], 'Github')
+          elif u.hostname == 'upload.wikimedia.org':
+            row_data['Image'] = as_hyperlink(img['url'], 'Wikimedia')
+          elif u.hostname == 'live.staticflickr.com':
+            row_data['Image'] = as_hyperlink(img['url'], 'Flickr')            
+          elif u.hostname.endswith('biodiversitylibrary.org'):
+            row_data['Image'] = as_hyperlink(img['url'], 'BHL')
+          elif u.hostname == 'www.doaks.org':
+            row_data['Image'] = as_hyperlink(img['url'], 'Dumbarton Oaks')
+          elif u.hostname.endswith('loc.gov'):
+            row_data['Image'] = as_hyperlink(img['url'], 'Library of Congress')
+          elif u.hostname.endswith('wellcomecollection.org'):
+            row_data['Image'] = as_hyperlink(img['url'], 'Wellcome Collection')
+          elif u.hostname.endswith('harvard.edu'):
+            row_data['Image'] = as_hyperlink(img['url'], 'Harvard')
+          elif u.hostname.endswith('archive.org'):
+            row_data['Image'] = as_hyperlink(img['url'], 'Internet Archive')
+          elif u.hostname.endswith('metmuseum.org'):
+            row_data['Image'] = as_hyperlink(img['url'], 'The MET')
+          else:
+            row_data['Image'] = as_hyperlink(img['url'], u.hostname)
+          row_data['Thumbnail'] = as_image(f'https://iiif.juncture-digital.org/thumbnail/?url={img["url"]}')
+        else:
+          row_data['Image'] = ''
+        ws_updates += [Cell(row, fields.index(fld) + 1, val) for fld, val in row_data.items()]
+
+  if ws_updates:
+    wb = get_workbook(**kwargs)
+    ws = wb.worksheet(kwargs.get('worksheet', default_worksheet))
+    ws_updates.sort(key=lambda cell: cell.col, reverse=False)
+    ws.update_cells(ws_updates, value_input_option='USER_ENTERED')
+      
+
 def update_google_sheets(**kwargs):
   fields = {
     'Page': 0,
@@ -360,6 +463,7 @@ if __name__ == '__main__':
   parser.add_argument('--quiet', type=bool, default=False, action=argparse.BooleanOptionalAction, help='Disable logging')
   parser.add_argument('--sync', type=bool, default=False, action=argparse.BooleanOptionalAction, help='Sync images with essays')
   parser.add_argument('--check', type=bool, default=False, action=argparse.BooleanOptionalAction, help='Check images')
+  parser.add_argument('--inventory', type=bool, default=False, action=argparse.BooleanOptionalAction, help='Inventory images')
   parser.add_argument('--max', type=int, default=-1, help='Maximum essays to process')
   parser.add_argument('--dryrun', type=bool, default=False, action=argparse.BooleanOptionalAction, help='Do dryrun')
   parser.add_argument('--essays', type=str, default=BASEDIR, help='Essays root directory')
@@ -379,3 +483,5 @@ if __name__ == '__main__':
     sync_media(**args)
   elif args['check']:
     check_images(**args)
+  elif args['inventory']:
+    inventory_images(**args)

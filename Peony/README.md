@@ -18,7 +18,7 @@ In 1735, a Viennese baroness wrote to the last Medici princess, <span id="Q23318
 <param ve-title="Peaonia" eid="Q147105" aliases="peony">
 <param ve-image
      title="Archivio di Stato di Firenze (ASF), Miscellanea Medicea (MM) 1, ins. 2, fol. 186r."
-     url="/images/IMG_1325.JPG">
+     url="https://raw.githubusercontent.com/plant-humanities/media/main/images/IMG_1325.JPG">
 {#paragraph1}
 
 In her letter to Anna Maria Luisa, the baroness praised the powder’s effectiveness, stating that the children she treated with it had been so violently taken by convulsions that the attending physicians had “given up on them.” Not only had the “miraculous powder” cured the children, but they remained in perfect health several months later. Well known for her miraculous powder, Anna Maria Luisa strategically distributed it to influential individuals and courts across Europe. As a result, she created valuable socio-political alliances to protect <span eid="Q154849">The Grand Duchy of Tuscany</span> as the end of the Medici dynasty neared.
@@ -114,7 +114,7 @@ Despite modern western medicine tending to dismiss early therapeutics like Anna 
 {#paragraph16}
 
 One such study conducted in 1991 on the water extract of _P. officinalis_ concluded that there are several chemical compounds found in the root, including <span id="Q7124104">paeoniflorin</span>, albiflorin, oxypaeoniflorin, and gallotannins, which have documented anticonvulsant properties.[^12] And, when isolated, the compounds albiflorin and gallotannin were proven to block extracellular calcium, which is linked to intracellular seizure-related phenomena. Paeoniflorin fractions also showed inhibition, but to a weaker extent. Another study, which administered peony root extract (from _P. officinalis_) to rats, concluded that it was “a potent in vitro inhibitor of neuron damage in the CA1 area of the hippocampus.”[^13] The study also determined that peony root extract had protective effects on damaged neurons as well as anticonvulsant action when administered orally.[^14] And so, the early administration of anti-epileptic drugs has the potential to [alter the long-term course of epilepsy](https://www.jstor.org/stable/29726099) with the possibility of preventing it from becoming an “intractable disorder.”
-<param ve-image label="Chemical structures of main components in total glucosides of peony." attribution="He DY, Dai SM. Anti-inflammatory and immunomodulatory effects of paeonia lactiflora pall., a traditional chinese herbal medicine. _Front Pharmacol_. 2011;2:10. Published 2011 Feb 25. doi:10.3389/fphar.2011.00010" url="Peony_compounds.jpg">
+<param ve-image label="Chemical structures of main components in total glucosides of peony." attribution="He DY, Dai SM. Anti-inflammatory and immunomodulatory effects of paeonia lactiflora pall., a traditional chinese herbal medicine. _Front Pharmacol_. 2011;2:10. Published 2011 Feb 25. doi:10.3389/fphar.2011.00010" url="https://raw.githubusercontent.com/plant-humanities/media/main/Peony/Peony_compounds.jpg">
 {#paragraph17}
 
 Today’s primary approach to treating epilepsy and suppressing seizures is to alter the neural network’s excitability or inhibition by regulating chemical compounds such as sodium and calcium. Drugs like <span id="Q421567">ethosuximide</span>, for example, reduce abnormal electrical activity in the brain by regulating calcium influx in cells. As a result, contemporary western medicine has little motivation to further investigate the peony root’s similar biochemical compounds or potential pharmaceutical applications. This lack of current interest, however, does not make the biochemical activity of peony insignificant historically. The identification of active biochemical compounds suggest that Anna Maria Luisa de Medici’s powder might have actually improved the health of the children who received it!
@@ -122,7 +122,7 @@ Today’s primary approach to treating epilepsy and suppressing seizures is to a
        fit="contain"
        title="Treating diseased brain cells with calcium channel blockers"
        attribution="University of Bristol"
-       url="Calcium-Channel-Blocker.jpg">
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/Peony/Calcium-Channel-Blocker.jpg">
 {#paragraph18}
 
 The seeming effectiveness of her infant convulsion powder increased Anna Maria Luisa’s socio-political influence. In fact, several letters preserved in the Florence State Archive attest to the powder’s efficacy and popularity. One, from the Viennese baroness, asks Anna Maria Luisa for additional portions of powder given the “extraordinary effects they had on three children from the most important families of Vienna.” Anna Maria Luisa replied that she would send the baroness as much of the powder as she desired to distribute to her friends, considering that she had “put the powder to such good use.”
@@ -131,7 +131,7 @@ The seeming effectiveness of her infant convulsion powder increased Anna Maria L
 {#paragraph19}
 
 The gift of “miraculous” medicine to the Viennese court was not simply altruistic. As a woman, Anna Maria Luisa was barred from inheriting and ruling Tuscany on the death of her brother, the <span data-click-image-zoomto="1061,479,736,629">last Medici Grand Duke</span>. Although she lacked official power, Anna Maria Luisa fashioned influence through the gift of her infant convulsion powder, which allowed her to ingratiate herself with some of <span data-click-image-zoomto="214,581,1271,955">Vienna’s most important and powerful families</span>. This ensured goodwill and communication between the Grand Duchy of Tuscany and the court that would decide its fate. By the end of the Medici dynasty, the Viennese court was the headquarters of the Habsburg dynasty and the center of its imperial politics. In 1737, <span eid="Q151075">Francis of Lorraine</span>, future head of the <span eid="Q12548">Holy Roman Empire</span>, which controlled much of Europe at this time, became the Grand Duke of Tuscany and ruled Florence from the imperial court in Vienna—a court much indebted to Anna Maria Luisa de Medici’s infant convulsion powder and the power of peony.
-<param ve-image region="412,1,1423,1209" title="Line of Sucession for the Grand Duchy of Tuscany" url="/images/Black%20and%20White%20Simple%20Corporate%20Family%20Tree.jpg">
+<param ve-image region="412,1,1423,1209" title="Line of Sucession for the Grand Duchy of Tuscany" url="https://raw.githubusercontent.com/plant-humanities/media/main/images/Black%20and%20White%20Simple%20Corporate%20Family%20Tree.jpg">
 {#paragraph20}
 
 ### References 

@@ -9,11 +9,11 @@ description: >-
   Explore the cultural histories of plants and their influence on human societies.
 
 github:
-  owner: jstor-labs
-  repo: plant-humanities
-  branch: gh-pages
+  owner: plant-humanities
+  repo: essays
+  branch: main
 
 url: https://plant-humanities.github.io/essays/
 baseurl: /essays/
 
-components: /juncture/wc/dist/js/index.js
+components: /essays/juncture/wc/dist/js/index.js

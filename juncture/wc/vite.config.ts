@@ -16,7 +16,7 @@ export default defineConfig(({mode})=> {
       template: {
         compilerOptions: {
           isCustomElement: (tag) => {
-            return tag.startsWith('ve-')
+            return tag.startsWith('ve-') || tag.startsWith('sl-')
           }
         }
       }

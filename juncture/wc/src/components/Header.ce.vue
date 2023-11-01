@@ -76,10 +76,7 @@
 
   const height = ref(props.height || navbarHeight)
 
-  onMounted(() => {
-    console.log('mounted')
-    applyProps() 
-  })
+  onMounted(() => applyProps() )
   onUpdated(() => applyProps() )
 
   function applyProps() {

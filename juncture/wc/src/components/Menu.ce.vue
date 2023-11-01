@@ -68,7 +68,6 @@ function getMenuItems() {
     evt.preventDefault()
     let action = item.href.split('/').filter((x:string) => x).pop().toLowerCase()
     action = location.host === action ? 'home' : action
-    console.log('menuItemSelected', action, item.href, (window as any).config)
     if (action === 'search') window.open(item.href, '_blank');
     else {
       let href = new URL(item.href)

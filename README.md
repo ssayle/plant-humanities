@@ -33,13 +33,6 @@
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/tamarind.jpg)
 
-## Venus Flytrap: Queen of the Carnivorous Plants
-[Venus Flytrap: Queen of the Carnivorous Plants](venus_flytrap)
-
-- John R. Schaefer
-
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/venus_flytrap_thumbnail.jpg)
-
 ## Ayahuasca: Amazonian Plant Lessons
 [Ayahuasca: Amazonian Plant Lessons](ayahuasca)
 

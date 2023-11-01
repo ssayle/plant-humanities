@@ -71,8 +71,15 @@ function getMenuItems() {
     console.log('menuItemSelected', action, item.href, (window as any).config)
     if (action === 'search') window.open(item.href, '_blank');
     else {
-      let path = 
-      location.pathname = `${((window as any)?.config || {})?.baseurl || '/'}${new URL(item.href).pathname.slice(1)}`
+      let href = new URL(item.href)
+      if (href.origin === location.origin) {
+        let baseurl = ((window as any)?.config || {})?.baseurl || '/'
+        let path = href.pathname
+        if (path.indexOf(baseurl) === -1) path = `${baseurl}${path.slice(1)}`
+        location.pathname = path
+      } else {
+        location.href = item.href
+      }
     }
   }
 

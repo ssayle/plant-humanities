@@ -68,11 +68,14 @@ function getMenuItems() {
     evt.preventDefault()
     let action = item.href.split('/').filter((x:string) => x).pop().toLowerCase()
     action = location.host === action ? 'home' : action
+    console.log('menuItemSelected', action, item.href, (window as any).config)
     if (action === 'search') window.open(item.href, '_blank');
     else {
-      location.href = item.href.length > 0 && item.href[0] === '/'
+      let href = item.href.length > 0 && item.href[0] === '/'
         ? `${((window as any)?.config || {})?.baseurl || '/'}${item.href}`
         : item.href
+      console.log(`href=${href}`)
+      // location.href = href
     }
   }
 

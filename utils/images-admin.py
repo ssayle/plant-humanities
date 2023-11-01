@@ -310,7 +310,7 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
         with open(f'{yaml_path}.yaml', 'w') as f:
           f.write(yaml.safe_dump(props, sort_keys=False, width=float('inf')))
         
-    '''
+
     if md_updated:
       num_updated += 1
       if dryrun:
@@ -320,8 +320,8 @@ def sync_media(essays, media, max=-1, dryrun=False, **kwargs):
           f.write(md)
           # logger.info(f'-> {path}')
       if num_updated == max: break
-    '''
-  
+
+
   '''
   if names_map_updated:
     with open(f'{SCRIPT_DIR}/names_map.tsv', 'w') as f:

@@ -69,7 +69,11 @@ function getMenuItems() {
     let action = item.href.split('/').filter((x:string) => x).pop().toLowerCase()
     action = location.host === action ? 'home' : action
     if (action === 'search') window.open(item.href, '_blank');
-    else location.href = item.href
+    else {
+      location.href = item.href.length > 0 && item.href[0] === '/'
+        ? `${((window as any)?.config || {})?.baseurl || '/'}${item.href}`
+        : item.href
+    }
   }
 
   function titleCase(word:string) {
@@ -220,7 +224,7 @@ function getMenuItems() {
       aria-labelledby="hs-dropdown-custom-icon-trigger">
       <a v-for="item in menuItems" :key="item.href" 
         class="flex items-center gap-x-2 py-2 rounded-md font-sans text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" 
-        :href="item.href"
+        href="javascript;;" 
         @click="menuItemSelected(item, $event)"
       >
         <svg v-if="item.icon" v-html="item.icon.outerHTML" class="w-4 h-4 text-gray-500"></svg>

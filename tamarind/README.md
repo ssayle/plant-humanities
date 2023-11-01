@@ -35,7 +35,7 @@ Though many cultures venerate the tree as sacred or home to gods, some purport t
 
 ### A Tree of Many Names
 From a taxonomic point of view, _Tamarindus indica_, first described as such by Carl Linnaeus in [_Species Plantarum_](https://www.biodiversitylibrary.org/page/26067986) (1753), is considered the only species of the _Tamarindus_ genus and a member of the Fabaceae family. This has not always been the species’ name, however, as earlier scientific practitioners labeled the tree with taxonomic synonyms because they believed the genus to contain different species. Over the course of the seventeenth and eighteenth centuries, _T. indica_ acquired six synonyms, with _Tamarindus occidentalis_ Gaertn., or the “West Indian species,” recurring most often in the botanical literature. The tamarind tree also has garnered a host of colloquial names across the globe.[^ref5] _T. indica_ derives from the Arabic _tamar-al-hindi_, or the date of India, so named after tamarind pulp’s date-like color and texture, which is similar to the Ethiopian vernacular for tamarind, _tommar_. 
-<param ve-d3plus-ring-network url="Book1_Tamarindus_countries.tsv" center="Tamarindus indica L. (1753)">
+<param ve-d3plus-ring-network url="https://raw.githubusercontent.com/plant-humanities/essays/main/tamarind/Book1_Tamarindus_countries.tsv" center="Tamarindus indica L. (1753)">
 <param ve-entity eid="Q1043" title="Carl Linnaeus">
 <param ve-entity eid="Q849308" title="Species plantarum">
 <param ve-entity eid="Q34740" title="genus">

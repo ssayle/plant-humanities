@@ -53,7 +53,7 @@ By 1770, Ellis published an edited version of his 1768 letter in his pamphlet [*
 
 Ellis’ published 1770 description of *Dionaea* reads “The plant, of which I now enclose you an exact figure … shows that Nature may have some views towards its nourishment, in forming the upper joint of its leaf like a machine to catch food.”[^ref12] This description of the flytrap’s deadly maw marks a significant shift in his thinking about the plant as compared to his original September 1768 letter to Linnaeus, in which he mentions neither nourishment nor the capacity of the plant to actually kill insect prey.[^ref13] The complex network of knowledge exchange surrounding the Venus flytrap spanned much of Europe and frequently crossed the Atlantic.
 <param ve-d3plus-ring-network 
-       url="https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/main/John/flytrap-correspondence.tsv"
+       url="https://raw.githubusercontent.com/plant-humanities/essays/main/venus-flytrap/flytrap-correspondence.tsv"
        center="Dionaea muscipula"
        label="The complex network of knowledge exchange surrounding the Venus flytrap spanned much of Europe and frequently crossed the Atlantic.">
 {#paragraph9}

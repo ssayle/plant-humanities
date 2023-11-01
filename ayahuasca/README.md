@@ -172,7 +172,7 @@ Spruce’s work ultimately shaped twentieth-century ethnobotanical interests. Th
 
 Today, many in the West are most familiar with ayahuasca through its incorporation into New Age spiritualism. By the late twentieth century, westerners were flocking to Amazonia in search of an authentic experience with the brew. So profitable was this new fascination with the hallucinogen, that an entire [industry of ayahuasca tourism](https://daily.jstor.org/the-colonization-of-the-ayahuasca-experience/) began to flourish in the Amazon basin. As a result, ayahuasca rituals were westernized to focus on self-exploration and emotional healing under the leadership of new “gringo shamans” and exported through vast networks, particularly into the United States and Canada, but also through Europe, Africa, and Asia.[^ref40]
 <param ve-d3plus-ring-network 
-       url="https://raw.githubusercontent.com/Athaodam/Adventures-with-Ayahuasca/main/Networks.tsv"
+       url="https://raw.githubusercontent.com/plant-humanities/essays/main/ayahuasca/Networks.tsv"
        center="Ayahuasca">                                 
 {#paragraph23}                                                     
  

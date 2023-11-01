@@ -53,7 +53,7 @@ Once introduced to Spain, the domesticated sunflower quickly migrated to parts o
 <param ve-entity eid="Q181916" title="herbarium">
 <param ve-entity eid="Q457191" title="Pietro Andrea Mattioli">
 <param ve-entity eid="Q437466" title="Rembert Dodoens">
-<param ve-d3plus-ring-network url="Helianthus_annuus_network_low_countries_rev.tsv" center="BOTANIST" title="Network of botanists who authored or translated herbals in which the cultivated sunflower was described and, in some cases, represented visually">
+<param ve-d3plus-ring-network url="https://raw.githubusercontent.com/plant-humanities/essays/main/sunflower/Helianthus_annuus_network_low_countries_rev.tsv" center="BOTANIST" title="Network of botanists who authored or translated herbals in which the cultivated sunflower was described and, in some cases, represented visually">
 {#paragraph6}
 
 ### Sunflower Aesthetics in Full Bloom

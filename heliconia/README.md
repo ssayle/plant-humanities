@@ -116,12 +116,12 @@ The close relationship between heliconias and their pollinators highlights the v
 <param ve-entity eid="Q1533239" aliases="midges" title="Ceratopogonidae">
 <param ve-entity eid="Q859257" aliases="flies" title="fly">
 <param ve-d3plus-ring-network 
-       url="https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/develop/data/heliconia_network_interactions.tsv" center="Heliconia imbricata">
+       url="https://raw.githubusercontent.com/plant-humanities/essays/main/data/heliconia_network_interactions.tsv" center="Heliconia imbricata">
 {#paragraph13}
 
 Botany has always been a highly visual science, and our understanding of plants depends partly on the ways in which we have chosen to represent them. One of the conventions of both the botanical portrait and the scientific illustration is the rendering of the singular plant removed from its natural context and portrayed against a neutral background. Similarly, the herbarium sheet removes the plant from its ecosystem, rendering it suitable for transportation, archiving, and future reference and comparison in museums, but divorcing the specimen from its web of interactions and relationships. We know that plants do not exist in isolation; they inhabit rich and diverse habitats populated by many plants, numerous birds, other animals, and microorganisms. Today, many of these highly specialized interactions are severely under threat of extinction. Botanists are therefore using the conventional forms of plant representation, such as herbarium specimens, to understand more about natural habitats of the species and repurposing them to determine effective strategies for their conservation.
 <param ve-d3plus-ring-network 
-       url="https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/develop/data/heliconia_network_relationship_v2.tsv" center="Heliconia imbricata">
+       url="https://raw.githubusercontent.com/plant-humanities/essays/main/data/heliconia_network_relationship_v2.tsv" center="Heliconia imbricata">
 {#paragraph14}
 
 ### Conserving the Diversity of Heliconia

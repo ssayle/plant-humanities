@@ -4,23 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Plant Humanities Lab</title>
-    <link href="/essays/favicon.ico" rel="icon" />
-    <meta name="description" content="Explore the cultural histories of plants and their influence on human societies">
-    <script type="application/ld+json">
-      { "@context" :"https://schema.org",
-        "@type" : "WebSite",
-        "name":"Plant Humanities Lab",
-        "description" : "Explore the cultural histories of plants and their influence on human societies",
-        "headline" : "Explore the cultural histories of plants and their influence on human societies",
-        "url ": "http://localhost:8080/maize"
+    <link href="{{ site.baseurl }}/favicon.ico" rel="icon" />
+    {%- seo -%}
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/main.css">
+
+    <script>
+      window.config = {
+        owner: '{{ site.github.owner }}',
+        repo: '{{ site.github.repo }}',
+        branch: '{{ site.github.branch }}', 
+        baseurl: '{{ site.baseurl }}',
+        components: '{{ site.components }}'
       }
     </script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <link href="/essays/main.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/essays/index.js" type="module"></script>
+    <script src="{{ site.baseurl }}/index.js" type="module"></script>
+
   </head>
   <body>
     <main class="page-content" aria-label="Content">

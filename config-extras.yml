@@ -1,6 +1,3 @@
-components:
-  - /juncture/wc/dist/js/index.js
-
 nav:
   - label: Home
     href: /

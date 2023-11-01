@@ -14,11 +14,13 @@ if (referrerUrl) {
   }
 }
 
-async function getConfigExtras() {
-  let resp = await fetch(`${config.baseurl}config-extras.yml`)
+async function getConfig() {
+  let baseurl = location.pathname.split('/')[1]
+  let resp = await fetch(`${baseurl}config.yml`)
   if (resp.ok) window.config = {
-    ...window.config,
-    ...window.jsyaml.load(await resp.text())
+    ...window.jsyaml.load(await resp.text()),
+    baseurl,
+    isJunctureV1
   }
   return window.config
 }
@@ -293,6 +295,9 @@ function loadDependency(dependency, callback) {
 
 async function init() {
 
+  await getConfig()
+  console.log(config)
+
   let isPreview = location.pathname === `${config.baseurl}/preview/`
   if (isPreview) {
     let [acct, repo, ...path] = location.hash.slice(1).split('/')
@@ -300,15 +305,16 @@ async function init() {
     let md = await getGhFile(acct, repo, branch, `${path.join('/')}/README.md`)
     document.querySelector('main').innerHTML = marked.parse(md)
   }
-
+  
   convertWcTagsToElements()
   structureContent()
   setMeta()
 
-  await getConfigExtras()
-  config.components = config.components ? config.components.split(',').map(l => l.trim()) : []
+  // config.components = config.components ? config.components.split(',').map(l => l.trim()) : []
+  config.components = config.components 
+    ? config.components.map(c => c[0] === '/' ? `${config.baseurl}/${c.slice(1)}` : c )  
+    : []
 
-  console.log(isJunctureV1, config)
   loadDependencies(
     config.components.map(src => ({tag: 'script', type: 'module', src}) ), () => {
     if (isJunctureV1) loadDependencies(junctureDependencies, () => createJunctureV1App())    

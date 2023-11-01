@@ -80,11 +80,12 @@ seo = f'''
 '''
 
 not_found_page = open(f'{BASEDIR}/404.html', 'r').read()
-header = open(f'{BASEDIR}/_includes/header.html', 'r').read()
-footer = open(f'{BASEDIR}/_includes/footer.html', 'r').read()
+header = open(f'{BASEDIR}/_includes/header.html', 'r').read() if os.path.exists(f'{BASEDIR}/_includes/header.html') else ''
+footer = open(f'{BASEDIR}/_includes/footer.html', 'r').read() if os.path.exists(f'{BASEDIR}/_includes/footer.html') else ''
 favicon = open(f'{BASEDIR}/favicon.ico', 'rb').read() if os.path.exists(f'{BASEDIR}/favicon.ico') else None
 
-html_template = open(f'{BASEDIR}/_layouts/default.html', 'r').read()
+html_template = open(f'{BASEDIR}/_layouts/default.html', 'r').read().replace('/essays', 'http://localhost:8080/')
+'''
 html_template = re.sub(r'^\s*{%- include header.html -%}', header, html_template, flags=re.MULTILINE)
 html_template = re.sub(r'^\s*{%- include footer.html -%}', footer, html_template, flags=re.MULTILINE)
 
@@ -96,6 +97,7 @@ html_template = html_template.replace('{{ site.github.repo }}', gh_repo)
 html_template = html_template.replace('{{ site.github.branch }}', gh_branch)
 html_template = html_template.replace('{{ site.baseurl }}', '')
 html_template = html_template.replace('{{ site.components }}', components)
+'''
   
 def html_from_markdown(md, baseurl):
   html = html_template.replace('{{ content }}', markdown.markdown(md, extensions=['extra', 'toc']))

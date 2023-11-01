@@ -71,11 +71,8 @@ function getMenuItems() {
     console.log('menuItemSelected', action, item.href, (window as any).config)
     if (action === 'search') window.open(item.href, '_blank');
     else {
-      let href = item.href.length > 0 && item.href[0] === '/'
-        ? `${((window as any)?.config || {})?.baseurl || '/'}${item.href}`
-        : item.href
-      console.log(`href=${href}`)
-      // location.href = href
+      let path = 
+      location.pathname = `${((window as any)?.config || {})?.baseurl || '/'}${new URL(item.href).pathname.slice(1)}`
     }
   }
 

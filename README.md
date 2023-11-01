@@ -5,6 +5,13 @@
 # Featured Plant Narratives 
 <param class="cards">
 
+## Eggplant: Food, Sex, and Poison
+[Eggplant: Food, Sex, and Poison](eggplant)
+
+- Ana Carolina Carmona-Ribeiro, Nathan Cornish, and Sheila Scoville
+
+![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/eggplant.jpg)
+
 ## Maize: Sacred Plant, Global Commodity
 [Maize: Sacred Plant, Global Commodity](maize)
 
@@ -155,6 +162,12 @@
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/dragon_tree.jpg)
 
+## Eggplant: Food, Sex, and Poison
+[Eggplant: Food, Sex, and Poison](eggplant)
+
+- Ana Carolina Carmona-Ribeiro, Nathan Cornish, and Sheila Scoville
+
+![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/eggplant.jpg)
 ## Heliconia: Evolution at Work
 [Heliconia: Evolution at Work](heliconia)
 

@@ -16,7 +16,7 @@ if (referrerUrl) {
 
 async function getConfig() {
   console.log(location)
-  let baseurl = isGHP ? `/${location.pathname.split('/')[1]}` : '/'
+  let baseurl = isGHP ? `/${location.pathname.split('/')[1]}/` : '/'
   let resp = await fetch(`${baseurl}config.yml`)
   if (resp.ok) window.config = {
     ...window.jsyaml.load(await resp.text()),

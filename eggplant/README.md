@@ -105,7 +105,7 @@ Cultural clues mark the path of eggplant from China to the fields and kitchens o
        attribution="National Museum of Korea"
        fit="contain">
 <param ve-image 
-       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/Seikei_Zusetsu.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/Seikei Zusetsu.jpg"
        label="So Senshun, Shirao Kunihashira, Mukai Tomoaki, Hori Monjuro, Seikei Zusetsu (1793–1804)"
        description="Ser. 1042 vol. 26, page 027"
        license="CC BY-SA 4.0"

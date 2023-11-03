@@ -36,12 +36,13 @@ From its domestication in Asia to its worldwide diffusion, eggplant raises the q
 ### Local Names, Global Food
 In 1753, <span eid="Q1043">Carl Linnaeus</span> devised the scientific name [_Solanum melongena_](https://www.biodiversitylibrary.org/page/358205) for the common or Asian eggplant, following his game-changing system of <span eid="Q36642">binomial nomenclature</span>, but the etymologies of its vernacular names outline a far messier cloverleaf of global exchange. Used by North Americans, the name _eggplant_ was coined centuries ago by the English, who now prefer the French word _aubergine_, which seems to be a corruption of the Arab _al-bāḏinjān_. Portuguese and Spanish speakers use the Arab-based names _berinjela_ and _berenjena_. Most of this Western alphabet soup is likely owed to the Indian word _baingãn_, even though India now uses _brinjal_, a corruption of the already corrupted Portuguese _berinjela_. While some African countries use _brinjal_, the region of the former Ethiopian Empire opts for _mälänzana_, based on _melanzana_ from Italy, where the plant was first known as _mala insana_ (“mad apple”) due to its reputation as an exotic nightshade.
 <param ve-image
-       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/brinjal_Lydia%20Rabkin.png"
+       url="eggplant/brinjal_Lydia Rabkin.png"
        label="Historical diffusion of words for eggplant" 
        description="Eggplant etymologies map"
        attribution="© Lydia Rabkin"
        region="137,-342,1861,1712"
        fit="contain">
+       
 {#paragraph4}
 
 As a quasi-vegetable that quickly oxidizes, is tricky to cook, and contains the toxic alkaloids solanine and nicotine, eggplant defies easy categorization, even “what is food and what is not,” for those cultures who encountered it relatively late.[^ref7] Though exactly where this crop was domesticated and how it was distributed remain open questions, a [map of its current production](https://en.wikipedia.org/wiki/List_of_countries_by_eggplant_production) mirrors some of its journey across the globe. More than 80 percent of the world’s supply comes from China and India—where certain species have been consumed for 2,000–4,500 years—followed by Egypt, Turkey, and Indonesia.[^ref8] Over time, what was an ancient and storied plant in tropical Asia became richly appreciated throughout the rest of the continent. But when _mala insana_ reached Europe, its mystique aroused suspicion. Around the same time, the Columbian exchange introduced this “mad apple” to the Western Hemisphere, where it has faltered as everyday fare, but attracted other meanings with its aesthetic virtues.

@@ -105,7 +105,7 @@ Cultural clues mark the path of eggplant from China to the fields and kitchens o
        attribution="National Museum of Korea"
        fit="contain">
 <param ve-image 
-       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/Seikei_Zusetsu.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/Seikei Zusetsu.jpg"
        label="So Senshun, Shirao Kunihashira, Mukai Tomoaki, Hori Monjuro, Seikei Zusetsu (1793–1804)"
        description="Ser. 1042 vol. 26, page 027"
        license="CC BY-SA 4.0"
@@ -235,7 +235,7 @@ Dozens of eggplant varieties and cultivars are grown today,[^ref43] as this genu
 ### Aesthetic Virtues: Eggplant in Modern Art
 As _S. melongena_ settled into Western culture, its aesthetic and exotic qualities drew the attention of European and North American artists. Eggplant became an artistic subject, demonstrating how art and food are related even in highly industrialized and urbanized societies. Representations surfaced in the applied arts, such as an eggplant-shaped [Majolica ceramic teapot](http://majolicasociety.com/majolica-history/) or a leaded glass screen made by Tiffany & Co., for a transom window using a typical <span eid="Q34636">Art Nouveau</span> design that depicts the plant with deep black fruit and multicolored leaves. In Henri Matisse’s [_Still Life with Aubergines_ (1911)](https://www.museedegrenoble.fr/oeuvre/1581/1922-interieur-aux-aubergines.htm), three eggplants represent more than culinary ingredients. “Balanced precariously on a table whose red cloth carries an undulating white pattern that reinforces their tuberous shape,”[^ref45] they are the visual starting point of a decorative explosion of textures and colors throughout the interior and beyond. In this picture, Matisse converts his studio into a space permeated by one of his fundamental themes, _joie de vivre_ (“the joy of life”). In this personal recreation of paradise, eggplant, without losing its domestic character, is reconnected to its “remote” Asian origins.
 <param ve-image 
-       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/majolica_teapot.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/majolica_teapot.png"
        label="Portuguese Majolica teapot (20th century)"
        description="Eggplant shaped ceramic teapot"
        attribution="Karmason-Stacke Graham Library"

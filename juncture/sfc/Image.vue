@@ -469,17 +469,15 @@ module.exports = {
       }
     },
     async loadAnnotations() {
-      // console.log('loadAnnotations')
       let annosFile = `${this.currentItemSourceHash}.json`
-      let path = `${this.mdDir}/${annosFile}`
-      console.log(location)
-      fetch(`${location.pathname}/${annosFile}`).then(resp => {
-        console.log('resp', resp)
-      })
-      this.getFile(path, this.contentSource.acct, this.contentSource.repo, this.contentSource.ref).then(annos => {
-        if (annos && annos.content && annos.content.length > 0) {
-          // this.annotations = JSON.parse(annos.content)
-          this.annotations = annos.content
+      let annosPath = `${location.pathname}/${annosFile}`
+      console.log(`loadAnnotations: ${annosPath}`)
+      let resp = await fetch(`${location.pathname}/${annosFile}`)
+      if (resp.ok) {
+        let annos = await resp.json()
+        console.log('annos', annos)
+        if (annos.length > 0) {
+          this.annotations = annos
           if (!Array.isArray(this.annotations) && this.annotations.items) this.annotations = this.annotations.items
           this.annotations.forEach(anno => this.annotator.addAnnotation(anno))
         } else {
@@ -487,7 +485,7 @@ module.exports = {
         }
         this.annoCursor = 0
         if (this.annotations.length > 0) this.showAnnotationsNavigator = true
-      })
+      }
     },
     saveAnnotations() {
       this.annotations = this.annotator.getAnnotations()

@@ -29,8 +29,7 @@ module.exports = {
     entities: { type: Object, default: () => ({}) },
     params: { type: Array, default: () => ([]) },
     availableViewers: { type: Array, default: () => ([]) },
-    scrollTop: { type: Number, default: 0 },
-    contentSource:  { type: Object, default: () => ({}) }
+    scrollTop: { type: Number, default: 0 }
   },
   data: () => ({
     processedHtml: '',

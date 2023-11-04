@@ -764,6 +764,9 @@ Vue.mixin({
       if (repo) {
         // let url = `https://api.github.com/repos/${acct}/${repo}/contents${path}?ref=${ref}`
         // let resp = await fetch(url, ghToken ? {headers: {Authorization:`Token ${ghToken}`}} : {})
+        fetch(path).then(resp => {
+          console.log('resp', resp)
+        })
         let resp = await fetch(`https://raw.githubusercontent.com/${acct}/${repo}/${ref}/${path}`)
         if (resp.ok) {
           resp = await resp.json()

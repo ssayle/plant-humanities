@@ -472,6 +472,10 @@ module.exports = {
       // console.log('loadAnnotations')
       let annosFile = `${this.currentItemSourceHash}.json`
       let path = `${this.mdDir}/${annosFile}`
+      console.log(location)
+      fetch(`${location.pathname}/${annosFile}`).then(resp => {
+        console.log('resp', resp)
+      })
       this.getFile(path, this.contentSource.acct, this.contentSource.repo, this.contentSource.ref).then(annos => {
         if (annos && annos.content && annos.content.length > 0) {
           // this.annotations = JSON.parse(annos.content)

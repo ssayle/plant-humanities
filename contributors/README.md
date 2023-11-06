@@ -260,7 +260,7 @@ Amara Santiesteban is a biologist specializing in botany from the Autonomous Uni
 
 ## John R. Schaefer
 
-[John R. Schaefer]
+[John R. Schaefer]()
 
 ![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Schaefer.jpg)
 

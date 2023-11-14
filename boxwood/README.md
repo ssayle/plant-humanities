@@ -65,7 +65,7 @@
 	fps="0.5"
 	fill="red"
 	auto-play="true">
-<param ve-map-layer geojson url="us-states.json">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/boxwood/us-states.json">
 {#paragraph1}
 
 Boxwood is a genus of evergreen shrubs that enjoys great commercial success as ornamental garden plants. Among its varieties and cultivars, the most popular is arguably English or common boxwood (_Buxus sempervirens_ ‘Suffruticosa’), native to western and southern Europe, northwest Africa, and southwest Asia. In the United States—where this cultivated variety had been mass introduced on the wave of the early twentieth-century interest in European gardens—its sales, until recently, represented the greatest proportion (around 15%) among broadleaf evergreens, reaching an annual revenue of $126 million in 2014.[^ref2] A boxwood-flanked promenade, in the words of landscape architect Diane McGuire, was historically "the most common element found in almost every garden in the southern United States."
@@ -86,9 +86,9 @@ One of the finest among these, Dumbarton Oaks—designed by Beatrix Farrand begi
 	zoom="17.8"
 	marker-type="none">
 <param ve-map-layer mapwarper mapwarper-id="50944" active>
-<param ve-map-layer geojson url="box-walk.json">
-<param ve-map-layer geojson url="box-terrace.json">
-<param ve-map-layer geojson url="box-ellipse.json">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/boxwood/box-walk.json">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/boxwood/box-terrace.json">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/boxwood/box-ellipse.json">
 {#paragraph3}
 
 ### "A Plant Known to Everybody"
@@ -103,8 +103,8 @@ How did boxwood come to represent the lasting legacy of the European garden trad
 	stroke-width="0"
 	fill="green"
 	fill-opacity="1">
-<param ve-map-layer geojson active url="/geojson/Buxus_sempervirens_plg.json">
-<param ve-map-layer geojson active url="/geojson/Buxus_sempervirens_pnt.json">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/boxwood/Buxus_sempervirens_plg.json">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/boxwood/Buxus_sempervirens_pnt.json">
 {#paragraph4}
 
 ### Ancient Love vs. Early Modern Dismissal

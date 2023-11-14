@@ -25,7 +25,7 @@ As the tongue goes numb and all efforts fail to remove the scarlet, sticky subst
 <param title="Canary Islands" eid="Q5813" aliases="Canary Islands">
 <param ve-image
 	primary
-	manifest="https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/manifest/8a1g2/manifest.json"
+	manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/dragon-tree/923a4fd5cd19774b9251274f6c0edbf8f355bdb575101414f54cff74c404fc4e.jpg/manifest.json"
 	fit="contain">
 {#paragraph1}
 
@@ -40,7 +40,7 @@ Members of today’s _Dracaena_ genus have long been valued for their signature 
 <param title="Dracaena cinnabari" eid="Q133560">
 <param title=resin" eid="Q145205">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon_tree/e1637c277aec8ab1f77a9717561584e57eda0ed96e72f1033f17811858df1552.yaml/manifest.json"
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/e1637c277aec8ab1f77a9717561584e57eda0ed96e72f1033f17811858df1552.yaml/manifest.json"
 	region="-45,191,1591,1127">
 {#paragraph2}
 
@@ -48,7 +48,7 @@ As the eleventh labor of his famous twelve, Hercules was sent to steal the golde
 <param title="Hercules" eid="Q122248">
 <param title="Ladon" eid="Q274600">
 <param ve-compare region="0,371,1570,1428" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/Dragons_blood_tree_Flickr_%20Rod_Waddington_CC_BY_SA_2.0.jpg/manifest.json">
-<param ve-compare region="372,651,704,640" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon_tree/45a005cbd95f77cd2ae2ec3f11b724a48fc269497d7224d3f331013775d874e5.yaml/manifest.json">
+<param ve-compare region="372,651,704,640" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/45a005cbd95f77cd2ae2ec3f11b724a48fc269497d7224d3f331013775d874e5.yaml/manifest.json">
 {#paragraph3}
 
 European understandings of the dragon tree evolved as scientific botany developed from the late medieval through the early modern periods, and the myths and legends of antiquity surrounding the tree became artifacts of the past. Native to the Canary Islands, Cape Verde, and Madeira—and recently found growing natively on the west coast of Morocco—_D. draco_ is somewhat ubiquitous along the northwestern coast of Africa. Evidently, the tree and its resin were an important feature of the economy and magico-medicine of the Canary Islands even before colonial contact. Thus, when French explorer Jean de Béthencourt became the first European to write of _D. draco_ in 1402, he recounted an elaborate trade of fishing hooks, knives, and iron in exchange for figs and dragon’s blood between his crew and 500 Guanches, the indigenous population of the Canary Islands.[^ref4]
@@ -93,10 +93,10 @@ Throughout its dissemination into European spaces from the Age of Discovery, dra
 <param title="John Parkinson" eid="Q256288">
 <param title="Azores" eid="Q4058447">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon_tree/a2f712a0de4cc85c1dbc51c46a2937f223db11debca16dd08348234cb540c1b1.yaml/manifest.json"
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/a2f712a0de4cc85c1dbc51c46a2937f223db11debca16dd08348234cb540c1b1.yaml/manifest.json"
 	region="2,942,1802,1314">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon_tree/b29673bd016ac3a6e02314d37b9712f996da8f798f3438ea44c8aea699440cda.yaml/manifest.json"
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/b29673bd016ac3a6e02314d37b9712f996da8f798f3438ea44c8aea699440cda.yaml/manifest.json"
 	region="1,478,1831,1297">
 {#paragraph7}
 

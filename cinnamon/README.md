@@ -50,7 +50,7 @@ Another, much more surprising reason for the long-lasting confusion over cinnamo
 	title="The proposed "Cinnamon Route" of antiquity, by J. Innes Miller. According to this theory, the Indian Ocean world consisted of connected zones of maritime activity. In the green areas, single-outrigger canoes were the most important means of transportation, while the area outlined in red was dominated by double-outrigger canoes. With this theory, Miller was able to connect the East African origin of cinnamon—as mentioned in classical sources—with the native habitats of _Cinnamomum verum_ and _C. cassia_. Adaptation of the map in John M. Riddle, _Dioscorides on Pharmacy and Medicine_ (Austin: University of Texas Press, 1985), 99, which was based on J. Innes Miller, _The Spice Trade of the Roman Empire, 29 B.C. to A.D. 641_ (Oxford: Clarendon Press, 1969), 172. Miller himself based his theory on the work of James Hornell, _Water Transport: Origins & Early Evolution_ (Cambridge: The University Press, 1946)."
 	center="-2.2560042688001136, 101.40221376190884"
 	zoom="3">
-<param ve-map-layer geojson url="Spice-Route-of-Antiquity_Miller-1969.json">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Spice-Route-of-Antiquity_Miller-1969.json">
 {#paragraph4}
 
 ### Cinnamon as a Tool of Empire
@@ -83,13 +83,13 @@ Once true cinnamon had begun to be understood as cinnamon from Sri Lanka (histor
 	center="8.050740, 80.654834"
 	zoom="7.4"
 	show-labels>
-<param ve-map-layer geojson url="Kingdom-of-Kotte.json" title="Kingdom of Kotte (green)">
-<param ve-map-layer geojson url="Kingdom-of-Jaffna.json" title="Kingdom of Jaffna (red)">
-<param ve-map-layer geojson url="Wanni-region_north.json" title="Wanni region north (brown)">
-<param ve-map-layer geojson url="Wanni-region_south.json" title="Wanni region south (brown)">
-<param ve-map-layer geojson url="Kingdom-of-Kandy.json" title="Kingdom of Kandy (yellow)">
-<param ve-map-layer geojson url="Kingdom-of-Sitawaka.json" title="Kingdom of Sitawaka (purple)">
-<param ve-map-layer geojson url="Principality-of-Raigama.json" title="Principality of Raigama (blue)">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Kingdom-of-Kotte.json" title="Kingdom of Kotte (green)">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Kingdom-of-Jaffna.json" title="Kingdom of Jaffna (red)">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Wanni-region_north.json" title="Wanni region north (brown)">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Wanni-region_south.json" title="Wanni region south (brown)">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Kingdom-of-Kandy.json" title="Kingdom of Kandy (yellow)">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Kingdom-of-Sitawaka.json" title="Kingdom of Sitawaka (purple)">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Principality-of-Raigama.json" title="Principality of Raigama (blue)">
 {#paragraph7}
 
 ### Optimizing the Monopoly

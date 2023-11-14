@@ -71,7 +71,7 @@ function setMeta() {
   if (meta && meta.getAttribute('ve-config') === null) meta.remove()
   jldEl.innerText = JSON.stringify(seo)
 
-  console.log('setMeta', {title, description, robots, seo})
+  console.log({title, description, robots, seo})
 }
 
 function structureContent() {

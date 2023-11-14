@@ -21,7 +21,7 @@
 ### The Mysterious Tree of Life
 
 In his 1640 herbal _Theatrum Botanicum_, John Parkinson described the "tree of life," or "arbor vitæ," as ["a tall tree being similar to a cypress and covered by a dark reddish bark on the trunk and an even redder bark on the branches."](https://www.biodiversitylibrary.org/page/56601375#page/1502/mode/1up) Parkinson went on to explain that the tree, unknown to the ancients, originated in the New World and was introduced to Europe by the French. He explained that while it was presented to the French King, Francis I, as the tree of life he had no idea why. Clearly, Parkinson was unaware of the miraculous stories associated with arbor vitæ.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml/manifest.json">
 <param title="John Parkinson" eid="Q256288">
 <param title="Francis I of France" eid="Q129857" aliases="Francis I">
 {#paragraph1}
@@ -53,11 +53,11 @@ According to Ramusio’s narrative, the tree used to cure the French explorers w
 ### Indigenous Coniferous Medicinal Knowledge
 
 Through linguistic, botanical, and historical analysis numerous trees have been put forward as the miraculous tree that saved Cartier and his men–the balsam fir (_Abies balsamea_), white spruce (_Picea glauca_), red spruce (_Picea rubens_), black spruce (_Picea mariana_), eastern white pine (_Pinus strobus_), red pine (_Pinus resinosa_), white cedar (_Thuja occidentalis_), and eastern hemlock (_Tsuga canadensis_). Even sassafras (_Sassafras albidum_) has been considered, although it is generally agreed that based on sixteenth-century descriptions and its natural distribution, sassafras could not be a candidate.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/06899bdb35b51e3aa242683600d76bdda3e75cf77b6be6d641c4d02f42f9a6c2.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/2590dcc37f428c625d7501b5c5c15d0cb82d841f5932674dc88b61bf8b338be3.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/c4cb01176ad0111c3176708c6d95ee14be07bbf2c38baf593136b44f6510df3d.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/57153230461530f57f2f89fbfbc592524bb7bddb7e8cfcbc16e01028ff8d8404.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/b921b36b61895a1fc848fc4c37180b9b3b70085a48062e47d7db42231e488e8d.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/06899bdb35b51e3aa242683600d76bdda3e75cf77b6be6d641c4d02f42f9a6c2.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/2590dcc37f428c625d7501b5c5c15d0cb82d841f5932674dc88b61bf8b338be3.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/c4cb01176ad0111c3176708c6d95ee14be07bbf2c38baf593136b44f6510df3d.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/57153230461530f57f2f89fbfbc592524bb7bddb7e8cfcbc16e01028ff8d8404.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/b921b36b61895a1fc848fc4c37180b9b3b70085a48062e47d7db42231e488e8d.yaml/manifest.json">
 <param title="Abies balsamea" eid="Q428023" aliases="fir">
 <param title="Picea glauca" eid="Q128116">
 <param title="Picea rubens" eid="Q469151" aliases="red spruce">
@@ -126,10 +126,10 @@ It is clear that by the mid-seventeenth century much of the medicinal knowledge 
 {#paragraph15}
 
 In 1753, botanist Carl Linnaeus’s pioneering work, _Systema Naturae_, which cemented a system of binomial classification for plants, identified the arbor vitæ, the _Thuja Theophrasis_, and the _Thuja strobilis lævibus_ as the same plant, which he reclassified as [_Thuja occidentalis_.](https://www.biodiversitylibrary.org/page/359023#page/444/mode/1up) Since then, _Thuja occidentalis_ has generally been accepted as the Ameda tree that saved Cartier and his men.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/c0e159b31943ffdd1e9ca4ee375cab4fb943eee135123a8e6fbe61895f2abce5.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/8e20ed504a26ed8c6e857ba507a5d0d445c17cb5e226a7ddd34be988bf46d8de.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor_vitae/4c243d16800bb00d3fe8396c3c685d214d67327657ce8eddfa4be582866b1e64.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/c0e159b31943ffdd1e9ca4ee375cab4fb943eee135123a8e6fbe61895f2abce5.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/8e20ed504a26ed8c6e857ba507a5d0d445c17cb5e226a7ddd34be988bf46d8de.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/4c243d16800bb00d3fe8396c3c685d214d67327657ce8eddfa4be582866b1e64.yaml/manifest.json">
 <param title="Carl Linnaeus" eid="Q1043">
 {#paragraph16}
 

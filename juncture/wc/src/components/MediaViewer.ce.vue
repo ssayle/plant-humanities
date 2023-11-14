@@ -543,7 +543,7 @@
         // .filter(li => li.innerHTML)
         .map(li => {
           let tokens:string[] = []
-          let s = li.textContent?.replace(/“/,'"').replace(/”/,'"').replace(/’/,"'").trim()
+          let s = li.textContent?.replace(/"/,'"').replace(/"/,'"').replace(/’/,"'").trim()
           s?.match(/[^\s"]+|"([^"]*)"/gmi)?.forEach(token => {
             if (tokens.length > 0 && tokens[tokens.length-1].indexOf('=') === tokens[tokens.length-1].length-1) tokens[tokens.length-1] = `${tokens[tokens.length-1]}${token}`
             else tokens.push(token)

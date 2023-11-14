@@ -58,7 +58,7 @@ While representing whole plants with roots had become a somewhat standard practi
 
 
 ### What's in a Family Name? 
-*Dioscorea villosa* was used by indigenous peoples in North and Central America for centuries before it was encountered, described, and drawn by colonial botanists. The genus Dioscorea was named by <span eid="Q468460">Charles Plumier</span>, a French colonial botanist, who encountered the plant during his journeys to the Western Caribbean in 1689, 1693, and 1695, to explore and investigate species for botanical resources. In 1703, Plumier published a description and illustration of *Dioscorea* along with many other findings from his three botanical expeditions in [*Nova Plantarum Americanarum Genera*](https://www.biodiversitylibrary.org/item/120812#page/11/mode/1up).[^ref7] Like other European botanists of his day, Plumier was sent to the Americas to selectively explore and investigate species for the purpose of finding commercially valuable botanical resources, a practice now known as bioprospecting. As Gian Carlo Delgado, a researcher at the Interdisciplinary Research Centre on Sciences and Humanities National Autonomous University of Mexico writes, bioprospecting “relies on the knowledge of rural and indigenous communities that have established an intimate relationship with nature since precapitalist times.”[^ref8] Botany became another tool of colonial expansion in the eighteenth century that continues to extract indigenous knowledge to this day.[^ref9]    
+*Dioscorea villosa* was used by indigenous peoples in North and Central America for centuries before it was encountered, described, and drawn by colonial botanists. The genus Dioscorea was named by <span eid="Q468460">Charles Plumier</span>, a French colonial botanist, who encountered the plant during his journeys to the Western Caribbean in 1689, 1693, and 1695, to explore and investigate species for botanical resources. In 1703, Plumier published a description and illustration of *Dioscorea* along with many other findings from his three botanical expeditions in [*Nova Plantarum Americanarum Genera*](https://www.biodiversitylibrary.org/item/120812#page/11/mode/1up).[^ref7] Like other European botanists of his day, Plumier was sent to the Americas to selectively explore and investigate species for the purpose of finding commercially valuable botanical resources, a practice now known as bioprospecting. As Gian Carlo Delgado, a researcher at the Interdisciplinary Research Centre on Sciences and Humanities National Autonomous University of Mexico writes, bioprospecting "relies on the knowledge of rural and indigenous communities that have established an intimate relationship with nature since precapitalist times."[^ref8] Botany became another tool of colonial expansion in the eighteenth century that continues to extract indigenous knowledge to this day.[^ref9]    
 
 <param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/Dioscoreavillosa/dv_nova.PNG"
        label="Charles Plumier's representation of Dioscorea, created during his bioprospecting trip to the western Caribbean in 1703. Source: Biodiversity Heritage Library."
@@ -109,7 +109,7 @@ In 1938, <span eid="Q7381482">Russell E. Marker</span>, a chemist working at Pen
        author="Benjah-bmm27, 2006."
        fit="contain">
 
-Marker was not a botanist, nor was he particularly interested in plants. Yet, in 1940, he published a paper describing how he had successfully extracted “the powdered rhizomes of *Dioscorea villosa* with a procedure similar to that used in the isolation of sarsapogenin.”[^ref16] He compared a sample of diosgenin that his Japanese colleagues sent to confirm his results. That same year, he was also able to produce progesterone from diosgenin. Marker’s experiments confirmed that the genus *Dioscorea* was a readily available source of diosgenin that could revolutionize the expensive production of progesterone. 
+Marker was not a botanist, nor was he particularly interested in plants. Yet, in 1940, he published a paper describing how he had successfully extracted "the powdered rhizomes of *Dioscorea villosa* with a procedure similar to that used in the isolation of sarsapogenin."[^ref16] He compared a sample of diosgenin that his Japanese colleagues sent to confirm his results. That same year, he was also able to produce progesterone from diosgenin. Marker’s experiments confirmed that the genus *Dioscorea* was a readily available source of diosgenin that could revolutionize the expensive production of progesterone. 
 
 <param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/Dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/Dioscoreavillosa/global_range.jpg"
        label="The native and introduced distribution of the Dioscorea genus ranges across the globe. Map adapted from the Royal Botanic Gardens, Kew, Digital Repository. Map by author."
@@ -119,14 +119,14 @@ Marker was not a botanist, nor was he particularly interested in plants. Yet, in
 
 ### Striking Out: Marker in the Mexican Landscape
 
-Despite its seeming abundance, the yield of diosgenin from *Dioscorea villosa* was low, and therefore not economically feasible. Marker tried producing the compound from other plants, including Beth root, or *Trillium erectum*, which he gathered on an expedition to North Carolina. He noted “the roots are only about the size of your thumb. Collection of one hundred pounds a year would be about the limit.”[^ref17] In 1942, he updated his findings, writing “the easy conversion of diosgenin to progesterone made necessary the investigation of additional plant sources.” He lists eight additional species, all sampled in the eastern United States.[^ref18]   
+Despite its seeming abundance, the yield of diosgenin from *Dioscorea villosa* was low, and therefore not economically feasible. Marker tried producing the compound from other plants, including Beth root, or *Trillium erectum*, which he gathered on an expedition to North Carolina. He noted "the roots are only about the size of your thumb. Collection of one hundred pounds a year would be about the limit."[^ref17] In 1942, he updated his findings, writing "the easy conversion of diosgenin to progesterone made necessary the investigation of additional plant sources." He lists eight additional species, all sampled in the eastern United States.[^ref18]   
 
 <param ve-image url="https://upload.wikimedia.org/wikipedia/commons/2/2e/Red_Trillium_plant%2C_Mer_Bleue.jpg"
        label="Beth root, one of the species Marker harvested while trying to find a cheaper source of diosgenin. Image credit: D. Gordon E. Robertson, 2012. Via Wikimedia Commons."
        author="D. Gordon E. Robertson, 2012."
        fit="contain">
 
-[Marker](https://www.acs.org/content/dam/acsorg/education/whatischemistry/landmarks/progesteronesynthesis/marker-degradation-creation-of-the-mexican-steroid-industry-by-russell-marker-commemorative-booklet.pdf) ultimately decided that “no plant in northern North America contained sufficient material to be an inexhaustible source of <span eid="Q177911">steroids</span> for medicinal purposes,” and set out beyond the eastern United States in search of an economically feasible source of diosgenin, focusing on the genus *Dioscorea*.[^ref19] Botanists from Penn State connected him to their networks, and while spending time with a botanist in Texas, he opened a random book by his bedside where he saw the image of a large, tuberous root. The caption read, “This specimen was collected just where the highway from Mexico to Veracruz, between Orizaba and Cordoba, crosses over the Barranca [gorge] de Metlac.” Marker left for Mexico in 1941, searching for a species he knew in his extremely limited Spanish as *cabeza de negro*.[^ref20] 
+[Marker](https://www.acs.org/content/dam/acsorg/education/whatischemistry/landmarks/progesteronesynthesis/marker-degradation-creation-of-the-mexican-steroid-industry-by-russell-marker-commemorative-booklet.pdf) ultimately decided that "no plant in northern North America contained sufficient material to be an inexhaustible source of <span eid="Q177911">steroids</span> for medicinal purposes," and set out beyond the eastern United States in search of an economically feasible source of diosgenin, focusing on the genus *Dioscorea*.[^ref19] Botanists from Penn State connected him to their networks, and while spending time with a botanist in Texas, he opened a random book by his bedside where he saw the image of a large, tuberous root. The caption read, "This specimen was collected just where the highway from Mexico to Veracruz, between Orizaba and Cordoba, crosses over the Barranca [gorge] de Metlac." Marker left for Mexico in 1941, searching for a species he knew in his extremely limited Spanish as *cabeza de negro*.[^ref20] 
       
 <param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/Dioscoreavillosa/orizaba.jpg"
        label="An aerial view of Orizaba in Veracruz (Keystone View Company, 1919). Source: Library of Congress."
@@ -162,7 +162,7 @@ World War II shortened Marker’s first collecting trip in Mexico, and he return
        author="Amada44,2011."
        fit="constrain">
        
-Marker committed an act of <span eid="Q864679">biopiracy</span> in bringing the plant back to the United States. He had entered the sovereign state of Mexico with an introductory letter expressing his interest in “working on some hormone projects intimately related to the National Defense [of the United States].”[^ref23] He viewed the plant as a natural resource for drug development, without consideration of the deep-rooted history or indigenous traditions associated with the plant.[^ref24] For Marker, the species were interchangeable, except for the amount of diosgenin in their roots.[^ref25]   
+Marker committed an act of <span eid="Q864679">biopiracy</span> in bringing the plant back to the United States. He had entered the sovereign state of Mexico with an introductory letter expressing his interest in "working on some hormone projects intimately related to the National Defense [of the United States]."[^ref23] He viewed the plant as a natural resource for drug development, without consideration of the deep-rooted history or indigenous traditions associated with the plant.[^ref24] For Marker, the species were interchangeable, except for the amount of diosgenin in their roots.[^ref25]   
 
 <param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/Dioscoreavillosa/dv_map3-01-01.jpg"
        label="Marker crossed the border back into the United States with a single tuber to return to his laboratory at Penn State."
@@ -235,23 +235,23 @@ The proposed herbarium sheet was conceptualized and developed in [Thinking Throu
 
 [^ref1]: E.W. Hervey, *North America: US and Canada (Region): United States of America: Massachusetts: Bristol County: New Bedford.* 1903.
 [^ref2]: Yota Batsaki, "The Apocalyptic Herbarium: Mourning and Transformation in Anselm Kiefer's Secret of the Ferns," *Environmental Humanities* 13, no. 2 (2012): 391–413. 
-[^ref3]: Encyclopedia Britannica, “Rhizome.” *Encyclopedia Britannica* 2020. Accessed May 29, 2022. 
-[^ref4]: North American Native Plant Society, “*Dioscorea villosa*, Wild yam.” *North American Native Plant Society*. Accessed March 27, 2021. 
+[^ref3]: Encyclopedia Britannica, "Rhizome." *Encyclopedia Britannica* 2020. Accessed May 29, 2022. 
+[^ref4]: North American Native Plant Society, "*Dioscorea villosa*, Wild yam." *North American Native Plant Society*. Accessed March 27, 2021. 
 [^ref5]: Arthur O. Tucker and Jules Janick, *Flora of the Codex Cruz-Badianus* (Cham, Switzerland: Springer International Publishing, 2020), 46–47. 
 [^ref6]: Tucker, *Flora*. 
 [^ref7]: Charles Plumier, *Nova plantarum americanum* (Paris: Regis and Regix Scientiatum Academiae Typrographum, 1703).
-[^ref8]: Gian Carlo Delgado, “Biopiracy and Intellectual Property as the Basis for Biotechnological Development: The Case of Mexico,” *International Journal of Politics, Culture and Society* 16, no. 2 (2002): 297–318. 
+[^ref8]: Gian Carlo Delgado, "Biopiracy and Intellectual Property as the Basis for Biotechnological Development: The Case of Mexico," *International Journal of Politics, Culture and Society* 16, no. 2 (2002): 297–318. 
 [^ref9]: Londa Schiebinger, *Plants and Empire: Colonial Bioprospecting in the Atlantic World* (Cambridge, MA: Harvard University Press, 2004).
 [^ref10]: Gabriela Soto Laveaga, *Jungle laboratories: Mexican peasants, national projects and the making of the pill* (Durham: Duke University Press, 2009).
 [^ref11]: A.F. Sievers, *The Herb Hunter’s Guide*. Misc. Publication No. 77. Washington, D.C.: USDA, 1930.
 [^ref12]: Charles Frederick Millspaugh, *American medicinal plants: an illustrated and descriptive guide to the American plants used as homeopathic remedies: their history, preparation, chemistry and physiological effects* (New York: Boericke and Tafel, 1884–1887).
 [^ref13]: Otto A. Wall, *A Handbook of Pharmacognosy* (St. Louis, MO: C.V. Mosby Co., 1917).
-[^ref14]: American Chemical Society and Sociedad Quimica de Mexico, *The “Marker Degradation” and the Creation of the Mexico Steroid Hormone Industry 1938-1945* (University Park, PA: American Chemical Society, 1999).
-[^ref15]: T. Tsukamoto, Y. Ueno and Z. Ota, “Constitution of diosgenin. I. Glucoside of Dioscorea Tokoro Makino,” *Journal of the Pharmaceutical Society of Japan* 56 (1936): 931–940. 
-[^ref16]: Russell E. Marker, D.L. Turner, and P.R. Ulshafer, “Sterols. CIV. Diosgenin from certain America plants,” *Journal of the American Chemical Society* 62 (September 1940): 2542–2543. 
+[^ref14]: American Chemical Society and Sociedad Quimica de Mexico, *The "Marker Degradation" and the Creation of the Mexico Steroid Hormone Industry 1938-1945* (University Park, PA: American Chemical Society, 1999).
+[^ref15]: T. Tsukamoto, Y. Ueno and Z. Ota, "Constitution of diosgenin. I. Glucoside of Dioscorea Tokoro Makino," *Journal of the Pharmaceutical Society of Japan* 56 (1936): 931–940. 
+[^ref16]: Russell E. Marker, D.L. Turner, and P.R. Ulshafer, "Sterols. CIV. Diosgenin from certain America plants," *Journal of the American Chemical Society* 62 (September 1940): 2542–2543. 
 [^ref17]: Russell E. Marker, interviewed by Jeffrey L. Sturchio at Pennsylvania State University on April 17, 1987. Philadelphia: Science History Institute, n.d. Oral History Transcript 0068. 
-[^ref18]: Russell E. Marker, R.B. Wagner and Paul R. Ulshafer, “Sterols. CXLVI. Sapogenins. LX. Some New Sources of Diosgenin,” *Journal of American Chemical Society* 64 (1942):1283–1285. 
-[^ref19]: Pedro Lehmann, “Early History of Steroid Chemistry in Mexico: the story of three remarkable men,” *Steroids* 57, no. 8 (1992): 403–408; Laveaga, *Jungle*.   
+[^ref18]: Russell E. Marker, R.B. Wagner and Paul R. Ulshafer, "Sterols. CXLVI. Sapogenins. LX. Some New Sources of Diosgenin," *Journal of American Chemical Society* 64 (1942):1283–1285. 
+[^ref19]: Pedro Lehmann, "Early History of Steroid Chemistry in Mexico: the story of three remarkable men," *Steroids* 57, no. 8 (1992): 403–408; Laveaga, *Jungle*.   
 [^ref20]: Lehmann, "Steroid."
 [^ref21]: R. Govaerts, P. Wilkin and R.M.K. Saunders, *World Checklist of Dioscoreales:Yams and their allies,* Kew: The Board of Trustees of the Royal Botanic Gardens, 2007; Laveaga, *Jungle*.
 [^ref22]: Lehmann, "Steroid;" American Chemical Society, *Marker.*
@@ -260,13 +260,13 @@ The proposed herbarium sheet was conceptualized and developed in [Thinking Throu
 [^ref25]: Cory Hayden, *When Nature Goes Public: The Making and Unmaking of Bioprospecting in Mexico* (Princeton: Princeton University Press, 2020); Gary Gereffi, *The Pharmaceutical Industry and Dependency in the Third World* (Princeton: Princeton University Press, 2017).
 [^ref26]: Marker, Oral History.
 [^ref27]: Laveaga, *Jungle*. 
-[^ref28]: Ignacio Chapela, “Biodiversity in the Age of Information: A Critical Analysis of Conservation Initiatives Associated with the Discovery of New Pharmaceuticals,” in *Biodiversity, Biotechnology, and Sustainable Development in Health and Agriculture: Emerging Connections* (Washington, D.C.: Panamerian Health Organization, 1996).
+[^ref28]: Ignacio Chapela, "Biodiversity in the Age of Information: A Critical Analysis of Conservation Initiatives Associated with the Discovery of New Pharmaceuticals," in *Biodiversity, Biotechnology, and Sustainable Development in Health and Agriculture: Emerging Connections* (Washington, D.C.: Panamerian Health Organization, 1996).
 [^ref29]: Marker, Oral History.
 [^ref30]: Syntex, *Syntex Annual Report* (Mexico City: Syntex Laboratorios, 1963).
 [^ref31]: Planned Parenthood, *The Birth Control Pill: A History*. 
 [^ref32]: Marker, Oral History. 
 [^ref33]: Syntex, *Syntex Annual Report* (Mexico City: Syntex Laboratorios, 1963).
-[^ref34]: Zava, “Contraception around the world: interactive map,” Online Doctor. May 5, 2014. Accessed online April 19, 2021; Zack Beauchamp, “Here’s a map of the countries where the pill is fully subsidized (it includes Iran),” *Vox*, June 30, 2014. Accessed April 19, 2021.
-[^ref35]: Caldwell et al., “An Assessment of Potential Exposure and risk from Estrogens in Drinking Water,” *Environmental Health Perspectives* 118, no. 3 (2010): 338–344. 
-[^ref36]: Carl Fisher, Claudia Martins, Ed George, and Pranathi Perati, “Expanded Analysis of Human Hormones in Drinking Water Using Solid-Phase Extraction and Liquid Chromatography Tandem Mass Spectronomy,” *ThermoFisher Scientific*, 2009.
-[^ref37]: Andrew Pengelly, “Dioscorea villosa L. Wild yam,” *Appalachian Plant Monographs* (Laurel, MD: Tai Sophia Institute Appalachian Center for Ethnobotanical Studies, 2011). 
+[^ref34]: Zava, "Contraception around the world: interactive map," Online Doctor. May 5, 2014. Accessed online April 19, 2021; Zack Beauchamp, "Here’s a map of the countries where the pill is fully subsidized (it includes Iran)," *Vox*, June 30, 2014. Accessed April 19, 2021.
+[^ref35]: Caldwell et al., "An Assessment of Potential Exposure and risk from Estrogens in Drinking Water," *Environmental Health Perspectives* 118, no. 3 (2010): 338–344. 
+[^ref36]: Carl Fisher, Claudia Martins, Ed George, and Pranathi Perati, "Expanded Analysis of Human Hormones in Drinking Water Using Solid-Phase Extraction and Liquid Chromatography Tandem Mass Spectronomy," *ThermoFisher Scientific*, 2009.
+[^ref37]: Andrew Pengelly, "Dioscorea villosa L. Wild yam," *Appalachian Plant Monographs* (Laurel, MD: Tai Sophia Institute Appalachian Center for Ethnobotanical Studies, 2011). 

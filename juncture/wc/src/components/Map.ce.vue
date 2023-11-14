@@ -713,7 +713,7 @@
   function tokenize(s:string) {
     s = s || ''
     let tokens:string[] = []
-    s = s.replace(/“/,'"').replace(/”/,'"').replace(/’/,"'")
+    s = s.replace(/"/,'"').replace(/"/,'"').replace(/’/,"'")
     let match = s.match(/[^\s"]+|"([^"]*)"/gmi)
     if (match) match.forEach(token => {
       if (tokens.length > 0 && tokens[tokens.length-1].indexOf('=') === tokens[tokens.length-1].length-1) tokens[tokens.length-1] = `${tokens[tokens.length-1]}${token}`

@@ -127,8 +127,8 @@
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/cassava.jpg)
 
-## Cinnamomum verum: Discovering “True” Cinnamon
-[Cinnamomum verum: Discovering “True” Cinnamon](cinnamon)
+## Cinnamomum verum: Discovering "True" Cinnamon
+[Cinnamomum verum: Discovering "True" Cinnamon](cinnamon)
 
 - Wouter Klein
 

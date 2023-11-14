@@ -12,7 +12,7 @@ Arthur Chapman, March 17, 2011, Flickr, CC BY-NC-SA 2.0"
 	num-images="0"
 	num-primary-sources="0"
 	author="Christina Emery, Rachel Hirsch, and Melinda Susanto"
-        description=”Domesticated cassava, Manihot esculenta, is one of the world’s major food crops. Indeed, processed cassava is enjoyed by 600 million people worldwide and in Nigeria, the world’s largest producer, it is a primary source of carbohydrates for many. Because cassava occupies this pride of place in the global food system, it may be surprising to learn that the unprocessed plant is poisonous to humans. How did cassava transform from a poisonous tuber into a major food staple, and from an exclusive dweller of South America into a cosmopolitan citizen of the world? To answer these questions, this visual essay looks at how human interactions with cassava helped shape the plant into the significant food crop that it is today.”>
+        description="Domesticated cassava, Manihot esculenta, is one of the world’s major food crops. Indeed, processed cassava is enjoyed by 600 million people worldwide and in Nigeria, the world’s largest producer, it is a primary source of carbohydrates for many. Because cassava occupies this pride of place in the global food system, it may be surprising to learn that the unprocessed plant is poisonous to humans. How did cassava transform from a poisonous tuber into a major food staple, and from an exclusive dweller of South America into a cosmopolitan citizen of the world? To answer these questions, this visual essay looks at how human interactions with cassava helped shape the plant into the significant food crop that it is today.">
 
 ### Introduction
 
@@ -177,49 +177,49 @@ In her painting _Cassava Garden_, Crosby juxtaposes a cassava plant with an Indi
 <param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava%20Garden_2015.jpg/manifest.json">
 {#paragraph22}
 
-On the other hand, Crosby associates cassava with Nigerian village life, which is why her painting incorporates imagery from her childhood in <span eid="Q1033">Nigeria</span>. Along the right side of the painting, we see a textile featuring a portrait of her mother, which came from her mother's funeral.[^ref37] Photographs from Nigeria are also incorporated into the cassava’s leaves, creating a layered effect that Crosby refers to as a “visual vibration.”[^ref38] This melding of present and past in the juxtaposition of a South American-cum-Nigerian plant and an Indian rubber tree makes these connections across time and space so strong. Much like its vegetal subject itself, Crosby’s painting seems to ask, “When does something belong to a place?”[^ref39]
+On the other hand, Crosby associates cassava with Nigerian village life, which is why her painting incorporates imagery from her childhood in <span eid="Q1033">Nigeria</span>. Along the right side of the painting, we see a textile featuring a portrait of her mother, which came from her mother's funeral.[^ref37] Photographs from Nigeria are also incorporated into the cassava’s leaves, creating a layered effect that Crosby refers to as a "visual vibration."[^ref38] This melding of present and past in the juxtaposition of a South American-cum-Nigerian plant and an Indian rubber tree makes these connections across time and space so strong. Much like its vegetal subject itself, Crosby’s painting seems to ask, "When does something belong to a place?"[^ref39]
 <param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava%20Garden_2015.jpg/manifest.json">
 {#paragraph23}
 
 ### References
 
-[^ref1]: “Partnership Formed to Improve Cassava, Staple Food of 600 Million People,” _Food and Agriculture Organization of the United Nations_, November 5, 2002, [http://www.fao.org/english/newsroom/news/2002/10541-en.html](http://www.fao.org/english/newsroom/news/2002/10541-en.html)
+[^ref1]: "Partnership Formed to Improve Cassava, Staple Food of 600 Million People," _Food and Agriculture Organization of the United Nations_, November 5, 2002, [http://www.fao.org/english/newsroom/news/2002/10541-en.html](http://www.fao.org/english/newsroom/news/2002/10541-en.html)
 
-[^ref2]: Donald Ugent, Shelia Pozorski, and Thomas Pozorski, “Archaeological Manioc (Manihot) from Coastal Peru,” _Economic Botany_ 40, no. 1 (1986): 99.
+[^ref2]: Donald Ugent, Shelia Pozorski, and Thomas Pozorski, "Archaeological Manioc (Manihot) from Coastal Peru," _Economic Botany_ 40, no. 1 (1986): 99.
 
-[^ref3]: Donald Ugent, Shelia Pozorski, and Thomas Pozorski, “Archaeological Manioc (Manihot) from Coastal Peru.”
+[^ref3]: Donald Ugent, Shelia Pozorski, and Thomas Pozorski, "Archaeological Manioc (Manihot) from Coastal Peru."
 
-[^ref4]: Donald Ugent, Shelia Pozorski, and Thomas Pozorski, “Archaeological Manioc (Manihot) from Coastal Peru,” 80.
+[^ref4]: Donald Ugent, Shelia Pozorski, and Thomas Pozorski, "Archaeological Manioc (Manihot) from Coastal Peru," 80.
 
-[^ref5]: Donna McClelland, “The Moche Botanical Frog,” _Arqueología Iberoamericana_ 10 (2011): 40.
+[^ref5]: Donna McClelland, "The Moche Botanical Frog," _Arqueología Iberoamericana_ 10 (2011): 40.
 
-[^ref6]: Donna McClelland, “The Moche Botanical Frog,” 35.
+[^ref6]: Donna McClelland, "The Moche Botanical Frog," 35.
 
-[^ref7]: Donna McClelland, “The Moche Botanical Frog.”
+[^ref7]: Donna McClelland, "The Moche Botanical Frog."
 
-[^ref8]: Darna L. Dufour, “A Closer Look at the Nutritional Implications of Bitter Cassava Use,” in _Indigenous Peoples and the Future of Amazonia: An Ecological Anthropology of an Endangered World_, ed. Leslie E. Sponsel (Tucson: University of Arizona Press, 1995), 151.
+[^ref8]: Darna L. Dufour, "A Closer Look at the Nutritional Implications of Bitter Cassava Use," in _Indigenous Peoples and the Future of Amazonia: An Ecological Anthropology of an Endangered World_, ed. Leslie E. Sponsel (Tucson: University of Arizona Press, 1995), 151.
 
-[^ref9]: Darna L. Dufour, “A Closer Look at the Nutritional Implications of Bitter Cassava Use.”
+[^ref9]: Darna L. Dufour, "A Closer Look at the Nutritional Implications of Bitter Cassava Use."
 
-[^ref10]: Darna L. Dufour, “A Closer Look at the Nutritional Implications of Bitter Cassava Use,” 152–53.
+[^ref10]: Darna L. Dufour, "A Closer Look at the Nutritional Implications of Bitter Cassava Use," 152–53.
 
-[^ref11]: William O. Jones, “Manioc: An Example of Innovation in African Economies,” _Economic Development and Cultural Change_ 5, no. 2 (1957): 103.
+[^ref11]: William O. Jones, "Manioc: An Example of Innovation in African Economies," _Economic Development and Cultural Change_ 5, no. 2 (1957): 103.
 
-[^ref12]: A. Parmer, B. Sturm, and O. Hensel, “Crops that Feed the World: Production and Improvement of Cassava for Food, Feed, and Industrial Uses,” _Food Security_ 9, (2017): 914–915. 
+[^ref12]: A. Parmer, B. Sturm, and O. Hensel, "Crops that Feed the World: Production and Improvement of Cassava for Food, Feed, and Industrial Uses," _Food Security_ 9, (2017): 914–915. 
 
-[^ref13]: J. Bulkan, “The Place of Bitter Cassava in the Social Organization and Belief Systems of Two Indigenous Peoples of Guyana,” _Culture, Agriculture, Food and the Environment_ 41, no. 2 (2019): 120.
+[^ref13]: J. Bulkan, "The Place of Bitter Cassava in the Social Organization and Belief Systems of Two Indigenous Peoples of Guyana," _Culture, Agriculture, Food and the Environment_ 41, no. 2 (2019): 120.
 
-[^ref14]: J. Bulkan, “The Place of Bitter Cassava in the Social Organization and Belief Systems of Two Indigenous Peoples of Guyana,” 121.
+[^ref14]: J. Bulkan, "The Place of Bitter Cassava in the Social Organization and Belief Systems of Two Indigenous Peoples of Guyana," 121.
 
-[^ref15]: A. Parmer, B. Sturm, and O. Hensel, “Crops That Feed the World,” 907. 
+[^ref15]: A. Parmer, B. Sturm, and O. Hensel, "Crops That Feed the World," 907. 
 
-[^ref16]: Judith Ann Carney and Richard Nicholas Rosomoff, _In the Shadow of Slavery_ (Berkeley and Los Angeles: University of California Press, 2009), 108, 112; Kaori O’Connor, “Beyond ‘Exotic Groceries’: Tapioca/Cassava/Manioc, a Hidden Commodity of Empires and Globalisation,” in _Global Histories, Imperial Commodities, Local Interactions_, ed. Jonathan Curry-Machado (Hampshire and New York: Palgrave Macmillan, 2013), 227.
+[^ref16]: Judith Ann Carney and Richard Nicholas Rosomoff, _In the Shadow of Slavery_ (Berkeley and Los Angeles: University of California Press, 2009), 108, 112; Kaori O’Connor, "Beyond ‘Exotic Groceries’: Tapioca/Cassava/Manioc, a Hidden Commodity of Empires and Globalisation," in _Global Histories, Imperial Commodities, Local Interactions_, ed. Jonathan Curry-Machado (Hampshire and New York: Palgrave Macmillan, 2013), 227.
 
-[^ref17]: Alicia C. Montoya and Rindert Jagersma, “Marketing Maria Sybilla Merian, 1720-1800: Book Auctions, Gender and Reading Culture in the Dutch Republic,” _Book History_ 21 (2018): 56–88.
+[^ref17]: Alicia C. Montoya and Rindert Jagersma, "Marketing Maria Sybilla Merian, 1720-1800: Book Auctions, Gender and Reading Culture in the Dutch Republic," _Book History_ 21 (2018): 56–88.
 
 [^ref18]: Maria Sibylla Merian, _Metamorphosis insectorum Surinamensium_ (Amstelaedami: Joannem Oosterwyk, 1719), 5, [https://nrs.harvard.edu/urn-3:DOAK.RESLIB:41825989?n=16](https://nrs.harvard.edu/urn-3:DOAK.RESLIB:41825989?n=16)
 
-[^ref19]: “Inquiries and Directions for the Antilles, or Caribbee Islands, No. 33, 634,” _Philosophical Transactions of Royal Society of London_ (1668): 227, 231, [https://www.biodiversitylibrary.org/page/23264930](https://www.biodiversitylibrary.org/page/23264930); Kaori O’Connor, “Beyond ‘Exotic Groceries,” 229–231.
+[^ref19]: "Inquiries and Directions for the Antilles, or Caribbee Islands, No. 33, 634," _Philosophical Transactions of Royal Society of London_ (1668): 227, 231, [https://www.biodiversitylibrary.org/page/23264930](https://www.biodiversitylibrary.org/page/23264930); Kaori O’Connor, "Beyond ‘Exotic Groceries," 229–231.
 
 [^ref20]: Jean de Léry, _History of a Voyage to the Land of Brazil, Otherwise Called America_ (Berkeley: University of California Press, 1990). 
 
@@ -235,7 +235,7 @@ On the other hand, Crosby associates cassava with Nigerian village life, which i
 
 [^ref26]: Judith Ann Carney and Richard Nicholas Rosomoff, _In the Shadow of Slavery_.
 
-[^ref27]: J. D. La Fleur, _Fusion Foodways of Africa's Gold Coast in the Atlantic Era_ (Leiden; Boston: Brill, 2012), 155; William O. Jones, “Manioc,” 110.
+[^ref27]: J. D. La Fleur, _Fusion Foodways of Africa's Gold Coast in the Atlantic Era_ (Leiden; Boston: Brill, 2012), 155; William O. Jones, "Manioc," 110.
 
 [^ref28]: J. D. La Fleur, _Fusion Foodways_, 164.
 
@@ -243,13 +243,13 @@ On the other hand, Crosby associates cassava with Nigerian village life, which i
 
 [^ref30]: J. D. La Fleur, _Fusion Foodways_, 177. 
 
-[^ref31]: J. D. La Fleur, _Fusion Foodways_, 176; A. Parmer, B. Sturm, and O. Hensel, “Crops that Feed the World,” 908. 
+[^ref31]: J. D. La Fleur, _Fusion Foodways_, 176; A. Parmer, B. Sturm, and O. Hensel, "Crops that Feed the World," 908. 
 
-[^ref32]: A. A. Adeniji et al., “Cassava Development in Nigeria: A Country Case Study towards a Global Strategy for Cassava Development,” Food and Agriculture Organization of the United Nations, [http://www.fao.org/3/a0154e/A0154E05.htm](http://www.fao.org/3/a0154e/A0154E05.htm)
+[^ref32]: A. A. Adeniji et al., "Cassava Development in Nigeria: A Country Case Study towards a Global Strategy for Cassava Development," Food and Agriculture Organization of the United Nations, [http://www.fao.org/3/a0154e/A0154E05.htm](http://www.fao.org/3/a0154e/A0154E05.htm)
 
-[^ref33]: “Partnership Formed to Improve Cassava.”
+[^ref33]: "Partnership Formed to Improve Cassava."
 
-[^ref34]: “Partnership Formed to Improve Cassava.”
+[^ref34]: "Partnership Formed to Improve Cassava."
 
 [^ref35]: Judith Ann Carney and Richard Nicholas Rosomoff, _In the Shadow of Slavery_, 180.
 
@@ -257,6 +257,6 @@ On the other hand, Crosby associates cassava with Nigerian village life, which i
 
 [^ref37]: _Artist Talk Njideka Akunyili Crosby_, Whitney Museum of American Art (New York, 2018).
 
-[^ref38]: Tyler Green, “Njideka Akunyili Crosby, Bierstadt’s West,” The Modern Art Notes Podcast, 2019, [https://manpodcast.com/portfolio/no-374-njideka-akunyili-crosby-bierstadts-west/](https://manpodcast.com/portfolio/no-374-njideka-akunyili-crosby-bierstadts-west/)
+[^ref38]: Tyler Green, "Njideka Akunyili Crosby, Bierstadt’s West," The Modern Art Notes Podcast, 2019, [https://manpodcast.com/portfolio/no-374-njideka-akunyili-crosby-bierstadts-west/](https://manpodcast.com/portfolio/no-374-njideka-akunyili-crosby-bierstadts-west/)
 
 [^ref39]: MOCA, _Njideka Akunyili Crosby_.

@@ -120,7 +120,7 @@ Katherine is a senior at Harvard College studying History and Anthropology. Her 
 
 ![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Julia_300x300.jpg)
 
-Julia Fine is a graduate student at the University of Cambridge studying Modern South Asian Studies as a George Kingsley Roth and Cambridge Trust Scholar. She received her A.B. from Harvard University in History & Literature. In 2019, Julia was a fellow at the Folger Shakespeare Library, where she worked on the Mellon-funded “Before ‘Farm to Table’: Early Modern Foodways and Cultures“ project. In 2020, she joined the Plant Humanities Initiative at Dumbarton Oaks, where she explored the movement of plants through the lens of imperial ambitions, specifically within the context of the Indian Ocean world.
+Julia Fine is a graduate student at the University of Cambridge studying Modern South Asian Studies as a George Kingsley Roth and Cambridge Trust Scholar. She received her A.B. from Harvard University in History & Literature. In 2019, Julia was a fellow at the Folger Shakespeare Library, where she worked on the Mellon-funded "Before ‘Farm to Table’: Early Modern Foodways and Cultures" project. In 2020, she joined the Plant Humanities Initiative at Dumbarton Oaks, where she explored the movement of plants through the lens of imperial ambitions, specifically within the context of the Indian Ocean world.
 
 ## Rebecca Friedel
 
@@ -136,7 +136,7 @@ Rebecca Friedel focuses on the cultural histories of plants from the Americas as
 
 ![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Fulton.jpg)
 
-Allison Fulton is an English Ph.D. Candidate at the University of California Davis with a Designated Emphasis in Science and Technology Studies. Her dissertation examines how nineteenth-century American scientific disciplines were brought to form through gendered and racialized craftwork technologies. Recently, she participated in the residential course “Pioneers of Natural History” at the Oak Spring Garden Foundation and exhibited an artists’ book at the UC Davis Manetti Shrem Museum of Art Graduate Exhibition. Her work has been generously supported by the American Antiquarian Society and the Winterthur Library. 
+Allison Fulton is an English Ph.D. Candidate at the University of California Davis with a Designated Emphasis in Science and Technology Studies. Her dissertation examines how nineteenth-century American scientific disciplines were brought to form through gendered and racialized craftwork technologies. Recently, she participated in the residential course "Pioneers of Natural History" at the Oak Spring Garden Foundation and exhibited an artists’ book at the UC Davis Manetti Shrem Museum of Art Graduate Exhibition. Her work has been generously supported by the American Antiquarian Society and the Winterthur Library. 
 
 ## Kristan M. Hanson
 
@@ -272,7 +272,7 @@ John R. Schaefer is currently a U.S. Fulbright Scholar studying environmental ed
 
 ![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Schollaert.jpg)
 
-Jeannette Schollaert is a doctoral candidate in English at the University of Maryland, College Park. Her dissertation, tentatively titled “From Censors to Shouts: Ecologies of Abortion in American Fiction,” traces the literary history of herbal abortifacients in relation to emerging medical technologies in American fiction from the nineteenth century to the present. She holds a BA in English and Women’s Studies from Chatham University in Pittsburgh, PA and an MA in English with a specialization in Women’s and Gender Studies from the University of Nebraska-Lincoln.
+Jeannette Schollaert is a doctoral candidate in English at the University of Maryland, College Park. Her dissertation, tentatively titled "From Censors to Shouts: Ecologies of Abortion in American Fiction," traces the literary history of herbal abortifacients in relation to emerging medical technologies in American fiction from the nineteenth century to the present. She holds a BA in English and Women’s Studies from Chatham University in Pittsburgh, PA and an MA in English with a specialization in Women’s and Gender Studies from the University of Nebraska-Lincoln.
 
 ## Melinda Susanto
 
@@ -288,7 +288,7 @@ Susanto’s research investigates the practices of health and medicine in eighte
 
 ![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Tchikine_300x300.jpg)
 
-Anatole Tchikine is curator of rare books at Dumbarton Oaks. An architectural historian and a specialist on early modern Italy, he holds a PhD from the University of Dublin, Trinity College. His work mainly addresses the intersections of art and science, including the history of fountain design, botanical gardens, and collecting and representations of nature. He is the author, with Pierre de la Ruffinière du Prey, of _“Discrizione della Villa Pliniana”: Reimagining Antiquity in the Landscape of Umbria_ (2021), editor of _The Three Natures: Gardens and Landscapes of the Italian Renaissance_ (forthcoming), and coeditor of _The Botany of Empire in the Long Eighteenth Century_ (2016) and _Military Landscapes_ (2021).
+Anatole Tchikine is curator of rare books at Dumbarton Oaks. An architectural historian and a specialist on early modern Italy, he holds a PhD from the University of Dublin, Trinity College. His work mainly addresses the intersections of art and science, including the history of fountain design, botanical gardens, and collecting and representations of nature. He is the author, with Pierre de la Ruffinière du Prey, of _"Discrizione della Villa Pliniana": Reimagining Antiquity in the Landscape of Umbria_ (2021), editor of _The Three Natures: Gardens and Landscapes of the Italian Renaissance_ (forthcoming), and coeditor of _The Botany of Empire in the Long Eighteenth Century_ (2016) and _Military Landscapes_ (2021).
 
 ## May Wang
 

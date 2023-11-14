@@ -15,6 +15,7 @@ if (referrerUrl) {
 }
 
 async function getConfigExtras() {
+  console.log(window.config)
   let resp = await fetch(`${config.baseurl}config-extras.yml`)
   if (resp.ok) window.config = {
     ...window.config,

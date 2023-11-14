@@ -35,7 +35,7 @@ How did cassava come to occupy this pride of place in the global food system? Ho
 Wild ancestors of the domesticated _Manihot esculenta_—known more commonly as cassava, manioc, or yuca—were likely introduced into Meso- and South-American agriculture by Indigenous farmers around 8000 BCE.[^ref2] Cassava was domesticated in these early agricultural plots, and the plant’s seeds and stem cuttings were traded over short distances.[^ref3]
 <param title="Manihot esculenta" eid="Q83124">
 <param ve-map prefer-geojson title="Meso- and South-America" basemap="Esri_WorldPhysical" center="-16.50698840086817, -68.1038842231085" zoom="3" marker-type="none" stroke ="none">
-<param ve-map-layer geojson active url="cassava_leaves.json" title="Cassava leaves">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/cassava/cassava_leaves.json" title="Cassava leaves">
 {#paragraph3}
 
 Archaeological evidence suggests that cassava became an important food staple for several ancient cultures in present-day Peru, including the Chavin (1000–200 BCE), Nazca (200 BCE–600 CE), Moche (250–750 CE), and Chimú (1000–1470 CE).[^ref4]
@@ -44,8 +44,8 @@ Archaeological evidence suggests that cassava became an important food staple fo
 <param title="Moche culture" eid="Q208188" aliases="Moche">
 <param title="Chimú culture" eid="Q901198" aliases="Chimú">
 <param ve-map basemap="Esri_WorldPhysical" title="Locations of Pre-Columbian Andean civilizations: Nazca (magenta), Moche and Moche Influence (purple), and Chimú (yellow)." center="-10.398459529701169, -75.35486070351776" zoom="5" marker-type="none" stroke="none">
-<param ve-map-layer geojson active url="cassava_leaves.json" title="Cassava leaves">
-<param ve-map-layer geojson active url="Peru_Nazca_Moche_Chimor.json" title="Pre-Columbian Andean civilizations">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/cassava/cassava_leaves.json" title="Cassava leaves">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/cassava/Peru_Nazca_Moche_Chimor.json" title="Pre-Columbian Andean civilizations">
 {#paragraph4}
 
 Representations of cassava made by Moche artists provide clues as to how the plant was understood and appreciated by Andean peoples in the first millennium of the Common Era. Moche artists often represented cassava together with _Leptodactylus pentadactylus_—a frog found throughout the Amazon—as shown in [this ceramic](http://museum.doaks.org/objects-1/info/22560) from Dumbarton Oaks’s collection. The smoky jungle frog, as this species is commonly called, was likely associated with agriculture, and representations of frogs may have been used in harvest-related rituals.[^ref5] Cassava may have held similar significance to Andean peoples, and ceramics such as this one may have been used to ensure a bountiful cassava harvest.
@@ -87,8 +87,8 @@ Despite the amount of work required to process cassava with high levels of cyani
 
 Knowledge of how to process cassava so that it could be safely consumed was communicated to Europeans who encountered the plant and brought it to other regions of the world in the sixteenth and seventeenth centuries. The mobility of cassava, therefore, lay not only in the movement of the plant itself, but also in the transmission of this knowledge. As explorers, traders, and enslaved peoples moved across South America and the Caribbean and over the Atlantic Ocean to Africa, so too did cassava cultivars and indigenous knowledge of how to process the plant.
 <param ve-map title="World map with arrows indicating mobility of cassava." basemap="Esri_WorldPhysical" center="-7.9364, -14.3925" zoom="2.3" marker-type="none" stroke="none">
-<param ve-map-layer geojson active url="distribution_arrows.json" title="Mobility of cassava">
-<param ve-map-layer geojson active url="GreaterAntilles_Haiti_Barbados.json" title="Greater Antilles including Haiti, and Barbados">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/cassava/distribution_arrows.json" title="Mobility of cassava">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/cassava/GreaterAntilles_Haiti_Barbados.json" title="Greater Antilles including Haiti, and Barbados">
 {#paragraph10}
 
 Although the Caribbean is not considered cassava’s native habitat, the plant was already cultivated by the indigenous Arawak peoples who lived in the Greater Antilles when Christopher Columbus arrived in the New World.[^ref15] Through European colonization, cassava was further introduced to other places in the Caribbean, such as Barbados and Haiti, becoming subsistence food for enslaved labor on plantations.[^ref16] Cassava was established as a staple across the Caribbean by the seventeenth century, and it was represented in naturalist Maria Sibylla Merian’s (1647–1717) [_Metamorphosis insectorum Surinamensium_](https://iiif.lib.harvard.edu/manifests/view/drs:481769537$1i) (1719), which describes the plants and insects that she studied during her stay in <span eid="Q7646305">Dutch Surinam</span> between 1699 and 1701.
@@ -99,7 +99,7 @@ Although the Caribbean is not considered cassava’s native habitat, the plant w
 <param title="Barbados" eid="Q244">
 <param title="Maria Sibylla Merian" eid="Q62530" aliases="Maria Sibylla Merian’s">
 <param ve-map title="Greater Antilles (yellow) including Haiti (purple), and Barbados (magenta)." basemap="Esri_WorldPhysical" center="19.1981, -71.06222" zoom="5.2" marker-type="none" stroke="none">
-<param ve-map-layer geojson active url="GreaterAntilles_Haiti_Barbados.json" title="Greater Antilles including Haiti, and Barbados">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/cassava/GreaterAntilles_Haiti_Barbados.json" title="Greater Antilles including Haiti, and Barbados">
 {#paragraph11}
 
 Merian’s book exemplifies how knowledge accumulated and circulated through Europe, drawing on earlier texts that were in turn referenced in later publications. Her entry on cassava, for example, refers to English naturalist Hans Sloane’s (1660–1753) [catalogue of Jamaican plants.](https://bibdigital.rjb.csic.es/records/item/14358-redirection) Merian’s illustrations, which were based on keen in-situ observations, were disseminated by other artists who made copies of her work. As works by an accomplished artist, Merian’s books were published in various editions and widely circulated, ensuring a broad transmission of her botanical knowledge.[^ref17]
@@ -146,12 +146,12 @@ With this transfer of knowledge from South America to Africa, other innovations 
 
 Today, Nigeria is the world’s largest producer of cassava, with over 34 million tons of cassava roots produced every year. A study carried out by Nigeria’s Department of Agriculture notes that cassava is a particularly suitable crop for the country’s predominantly smallholder farming. The plant’s most important characteristics that make it a crucial for household food are its year-round availability and resistance to drought, pests, and diseases.[^ref32] As more regions of the world face desertification, cassava’s ability to grow in dry climates will become even more important for preventing food scarcity in the future.
 <param title="desertification" eid="Q183481">
-<param ve-image fit="cover" url="https://raw.githubusercontent.com/plant-humanities/media/main/cassava/IIT_weeded cassava field_Nigeria_Flickr.jpg" title="International Institute of Tropical Agriculture, _Weeded cassava field at Owiwi, Abeokuta, Nigeria_, November 3, 2012." attribution="Flickr, CC BY-NC 2.0">
+<param ve-image fit="cover" url="https://raw.githubusercontent.com/plant-humanities/media/main/cassava/IIT_weeded_cassava_field_Nigeria_Flickr.jpg" title="International Institute of Tropical Agriculture, _Weeded cassava field at Owiwi, Abeokuta, Nigeria_, November 3, 2012." attribution="Flickr, CC BY-NC 2.0">
 {#paragraph18}
 
 In spite of cassava’s potential for aiding global food security, the Food and Agriculture Organization (FAO) of the United Nations noted in 2002 that research on the plant has lagged behind other popular food crops.[^ref33] The FAO report further observed that cassava production had fallen behind its yield potential in Africa and that marketing attempts by cassava farmers had similarly been consistently lower than expected. Increases in cassava productivity had also consistently lagged behind other top food crops, such as rice, wheat, and corn.[^ref34] As a result, the FAO launched a biotechnology development program to increase cassava production by increasing its pest and disease resistance and improving its starch quality to ensure better marketability and higher nutrient levels.
 <param title="FAO" eid="Q82151" aliases="Food and Agriculture Organization">
-<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen%20Shot%202021-01-06%20at%2012.02.11%20PM.jpg/manifest.json">
+<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen_Shot_2021-01-06_at_12.02.11_PM.jpg/manifest.json">
 <param ve-image region="1,0,1143,1004" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a662fa58c1954858a44103880681a72ae457b202071acf3436dc4b368ba2826f.yaml/manifest.json" title="Disaggregated cassava production in sub-Saharan Africa and associated data sources. Density of cassava production layer (tonnes per approx. 1 km2) (a). Cassava production data sources and administrative resolution of production census data in each of the countries (b): FAO (fao.org/faostat), Resakss (resakss.org), Agro-MAPS (kids.fao.org/agromaps/) and IITA (personal correspondence with the International Institute of Tropical Agriculture in Ibadan, Nigeria). Basemap source: Esri, DeLorme, HERE, MapmyIndia.">
 {#paragraph19}
 
@@ -174,11 +174,11 @@ Associated with specific cultures across the globe, but also symbolizing mobilit
 In her painting _Cassava Garden_, Crosby juxtaposes a cassava plant with an Indian rubber tree, two species of plants growing in Los Angeles, where she lives and works. Crosby is well aware that neither of these plants is native to the United States, having been brought there by people from different parts of the world. By representing them together, she speaks to different meanings of place-making. On the one hand, the painting represents an imagined garden, where two plants of different geographic origin can happily coexist.[^ref36] The juxtaposition of these plants refers to modern Los Angeles, where they _do_ coexist today.
 <param title="Los Angeles" eid="Q65">
 <param title="Ficus elastica" eid="Q160576" aliases="Indian rubber tree"> 
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava%20Garden_2015.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava Garden_2015.jpg/manifest.json">
 {#paragraph22}
 
 On the other hand, Crosby associates cassava with Nigerian village life, which is why her painting incorporates imagery from her childhood in <span eid="Q1033">Nigeria</span>. Along the right side of the painting, we see a textile featuring a portrait of her mother, which came from her mother's funeral.[^ref37] Photographs from Nigeria are also incorporated into the cassava’s leaves, creating a layered effect that Crosby refers to as a "visual vibration."[^ref38] This melding of present and past in the juxtaposition of a South American-cum-Nigerian plant and an Indian rubber tree makes these connections across time and space so strong. Much like its vegetal subject itself, Crosby’s painting seems to ask, "When does something belong to a place?"[^ref39]
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava%20Garden_2015.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava Garden_2015.jpg/manifest.json">
 {#paragraph23}
 
 ### References

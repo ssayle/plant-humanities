@@ -306,13 +306,14 @@ async function init() {
   setMeta()
 
   await getConfigExtras()
-  console.log(config)
 
   config.components = config.components
     ? config.components.split(',')
       .map(l => l.trim()) 
-      .map(l => l[0] === '/' ? `${config.baseurl}/${l}` : l)
+      .map(l => l[0] === '/' ? `${config.baseurl}${l}` : l)
     : []
+  
+  console.log(config)
 
   loadDependencies(
     config.components.map(src => ({tag: 'script', type: 'module', src}) ), () => {

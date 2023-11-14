@@ -15,8 +15,7 @@ if (referrerUrl) {
 }
 
 async function getConfigExtras() {
-  console.log(window.config)
-  let resp = await fetch(`${config.baseurl}config-extras.yml`)
+  let resp = await fetch(`${config.baseurl}/config-extras.yml`)
   if (resp.ok) window.config = {
     ...window.config,
     ...window.jsyaml.load(await resp.text())
@@ -307,10 +306,12 @@ async function init() {
   setMeta()
 
   await getConfigExtras()
+  console.log(config)
+
   config.components = config.components
     ? config.components.split(',')
       .map(l => l.trim()) 
-      .map(l => l[0] === '/' ? `${config.baseurl}${l}` : l)
+      .map(l => l[0] === '/' ? `${config.baseurl}/${l}` : l)
     : []
 
   loadDependencies(

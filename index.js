@@ -286,7 +286,6 @@ function loadDependencies(dependencies, callback, i) {
 function loadDependency(dependency, callback) {
   let e = document.createElement(dependency.tag)
   Object.entries(dependency).forEach(([k, v]) => { if (k !== 'tag') e.setAttribute(k, v) })
-  console.log(e)
   e.addEventListener('load', callback)
   if (dependency.tag === 'script') document.body.appendChild(e)
   else document.head.appendChild(e)

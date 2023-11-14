@@ -4,7 +4,7 @@
        title="Eggplant: Food, Sex, and Poison"
        author="Ana Carolina Carmona-Ribeiro, Nathan Cornish, and Sheila Scoville"
        source-image="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/Seikei_Zusetsu_cover.jpg"
-banner="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/Seikei_Zusetsu_cover.jpg"
+       banner="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/Seikei_Zusetsu_cover.jpg"
        layout="vertical">
 
 ### The Eggplant Emoji

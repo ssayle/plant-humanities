@@ -34,8 +34,9 @@ module.exports = {
     mode() { let itemsWithMode = this.compareItems.filter(item => item.sync || item.curtain).map(item => item.sync ? 'sync' : 'curtain') 
              return itemsWithMode.length > 0 ? itemsWithMode[0] : 'curtain'
     },
-    images() { return this.tileSources.map((tileSource, idx) => { 
-      return { key: `item-${idx}`, tileSource, shown: true } 
+    images() {
+      return this.tileSources.map((tileSource, idx) => {
+        return { key: `item-${idx}`, tileSource, shown: true } 
       })
     }
   },
@@ -44,7 +45,6 @@ module.exports = {
     init() { 
       this.loadManifests()
         .then(manifests => {
-          console.log('init.manifests', manifests)
           this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}})
         })
     },
@@ -172,7 +172,6 @@ module.exports = {
       this.loadManifests().then(manifests => this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}}))
     },
     manifests() {
-      console.log('manifests', this.manifests)
       this.tileSources = this.manifests.map((manifest, idx) => {
         let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
         let tileSource = itemInfo.service
@@ -183,7 +182,7 @@ module.exports = {
       })
     },
     tileSources() { 
-      console.log('tileSources', this.tileSources)
+      console.log('ve-compare.tileSources', this.tileSources)
     },
     images() { this.initViewer() },
     active() { this.initViewer() }

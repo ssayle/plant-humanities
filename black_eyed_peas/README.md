@@ -51,13 +51,13 @@ In contrast, many more artists took inspiration from the <span eid="Q25237">gree
 
 ### Peas and Beans in Early Modern Texts and Images
 Visual representations of black-eyed peas and other varieties of beans and peas shaped European understanding of the plant. Beginning in the sixteenth century, the dramatic rise in the production and circulation of printed texts with images, such as <span eid="Q6165948">herbals</span> and natural histories, reinforced the codification of plants based on their geographic origins. Unprecedented global travel also formed European ideas about the ways in which close observation of the natural world could reveal the domestic or foreign origins of a person, plant, or animal. One result of this was a shift in European attitudes toward the black-eyed pea.
-<param ve-image region="275,48,1380,1253" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black-eyed-peas/Clusius_Rariorum_Plantarum_Historia_Biblioteca_del_Real_Jardi%CC%81n_Bota%CC%81nico_CC_BY_NC_SA.jpg/manifest.json">
+<param ve-image region="275,48,1380,1253" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black-eyed-peas/Clusius_Rariorum_Plantarum_Historia_Biblioteca_del_Real_Jardín_Botánico_CC_BY_NC_SA/manifest.json">
 {#paragraph7}
        
 Despite the millennia-old European presence of the black-eyed pea, it was now understood in Europe as an itinerant body within a Eurocentric <span eid="Q8269924">taxonomy</span> of plants. European explorers visiting Africa, Asia, and the Americas reinforced this idea. Their observations, often reported in books, were soon taken throughout Europe as factual. For example, Dutch trader and explorer <span eid="Q3117063">Pieter de Marees’</span> 1602 book about West Africa includes an illustration of the <span data-click-image-zoomto="418,756,583,437">black-eyed pea</span> in an idealized landscape alongside people and other plants.[^ref7]
 <param ve-image
        region="-20,105,1543,1363"
-       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black_eyed_peas/7f7147f04ccec0de2a7a4cdd0a6e189a51d4e712c33ed9eec1953e3864e1da0d.yaml/manifest.json">
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black-eyed-peas/7f7147f04ccec0de2a7a4cdd0a6e189a51d4e712c33ed9eec1953e3864e1da0d.yaml/manifest.json">
 {#paragraph8}
          
 The European perspective is not the only early modern view we have on the black-eyed pea. Written records of the bean appear in the sixteenth century in China, where it is noted in the <span eid="Q9903">Ming Dynasty</span> [_Compendium of Materia Medica_](https://www.nlm.nih.gov/exhibition/chinesemedicine/books.html) as being a cure for flatulence and for kidney problems.[^ref8] And a beautiful illustration of the "cowpea" featured in the 30-volume Japanese agricultural encyclopaedia [_Seikei Zuetsu_,](https://digitalcollections.universiteitleiden.nl/japanese_agriculture_19th_century) published in 1804, shows how far the black-eyed pea had spread and how its usefulness had been welcomed into many agricultural traditions.
@@ -81,7 +81,7 @@ In the southern United States, enslaved peoples cultivated black-eyed peas as a 
        
 <span eid="Q11812">Thomas Jefferson</span> (1743−1826) and <span eid="Q23">George Washington</span> (1732−1799) both had black-eyed peas planted on their expansive plantations, [Monticello](https://www.monticello.org/slavery/) and [Mount Vernon,](https://www.mountvernon.org/george-washington/slavery/slavery-at-mount-vernon/) respectively. Washington corresponded with friends and acquaintances about the plant in a 1787 [letter,](https://founders.archives.gov/documents/Washington/04-05-02-0442) in which he writes, "small, and round black eyed Pease called the Gentlemans Pea."[^ref17] Jefferson considered the cultivation of black-eyed peas a pursuit worthy of a gentleman, harkening back to European traditions that placed greater social and cultural status on green peas. He held yearly pea growing contests, with the first man to produce a fresh pea required to host a dinner for other gentlemen in the area.
 <param ve-image fit="contain"
-       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black_eyed_peas/94b1923c0bd805e7a7ba5ad9fe38c78ec66bea2a95c96444e8ab21abeb1dde51.yaml/manifest.json">
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black-eyed-peas/94b1923c0bd805e7a7ba5ad9fe38c78ec66bea2a95c96444e8ab21abeb1dde51.yaml/manifest.json">
 {#paragraph12}
        
 During the <span eid="Q8676">Civil War</span>, because the North associated black-eyed peas with the practice of slavery, they were considered undesirable. However, they remained an important food in the South, so much so that some tired of their ubiquity. In Adelaide Stuart Dimitry’s memoirs of the war years (she became the historian of the Stonewall Jackson Chapter of the New Orleans United Daughters of the Confederacy), she notes that while food was often hard to come by, the black-eyed pea remained a reliable—to the point of tiresome—meal. She recalls: "Once at home came the dinner-where it came from was the daily surprise of life. Sometimes it consisted only of a large platter of newly-dug goobers or [peanuts,](https://lab.plant-humanities.org/peanut/) boiled in salt water, but always sauced with a wondrous appetite—in that dour time never lacking in Richmond... But oh, the eternal, dried, black-eyed pea whether in porridge or soup, baked or boiled, ever the same villainous comestible that made one weary of going to the table!"[^ref18] 
@@ -118,7 +118,7 @@ Black-eyed peas are a staple of the <span eid="Q49042">Southern American</span> 
 
 Hoppin’ John’s origins are from brutal conditions of American plantations. Enslaved workers grew black-eyed peas and other African crops in their subsistence gardens outside the long hours they were forced to labor in their enslaver’s fields. Additionally, enslaved women often had to cook for the planter’s family as well as their own. As a result, they created new meals from West African recipes and the crops and foods they had access to. White southerners at first saw black-eyed peas as a lowly food meant to feed livestock and the enslaved. To them, the beans fit in alongside the pork scraps used to cook Hoppin’ John.[^ref25] However, by the latter half of the nineteenth century, white women began including these recipes in their homemaker cookbooks, often without crediting the women who pioneered them.[^ref26]
 <param ve-image 
-       manifest="https://iiif.juncture-digital.org/wc%3AHoppin%27_John_at_Brenda%27s_Meat_%26_Three_for_good_luck._San_Francisco%2C_CA._%2839570682392%29.jpg/manifest.json">
+       manifest="https://iiif.juncture-digital.org/wc%3AHoppin%27_John_at_Brenda%27s_Meat_%26_Three_for_good_luck._San_Francisco,_CA._(39570682392).jpg/manifest.json">
 <param ve-image 
        manifest="https://iiif.juncture-digital.org/wc%3AHoppin_John.jpg/manifest.json"
        fit="contain">
@@ -136,24 +136,24 @@ Brazil’s national dish, <span eid="Q878189">_feijoada completa_</span>, has a 
        manifest="https://iiif.juncture-digital.org/wc%3ASoul_Food_Deli_Shreveport.jpg/manifest.json"
        fit="contain">
 {#paragraph19}
-       
+
 ### Climate Change, Breeding, and Resilience 
 Today, the <span eid="Q82151">Food and Agriculture Organization of the United Nations</span> estimates that around 7 million tons of black-eyed peas are produced annually worldwide.[^ref31] The centers of production are still in Africa, the plant’s ancestral home, with Niger, Nigeria, Burkina Faso, and Tanzania being among the world’s top producers, accounting for 80 percent of the world’s black-eyed pea crop.[^ref32] It is estimated that it is grown on more than 12 million hectares in many different countries, where it is often intercropped with grains such as sorghum and millet or rice.[^ref33] Black-eyed peas are the third most important <span eid="Q379813">pulse</span> worldwide—a crucial component of sustainable agriculture and source of food for hundreds of millions of people.
 <param ve-map zoom="2"
        title="Map of black-eyed pea distribution showing native range (blue) and introduction (green) (after Kew’s Plants of the World Online).">
 <param ve-map-layer geojson active title="Distribution."
-       url="Distribution_5.geojson">
+       url="https://raw.githubusercontent.com/plant-humanities/essays/main/black_eyed_peas/Distribution_5.geojson">
 {#paragraph20}
-       
+
 <span eid="Q11451">Agriculture</span> is having to adapt to our changing climate, both in terms of practices and what crops can be grown where. Even though black-eyed peas are considered very hardy, the crop may struggle as temperatures rise and rains become more erratic. Crop breeding is one way to make commercial black-eyed peas more resilient, while perhaps also making them more digestible and nutritious. Hardy wild <span eid="Q1141015">relatives</span> of the black-eyed pea may hold genes or genetic traits that will allow the crop to survive hotter, drier conditions, and perhaps be more pest-resistant.[^ref34] If these traits can be bred into commercial varieties then the black-eyed pea may hold one of the answers to ensuring food security throughout the world. 
 <param ve-compare curtain
        manifest="https://iiif.juncture-digital.org/wc%3ADrying_cowpeas.jpg/manifest.json"
        fit="cover">
 <param ve-compare
-       fit"contain"
+       fit="contain"
        manifest="https://iiif.juncture-digital.org/wc%3AWild_and_cultivated_cowpea_%287856427546%29.jpg/manifest.json">
 {#paragraph21}
-    
+
 The [Crop Wild Relatives Project](https://www.croptrust.org/work/projects/crop-wild-relatives/) is researching 11 primary relatives of the black-eyed pea in partnership with 33 countries and global seed banks, including the <span eid="Q1142738">International Institute of Tropical Agriculture</span> and Royal Botanic Garden, Kew’s <span eid="Q2603353">Millennium Seed Bank</span>.[^ref35] Southern and western Africa are hotspots for wild black-eyed pea genetic variation. The importance of such relatives demonstrates how vital it is to protect wild plants and wild habitats. In a telling [quote](https://www.cwrdiversity.org/cowpea/) from Ousame Boukar, a Nigerian cowpea breeder: "The cowpea has nourished people for many centuries, but now it needs a hand to ensure it can continue to be an unfailing friend even while the climate crisis is affecting production." Programs like the Crop Wild Relatives Project bring us full circle, back to the wild plants of Africa and the adoption of the ancient practices of growing, seed collecting, and crop breeding.
 <param ve-video
        id="pqmBsUHSkBg"
@@ -166,7 +166,7 @@ Black-eyed pea’s many names reflect its worldwide appeal. It is known as crowd
 <param ve-compare curtain region="-17,-120,675,600"
        manifest="https://iiif.juncture-digital.org/wc%3AKids_%E2%80%98n_Fiber_%286120828233%29.jpg/manifest.json">
 <param ve-compare
-       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black_eyed_peas/c444bc99e57e63b56a871d63bdc64134900c6905b516b652568cc75c356d730a.yaml/manifest.json">
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/black-eyed-peas/c444bc99e57e63b56a871d63bdc64134900c6905b516b652568cc75c356d730a.yaml/manifest.json">
 {#paragraph23}
        
 ### References			

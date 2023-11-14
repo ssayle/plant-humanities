@@ -469,7 +469,9 @@ module.exports = {
       }
     },
     async loadAnnotations() {
+      // console.log('loadAnnotations')
       let annosFile = `${this.currentItemSourceHash}.json`
+      /*
       let annosPath = `${location.pathname}/${annosFile}`
       console.log(`loadAnnotations: ${annosPath}`)
       let resp = await fetch(`${location.pathname}/${annosFile}`)
@@ -486,6 +488,20 @@ module.exports = {
         this.annoCursor = 0
         if (this.annotations.length > 0) this.showAnnotationsNavigator = true
       }
+      */
+      let path = `${this.mdDir}/${annosFile}`
+      this.getFile(path, this.contentSource.acct, this.contentSource.repo, this.contentSource.ref).then(annos => {
+        if (annos && annos.content && annos.content.length > 0) {
+          // this.annotations = JSON.parse(annos.content)
+          this.annotations = annos.content
+          if (!Array.isArray(this.annotations) && this.annotations.items) this.annotations = this.annotations.items
+          this.annotations.forEach(anno => this.annotator.addAnnotation(anno))
+        } else {
+          this.annotations = []
+        }
+        this.annoCursor = 0
+        if (this.annotations.length > 0) this.showAnnotationsNavigator = true
+      })
     },
     saveAnnotations() {
       this.annotations = this.annotator.getAnnotations()

@@ -14,6 +14,6 @@ github:
   branch: main
 
 url: https://plant-humanities.github.io/essays/
-baseurl: /essays/
+baseurl: /
 
 components: /juncture/wc/dist/js/index.js

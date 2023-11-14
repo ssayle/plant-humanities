@@ -26,6 +26,7 @@
       :background="backgroundColor"
       :alpha="backgroundImage ? 0.2 : 0"
       :offset="backgroundImage ? navbarHeight : 0"
+      :auth="props.auth"
     >
 
       <ul v-if="navEl" v-html="navEl.outerHTML"></ul>
@@ -53,7 +54,8 @@
     background: { type: String },
     options: { type: String },
     height: { type: Number },
-    position: { type: String }
+    position: { type: String },
+    auth: { type: String }, // "github" or "netlify"
   })
 
   const navbarHeight = 100

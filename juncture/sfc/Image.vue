@@ -171,7 +171,12 @@ module.exports = {
       return this.currentItem && this.findItem({type:'Annotation', motivation:'painting'}, this.currentItem, this.currentItem.seq || 1).body.id
     },
     currentItemSourceHash() {
-      return this.currentItemSource ? this.sha256(this.currentItemSource).slice(0,8) : ''
+      let hashFromMetadata = this.currentItem?.metadata.find(md => md.label?.en?.[0] === 'hash')?.value.en?.[0]
+      return hashFromMetadata
+        ? hashFromMetadata
+        : this.currentItemSource
+          ? this.sha256(this.currentItemSource).slice(0,8)
+          : ''
     },
     annosUrl() { return `${this.contentSource.assetsBaseUrl || this.contentSource.baseUrl}/${this.mdDir}${this.currentItemSourceHash}.json` },
     target() {
@@ -442,7 +447,7 @@ module.exports = {
       }
     },
     async loadAnnotations() {
-      // console.log('loadAnnotations')
+      console.log('loadAnnotations')
       let annosFile = `${this.currentItemSourceHash}.json`
       /*
       let annosPath = `${location.pathname}/${annosFile}`
@@ -464,9 +469,11 @@ module.exports = {
       */
       let path = `${this.mdDir}/${annosFile}`
       this.getFile(path, this.contentSource.acct, this.contentSource.repo, this.contentSource.ref).then(annos => {
-        if (annos && annos.content && annos.content.length > 0) {
+        if (annos && annos.content) {
+          this.annotations = annos.content.items
+            ? annos.content.items
+            : annos.content
           // this.annotations = JSON.parse(annos.content)
-          this.annotations = annos.content
           if (!Array.isArray(this.annotations) && this.annotations.items) this.annotations = this.annotations.items
           this.annotations.forEach(anno => this.annotator.addAnnotation(anno))
         } else {
@@ -866,11 +873,11 @@ module.exports = {
     currentItem(current, previous) {
       this.annotations = []
       this.annoCursor = 0
-      this.loadAnnotations()
       this.displayInfoBox()
     },
     currentItemSourceHash() { 
       console.log(`currentItemSource=${this.currentItemSource} hash=${this.currentItemSourceHash}`)
+      this.loadAnnotations()
     },
     mode() {
       if (this.viewer) this.initViewer()

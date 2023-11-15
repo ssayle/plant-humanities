@@ -2,16 +2,11 @@
 
 # ve-image 
 
-## seq
+## fit
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <param ve-image primary 
-    manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
-    seq="16"
-    region="-18,-330,4579,6613">
-<param ve-image
-    manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
-    seq="18"
-    region="416,2062,3576,3307">
+    manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen_Shot_2021-01-06_at_12.02.11_PM.jpg/manifest.json"
+    fit="contain">
 
 ## fit
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -24,6 +19,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <param ve-image
     manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/cryptomeria/IMG_0548.jpg/manifest.json"
     rotate="90">
+
+## region
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<param ve-image
+    manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/cryptomeria/IMG_0548.jpg/manifest.json"
+    rotate="90"
+    region="829,1251,1351,872">
 
 # ve-compare
 

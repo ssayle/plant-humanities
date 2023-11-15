@@ -49,7 +49,7 @@ By 7,000 years [BP,](https://www.archaeological.org/programs/educators/introduct
 	fps="3"
 	fill="#5C6609"
 	auto-play="true">
-<param ve-map-layer geojson url="maizespreadtime.json">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/maize/maizespreadtime.json">
 {#paragraph6}
 
 In addition to domesticating maize and dispersing it throughout South America and back toward Central America, humans worked to cultivate maize, which could not have survived if left to its own devices. Wild teosinte is very fragile and its pod can be shattered by the wind. By contrast, maize relies on humans to disperse its seeds. The scientific history of maize thus reveals the central and active role early <span eid="Q13109203"> Mesoamericans</span> played in its domestication through making conscious decisions about the cultivation process.
@@ -70,13 +70,14 @@ In addition to domesticating maize and dispersing it throughout South America an
 After its domestication, maize quickly became an important crop for Mesoamerican people, both nutritionally and culturally. Scholars and food policy experts have noted that maize is one of the most productive and nutritious crops in terms of calories per acre and [extol](https://www.cimmyt.org/news/classic-milpa-maize-intercrop-can-help-feed-communities-forgotten-by-development/) the <span eid="Q45914">Maya peoples’</span> practice of <span eid="Q1537558">milpa agriculture,</span> an agroecosystem that relies on extensive <span eid="Q853859">intercropping</span> as a means to promote biodiversity and address food insecurity. Under this system, maize was intercropped with plants including beans, <span data-click-image-zoomto="35,701,468,500">squash</span>, peppers, tomatoes, and potatoes, allowing for greater soil and landscape regeneration when compared to <span eid="Q220212">monocrops</span>. This practice was incredibly productive: scientists have shown that in a milpa "<span data-click-image-zoomto="140,127,651,696">the maize stalk</span> supports <span data-click-image-zoomto="139,587,468,500">the climbing bean</span>, increasing the latter’s access to light, while the bean plant fixes additional nitrogen in the soil."[^ref8] Maize thus not only represented an important source of nutrition in and of itself, but also enabled the growth of other nutritionally significant crops. Using carbon <span eid="Q518459">isotope analysis</span> of human bones and teeth, archeologists have shown how "maize was an important dietary component throughout life" for populations throughout the Maya area.[^ref9]
 <param ve-image
        fit="cover"
-       manifest="https://iiif.juncture-digital.org/wc%3AThree_Sisters_planting_visual_graphic.png/manifest.json">
+       manifest="https://iiif.juncture-digital.org/wc%3AThree_Sisters_planting_visual_graphic.png/manifest.json"
+       title="Illustration of Milpa agriculture. In this intercropping method, Maya farmers rotate annual crops with shorter-term perennial crops. In addition, land is left fallow for eight years following two years of cultivation to improve the regrowth of vegetation and maintain soil health.">
 {#paragraph8}
 
 To obtain the utmost nutrients from maize, Mesoamericans practiced a process called <span eid="Q3052219">nixtamalization</span>, a word derived from the <span eid="Q13300">Nahuatl</span> terms for lime and maize dough. While, as scholars have noted, the "origin and development [of the nixtamalization process] remain archeologically unclear," the lime treatment of maize has been used in Mesoamerica for at least the past 3,000 years to produce a "reduction of the labor required to grind maize, by breaking down the kernel’s durable external pericarp or shell; and enhanced nutrition, by releasing niacin and amino acids inherent in the maize and contributing additional calcium from the lime."[^ref10]  While nixtamalization reduces the effort of grinding maize, it was still very labor intensive for Mesoamerican women, who traditionally grind maize kernels into <span eid="Q1006089">masa</span>, or dough, over a <span eid="Q1854307">metate</span> or grinding stone. Further, maize is not only used to produce masa; Mesoamerican peoples make use of the maize stalks to produce maize beer, referred to as tesqüino, in certain parts of Mesoamerica and <span eid="Q516592">chicha</span> in others.
 <param ve-image
        label="The process of nixtamalizing corn using a metate, as represented in the Códice Mendoza. Códice Mendoza, 1541–1650, Bodleian Libraries, University of Oxford."
-       region="3530,4341,1787,1476" seq="129" manifest="https://iiif.bodleian.ox.ac.uk/iiif/manifest/2fea788e-2aa2-4f08-b6d9-648c00486220.json">
+       region="3530,4341,1787,1476" seq="130" manifest="https://iiif.bodleian.ox.ac.uk/iiif/manifest/2fea788e-2aa2-4f08-b6d9-648c00486220.json">
 <param ve-image
        fit="cover"
        manifest="https://iiif.juncture-digital.org/wc%3ATortilleras_Nebel.jpg/manifest.json"> 

@@ -118,6 +118,7 @@
           self.updateClip();
         }
       });
+
     });
   };
 
@@ -176,6 +177,7 @@
 
     // ----------
     updateClip: function () {
+
       var viewerPos = new OpenSeadragon.Point(this.viewer.container.clientWidth * this.clipFactorX,
         this.viewer.container.clientHeight * this.clipFactorY);
 

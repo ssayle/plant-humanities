@@ -6,8 +6,6 @@
 
 <script>
 
-// https://cuberis.github.io/openseadragon-curtain-sync/
-
 const iiifService = 'https://iiif.juncture-digital.org'
 const prefixUrl = 'https://openseadragon.github.io/openseadragon/images/'
 
@@ -22,22 +20,31 @@ module.exports = {
     viewerIcon: 'fas fa-images',
     dependencies: [
       'https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js',
-      'https://raw.githubusercontent.com/plant-humanities/essays/main/juncture/sfc/openseadragon-curtain-sync.min.js'
+      // 'https://plant-humanities.github.io/essays/juncture/sfc/openseadragon-curtain-sync.min.js'
+      '/juncture/sfc/openseadragon-curtain-sync.js'
     ],
-    tileSources: [],
     viewer: null,
     manifests: null
   }),
   computed: {
     containerStyle() { return { height: this.viewerIsActive ? '100%' : '0' } },
     compareItems() { return this.items.filter(item => item[this.$options.name]) },
-    mode() { let itemsWithMode = this.compareItems.filter(item => item.sync || item.curtain).map(item => item.sync ? 'sync' : 'curtain') 
-             return itemsWithMode.length > 0 ? itemsWithMode[0] : 'curtain'
+    mode() { 
+      let itemsWithMode = this.compareItems.filter(item => item.sync || item.curtain).map(item => item.sync ? 'sync' : 'curtain') 
+      return itemsWithMode.length > 0 ? itemsWithMode[0] : 'curtain'
+    },
+    tileSources() { 
+      return this.manifests?.map((manifest, idx) => {
+        let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
+        let tileSource = itemInfo.service
+          ? `${(itemInfo.service[0].id || itemInfo.service[0]['@id'])}/info.json`
+          : { url: itemInfo.id, type: 'image', buildPyramid: true }
+        const opacity = idx === 0 ? 1 : this.mode === 'layers' ? 0 : 1
+        return { tileSource, opacity }
+      }) || []
     },
     images() {
-      return this.tileSources.map((tileSource, idx) => {
-        return { key: `item-${idx}`, tileSource, shown: true } 
-      })
+      return this.tileSources.map((tileSource, idx) => ({ key: `item-${idx}`, tileSource, shown: true }))
     }
   },
   mounted() { this.loadDependencies(this.dependencies, 0, this.init) },
@@ -118,34 +125,6 @@ module.exports = {
       }
       return manifests
     },
-    loadManifests1() {
-      let promises = this.compareItems.map(item => {
-        if (item.manifest) {
-          return fetch(item.manifest).then(resp => resp.json())
-        } else if (item.url) {
-          let data = {};
-          ['url', 'label', 'description', 'attribution', 'license'].forEach(field => {
-            if (item[field]) data[field] = item[field]
-          })
-          return fetch(`${iiifService}/manifest/`, {
-            method: 'POST',
-            headers: {'Content-type': 'application/json'},
-            body: JSON.stringify(data)
-          }).then(resp => resp.json())
-        }
-      })
-      Promise.all(promises).then(manifests => {
-          this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}})
-          this.tileSources = this.manifests.map((manifest, idx) => {
-            const opacity = idx === 0 ? 1 : this.mode === 'layers' ? 0 : 1
-            const tileSource = manifest.sequences[0].canvases[manifest.seq || 0].images[0].resource.service
-              ? `${manifest.sequences[0].canvases[manifest.seq || 0].images[0].resource.service['@id']}/info.json`
-              : { url: manifest.sequences[0].canvases[manifest.seq || 0].images[0].resource['@id'] || manifest.metadata.find(md => md.label === 'source').value,
-                 type: 'image', buildPyramid: true }
-            return tileSource
-          })
-        })
-    },
 
     // find an item in a IIIF manifest
     findItem(toMatch, current, seq = 1) {
@@ -171,20 +150,12 @@ module.exports = {
     compareItems() {
       this.loadManifests().then(manifests => this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}}))
     },
-    manifests() {
-      this.tileSources = this.manifests.map((manifest, idx) => {
-        let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
-        let tileSource = itemInfo.service
-          ? `${(itemInfo.service[0].id || itemInfo.service[0]['@id'])}/info.json`
-          : { url: itemInfo.id, type: 'image', buildPyramid: true }
-        const opacity = idx === 0 ? 1 : this.mode === 'layers' ? 0 : 1
-        return { tileSource, opacity }
-      })
+    // tileSources() { console.log('ve-compare.tileSources', this.tileSources) },
+    images() {
+      if (!this.images) return
+      console.log(`ve-compare mode=${this.mode}.images`, this.tileSources)
+      if (this.images) this.initViewer() 
     },
-    tileSources() { 
-      console.log('ve-compare.tileSources', this.tileSources)
-    },
-    images() { this.initViewer() },
     active() { this.initViewer() }
   }
 }

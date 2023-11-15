@@ -1,8 +1,33 @@
 <param ve-config title="For problem def and testing" layout="vertical">
 
+# ve-image 
+
+## seq
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<param ve-image primary 
+    manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
+    seq="16"
+    region="-18,-330,4579,6613">
+<param ve-image
+    manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
+    seq="18"
+    region="416,2062,3576,3307">
+
+## fit
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<param ve-image primary 
+    manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen_Shot_2021-01-06_at_12.02.11_PM.jpg/manifest.json"
+    fit="contain">
+
+## rotate
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<param ve-image
+    manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/cryptomeria/IMG_0548.jpg/manifest.json"
+    rotate="90">
+
 # ve-compare
 
-## Sync mode
+## Sync (works)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <param ve-compare sync
@@ -10,36 +35,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <param ve-compare
     manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/ayahuasca/Yage_Is_Our_Life_YouTube_posted_by_Yage_Is_Our_Life_no_known_restrictions_2.jpg/manifest.json">
 
-## Curtain mode
+## Curtain (broken)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <param ve-compare curtain
     manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/ayahuasca/Yage_Is_Our_Life_YouTube_posted_by_Yage_Is_Our_Life_no_known_restrictions_1.jpg/manifest.json">
 <param ve-compare
     manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/ayahuasca/Yage_Is_Our_Life_YouTube_posted_by_Yage_Is_Our_Life_no_known_restrictions_2.jpg/manifest.json">
-
-# ve-image fit
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<param ve-image primary 
-    manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen_Shot_2021-01-06_at_12.02.11_PM.jpg/manifest.json"
-    fit="contain">
-
-# ve-image seq
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<param ve-image primary 
-    manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
-    seq="15"
-    region="-18,-330,4579,6613">
-<param ve-image
-    manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
-    seq="17"
-    region="416,2062,3576,3307">
-
-# ve-image rotate
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<param ve-image
-    manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/cryptomeria/IMG_0548.jpg/manifest.json"
-    rotate="90">
 
 # ve-map mapwarper
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

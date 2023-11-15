@@ -72,8 +72,6 @@ const dependencies = [
   'https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.5.3/dist/annotorious.min.css',
   'https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.5.3/dist/openseadragon-annotorious.min.js',
   'https://cdn.jsdelivr.net/npm/sjcl@1.0.8/sjcl.min.js'
-  // 'https://altert.github.io/OpenseadragonFabricjsOverlay/openseadragon-fabricjs-overlay.js',
-  // 'https://altert.github.io/OpenseadragonFabricjsOverlay/fabric/fabric.adapted.js'
 ]
 
 const ccLicenseIcons = {
@@ -170,7 +168,7 @@ module.exports = {
         : 'contain'
     },
     currentItemSource() {
-      return this.currentItem && this.findItem({type:'Annotation', motivation:'painting'}, this.currentItem).body.id
+      return this.currentItem && this.findItem({type:'Annotation', motivation:'painting'}, this.currentItem, this.currentItem.seq || 1).body.id
     },
     currentItemSourceHash() {
       return this.currentItemSource ? this.sha256(this.currentItemSource).slice(0,8) : ''
@@ -227,9 +225,7 @@ module.exports = {
       } else {
         return `Source: ${this.metadata.info || ''}`
       }
-    },
-    //imageInfo(){ return this.currentItem && this.currentItem.metadata ? this.parseManifest : null }
-    
+    }    
   },
   mounted() {
     this.osdElem = document.getElementById('osd')
@@ -306,23 +302,9 @@ module.exports = {
         this.viewer.addHandler('page', this.newPage)
         this.viewer.addHandler('viewport-change', this.viewportChange)
         this.viewer.world.addHandler('add-item', (e) => {
-          // console.log('add-item', this.currentItem)
+          // console.log('add-item', e, this.currentItem)
 
           const numItems = this.viewer.world.getItemCount()
-          // console.log('add-item', numItems, e, e.item)
-
-          // TODO: finish positioning for multiple images in layers and curtain mode
-          const itemId = e.item.source['@id'] || e.item.source.url
-          const manifest = this.manifests.find(m => this.getService(m)?.id === itemId)
-
-          if (manifest && manifest.crop) {
-            let [x,y,w,h] = manifest.crop.split(',').map(v => parseInt(v))
-            const osdRect = new OpenSeadragon.Rect(x,y,w,h)
-            // const imgSize = e.item.getContentSize()
-            e.item.setClip(osdRect)
-            e.item.setPosition(this.viewer.viewport.imageToViewportRectangle(new OpenSeadragon.Rect(-x,-y,w,h)))
-            this.$nextTick(() => setTimeout(() => this.positionImage(), 100))
-          }
           if (this.currentItem && this.currentItem.rotate) {
             e.item.setRotation(parseInt(this.currentItem.rotate), true)
           }
@@ -332,7 +314,6 @@ module.exports = {
           this.imageSize = e.item.getContentSize() || {x:0 , y:0}
 
         })
-        // console.log(this.drawRect({left: 0, top: 0, width: this.viewer.drawer.canvas.width-2, height: this.viewer.drawer.canvas.height-2, stroke: 'red', strokeWidth: 2, fill: null}))
       })
     },
     loadTileSources() {
@@ -363,11 +344,6 @@ module.exports = {
         }
       }
       return found
-    },
-
-    getService(manifest) {
-      let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
-      return itemInfo.service && itemInfo.service.length > 0 ? itemInfo.service[0] : null
     },
     
     async loadManifests(items) {
@@ -424,11 +400,9 @@ module.exports = {
           } else {
             const scaleX = this.osdElem.clientHeight/this.imageSize.y
             const scaleY = this.osdElem.clientWidth/this.imageSize.x
-            // console.log((scaleY/scaleX).toFixed(4))
             const fit = this.fit === 'cover'
               ? scaleY/scaleX > 1 ? 'horizontal' : 'vertical'
               : scaleY/scaleX > 1 ? 'vertical' : 'horizontal'
-            // console.log(`fit=${this.fit} ${fit}`)
             if (fit === 'horizontal') {
               this.viewer.viewport.fitHorizontally(immediately)
             } else {
@@ -459,7 +433,6 @@ module.exports = {
     },
     initAnnotator() {
       if (!this.annotator) {
-        // console.log(`initAnnotator: readonly=${!this.isAuthenticated}`)
         this.annotator = OpenSeadragon.Annotorious(this.viewer, { readOnly: !this.isAuthenticated })
         this.annotator.off()
         this.annotator.on('selectAnnotation', this.annotationSelected)
@@ -505,11 +478,9 @@ module.exports = {
     },
     saveAnnotations() {
       this.annotations = this.annotator.getAnnotations()
-      // console.log('saveAnnotations', this.annotations)
       this.putFile(`${this.mdDir}/${this.currentItemSourceHash}.json`, JSON.stringify(this.annotations, null, 2))
     },
     annotationSelected(anno) {
-      // console.log('annotationSelected', anno)
     },
     toggleAnnotatorEnabled() {
      this.annotatorEnabled = !this.annotatorEnabled
@@ -530,7 +501,6 @@ module.exports = {
       }
     },
     openAnnotationsEditor() {
-      // console.log('openAnnotationsEditor', this.currentItem)
       const url = `${this.annosTool}?manifest=${encodeURIComponent(this.currentItem['manifest'])}&target=${encodeURIComponent(this.target)}&jwt=${this.jwt}`
       if (this.annosEditor) { this.annosEditor.close() }
       this.annosEditor = window.open(url, '_blank', `toolbar=yes,location=yes,left=0,top=0,width=1400,height=1200,scrollbars=yes,status=yes`)
@@ -543,7 +513,6 @@ module.exports = {
     },
     gotoAnnotationSeq(idx) {
       idx = idx !== undefined ? idx : this.annoCursor
-      // if (this.currentItem.annotations && idx < this.currentItem.annotations.length) {
       if (idx < this.annotations.length) {
         this.annoCursor = idx
         this.gotoAnnotation(this.annotations[idx])
@@ -731,12 +700,10 @@ module.exports = {
         if (manifest.metadata){
           manifest.metadata.forEach(message => {
             if (!content[message['label']] && message['label'] != 'mode' && message['label'] != 'repo' && message['label'] != 'acct' && message['label'] != 'essay' && message['label'] != 'title_formatted'){
-              // content[message['label']] = message['value']
             }
           })
-          //this.viewerItems[0]['metadata'].forEach(a => authors[parseInt(a.ordinal)-1] = a['label'])
         }
-        let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
+        let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest, x.seq || 1).body
         if (itemInfo){
           content['image format'] = itemInfo.format
           content['image height'] = itemInfo.height
@@ -764,7 +731,6 @@ module.exports = {
       return html;
     },
     displayInfoBox() {
-      //this.imageInfo = this.parseManifest();
 
       if (this.manifests.length == 2 && (this.mode === 'layers' || this.mode === 'curtain')){
         if (this.sliderPct < 50){
@@ -778,11 +744,9 @@ module.exports = {
           this.imageInfo = this.parseManifest(this.currentItem);
         }
         else {
-          this.imageInfo = this.parseManifest(this.manifests[0]);
+          this.imageInfo = this.parseManifest({...this.manifests[0], ...this.viewerItems[0]});
         }
       }
-      //const template = document.getElementsByClassName('.info-box-content');
-      //console.log('template', template);
 
       if (!this.tippy) {
         new tippy(document.querySelectorAll('.info-box'), {
@@ -848,16 +812,6 @@ module.exports = {
       immediate: false
     },
     viewerItems (current, previous) {
-      /*
-      let sorted = [...current].sort((a, b) => {
-        let aIdx = parseInt(a.id.split('-').pop())
-        let bIdx = parseInt(b.id.split('-').pop())
-        // console.log(`sort: a=${aIdx} b=${bIdx}`)
-        return aIdx > bIdx ? 1 : -1
-      })
-      console.log('current', sorted)
-      const cur = sorted.map(item => this.stringifyKeysInOrder(item))
-      */
       const cur = current.map(item => this.stringifyKeysInOrder(item))
       const prev = previous ? previous.map(item => this.stringifyKeysInOrder(item)) : []
       if (this.viewer && this.viewerIsActive) {
@@ -865,15 +819,15 @@ module.exports = {
           this.loadManifests(this.viewerItems).then(manifests => this.manifests = manifests)
         } else {
           this.page = 0
-          // this.currentItem = { ...this.manifests[this.page], ...sorted[0] }
           this.currentItem = { ...this.manifests[this.page], ...current[0] }
         }
       }
     },
     manifests(manifests) {
       if (manifests) {
-        this.tileSources = manifests.map((manifest, idx) => {
-          let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
+        this.tileSources = this.manifests.map((manifest, idx) => {
+          let found = this.findItem({type:'Annotation', motivation:'painting'}, manifest, this.viewerItems[idx]?.seq || 1)
+          let itemInfo = found.body
           let tileSource = itemInfo.service
             ? `${(itemInfo.service[0].id || itemInfo.service[0]['@id'])}/info.json`
             : { url: itemInfo.id, type: 'image', buildPyramid: true }
@@ -884,19 +838,16 @@ module.exports = {
         this.displayInfoBox()
 
         this.page = 0
-        this.currentItem = manifests[this.page]
+        this.currentItem = { ...this.manifests[this.page], ...this.viewerItems[0] }
       }
     },
     page() {
-      this.currentItem = this.manifests[this.page]
+      this.currentItem = { ...this.manifests[this.page], ...this.viewerItems[0] }
       if (this.goToRegionCoords != null){
-        //this.$nextTick(() => setTimeout(() => this.gotoRegion(this.goToRegionCoords), 100))
-
         this.$nextTick(() => {
           this.gotoRegion(this.goToRegionCoords)
           this.goToRegionCoords = null;
         })
-        
       }
     },
     actions: {
@@ -917,16 +868,6 @@ module.exports = {
       this.annoCursor = 0
       this.loadAnnotations()
       this.displayInfoBox()
-      /*
-      if (this.viewer && current && (!previous || current['@id'] !== previous['@id'])) {
-        this.loadAnnotations()
-        this.displayInfoBox();
-      } else {
-        // vvvvv this causes an infinite loop!!!!
-        // if (previous && previous.annotations) this.currentItem = { ...this.currentItem, ...{ annotations: [...previous.annotations] } }
-        if (current && previous && previous.annotations) this.currentItem.annotations = [...previous.annotations]
-      }
-      */
     },
     currentItemSourceHash() { 
       console.log(`currentItemSource=${this.currentItemSource} hash=${this.currentItemSourceHash}`)
@@ -954,7 +895,6 @@ module.exports = {
     },
     sliderPct() {
       const numItems = this.viewer.world.getItemCount()
-      // console.log(`sliderPct: items=${numItems} mode=${this.mode} pct=${this.sliderPct}`)
       if (this.mode === 'layers') {
         if (numItems > 1) {
           const opacity = this.sliderPct/100

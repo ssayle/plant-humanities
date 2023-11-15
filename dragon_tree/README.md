@@ -14,6 +14,8 @@
 	
 <param title="Dracaena" eid="Q158009" article="dragon_tree_species">
 
+# &nbsp;
+
 ### A Desensitizing Sensory Experience
 
 As the tongue goes numb and all efforts fail to remove the scarlet, sticky substance that binds to one’s teeth like quick-setting epoxy, one starts to panic and wonder if the dragon’s blood just ingested is truly as noxious as its name suggests. Though the epithet "dragon’s blood" elicits images of medieval myths and fantastical notions of fire-breathing lizards soaring high in the sky, this "blood" is in fact the resin of a very real tree. Dragon trees grow for 10 to 15 years with a single stem before producing flowers, after which branches start growing from the buds. Branches slowly grow new branches, which ultimately give the trees their characteristic, umbrella-style crowns. Dragon trees have captured the imaginations of great minds across the ages, from Pliny the Elder (23/24–79 CE) to Alexander von Humboldt (1769–1859). Unlike Pliny, however, who was the lone scholar of his age enthralled by the epic allure of the dragon tree, Enlightenment-era European naturalists, like Humboldt and André Pierre Ledru (1761–1825) focused on one species, _Dracaena draco_ (L.) L., and both flocked to its native Canary Islands to study it around the turn of the nineteenth century. Soon after their initial encounters with dragon’s blood, they all may have realized that this strange sap occupied a liminal space between myth, legend, and scientific botany.

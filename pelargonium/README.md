@@ -60,7 +60,7 @@ Other morphological traits distinguish members of the genera pelargonium from ge
 The [_pelargonium_,](http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:30302759-2) which includes more than 280 accepted species, is native to Southern Africa, Saint Helena, Asia Minor, Madagascar, and Australia. The great majority of these species are endemic to the Cape regions of present-day South Africa—a biodiversity hotspot. Given their concentration there, it is not surprising that Dutch traders, who first introduced pelargoniums to Europe in the early seventeenth century, harvested them from the Cape.[^ref6]
 <param ve-entity eid="Q864294" title="Biodiversity hotspot" aliases="biodiversity hotspot">
 <param ve-map center="-1.8178950538873857, 72.47203596246695" zoom="2.5" show-labels="true">
-<param ve-map-layer geojson url="map-pelargonium.json" label="Pelargonium native range (red) active">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/pelargonium/map-pelargonium.json" label="Pelargonium native range (red) active">
 {#paragraph6}
 
 Of the many _Pelargonium_ species native to Southern Africa, _Pelargonium triste_ was probably the first to reach Europe, in the early 1600s.[^ref7] In 1672, several more species were collected—mostly from Table Mountain, on the Cape peninsula—and shipped back to the <span data-click-map-flyto="52.159, 4.484">Leiden Botanical Garden</span> by Paul Hermann, a medical officer with the Dutch East India Company.[^ref8] Hermann is credited with introducing _P. cucullatum_ to the garden, and his 1689 book [_Paradisi Batavi Prodromus_](https://bibdigital.rjb.csic.es/idurl/1/13582) lists pelargonium as "African geranium."[^ref9] Yet, it is important to note that some mystery still surrounds the identities of these plants because there was not yet a standardized method for naming them.
@@ -68,8 +68,8 @@ Of the many _Pelargonium_ species native to Southern Africa, _Pelargonium triste
 <param ve-entity eid="Q66569" title="Paul Hermann">
 <param ve-entity eid="Q3898876" title="Pelargonium cucullatum" aliases="P. cucullatum">
 <param ve-map center="-27.463216719911, 23.43344878447288" zoom="5" show-labels="true">
-<param ve-map-layer geojson url="map-pelargonium.json" label="Pelargonium native range (red)" active>
-<param ve-map-layer geojson url="map-pelargonium-netherlands.json" label="introduced (green)" active>
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/pelargonium/map-pelargonium.json" label="Pelargonium native range (red)" active>
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/pelargonium/map-pelargonium-netherlands.json" label="introduced (green)" active>
 {#paragraph7}
 
 The nomenclature confusion surrounding pelargonium started when _Pelargonium triste_ reached Europe. The plant was initially called _Geranium Indicum nocto odorato_—night-scented geranium of India.[^ref10] Europeans misidentified the specimen as a geranium because they were already familiar with _geranium_ species, which are native to the Mediterranean Basin. Additionally, Dutch traders brought the pelargonium to Holland on their return from colonial voyages to the East Indies, prompting some to assume, wrongly, that it was harvested from India. During this period, Jacques Philippe Cornut renamed the plant _Geranium triste_, which he depicted and described in his 1635 book [_Canadensium Plantarum_.](https://bibdigital.rjb.csic.es/idurl/1/13506)[^ref11] _Triste_ (sad) presumably alludes to the pelargonium’s dull-colored foliage or flowers, and the descriptor stuck.
@@ -107,16 +107,32 @@ Another technology, the [Wardian case,](https://www.doaks.org/resources/online-e
 It was against this backdrop that pelargoniums became a centerpiece of many municipal and private pleasure gardens in Victorian England. In the 1837 volume of the magazine [_The Floricultural Cabinet_,](https://www.biodiversitylibrary.org/page/15889416) a number of pelargoniums for bedding were well-known garden staples.[^ref18] As the number of commercially available hybrids increased, so did their profile in the era’s most fashionable green spaces, a trend celebrated by artist Edward Adveno Brooke’s 1858 book [_The Gardens of England_.](https://www.biodiversitylibrary.org/page/41414093)[^ref19] As he explains, the bright scarlet pelargonium bloomed nearly everywhere, from stone vases to flowerbeds and parterres. Indeed, [Brooke represented these locations in paintings](https://thegardenstrust.blog/2018/04/14/edward-adveno-brooke-and-the-gardens-of-england/) that were reproduced as chromolithographs for his book, including the ones depicting the upper and lower terrace gardens of Bowood House, the colonnade of Alton Gardens, as well as the parterre of Harewood House.
 <param ve-entity eid="Q444145" title="Bowood House">
 <param ve-entity eid="Q1585312" title="Harewood House">
-<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json" rotate="90">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json" rotate="90">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa9ba1ececf054721048a67ff142de9eece8f03e79c90a4a47a235a48e143b2a.yaml/manifest.json" rotate="90">
+<param ve-image primary
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/7bb7b2497e60ddb143c61e1d2a292b1fd6c309d48e014234f85106312f67188e.yaml/manifest.json"
+       fit="contain">
+<param ve-image
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/9cf040f20798d94ea05d64813ec7922c3d2f7a6c0e65ec294115aa7ee7cbd982.yaml/manifest.json"
+       fit="contain"
+       rotate="90">
+<param ve-image
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/e2f0b16d50e2dacb60cf19c5cc6ec1767b3c812d93379370c6e8c3bbb7ec32a5.yaml/manifest.json"
+       fit="contain"
+       rotate="90">
+<param ve-image
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/a41e027536d2fdaec8316eb55115a0a4f575ad3e7c21ca88dd5fd9c5f5079861.yaml/manifest.json" 
+       fit="contain" 
+       rotate="90">
 {#paragraph12}
 
 Gardeners favored hardy zonal pelargoniums because they show off their blooms for extended periods, flowering even in slightly chilly climates.[^ref20] More significantly, nursery owners adored the pelargonium because it was easy to grow and hybridize, producing cultivars in a seemingly infinite variety year-round. By the late nineteenth century, vendors were falling over one another to market the newest, most magnificent plants that, in addition to those for bedding, included varieties of regals with <span data-click-image-zoomto="2482,2976,1359,1053">pretty-petal markings</span> and the ivy- and scented-leaf types, known for their pleasing foliage. Additional factors contributing to the pelargonium-mania were the arrival of mass-produced pots and planters for displaying ornamental flowers and dazzling greenery. Desire to obtain novel cultivars became so frenzied that some compared it to the now infamous <span data-click-image-zoomto="773,1278,2718,2106">tulip-buying spree</span>, known as tulipomania, that occurred in the Netherlands in the 1630s.[^ref21]
 <param ve-entity eid="Q219217" title="tulip mania" aliases="tulipomania">
-<param ve-image primary region="-375,1023,5436,4244" manifest="https://iiif.lib.harvard.edu/manifests/drs:435776315" seq="21">
-<param ve-image region="-12,-125,1526,1257" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa70f5a6f0b7f5fe2e73ba0bf614bb3542744b699f68302afa65c3ba10591ee7.yaml/manifest.json">
+<param ve-image primary
+       manifest="https://iiif.lib.harvard.edu/manifests/drs:435776315"
+       seq="22"
+       region="-375,1023,5436,4244">
+<param ve-image
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/fa70f5a6f0b7f5fe2e73ba0bf614bb3542744b699f68302afa65c3ba10591ee7.yaml/manifest.json"
+       region="-12,-125,1526,1257">
 {#paragraph13}
 
 The pelargonium, in all its many splendid aesthetic and aromatic varieties, was clearly firmly a staple of British domestic interiors, gardens, and patios. In his hugely popular book [_The Amateur's Flower Garden_,](https://www.biodiversitylibrary.org/item/244730#page/9/mode/1up) Shirley Hibberd included designs for creating a harmonious pelargonium garden—"geranium garden"—based on the plant’s striking color variations.[^ref22] In the layout of a panel garden, Hibberd suggests two potential summer schemes: a red-harmony garden and a blue-harmony garden. By 1895, writers such as Donald McDonald were celebrating the scented-leaf variety of the plant and its foreign provenance; McDonald wrote that, "no bouquet or basket of flowers was considered complete unless plentifully perfumed with the foliage of Cape or other sweet Pelargoniums," a testament to the long-standing appeal of _Pelargoniums_ in British Victorian culture.[^ref23]
@@ -148,8 +164,8 @@ The pelargonium was also a tremendously fashionable flower in mid-nineteenth-cen
 <param ve-entity eid="Q191798" title="Georges-Eugène Haussmann">
 <param ve-entity eid="Q390367" title="Adolphe Alphand">
 <param ve-entity eid="Q90" title="Paris">
-<param ve-image primary region="1384,2244,4674,4215" manifest="https://iiif.lib.harvard.edu/manifests/drs:47667076" seq="45">
-<param ve-image region="2319,1454,5298,4625" manifest="https://iiif.lib.harvard.edu/manifests/drs:47667076" seq="25">
+<param ve-image primary region="1384,2244,4674,4215" manifest="https://iiif.lib.harvard.edu/manifests/drs:47667076" seq="46">
+<param ve-image region="2319,1454,5298,4625" manifest="https://iiif.lib.harvard.edu/manifests/drs:47667076" seq="26">
 {#paragraph17}
 
 Around 1850, the French perfume industries of Grasse, a leading center of perfume production, introduced the pelargonium to present-day Algeria in order to cultivate and produce aromatic oil from it.[^ref30] Under French rule since 1830, Algeria was considered an ideal place for growing this economic crop due to its warm arid and semi-arid climate and the low cost of colonial labor needed to cultivate, harvest, and prepare the plants for distillation. Perfumers selected pelargoniums because certain kinds, namely _Pelargonium graveolens_, have a sweet aroma similar to roses, making them a cost-effective alternative to the real thing. Pelargonium oils are extracted by [distillation](https://storiiies.cogapp.com/viewer/1e1gx/Distillation-process?_ga=2.191538920.352386283.1596674591-989112353.1594909187) and the substances that evaporate and condense again are taken from the leaves, stems, roots, flowers, fruits, and seeds of the plant. It should be noted that not all pelargoniums smell, and some scented-leave varieties give off unpleasant, pungent odors akin to fish or he-goat.[^ref31]

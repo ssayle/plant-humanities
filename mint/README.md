@@ -39,6 +39,7 @@ Mint and common hybrid species such as peppermint have long been held in high es
  
 _Near Pylos, towards the east, is a <span eid="Q3561330">mountain named after Minthe</span>, who, according to myth, became the concubine of Hades, was trampled under foot by Kore (Core) [Persephone], and was transformed into garden-mint, the plant which some call hedyosmos. Furthermore, near the mountain is a precinct sacred to Haides._[^ref1]
 <param ve-map title="Greece" basemap="Esri_WorldPhysical" center="37.506267,21.862627" zoom="5" stroke-width="0" show-labels>
+<param ve-map-marker coords="37.473,21.864">
 <param title="Minthi Mountain" eid="Q3561330" fill="#5C6609" marker-symbol="mountain" aliases="mountain named after Minthe">
 {#paragraph4}
 
@@ -64,7 +65,7 @@ Today, the common scent and flavor we associate with mint is synonymous with cul
 <param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/mint/c2b4b49b237071200e04c267d9e84778059a3bd12a3de5ecc5b02790d7c470af.yaml/manifest.json">
 <param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/mint/3bfaeacd70d6058169c1806d2c8f0e9f302c4f3840f839093d0b63abd879c508.yaml/manifest.json" region="516,360,1201,1470">
 <param ve-map title="World" basemap="Esri_WorldPhysical" center="51.520201,-0.125315" zoom="4">
-<param ve-map-layer geojson active url="/geojson/BritainYellow.geojson">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/BritainYellow.geojson">
 <param ve-entity eid="Q1334667" title="Nicholas Culpeper">
 {#paragraph8}
 
@@ -86,6 +87,7 @@ Brian Lawrence has described the taxonomy of the genus _Mentha_ as "being in a s
 This problematic nature of identifying and naming mint does not appear to have prevented the plant from becoming a significant commercial crop. Mint, especially commercial mint, is not considered native to North America, but <span eid="Q864709">Elder William Brewster</span> (1568–1644), a passenger on the 1620 Mayflower voyage, is known to have grown a variety of mint in his garden in Plymouth, Massachusetts, not long after arriving from England.[^ref9] From this information, the naturalist and traveler <span eid="Q6242285">John Josselyn</span> (1608–1675) postulated that the <span eid="Q127834">New World</span> was introduced to mint, or "Labiatae," by the pilgrims. Josselyn traveled to New England in 1638 and again in 1663, documenting his travels and the natural world he encountered in two publications [_New England’s Rarities_,](https://biodiversitylibrary.org/page/24624464) published in London in 1671, and [_An Account of Two Voyages to New England_,](https://biodiversitylibrary.org/page/47096615) also published in London in 1674.
 <param title="Plymouth" eid="Q326295" fill="#5C6609" marker-symbol="leaf">
 <param ve-map title="New England" basemap="Esri_WorldPhysical" center="42.566426,-71.751354" zoom="4">
+<param ve-map-marker coords="41.958333,-70.666667">
 <param ve-image manifest="https://iiif.juncture-digital.org/wc%3ABrewster_Gardens_Along_Town_Brook%3B_Statue_The_Pilglim_Maiden%2C_Plymouth%2C_Mass_%28NYPL_b12647398-79392%29.tiff/manifest.json">
 {#paragraph11}
 
@@ -97,13 +99,13 @@ Despite not being native to North America, peppermint and peppermint oil in part
 Essence of peppermint was regularly imported to America from London and according to research undertaken by Dan Allosso in 2017, advertisements for peppermint products in American newspapers appeared in the thousands between 1750 and 1800. In fact, his research at the American Antiquarian Society has identified almost 3,000 advertisements that appeared in over 70 newspapers printed in each of the original 13 colonies. Physicians and apothecaries "used and sold peppermint-based products in every major city in every colony."[^ref11]
 <param ve-map title="World" basemap="Esri_WorldPhysical" center="37.874967,-41.896891" zoom="3.5">
 <param title="colonies" eid="Q179997" fill="#5C6609" marker-symbol="leaf">
-<param ve-map-layer geojson active url="/geojson/mintBrUSline.geojson">
-<param ve-map-layer geojson active title="Original 13 colonies" url="/geojson/13colonies.geojson">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/mintBrUSline.geojson">
+<param ve-map-layer geojson active title="Original 13 colonies" url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint13colonies.geojson">
 {#paragraph13}
 
 American colonists were quick to recognize the commercial opportunity presented by locally producing peppermint oil rather than importing it from England, no doubt due in part to the ease of growing mint in a variety of environments. Unlike other varieties of mint, the peppermint plant would have been propagated in early America using root cuttings probably from a small number of original plants in England. Commercial peppermint production gradually shifted from England to America starting in the 1750s; records of peppermint fields in America show that the first were found near the town Ashfield, in Franklin County, Massachusetts. In these early days, essence <span eid="Q638172">peddlers</span> ensured that peppermint was part of a widespread production and distribution network, including in northern New York and New Jersey.[^ref12]
 <param ve-map title="New England" basemap="Esri_WorldPhysical" center="42.566426,-71.751354" zoom="6">
-<param ve-map-layer geojson active url="/geojson/13colonies.geojson">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/13colonies.geojson">
 <param title="Ashfield" eid="Q2536103" fill="#2d862d" marker-symbol="leaf">
 <param eid="Q1384" fill="#2d862d" marker-symbol="leaf">
 <param title="New Jersey" eid="Q1408" fill="#2d862d" marker-symbol="leaf">
@@ -120,13 +122,13 @@ Over time, American mint oil production would spread westwards from the east coa
 <param title="Michigan" eid="Q1166" fill="#2d862d" marker-symbol="leaf">
 <param title="Willamette" eid="Q1703681" fill="#2d862d" marker-symbol="leaf">
 <param title="Puget Island" eid="Q3593402" fill="#2d862d" marker-symbol="leaf">
-<param ve-map-layer geojson active url="/geojson/mintNamerica.geojson">
-<param ve-map-layer geojson active url="/geojson/lineofmint.geojson">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/mintNamerica.geojson">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/lineofmint.geojson">
 {#paragraph16}
 
 The mint industry in Washington and Oregon would go on to develop in line with sophisticated mechanical planting techniques and harvesting equipment. More recently, Washington farmers have faced increasing competition from China and India, who appear able to supply the shifting consumer taste for a stronger mint flavor that cannot be easily produced by the peppermint species.
 <param ve-map id="China-map" basemap="Esri_WorldPhysical" center="30.486795,88.475136" zoom="4">
-<param ve-map-layer geojson url="/geojson/chinaIndia.geojson">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/chinaIndia.geojson">
 {#paragraph17}
 
 ### Conclusions
@@ -137,7 +139,7 @@ The mint market in British American colonies and the early United States shows t
 
 Today, mint varieties are cultivated in many different parts of the world. Its range extends across the world, wherever there are appropriate habitats for it to flourish. Mints thrive when near water, which means that lakes, rivers, and even spaces in shade enable this fast-growing plant to be grown all year round. For example, wild mint (*Mentha arvensis*) is cultivated on a huge scale in Brazil, China, Paraguay, Japan, Thailand, Angola, and India.[^ref16] In this way, peppermint production in America, spreading across the breadth of the country over time, is a microcosm of the pattern of mint distribution across the world.
 <param ve-map title="Range of mint across the world" basemap="Esri_WorldPhysical" center="36.34,11.19" zoom="2" stroke-width="0" show-labels>
-<param ve-map-layer geojson active title="Global" url="/geojson/globalmintdis.geojson">
+<param ve-map-layer geojson active title="Global" url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/globalmintdis.geojson">
 {#paragraph19}
 
 Mint is ubiquitous perhaps because it has remained relevant across time and space. The plant reveals something of the early difficulties of botanical exchange and naming; speaks to the local and global movement of plants; exposes changes and developments in medical thought and practices over time (the changing popularity of herbal remedies for example); and continues to play a role in global consumer markets and advertising. Mint, in other words, will always be relevant for historical, cultural, and geographical studies. And as Hades called forth the plant to ensure that Minthe would never be forgotten, we too are constantly reminded of this plant as we go about our daily lives.

@@ -18,13 +18,13 @@ Despite its English name and nutlike taste, the peanut is not a nut. This mighty
 
 While the largest peanut-producing nations are now China, India, Nigeria, and the United States, the plant was first cultivated by Andean civilizations in South America.[^1] Its migration around the world altered global food production and supply forever, rendering it one of the most successful of New World plants disseminated via the <span eid="Q767253">Columbian Exchange</span>. More than just a food source, the peanut has been a protagonist in histories of global trade, slavery, and colonization and has come to be imbued with rich cultural meanings.
 <param ve-map basemap="Esri_WorldPhysical" center="21.495, 39.211" zoom="2" title="The distribution of Arachis hypogaea around the world, with its native range shown in orange."> 
-<param ve-map-layer geojson active url="distributionmap_native_introduced.json" title="Distribution and native range of Arachis hypogaea.">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/peanut/distributionmap_native_introduced.json" title="Distribution and native range of Arachis hypogaea.">
 {#paragraph2}
 
 ### The Origins of Peanut Cultivation, Consumption, and Use
 The peanut is one of many species of the genus [_Arachis_](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30003907-2) with a native range spanning modern-day northern Argentina, Bolivia, Paraguay, Uruguay, and part of Brazil. More specifically, the peanut is a natural hyrbid of [two wild species](https://www.scientificamerican.com/article/modern-peanut-s-wild-cousin-thought-extinct-found-in-andes/) that originated in what is now <span data-click-map-flyto="-19.922,-64.061, 6">Bolivia</span> 10,000 years ago.[^2] The exact period of peanut cultivation by <span eid="Q3122657">Andean civilizations</span> is unclear but domesticated peanut remains have been dated back more than 7,000 years.[^3] The high protein content of the peanut made it an important calorie-dense feature of the Andean diet.
 <param ve-map basemap="Esri_WorldPhysical" center="-19.922,-64.061" zoom="3" title="The distribution of Arachis hypogaea around the world, with its native range shown in orange."> 
-<param ve-map-layer geojson active url="peanutdistributionmap.json" title="Distribution of Arachis hypogaea (yellow).">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/peanut/peanutdistributionmap.json" title="Distribution of Arachis hypogaea (yellow).">
 <param ve-map-marker url="https://upload.wikimedia.org/wikipedia/commons/d/d2/Texture_d%27arachide_au_B%C3%A9nin_01.jpg"
 	coords="-18.5,-64.061"
 	size="129, 170"
@@ -41,7 +41,7 @@ Mestizo chronicler <span eid="Q334711">Inca Garcilaso de la Vega</span> (1539–
 
 Peanuts gradually spread from Peru to <span eid="Q13703">Mesoamerica</span> via Indigenous trade networks by the 1500s. In the Aztec capital of <span eid="Q13695">Tenochtitlan</span>, the location of present-day <span data-mouseover-map-flyto="19.433333, -99.133333,6">Mexico City</span>, the peanut was known as _tlalcacahuatl_ from the words _tlalli_ (earth) and _cacahuatl_ ([cacao]([https://lab.plant-humanities.org/cacao/)), giving rise to one of the Spanish words for peanut, _cacahuate/cacahuete_. This suggests that <span eid="Q13300">Nahuatl</span>-speaking people may have been the first humans to combine these two now-ubiquitous flavors.[^7]
 <param ve-map prefer-geojson basemap="Esri_WorldPhysical" title="Tenochtitlan, the location of present-day Mexico City." center="15.471219344367423, -90.38517376819463" zoom="3">
-<param ve-map-layer geojson active url="peanutdistributionmap.json" title="Distribution of Arachis hypogaea (yellow).">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/peanut/peanutdistributionmap.json" title="Distribution of Arachis hypogaea (yellow).">
 <param ve-map-marker url="https://upload.wikimedia.org/wikipedia/commons/d/d2/Texture_d%27arachide_au_B%C3%A9nin_01.jpg"
 	coords="19.434331596, -99.125499498"
 	size="129, 170"
@@ -55,7 +55,7 @@ The Nahua also valued the peanut for its healing properties. Nahua methods of pr
 ### Out of the Americas
 The Spanish first encountered peanuts in the late fifteenth century on <span eid="Q25277">Hispaniola</span>, the largest island of the West Indies, where they were called _maní_ in the Indigenous <span eid="Q5232952">Taíno</span> language. _Maní_ remains the predominant name in Latin America today, having been adopted into Spanish. Diverging from the appreciation of peanuts by many Indigenous societies, Spanish chronicler <span eid="Q919967">Gonzalo Fernández de Oviedo y Valdés</span> (1478–1557) linked their consumption on Hispaniola to people of low social standing who were not "true Christians."[^9] Because the Spanish associated peanuts with Hispaniola as well as the continental Americas, there was confusion about the plant’s origins until the nineteenth century, when peanut remains found in a pre-colonial tomb in Peru helped establish its origins in South America.[^10]
 <param ve-map basemap="Esri_WorldPhysical" title="Spread of peanuts in the lands claimed by the Spanish (blue) and Portuguese (red) Empires around 1600. This largely happened via the main trade routes of each empire, also shown here.">
-<param ve-map-layer geojson active url="traderoutesmap.json">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/peanut/traderoutesmap.json">
 {#paragraph8}
 
 <span eid="Q683846">Spanish galleons</span> transported peanuts westward from the Americas to <span data-mouseover-map-flyto="15.20,131.31">China, the Philippines, and the Pacific Islands</span> throughout the sixteenth century. Simultaneously, the Portuguese, who encountered the legume in Brazil around 1500, transported peanuts around the world to <span data-mouseover-map-flyto="-16.13,-12.30">Portuguese enclaves on the west coast of Africa</span>. From there, it spread across the continent. The peanut was often used as sustenance for enslaved peoples as it could be stored for long periods of time and its hard outer shell helped protect it from spoilage.[^11] From Africa, the peanut traveled to <span data-mouseover-map-flyto="2.64,60.29">Portuguese enclaves in India</span> and eventually to China.
@@ -63,12 +63,12 @@ The Spanish first encountered peanuts in the late fifteenth century on <span eid
        zoom="3"
        basemap="Esri_WorldPhysical" 
        title="Spread of peanuts via main trade routes in the lands claimed by the Spanish (blue) and Portuguese (red) empires around 1600.">
-<param ve-map-layer geojson active url="traderoutesmap.json">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/peanut/traderoutesmap.json">
 {#paragraph9}
 	
 The first mention of peanuts in a Chinese text dates to 1503, a mere decade after Christopher Columbus’ "discovery" of the Americas. The manuscript describes boiled or cooked peanuts as "delicious" and gives the origin of its Chinese name 落花生 _luo hua sheng_ (commonly now just 花生 _hua sheng_), literally "born from a fallen flower," which references how the peanut fruits below ground.[^12] Historical records related to <span eid="Q1015805">Changshu county</span> indicate that peanuts were cultivated there as early as 1538.[^13] Cultivation expanded to <span data-mouseover-map-flyto="23.17, 113.27, 5">Guangdong</span> by the seventeenth century and in the following century, to the Guangdong delta and Taiwan.
 <param ve-map basemap="Esri_WorldPhysical" center="24.187, 89.046" zoom="3" title="Spread of peanuts to China."> 
-<param ve-map-layer geojson active url="traderoutesmap.json">
+<param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/peanut/traderoutesmap.json">
 <param ve-map-marker url="https://upload.wikimedia.org/wikipedia/commons/d/d2/Texture_d%27arachide_au_B%C3%A9nin_01.jpg"
 	coords="23.17, 113.27"
 	size="129, 170"

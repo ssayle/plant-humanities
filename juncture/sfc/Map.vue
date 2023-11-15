@@ -514,6 +514,7 @@ module.exports = {
             return geoJSON
         },
         async delimitedDataToGeoJSON(url) {
+            console.log('delimitedDataToGeoJSON', url)
             const delimiter = url.split('.').pop() === 'tsv' ? '\t' : ','
             let resp = await fetch(url)
             let delimitedDataString = await resp.text()

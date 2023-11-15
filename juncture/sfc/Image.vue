@@ -369,7 +369,12 @@ module.exports = {
       let responses = await Promise.all(requests)
       let manifests = await Promise.all(responses.map(resp => resp.json()))
       requests = manifests
-        .filter(manifest => !Array.isArray(manifest['@context']) && parseFloat(manifest['@context'].split('/').slice(-2,-1).pop()) < 3)
+        .filter(manifest => {
+          let version = !Array.isArray(manifest['@context']) && manifest['@context'].indexOf('iiif.io') > 0
+            ? manifest['@context'].split('/').slice(-2,-1).pop()
+            : 2
+          return version < 3
+        })
         .map(manifest => fetch('https://iiif.juncture-digital.org/prezi2to3/', {
           method: 'POST', 
           body: JSON.stringify(manifest)

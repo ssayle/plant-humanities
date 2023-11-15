@@ -40,7 +40,7 @@ Members of today’s _Dracaena_ genus have long been valued for their signature 
 <param title="Dracaena cinnabari" eid="Q133560">
 <param title="resin" eid="Q145205">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/e1637c277aec8ab1f77a9717561584e57eda0ed96e72f1033f17811858df1552.yaml/manifest.json"
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/e1637c277aec8ab1f77a9717561584e57eda0ed96e72f1033f17811858df1552.jpg/manifest.json"
 	region="-45,191,1591,1127">
 {#paragraph2}
 
@@ -63,7 +63,7 @@ European understandings of the dragon tree evolved as scientific botany develope
 	center="Q105967"
 	zoom="3.75">
 <param ve-map-layer
-	geojson url="Dracaena-draco-native.json"
+	geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/dragon_tree/Dracaena-draco-native.json"
 	active>
 {#paragraph4}
 

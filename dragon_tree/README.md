@@ -38,7 +38,7 @@ Members of today’s _Dracaena_ genus have long been valued for their signature 
 <param title="Vedic myth" eid="Q2076739" aliases="Vedic myth">
 <param title="Socotra" eid="Q82859">
 <param title="Dracaena cinnabari" eid="Q133560">
-<param title=resin" eid="Q145205">
+<param title="resin" eid="Q145205">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/e1637c277aec8ab1f77a9717561584e57eda0ed96e72f1033f17811858df1552.yaml/manifest.json"
 	region="-45,191,1591,1127">

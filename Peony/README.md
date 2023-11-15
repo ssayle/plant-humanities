@@ -22,7 +22,7 @@ In 1735, a Viennese baroness wrote to the last Medici princess, <span id="Q23318
 {#paragraph1}
 
 In her letter to Anna Maria Luisa, the baroness praised the powder’s effectiveness, stating that the children she treated with it had been so violently taken by convulsions that the attending physicians had "given up on them." Not only had the "miraculous powder" cured the children, but they remained in perfect health several months later. Well known for her miraculous powder, Anna Maria Luisa strategically distributed it to influential individuals and courts across Europe. As a result, she created valuable socio-political alliances to protect <span eid="Q154849">The Grand Duchy of Tuscany</span> as the end of the Medici dynasty neared.
-<param ve-vis-network title="Anna Maria Luisa de Medici’s Network" url="AML_network.tsv">
+<param ve-vis-network title="Anna Maria Luisa de Medici’s Network" url="https://raw.githubusercontent.com/plant-humanities/essays/main/Peony/AML_network.tsv">
 {#paragraph2}
 
 ### The Popularity of Peonies
@@ -33,7 +33,7 @@ Peonies are not typically associated with medicine, since they have long been co
 The center of imperial peony cultivation was in <span data-mouseover-map-flyto="34.62403534924385, 112.45364263955301, 12">Luoyang</span>, where there were peony festivals and competitions, gardens devoted solely to peonies, and even a peony research center. This led to a plethora of ornamental peony cultivars as peony breeding became an artform. More than 200 peony cultivars were described during the <span data-mouseover-map-flyto="30.54077926679056, 112.8122076655154, 5">Song Dynasty</span> (960–1279 CE); today, China has more than 1,000 cultivars.
 <param ve-image url="https://theme.npm.edu.tw/exh105/npm_anime/TwelveMonths/common/images/selection/img1_1_4.jpg">
 <param ve-map center="Q187136" zoom="9" stroke-width="0">
-<param ve-map-layer geojson title="The Song dynasty at its greatest extent in 1111 AD." url="/Peony/Song.json" show-labels>
+<param ve-map-layer geojson title="The Song dynasty at its greatest extent in 1111 AD." url="https://raw.githubusercontent.com/plant-humanities/essays/main/Peony/Song.json" show-labels>
 {#paragraph4}
 
 While peonies have a long history of appreciation and cultivation as ornamental garden plants in Chinese as well as <span eid="Q3114508">Islamic gardens</span>, in western Europe they mainly were valued for their utility. Over the course of the sixteenth century that changed, when <span eid="Q12560">Ottoman</span> floriculture introduced numerous ornamental flowers to the gardens of Europe, including hyacinths, narcissi, peonies, and most famously, <span eid="Q219217">tulips</span>.[^2] It was not until the end of the eighteenth century, that Europeans would begin intensively breeding ornamental peonies.
@@ -56,7 +56,7 @@ Today, peonies remain one of the most sought-after ornamental flowers in the wor
 ### Shaoyao: The Medicine Made from Peony
 Peony is the single genus in the Paeoniaceae family, which has about 30 species found in western North America, northwest Africa, and temperate Eurasia. China, with 15 species, 10 of which are endemic, is the center of the family’s bio-geographic distribution.
 <param ve-map center="32.262084, 64.391554" zoom="2.5" stroke-width="0" show-labels>
-<param ve-map-layer geojson url="/geojson/peony.json" title="Peony Distribution" active>
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/Peony/peony.json" title="Peony Distribution" active>
 {#paragraph9}
 
 Two species of _Paeonia_ were particularly important in ancient Chinese medical practice, <span id="Q163076">_Paeonia lactiflora_</span>, which was the primary source of both white peony and red peony, and <span id="Q163018">_Paeonia suffruticosa_</span>, commonly known as the tree peony or moutan. The earliest record of the use of peony in Chinese medicine was discovered in an imperial Chinese Han tomb (25–220 CE). Writings within the tomb tell that peony root (called "danpi"), likely _P. suffruticosa_, was used to treat blood stasis nearly 2,000 years ago.[^6]
@@ -127,11 +127,13 @@ Today’s primary approach to treating epilepsy and suppressing seizures is to a
 
 The seeming effectiveness of her infant convulsion powder increased Anna Maria Luisa’s socio-political influence. In fact, several letters preserved in the Florence State Archive attest to the powder’s efficacy and popularity. One, from the Viennese baroness, asks Anna Maria Luisa for additional portions of powder given the "extraordinary effects they had on three children from the most important families of Vienna." Anna Maria Luisa replied that she would send the baroness as much of the powder as she desired to distribute to her friends, considering that she had "put the powder to such good use."
 <param ve-map center="47.61128698661441, 8.433186816910375" zoom="6" title="Recipients of Anna Maria Luisa’s Infant Convulsion Powder" show-labels>
-<param ve-map-layer geojson url="/geojson/AML_distribution.json" title="Distribution of Anna Maria Luisa’s Infant Convulsion Powder" active>
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/Peony/AML_distribution.json" title="Distribution of Anna Maria Luisa’s Infant Convulsion Powder" active>
 {#paragraph19}
 
 The gift of "miraculous" medicine to the Viennese court was not simply altruistic. As a woman, Anna Maria Luisa was barred from inheriting and ruling Tuscany on the death of her brother, the <span data-click-image-zoomto="1061,479,736,629">last Medici Grand Duke</span>. Although she lacked official power, Anna Maria Luisa fashioned influence through the gift of her infant convulsion powder, which allowed her to ingratiate herself with some of <span data-click-image-zoomto="214,581,1271,955">Vienna’s most important and powerful families</span>. This ensured goodwill and communication between the Grand Duchy of Tuscany and the court that would decide its fate. By the end of the Medici dynasty, the Viennese court was the headquarters of the Habsburg dynasty and the center of its imperial politics. In 1737, <span eid="Q151075">Francis of Lorraine</span>, future head of the <span eid="Q12548">Holy Roman Empire</span>, which controlled much of Europe at this time, became the Grand Duke of Tuscany and ruled Florence from the imperial court in Vienna—a court much indebted to Anna Maria Luisa de Medici’s infant convulsion powder and the power of peony.
-<param ve-image region="412,1,1423,1209" title="Line of Sucession for the Grand Duchy of Tuscany" url="https://raw.githubusercontent.com/plant-humanities/media/main/images/Black%20and%20White%20Simple%20Corporate%20Family%20Tree.jpg">
+<param ve-image 
+       manifest="https://iiif.juncture-digital.or/gh:plant-humanities/media/peony/Line_of_Sucession_for_the_Grand_Duchy_of_Tuscany.jpg/manifest.json"
+       region="412,1,1423,1209">
 {#paragraph20}
 
 ### References 

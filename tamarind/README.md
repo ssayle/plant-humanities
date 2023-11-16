@@ -64,8 +64,8 @@ Some sources suggest that tamarind was introduced into India, the world’s larg
        zoom="2"
        max-zoom="4"
        date-format="YYYY"
-       fps="1"
-<param ve-map-layer geojson url="Tamarind_map.json">
+       fps="1">
+<param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/tamarind/Tamarind_map.json">
 <param ve-entity eid="Q668" title="India">
 {#paragraph6}
 
@@ -104,7 +104,9 @@ Tamarind is mentioned in traditional Sanskrit literature and traditional African
 {#paragraph11}
 
 Tamarind’s resilience has made it a central part of herbal medicine practices across history. The seventeenth-century oil painting created after a design by the French printmaker Nicolas de Larmessin II portrays three men as the personifications of medicine, pharmacy, and surgery. At the center of the composition, the physician personifying medicine is cloaked in garb that bears the names of medieval authors central to traditional Western medicine, including Avicenna and Mesue, two Persian polymaths credited by Tournefort as key to the spread of knowledge about tamarind. Taking a closer look, just beneath the medicine man’s hand, is a <span data-click-image-zoomto="366,572,344,300">written prescription</span> to treat medical ailments, and nestled within the text that includes "cassia" and "rhubarb" is none other than "tamarind."
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f.yaml/manifest.json">
+<param ve-image 
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/4a6618d8e6704e21276f2647dd472450cbafdba566c17e78295e0d644577c665.yaml/manifest.json"
+       fit="contain">
 <param ve-entity eid="Q16666497" title="Nicolas de Larmessin" aliases="Nicolas de Larmessin II">
 <param ve-entity eid="Q1291511" title="Mesue">
 <param ve-entity eid="Q8011" title="Avicenna">
@@ -121,7 +123,7 @@ Tracing the appearance of the tamarind tree’s commonly used parts across mater
 
 ### Leaves 
 In its mature state, the tamarind tree’s vast crown is a place of refuge. Because the tree can grow in developed areas, be it on the side of the road, in barren spaces, or in commercial areas, it’s a common gathering place for people seeking relief from hot sun or congregating for sacred reasons.[^ref13] In many cultures the tree has historically been considered holy. Tamil culture, for example, recognizes Puliyidaivalaiyamman as the tamarind tree deity who offers fruit as a blessing.[^ref14] The leaves, young seedlings, and flowers that make up the crown are made into chutneys, added to sambar and soup.[^ref15] Outside of the kitchen, the leaves, which contain tannins, [can be used as a natural mordant](https://www.sciencedirect.com/science/article/pii/S131961031100202X) to affix dye to textiles. In a medicinal context, the leaves can be dried or boiled for use as poultices to relieve swelling.[^ref16]
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f.yaml/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/7b3776538515dfff49afa8e5b8a74fb8e9ee77fb09402df588a234847afb5b8b.yaml/manifest.json">
 <param ve-image manifest="https://iiif.juncture-digital.org/wc%3AIdital_Wall_Painting.jpg/manifest.json">
 <param ve-entity eid="Q811571" title="tree deity">
 <param ve-entity eid="Q275650" title="chutney">

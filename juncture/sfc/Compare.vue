@@ -6,7 +6,9 @@
 
     <ve-media :style="`display:${mode === 'curtain' ? 'block' : 'none'}`"> <!-- mode === curtain -->
       <ul>
-        <li v-for="(item, idx) in compareItems" :key="idx" v-text="item.manifest"></li>
+        <li v-for="(item, idx) in compareItems" :key="idx">
+          {{ item.manifest }} {{ item.region ? `region=${item.region}` : '' }}
+        </li>
       </ul>
     </ve-media>
 

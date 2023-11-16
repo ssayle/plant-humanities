@@ -37,8 +37,8 @@ A cultural history of the sunflower that attends to the circulation and signific
 
 The genus [_Helianthus_](http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:30000729-2)—a Latin compound derived from the Greek words _helios_ (sun) and _anthos_ (flower)—and the species _Helianthus annuus_ were named by the prominent Swedish naturalist Carolus Linnaeus in the eighteenth century, by which time the domesticated sunflower was already a beloved garden flower in Europe.[^ref3] Although it may be hard for us to imagine the extraordinary admiration for the sunflower at that time, Linnaeus’s exuberant description of the plant in [_Critica botanica_,](https://bibdigital.rjb.csic.es/idurl/1/11541) from 1737, offers some insights.[^ref4] He writes, "Who can see this plant in flower, whose great golden blossoms send out rays in every direction from the circular disk, without admiring the handsome flower modeled on the sun’s shape?"[^ref5] His encomium on the splendor of a mature inflorescence and its formal resemblance to the sun demonstrates traits that eighteenth-century Europeans prized and that make the flower, both real and represented, so iconic today.
 <param ve-entity eid="Q1043" title="Carl Linnaeus" aliases="Carolus Linnaeus">
-<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/sunflower/LINN_Critica%20botanica_97-standard-scale-2_00x-gigapixel.jpg/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/sunflower/LINN_Critica%20botanica_98-gigapixel-standard-scale-2_00x.jpg/manifest.json">
+<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/sunflower/LINN_Critica_botanica_97-standard-scale-2_00x-gigapixel.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/sunflower/LINN_Critica_botanica_98-gigapixel-standard-scale-2_00x.jpg/manifest.json">
 {#paragraph4}
 
 ### Plant Mobility and Early Printed Books
@@ -62,8 +62,12 @@ The advent of the florilegium in the 1610s was integral to the blossoming of sun
 <param ve-entity eid="Q65027" title="Basilius Besler">
 <param ve-entity eid="Q110347" title="Johann Konrad von Gemmingen" aliases="Prince Bishop of Eichstätt">
 <param ve-entity eid="Q462437" title="composition">
-<param ve-compare url="https://raw.githubusercontent.com/plant-humanities/media/main/sunflower/1F33B_sunflower_OpenMojis_rectangle_3.png">
-<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/sunflower/81b2d5fbce4c498f189ec2632742dc0e062737f432cd9b428b0f12ad64b907cb.yaml/manifest.json">
+<param ve-compare 
+       manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media//sunflower/1F33B_sunflower_OpenMojis_rectangle_3.png/manifest.json"
+       region="2248,709,291,372">
+<param ve-compare 
+       manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/sunflower/81b2d5fbce4c498f189ec2632742dc0e062737f432cd9b428b0f12ad64b907cb.yaml/manifest.json"
+       region="pct:0,0,50,100">
 {#paragraph7}
 
 ### Mythic Encounters and Scientific Debates
@@ -114,7 +118,8 @@ Europeans associated sunflowers with the human sentiments of loyalty and constan
 <param ve-entity eid="Q866674" title="Clytie">
 <param ve-entity eid="Q1229071" title="motif">
 <param ve-entity eid="Q758238" title="attribute">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/sunflower/Sunflower_Clytie_Rijksmuseum_RP-P-OB-5381.jpg/manifest.json">
+<param ve-image fit="contain" 
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/sunflower/Sunflower_Clytie_Rijksmuseum_RP-P-OB-5381.jpg/manifest.json">
 {#paragraph12}
 
 There is a longstanding cultural assumption that sunflowers are heliotropic throughout their lives. In actuality, the plant only tracks the movement of the sun during an early phase of its development and once mature, faces the east. Scientists recently examined the physiological processes that are responsible for these phenomena.[^ref25] Their study reveals that the stems of immature plants elongate on opposite sides in a circadian rhythm: the east side elongates to produce heliotropism during the day and the west side does so to reorient eastward at night. This growth pattern results from different genes that are expressed in response to an internal clock or external light, and they also regulate the cessation of movement. These amazing adaptations have ecological advantages too—whereas heliotropism enhances the growth of the immature sunflower, the fixed eastward position of the blooming sunflower elevates its temperature and contributes to an increase in pollinator visitation. Needless to say, these exciting findings generated a [media buzz!](https://www.npr.org/sections/thetwo-way/2016/08/05/488891151/the-mystery-of-why-sunflowers-turn-to-follow-the-sun-solved)
@@ -126,7 +131,7 @@ There is a longstanding cultural assumption that sunflowers are heliotropic thro
 
 In the eighteenth and early nineteenth centuries, botanical illustrators developed a refined iconography for representing cultivated sunflowers that allowed them to communicate scientific knowledge about the plant. This hand-colored print _Anatomy of the Sunflower_, designed by the British artist [Peter Henderson,](http://vocab.getty.edu/page/ulan/500042021) exemplifies a mode of artistic engagement with plants tailored to the needs of botanists.[^ref26] Henderson’s image shows a partial view of two mature specimens—facing opposite directions—to communicate valuable information about their dorsal (back) and ventral (front) morphological structures. Yet his design takes some aesthetic liberties to imbue the flower heads with a sense of movement and vitality, expanding the appeal of the illustration beyond scientists to plant and art collectors as well. At the center of the <span data-click-image-zoomto="982,2706,2213,1795">left flower</span>, a series of green scallop-like shapes describe how its bracts (leaves) grow in concentric layers. Their slight curvature contrasts with a leaf that curls exuberantly away from the plant’s stem, leading the eye to the <span data-click-image-zoomto="1448,813,4149,3588">opposite flower</span>. Rust-orange "petals," some with gold highlights, radiate outward from its dark-brown disk. A close look at the <span data-click-image-zoomto="3200,1997,1038,897">disk</span> reveals a circular band composed of stylized representations of yellow, five-petaled florets.
 <param ve-entity eid="Q729496" title="bract" aliases="bracts">
-<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="291">
+<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="292">
 {#paragraph14}
 
 Henderson's botanical illustration highlights a trait of sunflowers that we may overlook due to our casual familiarity with the plant. Its flower heads are not single blossoms. _Helianthus_, like other members of the aster family, Asteraceae, produces a special kind of inflorescence: a composite of many tiny flowers known as florets.[^ref27] This diagram of a mature flower head shows that what we generally call "petals" are actually ray florets; they are sterile and serve to attract pollinators to disk florets. The disk florets, which can number in the hundreds or thousands, grow in a spiral pattern and each one can develop its own fruit after pollination. Perceiving such floral traits and examining their functions require a process of direct observation and visual analysis that is practiced by scientists and artists alike.
@@ -140,9 +145,9 @@ Henderson's botanical illustration highlights a trait of sunflowers that we may 
 Henderson’s design for _Anatomy of the Sunflower_ models an attentiveness to the plant world while also articulating Linnaeus’s contributions to botany as they relate to _Helianthus annuus_. Linnaeus developed a plant taxonomy that he based on the number, arrangement, and similarities of reproductive organs: stamen(s) and pistil(s). The tremendous influence of this system on the production of knowledge about plants, as well as their ordering, archiving, comparing, and circulation, is evident in the <span data-click-image-zoomto="2992,4439,1952,1782">lower right corner</span> of _Anatomy of the Sunflower_, where there are precise depictions of such organs. This series of details was essential to the function of the picture; it was commissioned by Dr. Robert John Thornton for his book [_New illustration of the sexual system of Carolus von Linnaeus_.](https://iiif.lib.harvard.edu/manifests/view/drs:436574052$1i)[^ref28]
 <param ve-entity eid="Q5928444" title="Robert John Thornton">
 <param ve-entity eid="Q7211" title="taxonomy">
-<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="291">
-<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="9">
-<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="11">
+<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="292">
+<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="10">
+<param ve-image fit="contain" manifest="https://iiif.lib.harvard.edu/manifests/drs:436574052" seq="12">
 {#paragraph16}
 
 ### Sun-Shaped though Not Necessarily Golden

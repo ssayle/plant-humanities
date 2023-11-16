@@ -479,7 +479,8 @@ module.exports = {
                 id: props.eid
             })
         },
-        addCustomMarker(data) {
+        async addCustomMarker(data) {
+            console.log('addCustomMarker', data)
             const styleClass = data.circle ? 'circleImage' :
                                data.square ? 'squareImage' : data.classname;
             var icon = L.icon({
@@ -492,7 +493,15 @@ module.exports = {
                     popupAnchor:  [-3, -76],
                     className:    styleClass
                 })
+            if (!data.coords && data.qid) {
+                let coords = await this.entityCoordsFromWikidata([`wd:${data.qid}`])
+                data.coords = coords[data.qid].reverse().join(',')
+            }
+            let marker = L.marker(this.toFloatArray(data.coords), {icon})
             this.tileLayers.push(L.marker(this.toFloatArray(data.coords), {icon}).addTo(this.map))
+            if (data.label) marker.bindPopup(data.label)
+            marker.addTo(this.map)
+            this.tileLayers.push(marker)
         },
         cachedGeoJSON(url) {
             if (!window.geojsonCache) {
@@ -533,6 +542,7 @@ module.exports = {
                     VALUES ?item { ${qids.join(' ')} }
                     ?item wdt:P625 ?coords .
                 }`
+            console.log(sparql)
             let resp = await fetch('https://query.wikidata.org/sparql', {
                 method: 'POST', body: `query=${encodeURIComponent(sparql)}`,
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'application/sparql-results+json' },

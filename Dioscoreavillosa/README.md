@@ -8,10 +8,12 @@
        quality=gray
        eid="Q114867973"
        description="*Dioscorea villosa*, informally known as wild yam, is a plant native to eastern United States. The plant was studied during the eighteenth and nineteenth centuries by boanists who relied on indigenous knowledge to investigate the wild yam's medicinal potential. Due to the properties of their rhizome, in the twentieh cetury, *Dioscorea villosa* and other related species became central to bioprospecting campaigns that led to the invention of the birth control pill. Still, herbarium sheets omit the plant's rhizome and do not capture the complex relationships between wild yams, indigenous knowledge, and commercial exploitation. This paper rethinks botanical drawing conventions in order to address this complexity.">
-       
+
+# &nbsp;
+
 The slender leaves of a specimen of *Dioscorea villosa*, collected in Massachusetts in 1903, are pressed, preserved, labeled, and stored in the [Harvard University Herbaria](https://data.huh.harvard.edu/databases/specimen_search.php?mode=details&id=757842).[^ref1] The winged <span data-mouseover-image-zoomto="1928,2628,1817,1322">seedpods</span> are flattened between the leaves, and the <span data-mouseover-image-zoomto="1403,1234,1817,1322">vine</span> dried, turning from a bright, light green to faded brown. Though the herbaceous plant, informally known as "wild yam," can grow up to 30 feet, the sample is much shorter, coiled to fit onto one standardized piece of paper for botanists and other researchers to study.  This specimen exemplifies the limitation of the standard botanical herbarium sheet: the plant is desiccated, the stem is trimmed, and the roots and rhizomes, which are vital to the story of wild yam, are torn off. The herbarium sheet represents the plant as portable, inert matter, instead of a living being with deep connections to the landscape and people where it grows. As a form of botanical representation, the sheets turn the plant into a discrete unit of a resource that can be extracted and removed from its broader living assemblage.[^ref2] In the twenty-first century, we can acknowledge and engage the multi-faceted and multiplicty of stories excluded by the  herbarium sheet by rethinking drawing conventions to anchor these plants in the landscapes they have grown and continue to grow. 
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_herbarium.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_herbarium.jpg"
        label="Dioscorea specimen collected in western Massachusetts by botanist E. W. Hervey and stored in the Harvard University Herbaria. This image belongs to the Digital Collection of the Harvard University Herbaria."
        author="Hervey, V.E., 1903"
        region="-1248,332,6240,5285">
@@ -31,7 +33,7 @@ The slender leaves of a specimen of *Dioscorea villosa*, collected in Massachuse
        author="Kira Clingen"
        region="1150,8,3612,3059">
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/global_range.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/global_range.jpg"
        label="The native and introduced distribution of the Dioscorea genus ranges across the globe. Map adapted from the Royal Botanic Gardens, Kew, Digital Repository. Map by author."
        author="Clingen, Kira, 2022"
        region="758,-185,4336,3672">
@@ -46,15 +48,15 @@ The slender leaves of a specimen of *Dioscorea villosa*, collected in Massachuse
 ### Representing the Roots
 Long before the 1903 herbarium sample was flattened, dried, and adhered to a paper sheet, a watercolor-painting of *Dioscorea villosa* with its associated name in <span eid="Q13300">Nahuatl</span>, *macayelli*, was immortalized in a Mexican herbal known as the [*Badianus Manuscript*](https://tischlibrary.tufts.edu/special-collections-badianus-manuscript) (1552).[^ref5] The herbal was written by Aztec physician Martinus de la Cruz and translated into Latin by Juannes Badianus, an Aztec lecturer at the <span eid="Q2477757">Colegio de Santa Cruz de Tlateloco</span>. In it, an indigenous artist portrayed the whole plant, from its three-tuber underground rhizomes and root system to its above-ground complex of vines laden with flowers and winged seed pods with equal emphasis.[^ref6] In addition, the herbal documents the plants' medicinal properties  used by indigenous populations of the Americas. Indeed, its text describes *Dioscorea villosa* or *macayelli* as a pain reliever. 
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_codex1.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_codex1.jpg"
        label="Medicinal macayelli, xoxouhqui chalchiutl and tlaquilin represented from roots to leaves in the Badianus Manuscript."
        author="de Grado, Jacobo, 1552"
        region="-80,-49,985,834">
 
 While representing whole plants with roots had become a somewhat standard practice in European illustrations of plants, the painting nonetheless helps the reader understand that its medicinal qualities derive from the whole plant, not only what is visible above ground. In this way, the painting poses questions about the limitations of images in communicating therapeutic information, the agency of indigenous artists in creating plant portraits, and the roles of images and text in the transmission and dissemination of medicinal knowledge.  
 
-<param ve-compare curtain url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_herbarium.jpg">
-<param ve-compare curtain url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_codex1.jpg">
+<param ve-compare curtain manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/dioscoreavillosa/dv_herbarium.jpg/manifest.json">
+<param ve-compare manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/dioscoreavillosa/dv_codex1.jpg/manifest.json">
 
 
 ### What's in a Family Name? 
@@ -111,7 +113,7 @@ In 1938, <span eid="Q7381482">Russell E. Marker</span>, a chemist working at Pen
 
 Marker was not a botanist, nor was he particularly interested in plants. Yet, in 1940, he published a paper describing how he had successfully extracted "the powdered rhizomes of *Dioscorea villosa* with a procedure similar to that used in the isolation of sarsapogenin."[^ref16] He compared a sample of diosgenin that his Japanese colleagues sent to confirm his results. That same year, he was also able to produce progesterone from diosgenin. Marker’s experiments confirmed that the genus *Dioscorea* was a readily available source of diosgenin that could revolutionize the expensive production of progesterone. 
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/global_range.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/global_range.jpg"
        label="The native and introduced distribution of the Dioscorea genus ranges across the globe. Map adapted from the Royal Botanic Gardens, Kew, Digital Repository. Map by author."
        author="Clingen, Kira, 2022"
        region="758,-185,4336,3672">
@@ -201,28 +203,28 @@ Plants in the *Dioscorea* genus were cultivated around the world for economic ga
 *Dioscorea villosa* and the birth control industry have reshaped human life on Earth. And so, a new, complementary herbarium sheet is needed to address the complexity of the scientific revolution that Marker’s experiment with *Dioscorea villosa* set in motion. By redrawing the plant with its attendant agents–the <span data-mouseover-image-zoomto="82,4398,761,587">mortar and pestle</span> that indigenous women used to create medicine, the <span data-mouseover-image-zoomto="82,4398,761,587">trowels</span> used by Marker to collect the root, the <span data-mouseover-image-zoomto="1063,4364,913,704">laboratory equipment</span> used to isolate <span data-mouseover-image-zoomto="1890,4442,761,587">diosgenin</span>,the <span data-mouseover-image-zoomto="1890,4442,761,587">birth control pill</span> that resulted from Marker’s experiments, and the diosgenin flowing from the plant's <span data-mouseover-image-zoomto="789,1239,2271,1751">rhizomes</span> to the <span data-mouseover-image-zoomto="156,2096,3270,2520">
 global oceans</span>–we can understand the plant's reach: from the eastern United States to the entire globe.
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_drawing.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_drawing.jpg"
        label="A new herbarium sheet enlarges the rhizome to show its importance to the story of Dioscorea villosa around the globe. Drawing by author."
        author="Kira Clingen, 2021."
        fit="constrain">
 
 Situating  the plant in this entanglement of <span data-mouseover-image-zoomto="788,2893,1915,1476">reproductive hormones,</span> <span data-mouseover-image-zoomto="3911,2819,1915,1476">policy,</span> and moving into the present, the story of *Dioscorea villosa* and its role in the development of the birth control pill becomes more complex. Global use of the pill has come with side effects. Most alarming is the influx of progesterone and <span eid="Q277954">estrogen</span>, another sex hormone used in many birth control pills, into municipal water systems, resulting in hormones flowing through sewers into <span data-mouseover-image-zoomto="2884,3012,1330,1025">water bodies</span> across the globe, thus remaking the chemistry of the oceans, our largest commons, at a planetary scale. The increasing synthetic hormone levels in our water systems impact the fertility of humans as well as marine and terrestrial animals.[^ref35][^ref36]  
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/symbols-08.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/symbols-08.jpg"
        label="The story of Dioscorea villosa cannot be adequately represented by a static herbarium sheet that only looks at the preserved physical plant. The narrative around wild yam root involves a fascinating array of actors and agents, both human and nonhuman."
        author="Kira Clingen"
        fit="constrain">
 
 Ironically, the plant’s success and distribution on land has led to critical risk, as habitat destruction and <span data-mouseover-image-zoomto="14,849,2297,1771">over-harvesting</span> threaten its very own existence. *Dioscorea villosa*, as well as other *Dioscorea* species, are commonly harvested for reproductive supplements. The plant deteriorates rapidly after harvest, which privileges low-volume harvesters who supply small amounts, increasing patchy habitat destruction.[^ref37]  
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/symbols-08.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/symbols-08.jpg"
        label="The demand for Dioscorea villosa and other similar species threaten the plant's continued survival in the wild."
        author="Kira Clingen"
        fit="constrain">
 
 Despite the transformation of the plant from a weedy vine growing on roadsides and in deep thickets to an influential commodity, traded for the chemicals in its rhizomes, herbarium sheets still represent *Dioscorea* as a <span data-mouseover-image-zoomto="902,1,2271,1750">leafy specimen</span> devoid of <span data-mouseover-image-zoomto="178,879,3270,2520">underground life</span> and its broader impact. This continued botanical representation for a plant that has been at the center of bioprospecting campaigns for almost a century fails to communicate the ongoing entanglement of a plant exploited for economic gain.
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_drawing.jpg"
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/dioscoreavillosa/dv_drawing.jpg"
        label="The lines extending from the tuber can be read as roots flowing from the tuber, or as rivers flowing into the ocean. The juxtaposition of scales shows the impact that the plant has had across the globe."
        author="Kira Clingen, 2021."
        fit="constrain">

@@ -113,7 +113,7 @@ Another artistic context in which watermelons were occasionally featured concern
 <param ve-image
 	title="‘Melon d’Eau,’ in Maria Sybilla Merian’s _Metamorphosis insectorum Surinamensium_ (1719)."
 	manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
-	seq="37"
+	seq="38"
 	region="180,2179,4002,2751">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/watermelon/d21bb537725d603ee2dbadf9c3d1e291a6b7aed215d36a34e58a1a3b0daa5084.yaml/manifest.json">

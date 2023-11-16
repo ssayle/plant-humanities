@@ -1,7 +1,17 @@
 <template>
+
   <div id="main" :style="containerStyle">
-    <div id="osd"></div>
+    
+    <div id="osd" :style="`display:${mode === 'sync' ? 'block' : 'none'}`"></div>
+
+    <ve-media :style="`display:${mode === 'curtain' ? 'block' : 'none'}`"> <!-- mode === curtain -->
+      <ul>
+        <li v-for="(item, idx) in compareItems" :key="idx" v-text="item.manifest"></li>
+      </ul>
+    </ve-media>
+
   </div>
+
 </template>
 
 <script>
@@ -20,7 +30,6 @@ module.exports = {
     viewerIcon: 'fas fa-images',
     dependencies: [
       'https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js',
-      // 'https://plant-humanities.github.io/essays/juncture/sfc/openseadragon-curtain-sync.min.js'
       '/juncture/sfc/openseadragon-curtain-sync.js'
     ],
     viewer: null,
@@ -33,7 +42,7 @@ module.exports = {
       let itemsWithMode = this.compareItems.filter(item => item.sync || item.curtain).map(item => item.sync ? 'sync' : 'curtain') 
       return itemsWithMode.length > 0 ? itemsWithMode[0] : 'curtain'
     },
-    tileSources() { 
+    tileSources() {
       return this.manifests?.map((manifest, idx) => {
         let itemInfo = this.findItem({type:'Annotation', motivation:'painting'}, manifest).body
         let tileSource = itemInfo.service
@@ -49,12 +58,7 @@ module.exports = {
   },
   mounted() { this.loadDependencies(this.dependencies, 0, this.init) },
   methods: {
-    init() { 
-      this.loadManifests()
-        .then(manifests => {
-          this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}})
-        })
-    },
+    init() {},
     initViewer() {
       if (this.viewerIsActive) {
       let main = document.getElementById('main')
@@ -147,20 +151,25 @@ module.exports = {
     },
   },     
   watch: {
-    compareItems() {
-      this.loadManifests().then(manifests => this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}}))
+    mode: {
+      handler(mode) {
+        this.manifests = null
+        if (mode === 'sync') {
+          this.loadManifests().then(manifests => this.manifests = manifests.map((manifest, idx) => {return {...manifest, ...this.compareItems[idx]}}))
+        } else {
+          if (this.viewer) document.getElementById('main').removeChild(document.getElementById('osd'))
+        }
+      },
+      immediate: true
     },
-    // tileSources() { console.log('ve-compare.tileSources', this.tileSources) },
     images() {
-      if (!this.images) return
-      console.log(`ve-compare mode=${this.mode}.images`, this.tileSources)
-      if (this.images) this.initViewer() 
+      if (!this.images.length === 0) return
+      if (this.mode === 'sync') this.initViewer()
     },
-    active() { this.initViewer() }
+    active() { 
+      if (this.mode === 'sync') this.initViewer() 
+    }
   }
 }
 
 </script>
-
-<style>
-</style>

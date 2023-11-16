@@ -131,16 +131,30 @@ Paradoxically, the bright and appealing nature of the watermelon also lent itsel
 {#paragraph10}
 
 Aspects of the fruit became bound up with [representations of African Americans,](https://nmaahc.si.edu/explore/stories/popular-and-pervasive-stereotypes-african-americans) showing their taste for it exaggerated to the point of the grotesque: It was messy to eat, which connoted uncleanliness; easy to grow, implying laziness; and its bright color and sweetness were associated with childishness. Watermelon’s African origins were also cited as an explanation for Black Americans’ apparently insatiable appetite for the fruit. Nineteenth-century newspapers were filled with reports and anecdotes that repeated these racial tropes, which masqueraded as facts.
-<param ve-image primary label="Richard Felton Outcault, Postcard depicting a caricatured boy eating a slice of watermelon, 1909, ink on paper, 8.9 x 14 cm." attribution="National Museum of African American History & Culture" license="Public domain. Usage conditions apply" manifest="https://ids.si.edu/ids/manifest/NMAAHC-6A6EEDA3268C2_2001" fit="contain">
-<param ve-image label="Ashtray in the form of a "picaninny" boy eating a watermelon slice, 1920–1929, ceramic, 10.2 x 12.1 x 14 cm." attribution="National Museum of African American History & Culture" license="No Known Copyright Restrictions. Usage conditions apply" manifest="https://ids.si.edu/ids/manifest/NMAAHC-E57085A629442_4002-000002" fit="contain">
-<param ve-image label="[3 African American boys eating watermelon], ca. 1902, photographic print. Photo copyrighted by F.W. Guerin, St. Louis." attribution="Library of Congress Prints and Photographs Division" license="No known restrictions on publication." url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/watermelon/3_African_American_boys_LOC_No_known_restrictions_on%20publication.jpg?raw=true" fit="contain">
+<param ve-image primary 
+	label="Richard Felton Outcault, Postcard depicting a caricatured boy eating a slice of watermelon, 1909, ink on paper, 8.9 x 14 cm." 
+	attribution="National Museum of African American History & Culture" 
+	license="Public domain. Usage conditions apply" 
+	manifest="https://ids.si.edu/ids/manifest/NMAAHC-6A6EEDA3268C2_2001" 
+	fit="contain">
+<param ve-image 
+	label="Ashtray in the form of a &quot;picaninny&quot; boy eating a watermelon slice, 1920–1929, ceramic, 10.2 x 12.1 x 14 cm."
+	attribution="National Museum of African American History & Culture" 
+	license="No Known Copyright Restrictions. Usage conditions apply" 
+	manifest="https://ids.si.edu/ids/manifest/NMAAHC-E57085A629442_4002-000002" 
+	fit="contain">
+<param ve-image 
+	label="[3 African American boys eating watermelon], ca. 1902, photographic print. Photo copyrighted by F.W. Guerin, St. Louis." 
+	attribution="Library of Congress Prints and Photographs Division" 
+	icense="No known restrictions on publication." 
+	url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/watermelon/3_African_American_boys_LOC_No_known_restrictions_on%20publication.jpg?raw=true" 
+	fit="contain">
 {#paragraph11}
 
 Stories of watermelon theft contributed to the perception of Black criminality following the enactment of the thirteenth amendment, which abolished slavery. The seemingly irresistible lure of the watermelon suggested that it did "more to tempt the colored race to steal than all other fruit combined," with countless anecdotes supposedly citing the words of African Americans who claimed that stolen watermelons tasted better than those bought.[^ref15] The narrative of African American watermelon-stealing was so entrenched that the Tennessee state bill that criminalized such trespasses in 1870 was commonly known as the "watermelon bill." These cultural tropes continued to shape the exclusionary racial politics in the United States well into the twentieth century and [are still pervasive today.](https://www.vox.com/first-person/2019/8/29/20836933/watermelon-racist-history-black-people)[^ref16]
 <param ve-image
 	manifest="https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/manifest/0d40cac0d58811eaac44194fa8c83abe/manifest.json"
-	fit="contain"
-	>
+	fit="contain">
 <param title="Thirteenth Amendment" eid="Q175613" aliases="13th Amendment">
 {#paragraph12}
 

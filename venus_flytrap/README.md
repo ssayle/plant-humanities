@@ -142,7 +142,7 @@ Arthur Conan Doyle (1859–1930), author of Sherlock Holmes, helped jumpstart th
 <param ve-entity eid="Q42511">
 <param ve-entity eid="Q1199259">
 <param ve-entity eid="Q886190">
-<param ve-graphic img="https://media.giphy.com/media/pBj0EoGSYjGms/giphy.gif" label="The man-eating Audrey II, modeled after the Venus flytrap exclaiming "Feed me, Seymour!". Little Shop of Horrors (1986)." attribution="Giphy">
+<param ve-graphic img="https://media.giphy.com/media/pBj0EoGSYjGms/giphy.gif" label="The man-eating Audrey II, modeled after the Venus flytrap exclaiming &quot;Feed me, Seymour!&quot;. Little Shop of Horrors (1986)." attribution="Giphy">
 {#paragraph24}
 
 ### Still Beguiling and Bewildering

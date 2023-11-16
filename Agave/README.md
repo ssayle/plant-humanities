@@ -85,7 +85,9 @@ Today, [tequila](https://daily.jstor.org/plant-of-the-month-agave/) is the natio
 ### The Future of Agave
 
 Beyond producing one of North America’s favorite spirits, agave plants, as they have for centuries, might help human societies survive in the face of global warming. Recent scientific studies have shown that many agave species can actually benefit from the increases in temperature and atmospheric carbon dioxide levels accompanying global climate change. More importantly, agave plants have the ability to capture harmful carbon dioxide and store it and other forms of carbon long-term, which can mitigate or defer global warming.[^ref14] Finally, emerging research suggests that agave plants’ ability to survive in arid and semiarid climates makes them a viable biofuel feedstock, in the same way corn, sugarcane, and soybeans are used to produce ethanol. This is particularly important since approximately one-fifth of the earth’s climate is semiarid. Growing biomass feedstocks on land previously unsuitable for food crops, like corn and soybeans, could be a sustainable answer to increasing demands for renewable fuels that do not conflict with food and feed production.[^ref15]
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AAgave-Fields.jpg/manifest.json">
+<param ve-image 
+	manifest="https://iiif.juncture-digital.org/wc%3AAgave-Fields.jpg/manifest.json"
+	title="Agave as biofuel">
 <param title="global warming" eid="Q7942">
 {#paragraph11}
 

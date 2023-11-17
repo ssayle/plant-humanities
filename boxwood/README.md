@@ -133,9 +133,11 @@ Boxwood’s potential medicinal applications met with a similar lack of enthusia
 
 If Mattioli and Parkinson considered boxwood primarily an ornamental plant "well adapted to weaving espaliers in gardens and dividing one space from another,"[^ref17] its slow growth rate had important industrial implications. Hardened through the process of gradual maturation, its timber acquired such valued qualities as durability and density, making it indeed similar to guaiacum.[^ref18] Boxwood, according to Soderini, could last "forever" and "was good for the printing industry and other fine woodwork."[^ref19] Since it lent itself well to lathing, Gerard considered it particularly suitable for "dagger hafts, boxes, and suchlike uses."[^ref20] Sixteenth-century Netherlandish rosary beads—true miracles of late Gothic craftsmanship—testify to these remarkable properties. These exquisite boxwood carvings, which often measure less than two inches in diameter, could represent on a tiny scale multi-figure biblical scenes without losing any of their dramatic intensity.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3APrayer_Bead_with_the_Adoration_of_the_Magi_and_the_Crucifixion_MET_DP371957.jpg/manifest.json">
+	manifest="https://iiif.juncture-digital.org/wc%3APrayer_Bead_with_the_Adoration_of_the_Magi_and_the_Crucifixion_MET_DP371957.jpg/manifest.json"
+	title="Sixteenth-century Netherlandish rosary bead (exterior).">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/wc%3APrayer_Bead_with_the_Adoration_of_the_Magi_and_the_Crucifixion_MET_DP371961.jpg/manifest.json"
+	title="Sixteenth-century Netherlandish rosary bead (interior)."
 	region="109,1836,2762,2043">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/992f20a62764c5437c3aa6ec3bb7a871711f5066a928fe3499a9ccd8c8d4d423.yaml/manifest.json"

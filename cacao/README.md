@@ -79,10 +79,10 @@ The herbal’s watercolors illustrate anatomically accurate plant structures sit
 <param scope="local" eid="Q13703">
 <param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMayan_-_Lidded_Vessel_-_Walters_20092039_-_Side_B.jpg/manifest.json" 
        fit="contain"
-       title="Ancient Maya Cacao Beverage Vessel with Cacao Imagery">
+       title="Ancient Maya Cacao Beverage Vessel with Cacao Imagery.">
 <param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoReprod.png/manifest.json" 
        fit="contain"
-       title="Reproductive Life Cycle of Cacao">
+       title="Reproductive Life Cycle of Cacao.">
 <param title="spatio-temporal entity" eid="Q58415929" aliases="spatio-temporal">
 {#paragraph6}
 
@@ -95,8 +95,12 @@ The association of cacao with curing particular ailments in Mexica recipes echoe
 {#paragraph7}
 
 To illustrate, classic Maya material culture frequently shows cacao in relation to the <span eid="Q12744013">Maize God</span>. For example, a carved vessel in the Dumbarton Oaks collection depicts the Maya Maize God described as a maize tree with cacao pods sprouting from his body, a representation of primordial maize. Furthermore, on the sarcophagus of the ancient Maya ruler Pakal in Palenque, Mexico, ancestors are depicted as cacao trees emerging from the dead ruler’s body, who is represented on the lid as the Maize God. This scene of rebirth ultimately connects cacao with Maya ideologies of cycles of life and subsistence.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoVessel.jpg/manifest.json" fit="fill">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3APakal_the_Great_tomb_lid.png/manifest.json" fit="fill">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoVessel.jpg/manifest.json" 
+       fit="fill"
+       title="Early Classic Maya Bowl with Anthropomorphic Cacao Trees, curated by Dumbarton Oaks Museum.">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3APakal_the_Great_tomb_lid.png/manifest.json" 
+       fit="fill"
+       title="Pakal's sarcophagus detail with ancestors depicted as fruit trees.">
 <param title="Palenqué" eid="Q181427" fill="#5C6609" marker-symbol="gopuram" aliases="Palenque">
 {#paragraph8}
 

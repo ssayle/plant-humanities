@@ -29,7 +29,7 @@ In his 1640 herbal _Theatrum Botanicum_, John Parkinson described the "tree of l
 A century earlier, French explorer Jacques Cartier and his crew learned of the tree and its astonishing medicinal effects from the St. Lawrence Iroquois Indians of Eastern Canada while exploring the Gulf of St. Lawrence and the St. Lawrence River. The Indigenous people of this region used numerous local plants to treat disease and survive the region’s harsh winters.[^ref1] The French explorers, however, were far less equipped to survive the unforgiving environment they found themselves stranded in during the winter of 1535–36. Suffering from a mysterious disease that threatened to kill more than half of his crew, Captain Cartier turned to the St. Lawrence Iroquois for help.
 <param title="St. Lawrence Iroquoians" eid="Q129060" aliases="St. Lawrence Iroquois">
 <param ve-map title="Gulf of Saint Lawrence" center="49.408409, -63.530709" basemap="Esri_WorldPhysical" zoom="5" show-labels>
-<param ve-map-marker qid="Q3339246">
+<param ve-map-marker qid="Q129060">
 <param ve-map-layer geojson active url="/geojson/cartier.json">
 <param title="Jacques Cartier" eid="Q7321" aliases="Cartier">
 {#paragraph2}

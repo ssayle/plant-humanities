@@ -13,7 +13,10 @@
      
 ### Herbs and Women’s Health
 Twenty-first century women generally assume that we enjoy greater agency over health and fertility than women of the pre-modern world, thanks to scientific advancements in women’s health as well as the availability and effectiveness of <span eid="Q122224">contraceptives</span>. We accept that without modern obstetrics, gynecology, and hormonal contraceptives, our foremothers were simply victims of biology—if they survived the perils of their first pregnancy and childbirth, they spent much of their lives pregnant. While it is true that for much of history women did not have reproductive knowledge derived from technological advancements and modern gynecology, it is incorrect to assume that they had no reproductive knowledge or choice. In fact, for much of history, women’s agency over their health and fertility was due in large part to their knowledge of medicinal herbs—herbs like <span eid="Q1227336">dittany</span>.
-<param ve-image region="0,99,1078,747" manifest="https://iiif.juncture-digital.org/wc%3AFoetal_positions_BR_3701-15_28r.jpg/manifest.json">
+<param ve-image 
+	region="0,99,1078,747"
+	manifest="https://iiif.juncture-digital.org/wc%3AFoetal_positions_BR_3701-15_28r.jpg/manifest.json"
+	title="Foetal positions in womb, illustration to Soranus, Gynaecia (Manuscript: Brussels, Bibliothèque Royale, ms. 3701-15, fol. 28r)">
 {#paragraph1}
 
 ### An Ancient Herb from an Ancient Tradition
@@ -49,7 +52,10 @@ By the early modern period, dittany was often described in herbals [in three for
 
 ### Herbals and Women’s Medical Knowledge 
 The historical record is largely silent on how early modern women perceived and experienced menstruation, pregnancy, and childbirth. Very few surviving sources explicitly discuss these experiences for women, and even fewer were authored by women. This leaves historians with the difficult task of reconstructing the practical realities of <span eid="Q8031191">women’s health</span> from male-authored sources.
-<param ve-image region="26,48,1321,943" manifest="https://iiif.juncture-digital.org/wc%3AA_woman_in_bed_recovering_from_childbirth%2C_a_midwife_washes_Wellcome_V0014914ER.jpg/manifest.json">
+<param ve-image 
+	region="26,48,1321,943"
+	manifest="https://iiif.juncture-digital.org/wc%3AA_woman_in_bed_recovering_from_childbirth%2C_a_midwife_washes_Wellcome_V0014914ER.jpg/manifest.json"
+	title="Woodcut of a woman in bed recovering from childbirth.">
 {#paragraph6}
 
 Ancient, medieval, and early modern herbals were by and large written by men and were the product of a learned textual tradition rather than lay or common knowledge.[^ref2] As such, the simple appearance of dittany as an herb for women’s health in herbals is not sufficient evidence to suggest that women knew the plant’s medicinal virtues and used it accordingly. However, while the initial production of early modern herbals was spurred by learned medical humanists seeking to elucidate classical scholarship to produce more useful guides for identifying medicinal plants, the popularity and proliferation of herbals increased substantially over the course of the sixteenth and seventeenth centuries. This indicates that herbals were consumed by an increasingly larger audience. Furthermore, many herbals produced in the late sixteenth century, such as Castore Durante’s [1585 Roman herbal,](https://biodiversitylibrary.org/page/49828671) were simplified versions of more complicated Latin herbals, written in the vernacular and, thus, far more accessible to a wider, albeit literate, audience.
@@ -106,7 +112,10 @@ While contemporary scientific research has not assessed dittany’s biofactors i
 {#paragraph6}
        
 The knowledge of how to provoke menstruation through herbs gave pre-modern women some reproductive control, either as a means to regulate menstruation to increase the likelihood of conception or as a means to end an unwanted, early-stage pregnancy. For more than 1,500 years medical texts and herbals associated dittany with women’s health, particularly with issues of menstruation, as well as labor and delivery. This long association, coupled with the evidence that early modern elite and middling women read and applied plant knowledge derived from herbals, suggests that pre-modern women in the west did indeed seek to exercise agency over fertility and reproduction and that medicinal herbs like dittany were central to this endeavor.
-<param ve-image region="315,1054,918,677" manifest="https://iiif.juncture-digital.org/wc%3APeople_distilling_Wellcome_L0042112.jpg/manifest.json">
+<param ve-image
+	region="315,1054,918,677"
+	manifest="https://iiif.juncture-digital.org/wc%3APeople_distilling_Wellcome_L0042112.jpg/manifest.json"
+	title="People distilling from Rösslin, Kreuterbuch, 1550">
 {#paragraph17}
 
 ### References

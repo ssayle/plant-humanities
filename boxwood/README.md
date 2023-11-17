@@ -141,6 +141,7 @@ If Mattioli and Parkinson considered boxwood primarily an ornamental plant "well
 	region="109,1836,2762,2043">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/992f20a62764c5437c3aa6ec3bb7a871711f5066a928fe3499a9ccd8c8d4d423.yaml/manifest.json"
+	title="Sixteenth-century Netherlandish rosary bead (interior)."
 	region="133,185,2777,2083">
 {#paragraph8}
 

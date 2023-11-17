@@ -125,9 +125,7 @@ The real issue with boxwood was what sixteenth-century English physician John Ge
 {#paragraph6}
 
 Boxwood’s potential medicinal applications met with a similar lack of enthusiasm. Despite an attempt by Amato Lusitano, a sixteenth-century Portuguese Jewish physician, to prove that boxwood was a native European analogue of guaiacum and could, therefore, potentially cure syphilis, the general consensus—endorsed by the leading writer on _materia medica_, Pietro Andrea Mattioli—was that it "had no use in medicine." Lusitano’s claim was dismissed as "vain and foolish," which "could in no way be acceptable to doctors."[^ref15] Such pronouncements against boxwood, which was considered of "no physical use among the most and best physicians," were sustained by the Englishman John Parkinson (who, however, noted that its leaves could be given to horses as a cure for botfly larvae); Gerard raged against "foolish empirics and women leeches" who "minister it against apoplexy and such diseases."[^ref16] This negative opinion continued to pervade early modern medical thought, while boxwood’s known curative properties, especially as a styptic, generally remained ignored. 
-<param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/5a106cc2e71bd82927521c13ec5e252eb63ed6b7ac5b2aea06fc0eb31927b176.yaml/manifest.json"
-	region="1,1157,1006,746">
+<param ve-iframe src="https://archive.org/embed/gri_33125012606931/page/605/mode/1up"></param>
 <param title="Pietro Andrea Mattioli" eid="Q457191" aliases="the leading writer">
 {#paragraph7}
 
@@ -150,12 +148,12 @@ The vindication of boxwood as an essential garden plant took place in late sixte
 <param ve-image
 	title="Front page of Claude Mollet (c. 1564–c. 1649), _Theatre des plans et iardinages_, 1652."
 	manifest="https://iiif.lib.harvard.edu/manifests/drs:47289351"
-	seq="9"
+	seq="10"
 	region="-396,75,4753,3521">
 <param ve-image
 	title="Garden design pattern, in Claude Mollet, _Theatre des plans et iardinages_, 1652, plate 5."
 	manifest="https://iiif.lib.harvard.edu/manifests/drs:47289351"
-	seq="237"
+	seq="238"
 	region="-422,728,5072,3758">
 {#paragraph9}
 
@@ -172,13 +170,13 @@ Mollet’s planting and stylistic innovations gained the fullest expression in t
 <param ve-image
 	title="View of the garden of the Chatêau de Clagny at Versailles, in Charles Antoine Jombert (1712–1784), _Les delices de Versailles et des maisons royales_, 1766, plate 81."
 	manifest="https://iiif.lib.harvard.edu/manifests/drs:459932907"
-	seq="219"
+	seq="220"
 	rotate="90"
 	region="861,725,1619,2185">
 <param ve-image
 	title="_Parterres de broderie_ in the gardens of the Orangerie at Versailles, in Charles Antoine Jombert (1712–1784), _Les delices de Versailles et des maisons royales_, 1766, plate 118."
 	manifest="https://iiif.lib.harvard.edu/manifests/drs:459932907"
-	seq="117"
+	seq="118"
 	rotate="90"
 	region="42,362,2798,3776">
 <param ve-image

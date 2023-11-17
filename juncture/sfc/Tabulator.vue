@@ -29,8 +29,8 @@ module.exports = {
     }),
     computed: {
         containerStyle() { return { width: `${this.width}px`, height: this.viewerIsActive ? '100%' : '0'} },
-        filteredItems() { return this.items.filter(item => item[this.componentName]) },
-        input() { return this.filteredItems[0].data || this.filteredItems[0].url }
+        filteredItems() { return this.items.filter(item => item[this.$options.name]) },
+        input() { return this.filteredItems[0]?.data || this.filteredItems[0]?.url }
     },
     mounted() {
         this.loadDependencies(dependencies, 0, this.init)

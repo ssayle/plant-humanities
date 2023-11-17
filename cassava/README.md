@@ -20,8 +20,11 @@ When eaten raw, cassava is likely to leave a bitter taste in one’s mouth. Wors
 <param title="fufu" eid="Q941004">
 <param title="cyanide" eid="Q55076544">
 <param title="cassava root" eid="Q43304555"> 
-<param ve-compare region="76,-85,1897,1707" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_fufu_soup_fish_Flickr.jpg/manifest.json">
-<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_VitA_Nigeria_Flickr-standard-scale-2_00x-gigapixel.jpg/manifest.json">
+<param ve-compare 
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_fufu_soup_fish_Flickr.jpg/manifest.json"
+	region="76,0,1897,1450">
+<param ve-compare
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_VitA_Nigeria_Flickr-standard-scale-2_00x-gigapixel.jpg/manifest.json">
 {#paragraph1}
 
 How did cassava come to occupy this pride of place in the global food system? How did cassava transform from a poisonous tuber into a major food staple, and from an exclusive dweller of South America into a cosmopolitan citizen of the world? To answer these questions, this essay looks at how human interactions with cassava helped shape the plant into the significant food crop that it is today. We first look at the elaborate method of processing cassava developed by the Indigenous peoples of Meso- and South America and then turn to the codification and spread of this knowledge, facilitated by European travelers to the New World. This meeting of Indigenous and European knowledge systems, combined with cassava’s tolerance for drought, resulted in a food crop that would create new hope for global food security in the twentieth and twenty-first centuries. Furthermore, as knowledge of cassava and its specimens circulated to different parts of the world, the plant took on additional cultural meanings through novel culinary uses and artistic representations.
@@ -104,14 +107,27 @@ Although the Caribbean is not considered cassava’s native habitat, the plant w
 
 Merian’s book exemplifies how knowledge accumulated and circulated through Europe, drawing on earlier texts that were in turn referenced in later publications. Her entry on cassava, for example, refers to English naturalist Hans Sloane’s (1660–1753) [catalogue of Jamaican plants.](https://bibdigital.rjb.csic.es/records/item/14358-redirection) Merian’s illustrations, which were based on keen in-situ observations, were disseminated by other artists who made copies of her work. As works by an accomplished artist, Merian’s books were published in various editions and widely circulated, ensuring a broad transmission of her botanical knowledge.[^ref17]
 <param title="Hans Sloane" eid="Q310326">
-<param ve-image primary region="-18,-330,4579,6613" manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537" seq="15">
-<param ve-image region="416,2062,3576,3307" manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537" seq="17">
+<param ve-image primary 
+	manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
+	region="-18,-330,4579,6613"
+	seq="16">
+<param ve-image
+	manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
+	region="416,2062,3576,3307"
+	seq="18">
 {#paragraph12}
 
 In her book, Merian describes cassava root as the ingredient for cassava bread that was a common food among both the Indigenous Peoples and Europeans living in the American colonies by this time.[^ref18] Descriptions of cassava bread recur in other European texts, praising its value as a food source in the colonies as well as a provision for sea voyages.[^ref19] The original method of making cassava flour practiced by the Indigenous Peoples of South America, as well as variant methods used later on the African continent, can be found in these European texts.
-<param ve-image primary region="542,1729,1489,1114" manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537" seq="153">
-<param ve-image region="-87,133,878,748" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/18a074e182f0ec83439eda0ae9738382d7f567d4f90be48fb2d9570cac59e671.yaml/manifest.json">
-<param ve-image region="-87,119,878,748" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/b2b80e4f3b05cdb04ffcff6586bd101ac2f60ec2dd0cddc9a375aaa820756dfa.yaml/manifest.json">
+<param ve-image primary 
+	manifest="https://iiif.lib.harvard.edu/manifests/drs:481769537"
+	region="542,1729,1489,1114"
+	seq="154">
+<param ve-image
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/18a074e182f0ec83439eda0ae9738382d7f567d4f90be48fb2d9570cac59e671.yaml/manifest.json"
+	region="-87,133,878,748">
+<param ve-image
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/b2b80e4f3b05cdb04ffcff6586bd101ac2f60ec2dd0cddc9a375aaa820756dfa.yaml/manifest.json"
+	region="-87,119,878,748">
 {#paragraph13}
 
 European travelers also described the process of making cassava into fermented beverages. In his 1578 publication _History of a Voyage to the Land of Brazil_, French explorer Jean de Léry recorded a recipe for the alcoholic beverage _chicha_. Cassava was cut into pieces, then boiled, chewed in the mouth for some time to combine with saliva, then boiled again in a different vessel, and finally left to ferment for several days until it was ready for consumption.[^ref20] A few decades later, Spanish historian Antonio de León Pinelo recorded a similar account of the process in Peru, and British explorers Bedford Pim and Berthold Seemann encountered the same process of cassava fermentation in nineteenth-century Nicaragua.[^ref21] Depending on the location, the beverage was called _chicha_, _massato_ (a non-alcoholic variant mixed with honey), _acca_, _kufa_, or _mushla_. [^ref22]
@@ -120,9 +136,15 @@ European travelers also described the process of making cassava into fermented b
 <param title="Antonio de León Pinelo house" eid="Q4777064" aliases="Antonio de León Pinelo">
 <param title="Bedford Pim" eid="Q4879118">
 <param title="Berthold Seemann" eid="Q64899">
-<param ve-image primary region="-123,149,1076,930" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a843ff2ad97faaa09471438907ea8f11b1989986ea413689f5f2b7df9d632193.yaml/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a843ff2ad97faaa09471438907ea8f11b1989986ea413689f5f2b7df9d632193.yaml/manifest.json">
-<param ve-image region="-150,-37,754,667" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a843ff2ad97faaa09471438907ea8f11b1989986ea413689f5f2b7df9d632193.yaml/manifest.json">
+<param ve-image primary
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/327e4b720969d1faf2d5a18c33887fbb9c04931fe0033b76828568643b89b53e.yaml/manifest.json"
+	region="-123,149,1076,930">
+<param ve-image
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/605ea3db7d0fd8412cdabc7d41f06b12f1c00cf0217ebcfd0480f35f73b3aed9.yaml/manifest.json"
+	fit="contain">
+<param ve-image
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/3cff643fd985c29f359c9280babadf8515aaf31b3fc8c145905c2d73ae54a002.yaml/manifest.json"
+	region="-150,-37,754,667">
 {#paragraph14}
 
 Even today, many Indigenous Peoples in Meso- and South America still follow these recipes for fermented cassava beverages that were established by their ancestors and recorded by European travelers. In addition to such descriptions in travel writings, knowledge of cassava also entered other eighteenth-century European texts, such encyclopedias, and informed various fields of knowledge production, from baking and chemistry to agriculture.[^ref23]
@@ -138,8 +160,11 @@ As Europeans moved between continents, knowledge of cassava preparation, togethe
 
 With this transfer of knowledge from South America to Africa, other innovations emerged. For example, African women learned that the bitter cassava root was poisonous and learned how to prepare its leaves instead.[^ref29] They discovered that young cassava leaves could be safely consumed after being boiled. A new method of processing the root also developed, which involved pressing it with stone weights instead of using the hanging method favored in South America.[^ref30] Another African innovation emerged in the form of _gari_, or toasted flakes, made from the dried pulp of processed cassava. They are not as refined as the _farinha_ produced in South America, but can be stored for a long period of time.[^ref31]
 <param title="garri" eid="Q1494252" aliases="gari">
-<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_leaf_Flickr.jpg/manifest.json">
-<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/25b71d314c539bf910224b4f131fcf97a37e0a50bc180d26ba66be53922979cb.yaml/manifest.json">
+<param ve-compare 
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_leaf_Flickr.jpg/manifest.json">
+<param ve-compare 
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/25b71d314c539bf910224b4f131fcf97a37e0a50bc180d26ba66be53922979cb.yaml/manifest.json"
+	region="pct:0,0,90,90">
 {#paragraph17}
 
 ### Food of the Future?

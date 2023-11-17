@@ -143,11 +143,8 @@ Following the World War II period, the Japanese government instigated a series o
 
 In 1964, the [Forestry Basic Act](https://www.cas.go.jp/jp/seisaku/hourei/data/ffba.pdf) was passed, which effectively established a national forest industry in Japan, including plans to build thousands of miles of roads across the nation to allow timber to be easily harvested from hilly, densely forested regions and shipped out to ports along the coast.[^22] The Act aimed to build closer ties between urban and rural areas, linking previously separated parts of Japan through educational forestry programs and vocational training. The road network allowed for more than the transport of timber: it enabled the flow of knowledge and forestry practices from the urban centers to the once-isolated rural villages. The legislation also included guarantees from the Japanese government that forestry workers would receive subsidies in the event of a natural disaster or diminishing international markets.[^23] The subsidies, which still exist today, included offsetting the harvest and transportation costs, allowing foresters to take advantage of ports and other international distribution points to sell their timber.[^24] 
 
-<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/cryptomeria/crypto-size.jpg"
-       region="2,2,1181,950"
-       label="The size of tree trunks determines the types and sizes of lumber that can be milled. Image by authors, 2019." 
-       license="Image by authors, no permissions needed">
-
+<param ve-image manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/cryptomeria/crypto-size.png/manifest.json"
+       region="2,2,1181,950">
 <param ve-image fit="contain" 
        license= "Image by authors, no permissions required."
        label="Japanese cedar cut into standard timber sizes to be exported. Image by author, 2019." 
@@ -168,8 +165,8 @@ In the 1980s, the value of tree species such as _Cryptomeria japonica_ crashed a
        license="Public Domain"
        source="https://commons.wikimedia.org/wiki/File:Parque_Florestal_da_Mata_da_Serreta,_Interior_da_ilha_Terceira,_A%C3%A7ores,_Portugal.JPG">
 
-<param ve-map center="19.069696020398823, 72.89789601441875" zoom="2" basemap="Esri_PhysicalWorld">
-<param ve-map layer geojson url="globalrange.json"> 
+<param ve-map center="19.069696020398823,72.89789601441875" zoom="2" basemap="Esri_WorldPhysical">
+<param ve-map layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/Cryptomeria/globalrange.json"> 
  
 While the economic promises came up short, the idea of restoring the green archipelago seemingly was met. Japan’s timber market came to rely on pollution exports from less wealthy countries while maintaining its national forests. But the artificially planted forests host a different environmental issue: undercutting and over-forestation. Conversations around forestry’s lack of financial success has been framed as a personal failing, or blame the undercutting of the international market, largely ignoring the role of national reforestation efforts after World War II.[^30] 
 

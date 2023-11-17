@@ -1,5 +1,14 @@
 <param ve-config title="For problem def and testing" layout="vertical">
 
+# ve-compare
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+<param ve-compare 
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Cassava_leaf_Flickr.jpg/manifest.json">
+<param ve-compare 
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/25b71d314c539bf910224b4f131fcf97a37e0a50bc180d26ba66be53922979cb.yaml/manifest.json"
+	region="pct:0,0,90,90">
+
 # ve-map
 
 ## ve-map-marker

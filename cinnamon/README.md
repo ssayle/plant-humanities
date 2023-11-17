@@ -1,5 +1,5 @@
 <param ve-config
-	title="Cinnamomum verum: Discovering "True" Cinnamon"
+	title="Cinnamomum verum: Discovering &quot;True&quot; Cinnamon"
 	banner="https://free.iiifhosting.com/iiif/b938df4335d5aaa2745efdf3c245ee75f2ee428020c64da87133184c160c10a/pct:0,40,100,40/full/0/color.jpg"
 	eid="Q105748716"
 	about="Q370239"

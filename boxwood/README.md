@@ -189,9 +189,11 @@ Mollet’s planting and stylistic innovations gained the fullest expression in t
 
 Closely connected with these expatriate circles was British landscape architect Cecil Pinsent, another contemporary of Farrand’s, who extensively used boxwood in his landscaping projects. Most famous among his gardens was the Villa I Tatti in Settignano, Italy, designed for the American art historian and connoisseur Bernard Berenson. Another celebrated work was the lower terrace of the fifteenth-century Villa Medici in Fiesole that Pinsent furnished with a "carpet of box parterre," regarded by landscape historian Geoffrey Jellicoe as fully integral to the historic character of the property.[^ref29] Popularized by postcards and book illustrations, Pinsent’s design became an iconic image of the Italian Renaissance garden, with its boxwood geometry—purposely projected into the Medicean age—serving as a visible bridge between distant antiquity and a more recent but equally glorious past.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AVilla_i_tatti%2C_ext.%2C_giardino_05.JPG/manifest.json">
+	manifest="https://iiif.juncture-digital.org/wc%3AVilla_i_tatti%2C_ext.%2C_giardino_05.JPG/manifest.json"
+	title="Boxwood pattern in the gardens of Villa I Tatti.">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ABernard_Berenson_in_the_gardens_of_Villa_I_Tatti.jpg/manifest.json">
+	manifest="https://iiif.juncture-digital.org/wc%3ABernard_Berenson_in_the_gardens_of_Villa_I_Tatti.jpg/manifest.json"
+	title="Bernard Berenson in the gardens of Villa I Tatti.">
 {#paragraph12}
 
 ### Humble Yet Resilient

@@ -52,7 +52,10 @@ By the early modern period, dittany was often described in herbals [in three for
 
 ### Herbals and Women’s Medical Knowledge 
 The historical record is largely silent on how early modern women perceived and experienced menstruation, pregnancy, and childbirth. Very few surviving sources explicitly discuss these experiences for women, and even fewer were authored by women. This leaves historians with the difficult task of reconstructing the practical realities of <span eid="Q8031191">women’s health</span> from male-authored sources.
-<param ve-image region="26,48,1321,943" manifest="https://iiif.juncture-digital.org/wc%3AA_woman_in_bed_recovering_from_childbirth%2C_a_midwife_washes_Wellcome_V0014914ER.jpg/manifest.json">
+<param ve-image 
+	region="26,48,1321,943" 
+	manifest="https://iiif.juncture-digital.org/wc%3AA_woman_in_bed_recovering_from_childbirth%2C_a_midwife_washes_Wellcome_V0014914ER.jpg/manifest.json"
+	title="Woodcut of a woman in bed recovering from childbirth.">
 {#paragraph6}
 
 Ancient, medieval, and early modern herbals were by and large written by men and were the product of a learned textual tradition rather than lay or common knowledge.[^ref2] As such, the simple appearance of dittany as an herb for women’s health in herbals is not sufficient evidence to suggest that women knew the plant’s medicinal virtues and used it accordingly. However, while the initial production of early modern herbals was spurred by learned medical humanists seeking to elucidate classical scholarship to produce more useful guides for identifying medicinal plants, the popularity and proliferation of herbals increased substantially over the course of the sixteenth and seventeenth centuries. This indicates that herbals were consumed by an increasingly larger audience. Furthermore, many herbals produced in the late sixteenth century, such as Castore Durante’s [1585 Roman herbal,](https://biodiversitylibrary.org/page/49828671) were simplified versions of more complicated Latin herbals, written in the vernacular and, thus, far more accessible to a wider, albeit literate, audience.

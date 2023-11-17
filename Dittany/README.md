@@ -53,7 +53,7 @@ By the early modern period, dittany was often described in herbals [in three for
 ### Herbals and Women’s Medical Knowledge 
 The historical record is largely silent on how early modern women perceived and experienced menstruation, pregnancy, and childbirth. Very few surviving sources explicitly discuss these experiences for women, and even fewer were authored by women. This leaves historians with the difficult task of reconstructing the practical realities of <span eid="Q8031191">women’s health</span> from male-authored sources.
 <param ve-image 
-	region="26,48,1321,943" 
+	region="26,48,1321,943"
 	manifest="https://iiif.juncture-digital.org/wc%3AA_woman_in_bed_recovering_from_childbirth%2C_a_midwife_washes_Wellcome_V0014914ER.jpg/manifest.json"
 	title="Woodcut of a woman in bed recovering from childbirth.">
 {#paragraph6}

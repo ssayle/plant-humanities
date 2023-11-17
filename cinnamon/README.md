@@ -111,8 +111,9 @@ Although their skills were indispensable for the cinnamon trade, peelers were tr
 <param title="Sinhalese people" eid="Q932244" aliases="Sinhalese">
 <param title="Salagama" eid="Q3469487">
 <param ve-image
-	   manifest="https://iiif.juncture-digital.org/wc%3AAMH-7014-KB_Peeling_cinnamon_on_Ceylon.jpg/manifest.json"
-	   fit="contain">
+	manifest="https://iiif.juncture-digital.org/wc%3AAMH-7014-KB_Peeling_cinnamon_on_Ceylon.jpg/manifest.json"
+	fit="contain"
+	title="“How cinnamon is peeled on the island of Ceylon”">
 <param ve-image
 	   manifest="https://iiif.juncture-digital.org/wc%3AKaneel%2C_nootmuskaat%2C_kruidnagel_en_bamboe_Kaneel_en_Nootmus_Canelle%2C_Muscade%2C_Chasse_des_Elephans%2C_etc_Kruytnagelengewas_Girofle%2C_Bambous%2C_Montagne_brulante%2C_etc_%28titel_op_object%29_Les_Indes_Orientales_et_Occidentales_e%2C_BI-1972-1043-16.jpg/manifest.json">
 {#paragraph9}

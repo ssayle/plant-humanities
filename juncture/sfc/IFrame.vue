@@ -1,8 +1,10 @@
 <template>
-  <div :style="containerStyle">
+  <div ref="root" :style="containerStyle">
 
-    <iframe :id="id" :name="name" :allow="allow" :height="iframeHeight" :width="iframeWidth" :allowfullscreen="allowfullscreen" :mozallowfullscreen="allowfullscreen" :msallowfullscreen="allowfullscreen" :webkitallowfullscreen="allowfullscreen" :frameborder="frameborder" :src="src" :allowtransparency="allowtransparency" :referrerpolicy="referrerpolicy"></iframe>
-
+    <div style="display:flex; flex-direction:column;height:100%;">
+      <iframe :id="id" :name="name" :allow="allow" :height="iframeHeight" :width="iframeWidth" :allowfullscreen="allowfullscreen" :mozallowfullscreen="allowfullscreen" :msallowfullscreen="allowfullscreen" :webkitallowfullscreen="allowfullscreen" :frameborder="frameborder" :src="src" :allowtransparency="allowtransparency" :referrerpolicy="referrerpolicy"></iframe>
+      <div v-if="caption" class="caption">{{ caption }}</div>
+    </div>
   </div>  
 </template>
 
@@ -29,6 +31,7 @@ module.exports = {
     item() { return this.filteredItems[0] },
     id() { return this.item.id || '' },
     name() { return this.item.name || '' },
+    caption() { return this.item.caption || ''},
     allow() { return this.item.allow || '' },
     iframeHeight() { return this.item.height || '100%' },
     iframeWidth() { return this.item.width || '100%' },
@@ -47,4 +50,14 @@ module.exports = {
 </script>
 
 <style>
+  .caption {
+    max-height: 50px;
+    overflow: auto;
+    background-color: rgb(204, 204, 204);
+    padding: 9px 6px;
+    text-align: center;
+    line-height: 1;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
 </style>

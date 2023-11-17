@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "This ad for Beech-Nut peanut butter appeared in St. Nicholas Magazine. This popular children’s monthly offered young readers stories, images, and puzzles, making it  the perfect vehicle for Beech-Nut to advertise their kid-friendly food.",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://free.iiifhosting.com/iiif/afd751bd5d9a5c934fca547afd9ab6d8d77afaefdf38a43b33ae2f80883707c6",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:12.681690216064453,10.32154369354248,1037.3151359558105,1081.181752204895"
+      }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "#a371cbd6-c760-45f7-b28b-ead4b284fe83"
+  },
+  {
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The ad depicts a boy spreading peanut butter onto a piece of white bread. This portrayal linked the spread to a constructed white identity then synonymous with Americanness. Perhaps it was suggesting there is nothing more American than peanut butter.",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://free.iiifhosting.com/iiif/afd751bd5d9a5c934fca547afd9ab6d8d77afaefdf38a43b33ae2f80883707c6",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:327.48876953125,10.32154369354248,696.7042236328125,877.3312273025513"
+      }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "#23e0c57c-556e-4572-9bbe-853c32bb61a1"
+  }
+]

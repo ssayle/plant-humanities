@@ -23,7 +23,7 @@ Heliconias rank among the great botanical beauties of the natural world. Visuall
 The genus _Heliconia_ was named after Mount Helicon—in Greek mythology, the home of Apollo and the Muses—by none other than Carl Linnaeus, the father of modern taxonomy. The name, evocative of art and beauty, was intended to emphasize the close taxonomic relationship of _Heliconia_ to the genus [_Musa_](https://lab.plant-humanities.org/Banana/)—the banana. Taxonomists recognize approximately 185 species of _Heliconia_ worldwide, but there are undoubtedly one or two dozen more species to discover and describe in the tropical forests of the two distinct regions across the globe (South America and the South Pacific) where they grow as native plants.
 <param ve-entity eid="Q1043" title="Carl Linnaeus">
 <param ve-image primary region="-52,-32,1058,800" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/eight_families_order_Zingiberales-gigapixel-standard-scale-2_00x.jpg/manifest.json">
-<param ve-image region="1139,-196,5703,3936" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/map_heliconia_distribution_native_SA%20SP.jpg/manifest.json">
+<param ve-image region="1139,-196,5703,3936" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/map_heliconia_distribution_native_SA_SP.jpg/manifest.json">
 {#paragraph2}
 
 ### A Short History of Horticultural Excitement for Heliconia
@@ -70,8 +70,12 @@ A pen-and-ink drawing by the Smithsonian’s scientific illustrator [Alice Tange
 
 Mee’s gift of observation, honed through the painstaking sketching of plants and conversations with expert botanists, led her to notice the plant. Her painting, though with a primarily aesthetic purpose, was detailed and accurate enough to convince Kress, an expert on the genus, that this discovery was of a new variety. His scientific publication then called for the skill of a botanical illustrator, shifting the emphasis from color and composition to the accurate description of the plant’s parts, yet with a graceful economy of means that produces its own version of aesthetic pleasure.
 <param ve-entity eid="Q3148760" title="botanical illustrator">
-<param ve-compare curtain region="452,2026,5154,4833" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/Tangerini_Heliconia%20chartacea%20var.%20meeana_detail_frame_gray.jpg/manifest.json">
-<param ve-compare region="452,2026,5154,4833" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/mee_heliconia_uaupensis_RoyalBotanicGardenKew.jpg/manifest.json">
+<param ve-compare curtain
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/Tangerini_Heliconia_chartacea_var._meeana_detail_frame_gray.jpg/manifest.json"
+       region="pct:0,0,100,100">
+<param ve-compare
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/mee_heliconia_uaupensis_RoyalBotanicGardenKew.jpg/manifest.json"
+       region="pct:0,0,99,99">
 {#paragraph8}
 
 ### The Natural History of Heliconias – Experts in Interactions 

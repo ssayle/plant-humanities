@@ -82,6 +82,9 @@ In China, peanuts were a luxury food served at banquets and out of reach for man
 
 ### African Diaspora Culture
 Peanuts’ journey north from South America was circuitous—in fact, they were introduced to North America through Africa, crossing the Atlantic in the [hulls of slave ships.](https://slaveryandremembrance.org/articles/article/?id=A0057) This history is embedded in the [language of peanuts](https://collections.telfair.org/objects/6549/untitled-peanuts)—the common moniker "goober" entered American English from _nguba_ in <span eid="Q35891">Kimbundu</span>, a language spoken in Angola; "pinder," another term for peanuts in the American South, derives from _mpinda_ in the <span eid="Q33702">Kongo</span> language.[^14] The adoption of these loanwords by colonial English speakers in plantation societies evidences the ingenuity and exploitation of enslaved Africans: they grew peanuts in their food plots and their knowledge of cultivation methods was in turn appropriated by slaveholders along with African names for the plant.[^15]
+<param ve-iframe 
+       src="https://archive.org/embed/yearbook189500unit/page/196/mode/1up"
+       caption="Yearbook of the United States Department of Agriculture, United States, Department of Agriculture, Washington, G.P.O, 1895, Internet Archive via BHL, not in copyright.">
 <param ve-image region="0,1653,2019,1800" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/peanut/a3b76f8e2daa3c13092cb23c92bcb2ce20a32aa7c4c65b86bc125aed4e0a7a46.yaml/manifest.json">
 {#paragraph12}
 

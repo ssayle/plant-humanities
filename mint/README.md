@@ -27,7 +27,7 @@ Known as the genus _Mentha_, mint is part of the Lamiaceae family (formerly Labi
 <param ve-entity eid="Q47859" title="Mentha">
 <param ve-entity eid="Q53476" title="Lamiaceae">
 <param ve-map title="Distribution of Mentha" basemap="Esri_WorldPhysical" center="36.34,11.19" zoom="2" stroke-width="0" show-labels>
-<param ve-map-layer geojson active title="Global" url="/geojson/globalmintdis.geojson">
+<param ve-map-layer geojson active title="Global" url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/globalmintdis.geojson">
 {#paragraph2}
 
 ### Religion and Mythology
@@ -100,7 +100,7 @@ Essence of peppermint was regularly imported to America from London and accordin
 <param ve-map title="World" basemap="Esri_WorldPhysical" center="37.874967,-41.896891" zoom="3.5">
 <param title="colonies" eid="Q179997" fill="#5C6609" marker-symbol="leaf">
 <param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/mintBrUSline.geojson">
-<param ve-map-layer geojson active title="Original 13 colonies" url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint13colonies.geojson">
+<param ve-map-layer geojson active title="Original 13 colonies" url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/13colonies.geojson">
 {#paragraph13}
 
 American colonists were quick to recognize the commercial opportunity presented by locally producing peppermint oil rather than importing it from England, no doubt due in part to the ease of growing mint in a variety of environments. Unlike other varieties of mint, the peppermint plant would have been propagated in early America using root cuttings probably from a small number of original plants in England. Commercial peppermint production gradually shifted from England to America starting in the 1750s; records of peppermint fields in America show that the first were found near the town Ashfield, in Franklin County, Massachusetts. In these early days, essence <span eid="Q638172">peddlers</span> ensured that peppermint was part of a widespread production and distribution network, including in northern New York and New Jersey.[^ref12]

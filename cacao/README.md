@@ -55,10 +55,20 @@ Initial imperial strategies in the New World allowed for the documentation of na
 {#paragraph4}
 
 A fruiting cacao tree, identified as _Tlapalcacautl_ in Nahuatl, features in a recipe entitled "Trees and flowers for the fatigue of those administering the government and holding public office."[^ref4] Another representation of cacao found in the text, identified as _Cacauaxochitl_ in Nahuatl, shows the plant in flower.[^ref5] A separate illustration of _Cacauaxochitl_ is found within a recipe for "Mental Stupor," which calls for the use of its bark and roots. This same flowered cacao, while not illustrated, is also mentioned in recipes for hurt feet and as a cure for fear. While previous scholars have identified this _Cacauaxochitl_ plant as _Quararibea funebris_ because of the similarity of its Nahuatl name with that of [one described by](https://www.biodiversitylibrary.org/page/42728812) Francisco Hernández de Toledo, the deep orange and yellow flowers along with the overall structure of the petals, pistil, and stamen depicted actually support the identification of it as a flowering and budding _Theobroma cacao_.[^ref6] 
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3ACacao_Flor.JPG/manifest.json" fit="cover">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacauaxochitlBadianus.jpeg/manifest.json" fit="cover">
-<param ve-image label="Fruiting cacao. Sarah Stierch, Wikimedia Commons, CC BY 4.0." url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg/1536px-Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg" fit="cover">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/TlapalcacautlBadianus.jpeg/manifest.json" fit="cover">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3ACacao_Flor.JPG/manifest.json" 
+       fit="cover"
+       title="Flowering cacao">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacauaxochitlBadianus.jpeg/manifest.json" 
+       fit="cover"
+       title="Cacauaxochitl as depicted in Dumbarton Oaks's Badianus reproductions">
+<param ve-image 
+       label="Fruiting cacao. Sarah Stierch, Wikimedia Commons, CC BY 4.0."
+       url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg/1536px-Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg" 
+       fit="cover"
+       title="Fruiting cacao.">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/TlapalcacautlBadianus.jpeg/manifest.json" 
+       fit="cover"
+       title="Tlapalcacauatl as depicted in Dumbarton Oaks's Badianus reproductions">
 <param title="Francisco Hernández de Toledo" eid="Q940017">
 <param title="Quararibea funebris" eid="Q7269144" aliases="_Quararibea funebris_">
 {#paragraph5}

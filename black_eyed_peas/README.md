@@ -133,7 +133,8 @@ Brazil’s national dish, <span eid="Q878189">_feijoada completa_</span>, has a 
        manifest="https://iiif.juncture-digital.org/wc%3A%D9%81%D9%8A%D8%AC%D9%88%D8%A7%D8%AF%D8%A7_feijoada.jpg/manifest.json"
        title="Feijoada with rice, fried kale, cassava starch crisps (biscoito de polvilho), cassava flour (farinha), and a mix of olive oil, alcohol vinegar, tomatoes, onions and sometimes bell peppers called vinagrete.">       
 <param ve-image 
-       manifest="https://iiif.juncture-digital.org/wc%3AFeijoada_%C3%A0_brasileira_-02.jpg/manifest.json">
+       manifest="https://iiif.juncture-digital.org/wc%3AFeijoada_%C3%A0_brasileira_-02.jpg/manifest.json"
+       title="Feijoada à brasileira.">
 <param ve-image 
        manifest="https://iiif.juncture-digital.org/wc%3ASoul_Food_Deli_Shreveport.jpg/manifest.json"
        fit="contain">

@@ -168,6 +168,7 @@ module.exports = {
         : 'contain'
     },
     currentItemSource() {
+      console.log('currentItemSource', this.currentItem, this.currentItem?.seq || 1)
       return this.currentItem && this.findItem({type:'Annotation', motivation:'painting'}, this.currentItem, this.currentItem.seq || 1).body.id
     },
     currentItemSourceHash() {
@@ -452,7 +453,6 @@ module.exports = {
       }
     },
     async loadAnnotations() {
-      console.log('loadAnnotations')
       let annosFile = `${this.currentItemSourceHash}.json`
       /*
       let annosPath = `${location.pathname}/${annosFile}`

@@ -33,9 +33,9 @@ Users of ayahuasca experience vivid hallucinations and visions that some describ
 {#paragraph3}
 
 Many traditions are associated with the preparation and imbibing of the decoction due to its ubiquity among cultures throughout the Amazon basin and Andean highlands. Boiling and steeping together the vines of <span eid="Q133573">_Banisteriopsis caapi_</span> and the leaves of <span eid="Q133533">_Psychotria viridis_</span> is most common.[^ref5] Amazonian Indigenous populations have known about this combination of plants and its effects for at least 3,000 years.[^ref6] However, there are recipes that do not contain any _P. viridis_, and instead use other plants that contain DMT, such as <span eid="Q1939784">_Diplopterys cabrerana_</span>. 
-<param ve-plant-specimen eid="Q133573" max="1"> <!--Caapi-->
-<param ve-plant-specimen eid="Q133533" max="1"> <!--P.Viridis-->
-<param ve-plant-specimen eid= "Q1939784" max="1"> <!--D.cabrerana-->
+<param ve-plant-specimen eid="Q133573" max="1">
+<param ve-plant-specimen eid="Q133533" max="1">
+<param ve-plant-specimen eid= "Q1939784" max="1">
 {#paragraph4}
 
 Consuming ayahuasca produces a roughly four-hour period of altered consciousness. During this time, practitioners experience otherworldly visuals and fluctuations in conceptions of reality and selfhood. Most Indigenous groups of the Amazon basin understand the world as a series of interlocking human and nonhuman persons, both visible and invisible.[^ref7] By entering the "ayahuasca world," a liminal meeting place with more-than-human beings, Indigenous participants in the ritual are able to better visualize the forces at work around them.[^ref8] Such insight is used to treat physical ailments, address mental health concerns, and provide spiritual guidance. In these Amazonian communities, ayahuasca is central to religious, healing, and initiation ceremonies as a form of traditional medicine and psychiatry.[^ref9]
@@ -133,7 +133,7 @@ In contrast, descriptions of individual plant species were devoid of demonic or 
        
 In the 1870s, the Portuguese missionary Manuel Rodrigues Pinto Rubens echoed the Jesuit views on ayahuasca when he wrote about the <span eid="Q5363631">_Ticuna_</span> in the northern Amazon. He recognized the importance of medical specialists of this community (called _pagés_) but also called them "impostors" who frightened the overly "superstitious indians"  of the region.[^ref30] Pinto Rubens’ work stands out from previous missionary accounts because it has great <span eid="Q132151">ethnographic</span> detail about Indigenous rituals combined with botanical references to the plants used by the Ticuna. It also features several watercolors, including one of a _pagé_ who apparently is using ayahuasca to understand a patient’s ailment and find its cure.
 <param ve-image
-       manifest="https://iiif.lib.harvard.edu/manifests/drs:485686543" seq="28" rotate="90">
+       manifest="https://iiif.lib.harvard.edu/manifests/drs:485686543" seq="29" rotate="90">
 {#paragraph18}
 
 While Pinto Rubens’ work is certainly ethnobotanical in character, the most celebrated figure in the discipline is <span eid="Q1349394">Richard Spruce</span> (1817–1893). Considered one of the main pioneers of ethnobotany in the modern scientific world, this Victorian Era botanist traveled across South America for 15 years, extensively documenting the <span eid="Q213782">Putumayo</span> region of the Amazon. Spruce was notably interested in the use of mind-altering plants, and dedicated one chapter dedicated to them in his 1908 posthumously edited book, _Notes of a Botanist on the Amazon and Andes_. Most of the chapter focuses on the plant _caapi_—the <span eid="Q120684">Tupi</span> word for ayahuasca—and includes methods of preparing the plant for the decoction, notes on its etymology, and ritual descriptions.[^ref31]

@@ -98,7 +98,7 @@ Scurvy is an acute chronic illness caused by a dietary deficiency of ascorbic ac
 {#paragraph11}
 
 Today, adult scurvy is treated with 300–1,000 mg of ascorbic acid per day. Although lemons and oranges are traditionally associated with high levels of vitamin C (50 mg/100 g) the reduced ascorbic acid in 100 grams of fresh needles and shoots from many conifers exceeds or matches the vitamin C in citrus. For example, balsam fir has 270 mg, red spruce 169 mg, and white cedar 45 mg.[^ref8] Furthermore, as Don J. Durzan has highlighted in his scientific analysis of coniferous biofactors, in the winter when food was scarce and the temperature plummeted, the coniferous trees of life provided vital vitamins, arginine, proline, other conditionally and essential amino acids, and antioxidants, all of which aided in the recovery from scurvy.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/Vitamin%20C%20in%20conifers.jpg/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/Vitamin_C_in_conifers.jpg/manifest.json">
 {#paragraph12}
 
 ### Identifying the Tree of Life

@@ -27,7 +27,7 @@ Cinnamon had a long history before any European ever saw "true" cinnamon (_Cinna
 <param title="Pedanius Dioscorides" eid="Q297776" aliases="Dioscorides">
 <param title="East Indies" eid="Q213137">
 <param title="Cassia abbreviata" eid="Q145495">
-<<param ve-image
+<param ve-image
 	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/18040817.jpg/manifest.json"
 	fit="contain">
 {#paragraph2}

@@ -77,8 +77,12 @@ A fruiting cacao tree, identified as _Tlapalcacautl_ in Nahuatl, features in a r
 
 The herbal’s watercolors illustrate anatomically accurate plant structures situated within particular stages of the reproductive life cycle of cacao. These details indicate that the Mexica had an intimate understanding of cacao’s biology, a level of knowledge not found in contemporaneous herbals authored by non-natives. Consequently, the knowledge of cacao within the Badianus has a broader spatio-temporal history, developing across Mesoamerica well before the arrival of Europeans and the formation of the school in which de la Cruz and Badiano created the herbal.
 <param scope="local" eid="Q13703">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMayan_-_Lidded_Vessel_-_Walters_20092039_-_Side_B.jpg/manifest.json" fit="contain">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoReprod.png/manifest.json" fit="contain">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMayan_-_Lidded_Vessel_-_Walters_20092039_-_Side_B.jpg/manifest.json" 
+       fit="contain"
+       title="Ancient Maya Cacao Beverage Vessel with Cacao Imagery">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoReprod.png/manifest.json" 
+       fit="contain"
+       title="Reproductive Life Cycle of Cacao">
 <param title="spatio-temporal entity" eid="Q58415929" aliases="spatio-temporal">
 {#paragraph6}
 

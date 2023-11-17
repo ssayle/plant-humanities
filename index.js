@@ -315,6 +315,11 @@ async function init() {
   
   console.log(config)
 
+  Array.from(document.querySelectorAll('.footnote-backref')).forEach(el => {
+    el.setAttribute('href', 'javascript:;')
+    console.log(el)
+  })
+
   loadDependencies(
     config.components.map(src => ({tag: 'script', type: 'module', src}) ), () => {
     if (isJunctureV1) loadDependencies(junctureDependencies, () => createJunctureV1App())    

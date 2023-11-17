@@ -47,7 +47,7 @@ Another, much more surprising reason for the long-lasting confusion over cinnamo
 <param title="Cinnamomum cassia" eid="Q204148">
 <param ve-map
 	prefer-geojson
-	title="The proposed "Cinnamon Route" of antiquity, by J. Innes Miller. According to this theory, the Indian Ocean world consisted of connected zones of maritime activity. In the green areas, single-outrigger canoes were the most important means of transportation, while the area outlined in red was dominated by double-outrigger canoes. With this theory, Miller was able to connect the East African origin of cinnamon—as mentioned in classical sources—with the native habitats of _Cinnamomum verum_ and _C. cassia_. Adaptation of the map in John M. Riddle, _Dioscorides on Pharmacy and Medicine_ (Austin: University of Texas Press, 1985), 99, which was based on J. Innes Miller, _The Spice Trade of the Roman Empire, 29 B.C. to A.D. 641_ (Oxford: Clarendon Press, 1969), 172. Miller himself based his theory on the work of James Hornell, _Water Transport: Origins & Early Evolution_ (Cambridge: The University Press, 1946)."
+	title="The proposed &quot;Cinnamon Route&quot; of antiquity, by J. Innes Miller. According to this theory, the Indian Ocean world consisted of connected zones of maritime activity. In the green areas, single-outrigger canoes were the most important means of transportation, while the area outlined in red was dominated by double-outrigger canoes. With this theory, Miller was able to connect the East African origin of cinnamon—as mentioned in classical sources—with the native habitats of _Cinnamomum verum_ and _C. cassia_. Adaptation of the map in John M. Riddle, _Dioscorides on Pharmacy and Medicine_ (Austin: University of Texas Press, 1985), 99, which was based on J. Innes Miller, _The Spice Trade of the Roman Empire, 29 B.C. to A.D. 641_ (Oxford: Clarendon Press, 1969), 172. Miller himself based his theory on the work of James Hornell, _Water Transport: Origins & Early Evolution_ (Cambridge: The University Press, 1946)."
 	center="-2.2560042688001136, 101.40221376190884"
 	zoom="3">
 <param ve-map-layer geojson url="https://raw.githubusercontent.com/plant-humanities/essays/main/cinnamon/Spice-Route-of-Antiquity_Miller-1969.json">
@@ -158,7 +158,7 @@ Imperial agendas and a disinterested search for knowledge could also go hand in 
 <param title="Philosophical Transactions" eid="Q913162">
 <param title="Royal Society" eid="Q123885">
 <param ve-image
-	title=""Cinnamon from Ceylon with flowers". Specimen of Cinnamomum verum J.Presl, from Paul Hermann’s herbarium of plants from Sri Lanka in Leiden, specimen no. L.2070171."
+	title="&quot;Cinnamon from Ceylon with flowers&quot;. Specimen of Cinnamomum verum J.Presl, from Paul Hermann’s herbarium of plants from Sri Lanka in Leiden, specimen no. L.2070171."
 	url="https://raw.githubusercontent.com/plant-humanities/media/main/cinnamon/Cinnamon_from_Ceylon_with_flowers.jpg"
 	attribution="Naturalis Biodiversity Center, Leiden. https://data.biodiversitydata.nl/naturalis/specimen/L.2070171"
         fit="contain">

@@ -17,7 +17,8 @@
 ### The Comeback Kid
   
 Carolina rice, the "heritage grain" lost to history in the Reconstruction era, has come back in a major way. Indeed, in a [2017 article,](https://www.eater.com/ad/15973794/carolina-gold-rice-heritage-grains) _Eater_ declared that "The Grain Revolution Is Here," describing one company’s attempt to bring back the historical strain of <span eid="Q161426">_Oryza sativa_</span>. Varieties of Carolina rice, in particular, "Carolina Gold," have been attracting the attention of niche cooking websites and standard news sources alike, with outlets from [_Serious Eats_](https://www.seriouseats.com/2016/05/carolina-gold-heirloom-rice-anson-mills.html) to the [_New York Times_](https://www.nytimes.com/2018/02/13/dining/hill-rice-slave-history.html?auth=login-email&login=email) spotlighting the grain.
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AThe-rice-bird.jpg/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AThe-rice-bird.jpg/manifest.json"
+	title="Illustration of Rice and the Rice-Bird in the Carolina Colony, 1754.">
 <param title="Oryza sativa" eid="Q161426">
 <param title="Reconstruction Era" eid="Q623429" aliases="Reconstruction era"> 
 {#paragraph1}

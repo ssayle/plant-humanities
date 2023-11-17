@@ -33,6 +33,7 @@ Black-eyed peas ([_Vigna unguiculata_](https://powo.science.kew.org/taxon/urn:ls
 Since <span eid="Q486761">classical antiquity</span>, the black-eyed pea has been a cultural marker of those who lacked social status in European societies. A stigma surrounding dried foods impinged the reputation of the bean and its eaters: while wealthy and socially powerful individuals could afford fresh foods, peasants relied upon cheaper dried foods. The beans were shelled, dried, and used in humble soups, though in its fresh green form the black-eyed pea apparently made a delicious dessert served in <span eid="Q5690">Sparta</span>.[^ref3] The imbrication of class, culture, and food is apparent, for example, in ancient Greek and Roman floor <span eid="Q133067">mosaics</span> that depict food scraps strewn across a floor after a lavish banquet. In perhaps the most famous example of the unswept floor genre, seen here, lobster shells, olive pits, partially eaten fish, and nuts litter the ground, but nary a bean is to be found.
 <param ve-image
        fit="contain"
+       title="Sosus of Pergamon, after, Banquet leftovers, or Unswept Floor, early 2nd CE, mosaic, 4.05 x 0.41 m, Museum Gregoriano Profano, Vatican."
        manifest="https://iiif.juncture-digital.org/wc%3ARestes_du_banquet%2C_mosa%C3%AFque.jpg/manifest.json">
 {#paragraph3}
 
@@ -129,10 +130,13 @@ Hoppin’ John’s origins are from brutal conditions of American plantations. E
 
 Brazil’s national dish, <span eid="Q878189">_feijoada completa_</span>, has a similar origin story to Hoppin’ John. Enslaved West Africans on plantations in <span eid="Q2088324">colonial Brazil</span> developed _feijoada_, a stew made with black beans and scrap pork.[^ref27] It was a meal of necessity for workers as it used the food on hand and could be left simmering unattended during the long day’s work.[^ref28] Today, simple bean and rice dishes are a national staple, but _feijoada completa_ is a celebratory meal for every sector of society, taking days to prepare and requiring higher quality meat, collard greens, rice, orange slices, and manioc flour (derived from [cassava](https://lab.plant-humanities.org/cassava/)).[^ref29] For both _feijoada completa_ and Hoppin’ John, what was originally a means for survival has become a meal symbolizing prosperity and for celebration, as well as a symbol of unity across racial lines. However, there is still much tension in questions of representation, ownership, class, race and identity in Southern food and <span eid="Q555997">Soul Food,</span> with white perspectives usually being unjustly privileged over Black ones.[^ref30]
 <param ve-image 
+       title="Feijoada with rice, fried kale, cassava starch crisps (biscoito de polvilho), cassava flour (farinha), and a mix of olive oil, alcohol vinegar, tomatoes, onions and sometimes bell peppers called vinagrete."
        manifest="https://iiif.juncture-digital.org/wc%3A%D9%81%D9%8A%D8%AC%D9%88%D8%A7%D8%AF%D8%A7_feijoada.jpg/manifest.json">       
 <param ve-image 
+       title="Feijoada à brasileira."
        manifest="https://iiif.juncture-digital.org/wc%3AFeijoada_%C3%A0_brasileira_-02.jpg/manifest.json">
 <param ve-image 
+       title="P & C Soul Food Deli, Shreveport, Louisiana."
        manifest="https://iiif.juncture-digital.org/wc%3ASoul_Food_Deli_Shreveport.jpg/manifest.json"
        fit="contain">
 {#paragraph19}

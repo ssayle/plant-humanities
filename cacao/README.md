@@ -32,7 +32,9 @@ _Theobroma cacao_ is a coveted tree known as the source of the globally celebrat
 {#paragraph1}
 
 Originally domesticated in the tropical lowlands of South America,[^ref1] cacao quickly spread to Mesoamerica where it gained salient cultural status as far back as the <span eid="Q4347456">Formative Period</span>. This world-renowned plant also tells a story of shifting strategies of interaction and knowledge production during the early modern period. This era of imperial expansion saw a variety of European entities seeking to benefit from the economic goods and networks native to the Americas. Cacao was one of the most important of these networks, specifically the production, distribution, and consumption of its seeds.
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFriedrich_Gottlob_Hayne14.jpg/manifest.json" fit="scale-down">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFriedrich_Gottlob_Hayne14.jpg/manifest.json" 
+       fit="scale-down"
+       title="Botanical illustration of _Theobroma cacao_ by Friedrich Guimpel (~1805-1846)">
 <param title="early modern period" eid="Q5308718">
 {#paragraph2}
 
@@ -55,18 +57,32 @@ Initial imperial strategies in the New World allowed for the documentation of na
 {#paragraph4}
 
 A fruiting cacao tree, identified as _Tlapalcacautl_ in Nahuatl, features in a recipe entitled "Trees and flowers for the fatigue of those administering the government and holding public office."[^ref4] Another representation of cacao found in the text, identified as _Cacauaxochitl_ in Nahuatl, shows the plant in flower.[^ref5] A separate illustration of _Cacauaxochitl_ is found within a recipe for "Mental Stupor," which calls for the use of its bark and roots. This same flowered cacao, while not illustrated, is also mentioned in recipes for hurt feet and as a cure for fear. While previous scholars have identified this _Cacauaxochitl_ plant as _Quararibea funebris_ because of the similarity of its Nahuatl name with that of [one described by](https://www.biodiversitylibrary.org/page/42728812) Francisco Hernández de Toledo, the deep orange and yellow flowers along with the overall structure of the petals, pistil, and stamen depicted actually support the identification of it as a flowering and budding _Theobroma cacao_.[^ref6] 
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3ACacao_Flor.JPG/manifest.json" fit="cover">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacauaxochitlBadianus.jpeg/manifest.json" fit="cover">
-<param ve-image label="Fruiting cacao. Sarah Stierch, Wikimedia Commons, CC BY 4.0." url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg/1536px-Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg" fit="cover">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/TlapalcacautlBadianus.jpeg/manifest.json" fit="cover">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3ACacao_Flor.JPG/manifest.json" 
+       fit="cover"
+       title="Flowering cacao">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacauaxochitlBadianus.jpeg/manifest.json" 
+       fit="cover"
+       title="Cacauaxochitl as depicted in Dumbarton Oaks's Badianus reproductions">
+<param ve-image 
+       label="Fruiting cacao. Sarah Stierch, Wikimedia Commons, CC BY 4.0."
+       url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg/1536px-Cacao_-_United_States_Botanic_Garden%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg" 
+       fit="cover"
+       title="Fruiting cacao.">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/TlapalcacautlBadianus.jpeg/manifest.json" 
+       fit="cover"
+       title="Tlapalcacauatl as depicted in Dumbarton Oaks's Badianus reproductions">
 <param title="Francisco Hernández de Toledo" eid="Q940017">
 <param title="Quararibea funebris" eid="Q7269144" aliases="_Quararibea funebris_">
 {#paragraph5}
 
 The herbal’s watercolors illustrate anatomically accurate plant structures situated within particular stages of the reproductive life cycle of cacao. These details indicate that the Mexica had an intimate understanding of cacao’s biology, a level of knowledge not found in contemporaneous herbals authored by non-natives. Consequently, the knowledge of cacao within the Badianus has a broader spatio-temporal history, developing across Mesoamerica well before the arrival of Europeans and the formation of the school in which de la Cruz and Badiano created the herbal.
 <param scope="local" eid="Q13703">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMayan_-_Lidded_Vessel_-_Walters_20092039_-_Side_B.jpg/manifest.json" fit="contain">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoReprod.png/manifest.json" fit="contain">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMayan_-_Lidded_Vessel_-_Walters_20092039_-_Side_B.jpg/manifest.json" 
+       fit="contain"
+       title="Ancient Maya Cacao Beverage Vessel with Cacao Imagery.">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoReprod.png/manifest.json" 
+       fit="contain"
+       title="Reproductive Life Cycle of Cacao.">
 <param title="spatio-temporal entity" eid="Q58415929" aliases="spatio-temporal">
 {#paragraph6}
 
@@ -79,8 +95,12 @@ The association of cacao with curing particular ailments in Mexica recipes echoe
 {#paragraph7}
 
 To illustrate, classic Maya material culture frequently shows cacao in relation to the <span eid="Q12744013">Maize God</span>. For example, a carved vessel in the Dumbarton Oaks collection depicts the Maya Maize God described as a maize tree with cacao pods sprouting from his body, a representation of primordial maize. Furthermore, on the sarcophagus of the ancient Maya ruler Pakal in Palenque, Mexico, ancestors are depicted as cacao trees emerging from the dead ruler’s body, who is represented on the lid as the Maize God. This scene of rebirth ultimately connects cacao with Maya ideologies of cycles of life and subsistence.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoVessel.jpg/manifest.json" fit="fill">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3APakal_the_Great_tomb_lid.png/manifest.json" fit="fill">
+<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoVessel.jpg/manifest.json" 
+       fit="fill"
+       title="Early Classic Maya Bowl with Anthropomorphic Cacao Trees, curated by Dumbarton Oaks Museum.">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3APakal_the_Great_tomb_lid.png/manifest.json" 
+       fit="fill"
+       title="Pakal's sarcophagus detail with ancestors depicted as fruit trees.">
 <param title="Palenqué" eid="Q181427" fill="#5C6609" marker-symbol="gopuram" aliases="Palenque">
 {#paragraph8}
 
@@ -107,7 +127,8 @@ We learn from many other early colonial documents that roasted cacao beans were 
 ### European Accounts
 
 To fulfill colonial agendas, the Spanish and other Europeans found themselves participating in the indigenous networks and ideologies of the Americas. This initially gave a measure of agency to the native perspective, as reflected through the creation of texts like the Badianus. With the continued subjugation and conversion of indigenous populations to Christianity, we eventually lose access to this emic native perspective in colonial period texts. However, we gain access to knowledge of New World plants through European-perspective manuscripts from the late sixteenth and early seventeenth centuries. While cacao features in several of these, they do not appear in some one might expect.
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMurales_Rivera_-_Treppenhaus_9_B%C3%BCcherverbrennung.jpg/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMurales_Rivera_-_Treppenhaus_9_B%C3%BCcherverbrennung.jpg/manifest.json"
+       title="Diego Rivera Mural depicting an Auto de Fe of indigenous literature and idols.">
 {#paragraph12}
 
 At first thought, it is surprising that cacao does not appear in any of the [several herbals on New World plants by Nicolás Monardes.](https://bibdigital.rjb.csic.es/idurl/1/13636) However, <span eid="Q950531">Monardes</span>, a physician and botanist based in Seville and who never left the hemisphere, was only aware of plants that had reached him from across the ocean via his network of fellow naturalists. He also seems to have only reported on the plants he was able to propagate in his garden or use for himself, as he repeatedly claims his findings are based on real and personal observations. Given these facts, it is unlikely that cacao seeds would have sustained their reproductive capacity after a voyage across the Atlantic, let alone propagation in the drier Mediterranean climate of Seville.

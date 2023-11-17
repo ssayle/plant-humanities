@@ -87,7 +87,7 @@
             <p class="mt-1 text-gray-800 dark:text-gray-400">
               {{ description }}
             </p>
-            <div class="mt-5 text-xs text-gray-500 dark:text-gray-500">
+            <div v-if="wikipediaLink" class="mt-5 text-xs text-gray-500 dark:text-gray-500">
               <a class="inline-flex items-center gap-2 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm" 
                 target="_blank" :href="wikipediaLink">
                 <img class="max-w-[24px]" src="https://upload.wikimedia.org/wikipedia/commons/7/77/Wikipedia_svg_logo.svg" />

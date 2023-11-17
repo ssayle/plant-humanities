@@ -50,15 +50,17 @@ The pelargonium and its relatives geranium and erodium belong to the family Gera
 <param ve-entity eid="Q147768" title="capsule" aliases="capsules">
 <param ve-entity eid="Q162920" title="Erodium"> 
 <param ve-image primary region="0,312,1173,1060" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/11654__Botany_U_1336491.jpeg/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Vero%CC%81nica_Matallana_The_Geraniaceae_family_Copyright_Vero%CC%81nica_Matallana_2020.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/pelargonium//Veronica_Matallana_The_Geraniaceae_family_Copyright_Veronica_Matallana_2020.jpg/manifest.json">
 {#paragraph4}
 
 Other morphological traits distinguish members of the genera pelargonium from geranium. This diagram highlights several key differences that can be observed by comparing the reproductive systems of the two plants: the flowers. The pelargonium flower parts are arranged bilaterally around one axis, making them quite distinct from the radially oriented ones of the geranium. Another difference is that, while the geranium has five nectaries (nectar-secreting glands) at the base of the petals, the pelargonium has only one embedded in the receptacle. Yet another divergence is the number of fertile stamens and their groupings. The pelargonium has between one and seven stamens, attached at the base; the geranium has either five or ten free stamens. Finally, pelargonium flowers are either red, light yellow, mauve, purple, pink, or white; geranium flowers are either dark blue, purple, pink, or white, but never scarlet (as Dickens would have known it).
 <param ve-entity eid="Q687699" title="Nectary" aliases="nectaries"> 
 <param ve-entity eid="Q506" title="flower" aliases="flowers"> 
 <param ve-entity eid="Q103129" title="stamen" aliases="stamens">
-<param ve-compare manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Bois_Atlas_des%20plantes_de_jardins_Bibliothe%CC%80que_nationale_de_France_public_domain.jpg/manifest.json">
-<param ve-compare url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/pelargonium/Vero%CC%81nica_Matallana_Differences_between_Geranium_and_Pelargonium_flowers_Copyright_Vero%CC%81nica_Matallana_2020.jpg?raw=true">
+<param ve-compare 
+       manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/pelargonium/Bois_Atlas_des_plantes_de_jardins_Bibliotheque_nationale_de_France_public_domain.jpg/manifest.json">
+<param ve-compare 
+       manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/pelargonium/Veronica_Matallana_Differences_between_Geranium_and_Pelargonium_flowers_Copyright_Veronica_Matallana_2020.jpg/manifest.json">
 {#paragraph5}
 
 ### Introduction to Europe and Nomenclature Confusion
@@ -160,7 +162,7 @@ The ubiquity of the _Pelargonium_ in the Victorian era soon began to carry a cul
 
 For many Victorian families who could not afford to have gardens, growing pelargoniums in pots and displaying them on windowsills or balconies became an expression not only of their aesthetic tastes, but also of their social aspirations. Perhaps because of such class-based bias, professional horticulturalists would often look down on the pelargonium with a certain derision. Gertrude Jekyll writes in 1919 that, "It is a common thing for friends to express surprise at seeing scarlet Geraniums ... in my garden, forgetting that it was not the fault of the plants that they were misused or employed in dull or even stupid ways."[^ref26] Her comments imply that it was not the plants themselves that were offensive to garden specialists but, rather, the style and context in which they featured.
 <param ve-entity eid="Q452354" title="Gertrude Jekyll">
-<param ve-image primary region="-117,366,1174,942" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/ddff2e4c6414474c4e26eb9510bfc60cdb259916647cf0bffb48afffa259d2f2.yaml/manifest.json">
+<param ve-iframe src="https://archive.org/embed/jennysgeraniumor00bostiala/page/n7/mode/1up"></param>
 {#paragraph16}
 
 ### Pelargoniums, Imperial Splendor, and Colonial Profit

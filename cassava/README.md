@@ -29,8 +29,10 @@ When eaten raw, cassava is likely to leave a bitter taste in one’s mouth. Wors
 
 How did cassava come to occupy this pride of place in the global food system? How did cassava transform from a poisonous tuber into a major food staple, and from an exclusive dweller of South America into a cosmopolitan citizen of the world? To answer these questions, this essay looks at how human interactions with cassava helped shape the plant into the significant food crop that it is today. We first look at the elaborate method of processing cassava developed by the Indigenous peoples of Meso- and South America and then turn to the codification and spread of this knowledge, facilitated by European travelers to the New World. This meeting of Indigenous and European knowledge systems, combined with cassava’s tolerance for drought, resulted in a food crop that would create new hope for global food security in the twentieth and twenty-first centuries. Furthermore, as knowledge of cassava and its specimens circulated to different parts of the world, the plant took on additional cultural meanings through novel culinary uses and artistic representations.
 <param title="tuber" eid="Q183319"> 
-<param ve-image primary fit="cover" manifest="https://iiif.juncture-digital.org/wc%3ACassava_ap_001.JPG/manifest.json">
-<param ve-image region="2124,680,2903,1968" label="Global distribution of cassava. Cassava’s native habitat is marked in green, and regions where cassava was introduced by humans are marked in orange." url="https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/main/cassava/Cassava_distribution_map_4.jpg">
+<param ve-image primary fit="cover" manifest="https://iiif.juncture-digital.org/wc%3ACassava_ap_001.JPG/manifest.json"
+	title="Cassava field near Bondoukou, north-eastern Ivory Coast, September 2014.">
+<param ve-image region="2124,680,2903,1968" label="Global distribution of cassava. Cassava’s native habitat is marked in green, and regions where cassava was introduced by humans are marked in orange." url="https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/main/cassava/Cassava_distribution_map_4.jpg"
+	title="Global distribution of cassava. Cassava’s native habitat is marked in green, and regions where cassava was introduced by humans are marked in orange.">
 {#paragraph2}
 
 ### Of Frogs and Cassava: Early Cultivation in the Andes
@@ -176,7 +178,8 @@ Today, Nigeria is the world’s largest producer of cassava, with over 34 millio
 
 In spite of cassava’s potential for aiding global food security, the Food and Agriculture Organization (FAO) of the United Nations noted in 2002 that research on the plant has lagged behind other popular food crops.[^ref33] The FAO report further observed that cassava production had fallen behind its yield potential in Africa and that marketing attempts by cassava farmers had similarly been consistently lower than expected. Increases in cassava productivity had also consistently lagged behind other top food crops, such as rice, wheat, and corn.[^ref34] As a result, the FAO launched a biotechnology development program to increase cassava production by increasing its pest and disease resistance and improving its starch quality to ensure better marketability and higher nutrient levels.
 <param title="FAO" eid="Q82151" aliases="Food and Agriculture Organization">
-<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen_Shot_2021-01-06_at_12.02.11_PM.jpg/manifest.json">
+<param ve-image primary fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/Screen_Shot_2021-01-06_at_12.02.11_PM.jpg/manifest.json"
+	title="Production of Cassava, after Food and Agriculture Organization of the United Nations.">
 <param ve-image region="1,0,1143,1004" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/a662fa58c1954858a44103880681a72ae457b202071acf3436dc4b368ba2826f.yaml/manifest.json" title="Disaggregated cassava production in sub-Saharan Africa and associated data sources. Density of cassava production layer (tonnes per approx. 1 km2) (a). Cassava production data sources and administrative resolution of production census data in each of the countries (b): FAO (fao.org/faostat), Resakss (resakss.org), Agro-MAPS (kids.fao.org/agromaps/) and IITA (personal correspondence with the International Institute of Tropical Agriculture in Ibadan, Nigeria). Basemap source: Esri, DeLorme, HERE, MapmyIndia.">
 {#paragraph19}
 
@@ -187,8 +190,10 @@ In addition to food security, cassava plays an increasingly important and divers
 <param title="Dominican Republic" eid="Q786">
 <param title="Puerto Rico" eid="Q1183">
 <param title="Cuba" eid="Q241">
-<param ve-image primary manifest="https://iiif.juncture-digital.org/wc%3AMaking_fufu_Democratic_Republic_Congo.jpg/manifest.json">
-<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/CassavaProc_RootsTubersBananas_Mural_Flickr.jpg/manifest.json">
+<param ve-image primary manifest="https://iiif.juncture-digital.org/wc%3AMaking_fufu_Democratic_Republic_Congo.jpg/manifest.json"
+	title="_Fufu_ being made in the Democratic Republic of Congo.">
+<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/CassavaProc_RootsTubersBananas_Mural_Flickr.jpg/manifest.json"
+	title="Cassava processing in Benin, wall mural, March 7, 2015.">
 {#paragraph20}
 
 Associated with specific cultures across the globe, but also symbolizing mobility—having spread from its native habitat in South America, across the ocean to Africa, and back to South America and the Caribbean via diasporic African communities—cassava has also been celebrated in contemporary art. Nigerian-American artist Njideka Akunyili Crosby, for example, features cassava prominently in her work as she explores the ability of people, plants, and paintings to inhabit multiple spaces.
@@ -199,7 +204,8 @@ Associated with specific cultures across the globe, but also symbolizing mobilit
 In her painting _Cassava Garden_, Crosby juxtaposes a cassava plant with an Indian rubber tree, two species of plants growing in Los Angeles, where she lives and works. Crosby is well aware that neither of these plants is native to the United States, having been brought there by people from different parts of the world. By representing them together, she speaks to different meanings of place-making. On the one hand, the painting represents an imagined garden, where two plants of different geographic origin can happily coexist.[^ref36] The juxtaposition of these plants refers to modern Los Angeles, where they _do_ coexist today.
 <param title="Los Angeles" eid="Q65">
 <param title="Ficus elastica" eid="Q160576" aliases="Indian rubber tree"> 
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava Garden_2015.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/15.09.047_NA12_Cassava Garden_2015.jpg/manifest.json"
+	title="Njideka Akunyili Crosby, Cassava Garden, 2015, Acrylic, transfers, colored pencil, charcoal and commemorative fabric on paper, 72 x 60 in, 182.88 x 152.40 cm">
 {#paragraph22}
 
 On the other hand, Crosby associates cassava with Nigerian village life, which is why her painting incorporates imagery from her childhood in <span eid="Q1033">Nigeria</span>. Along the right side of the painting, we see a textile featuring a portrait of her mother, which came from her mother's funeral.[^ref37] Photographs from Nigeria are also incorporated into the cassava’s leaves, creating a layered effect that Crosby refers to as a "visual vibration."[^ref38] This melding of present and past in the juxtaposition of a South American-cum-Nigerian plant and an Indian rubber tree makes these connections across time and space so strong. Much like its vegetal subject itself, Crosby’s painting seems to ask, "When does something belong to a place?"[^ref39]

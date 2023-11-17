@@ -32,7 +32,9 @@ _Theobroma cacao_ is a coveted tree known as the source of the globally celebrat
 {#paragraph1}
 
 Originally domesticated in the tropical lowlands of South America,[^ref1] cacao quickly spread to Mesoamerica where it gained salient cultural status as far back as the <span eid="Q4347456">Formative Period</span>. This world-renowned plant also tells a story of shifting strategies of interaction and knowledge production during the early modern period. This era of imperial expansion saw a variety of European entities seeking to benefit from the economic goods and networks native to the Americas. Cacao was one of the most important of these networks, specifically the production, distribution, and consumption of its seeds.
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFriedrich_Gottlob_Hayne14.jpg/manifest.json" fit="scale-down">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFriedrich_Gottlob_Hayne14.jpg/manifest.json" 
+       fit="scale-down"
+       title="Botanical illustration of *Theobroma cacao* by Friedrich Guimpel (~1805-1846)">
 <param title="early modern period" eid="Q5308718">
 {#paragraph2}
 

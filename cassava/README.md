@@ -190,8 +190,10 @@ In addition to food security, cassava plays an increasingly important and divers
 <param title="Dominican Republic" eid="Q786">
 <param title="Puerto Rico" eid="Q1183">
 <param title="Cuba" eid="Q241">
-<param ve-image primary manifest="https://iiif.juncture-digital.org/wc%3AMaking_fufu_Democratic_Republic_Congo.jpg/manifest.json">
-<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/CassavaProc_RootsTubersBananas_Mural_Flickr.jpg/manifest.json">
+<param ve-image primary manifest="https://iiif.juncture-digital.org/wc%3AMaking_fufu_Democratic_Republic_Congo.jpg/manifest.json"
+	title="_Fufu_ being made in the Democratic Republic of Congo.">
+<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cassava/CassavaProc_RootsTubersBananas_Mural_Flickr.jpg/manifest.json"
+	title="Cassava processing in Benin, wall mural, March 7, 2015.">
 {#paragraph20}
 
 Associated with specific cultures across the globe, but also symbolizing mobility—having spread from its native habitat in South America, across the ocean to Africa, and back to South America and the Caribbean via diasporic African communities—cassava has also been celebrated in contemporary art. Nigerian-American artist Njideka Akunyili Crosby, for example, features cassava prominently in her work as she explores the ability of people, plants, and paintings to inhabit multiple spaces.

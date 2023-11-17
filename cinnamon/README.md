@@ -60,7 +60,8 @@ The attraction of cinnamon—true or other—as a means to enhance the power of 
 <param title="Persian Gulf" eid="Q34675">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/wc%3ARoman_Coin%2C_Denarius_of_Trajan_%28FindID_963033%29.jpg/manifest.json"
-	region="1414,152,1586,1031">
+	region="1414,152,1586,1031"
+	title="Reverse side of a silver Roman denarius dating from the period 103-111 CE (reign of emperor Trajan), that was found in East Riding of Yorkshire, Britain.">
 {#paragraph5}
 
 The quest for spices, cinnamon among them, was one important aim that inspired Europeans of the fifteenth and sixteenth centuries to brave the oceans. Columbus, expecting to reach India, brought samples of cinnamon bark with him on his first journey to the Americas to help native inhabitants guide him to cinnamon trees, which he believed should grow there. He sent samples of a kind of white cinnamon—probably _Canella winterana_ (L.) Gaertn.—back to Spain from his second journey. Similarly, Juan Sebastián Elcano, who completed Magellan’s circumnavigation of the world after his commander had been killed on the Philippines, successfully petitioned the king to have cinnamon sticks, cloves, and nutmeg depicted on his coat-of-arms to commemorate his role in opening up the spice route to the East Indies.[^ref7]

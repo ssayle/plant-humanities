@@ -130,12 +130,13 @@ Hoppin’ John’s origins are from brutal conditions of American plantations. E
 
 Brazil’s national dish, <span eid="Q878189">_feijoada completa_</span>, has a similar origin story to Hoppin’ John. Enslaved West Africans on plantations in <span eid="Q2088324">colonial Brazil</span> developed _feijoada_, a stew made with black beans and scrap pork.[^ref27] It was a meal of necessity for workers as it used the food on hand and could be left simmering unattended during the long day’s work.[^ref28] Today, simple bean and rice dishes are a national staple, but _feijoada completa_ is a celebratory meal for every sector of society, taking days to prepare and requiring higher quality meat, collard greens, rice, orange slices, and manioc flour (derived from [cassava](https://lab.plant-humanities.org/cassava/)).[^ref29] For both _feijoada completa_ and Hoppin’ John, what was originally a means for survival has become a meal symbolizing prosperity and for celebration, as well as a symbol of unity across racial lines. However, there is still much tension in questions of representation, ownership, class, race and identity in Southern food and <span eid="Q555997">Soul Food,</span> with white perspectives usually being unjustly privileged over Black ones.[^ref30]
 <param ve-image 
-       manifest="https://iiif.juncture-digital.org/wc%3A%D9%81%D9%8A%D8%AC%D9%88%D8%A7%D8%AF%D8%A7_feijoada.jpg/manifest.json"
-       title="Feijoada with rice, fried kale, cassava starch crisps (biscoito de polvilho), cassava flour (farinha), and a mix of olive oil, alcohol vinegar, tomatoes, onions and sometimes bell peppers called vinagrete.">       
+       title="Feijoada with rice, fried kale, cassava starch crisps (biscoito de polvilho), cassava flour (farinha), and a mix of olive oil, alcohol vinegar, tomatoes, onions and sometimes bell peppers called vinagrete."
+       manifest="https://iiif.juncture-digital.org/wc%3A%D9%81%D9%8A%D8%AC%D9%88%D8%A7%D8%AF%D8%A7_feijoada.jpg/manifest.json">       
 <param ve-image 
-       manifest="https://iiif.juncture-digital.org/wc%3AFeijoada_%C3%A0_brasileira_-02.jpg/manifest.json"
-       title="Feijoada à brasileira.">
+       title="Feijoada à brasileira."
+       manifest="https://iiif.juncture-digital.org/wc%3AFeijoada_%C3%A0_brasileira_-02.jpg/manifest.json">
 <param ve-image 
+       title="P & C Soul Food Deli, Shreveport, Louisiana."
        manifest="https://iiif.juncture-digital.org/wc%3ASoul_Food_Deli_Shreveport.jpg/manifest.json"
        fit="contain">
 {#paragraph19}

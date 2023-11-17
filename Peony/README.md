@@ -132,7 +132,7 @@ The seeming effectiveness of her infant convulsion powder increased Anna Maria L
 
 The gift of "miraculous" medicine to the Viennese court was not simply altruistic. As a woman, Anna Maria Luisa was barred from inheriting and ruling Tuscany on the death of her brother, the <span data-click-image-zoomto="1061,479,736,629">last Medici Grand Duke</span>. Although she lacked official power, Anna Maria Luisa fashioned influence through the gift of her infant convulsion powder, which allowed her to ingratiate herself with some of <span data-click-image-zoomto="214,581,1271,955">Vienna’s most important and powerful families</span>. This ensured goodwill and communication between the Grand Duchy of Tuscany and the court that would decide its fate. By the end of the Medici dynasty, the Viennese court was the headquarters of the Habsburg dynasty and the center of its imperial politics. In 1737, <span eid="Q151075">Francis of Lorraine</span>, future head of the <span eid="Q12548">Holy Roman Empire</span>, which controlled much of Europe at this time, became the Grand Duke of Tuscany and ruled Florence from the imperial court in Vienna—a court much indebted to Anna Maria Luisa de Medici’s infant convulsion powder and the power of peony.
 <param ve-image 
-       manifest="https://iiif.juncture-digital.or/gh:plant-humanities/media/peony/Line_of_Sucession_for_the_Grand_Duchy_of_Tuscany.jpg/manifest.json"
+       manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/peony/Line_of_Sucession_for_the_Grand_Duchy_of_Tuscany.jpg/manifest.json"
        region="412,1,1423,1209">
 {#paragraph20}
 

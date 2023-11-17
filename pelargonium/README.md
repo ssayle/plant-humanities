@@ -24,9 +24,15 @@ However, you might be surprised to learn that the scarlet "geranium" with which 
 <param ve-entity eid="Q4886" title="cultivar">
 <param ve-entity eid="Q3898877" title="Pelargonium zonale" aliases="P. zonale">
 <param ve-entity eid="Q18083598" title="Pelargonium inquinans" aliases="P. inquinans">
-<param ve-image region="-70,73,1394,1257" primary manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/b50fd34d0a26f23938016ddd2e03708990b03ab25e493193657dd8d21d790eaa.yaml/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/b50fd34d0a26f23938016ddd2e03708990b03ab25e493193657dd8d21d790eaa.yaml/manifest.json">
-<param ve-image fit="cover" manifest="https://iiif.juncture-digital.org/wc%3AScarlet_geranium.jpg/manifest.json">
+<param ve-image primary
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/09e2316efadd0a33176f9dddf68a41a90e265aa9e1d42d26f0a240d86588fead.yaml/manifest.json"
+       region="-70,73,1394,1257">
+<param ve-image
+       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/b50fd34d0a26f23938016ddd2e03708990b03ab25e493193657dd8d21d790eaa.yaml/manifest.json"
+       fit="contain">
+<param ve-image
+       manifest="https://iiif.juncture-digital.org/wc%3AScarlet_geranium.jpg/manifest.json"
+       fit="cover">
 {#paragraph2}
 
 So how can we tell the history of the neglected pelargonium, a plant that is now a familiar cultural fixture for so many of us, but one that so few people know by its true identity? Perhaps it is time to narrate the lesser-known story of the pelargonium and to relate its history—from its unique morphology and nomenclature to its far-reaching impact in the spheres of industry, technology, agriculture, culture, and society. Part of the larger cultural history of the pelargonium, this interdisciplinary narrative focuses on its uses in England, France, and Algeria during the nineteenth century to reveal that the modern pelargonium was an invention of the Industrial Age. Bred for use as an ornamental plant or an aromatic crop, these newfangled pelargoniums possessed aesthetic and fragrant traits tailored to Victorian sensibilities, with enduring mass appeal.
@@ -44,7 +50,7 @@ The pelargonium and its relatives geranium and erodium belong to the family Gera
 <param ve-entity eid="Q147768" title="capsule" aliases="capsules">
 <param ve-entity eid="Q162920" title="Erodium"> 
 <param ve-image primary region="0,312,1173,1060" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/11654__Botany_U_1336491.jpeg/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Vero%CC%81nica_Matallana_The_Geraniaceae%20family_Copyright_Vero%CC%81nica_Matallana_2020.png/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/pelargonium/Vero%CC%81nica_Matallana_The_Geraniaceae_family_Copyright_Vero%CC%81nica_Matallana_2020.jpg/manifest.json">
 {#paragraph4}
 
 Other morphological traits distinguish members of the genera pelargonium from geranium. This diagram highlights several key differences that can be observed by comparing the reproductive systems of the two plants: the flowers. The pelargonium flower parts are arranged bilaterally around one axis, making them quite distinct from the radially oriented ones of the geranium. Another difference is that, while the geranium has five nectaries (nectar-secreting glands) at the base of the petals, the pelargonium has only one embedded in the receptacle. Yet another divergence is the number of fertile stamens and their groupings. The pelargonium has between one and seven stamens, attached at the base; the geranium has either five or ten free stamens. Finally, pelargonium flowers are either red, light yellow, mauve, purple, pink, or white; geranium flowers are either dark blue, purple, pink, or white, but never scarlet (as Dickens would have known it).

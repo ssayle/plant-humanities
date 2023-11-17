@@ -123,7 +123,8 @@ The restrictions imposed by the Dutch on cinnamon exports made it the only real 
 <param title="Dutch East India Company" eid="Q159766" aliases="Dutch East India Company (VOC)">
 <param title="shifting cultivation" eid="Q287854" aliases="crop rotation">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/NL-HaNA_4.VEL_939A-groot_cropped.jpg/manifest.json">
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/NL-HaNA_4.VEL_939A-groot_cropped.jpg/manifest.json"
+	title="Drawing from 1720, showing the benefits that could be made from monocultures of cinnamon on temporary cleared fields (chenas).">
 {#paragraph10}
 
 In 1760, local grievances about the VOC policy concerning _chenas_, and the treatment of peelers by Sinhalese and Dutch officials, created an explosive situation. Backed by the king of Kandy, the peelers rebelled, leading to a war that lasted until 1766. The rebellion finally may have caused the Dutch to rethink their approach to cinnamon production. Starting in 1769, governor Iman Willem Falck (in office 1765–1785) began to experiment with "cinnamon gardens" (_kaneeltuinen_), which amounted to nothing less than a successful colonial plantation system. By the end of his governorship, there were 24 million cinnamon trees growing in these gardens, which increased to 609 million trees (!) by 1794.[^ref12]

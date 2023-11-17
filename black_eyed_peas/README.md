@@ -33,6 +33,7 @@ Black-eyed peas ([_Vigna unguiculata_](https://powo.science.kew.org/taxon/urn:ls
 Since <span eid="Q486761">classical antiquity</span>, the black-eyed pea has been a cultural marker of those who lacked social status in European societies. A stigma surrounding dried foods impinged the reputation of the bean and its eaters: while wealthy and socially powerful individuals could afford fresh foods, peasants relied upon cheaper dried foods. The beans were shelled, dried, and used in humble soups, though in its fresh green form the black-eyed pea apparently made a delicious dessert served in <span eid="Q5690">Sparta</span>.[^ref3] The imbrication of class, culture, and food is apparent, for example, in ancient Greek and Roman floor <span eid="Q133067">mosaics</span> that depict food scraps strewn across a floor after a lavish banquet. In perhaps the most famous example of the unswept floor genre, seen here, lobster shells, olive pits, partially eaten fish, and nuts litter the ground, but nary a bean is to be found.
 <param ve-image
        fit="contain"
+       title="Sosus of Pergamon, after, Banquet leftovers, or Unswept Floor, early 2nd CE, mosaic, 4.05 x 0.41 m, Museum Gregoriano Profano, Vatican."
        manifest="https://iiif.juncture-digital.org/wc%3ARestes_du_banquet%2C_mosa%C3%AFque.jpg/manifest.json">
 {#paragraph3}
 

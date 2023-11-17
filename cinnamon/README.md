@@ -9,7 +9,7 @@
 	num-specimens="0"
 	num-primary-sources="0"
 	author="Wouter Klein"
-       description="Cinnamon, long a quotidian kitchen spice, accrued new meaning when the "cinnamon challenge" became an internet sensation between 2007 and 2014. Although the instructions were simple enough—swallow a tablespoon of cinnamon at once—they proved to be virtually impossible to follow in practice. Yet, as this visual narrative reveals, the real challenge—to find out what cinnamon actually is, as a plant and as a medicine—has been a centuries-long and ongoing effort. By charting the search for "true" cinnamon (Cinnamomum verum J.Presl) over centuries, this narrative demonstrates how an insatiable desire for control of the plant shaped the course of human history from the ancient world to the early modern period and beyond.">
+    description="Cinnamon, long a quotidian kitchen spice, accrued new meaning when the &quot;cinnamon challenge&quot; became an internet sensation between 2007 and 2014. Although the instructions were simple enough—swallow a tablespoon of cinnamon at once—they proved to be virtually impossible to follow in practice. Yet, as this visual narrative reveals, the real challenge—to find out what cinnamon actually is, as a plant and as a medicine—has been a centuries-long and ongoing effort. By charting the search for &quot;true&quot; cinnamon (Cinnamomum verum J.Presl) over centuries, this narrative demonstrates how an insatiable desire for control of the plant shaped the course of human history from the ancient world to the early modern period and beyond.">
 
 ### The Cinnamon Challenge
 

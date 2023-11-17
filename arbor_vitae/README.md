@@ -29,6 +29,7 @@ In his 1640 herbal _Theatrum Botanicum_, John Parkinson described the "tree of l
 A century earlier, French explorer Jacques Cartier and his crew learned of the tree and its astonishing medicinal effects from the St. Lawrence Iroquois Indians of Eastern Canada while exploring the Gulf of St. Lawrence and the St. Lawrence River. The Indigenous people of this region used numerous local plants to treat disease and survive the region’s harsh winters.[^ref1] The French explorers, however, were far less equipped to survive the unforgiving environment they found themselves stranded in during the winter of 1535–36. Suffering from a mysterious disease that threatened to kill more than half of his crew, Captain Cartier turned to the St. Lawrence Iroquois for help.
 <param title="St. Lawrence Iroquoians" eid="Q129060" aliases="St. Lawrence Iroquois">
 <param ve-map title="Gulf of Saint Lawrence" center="49.408409, -63.530709" basemap="Esri_WorldPhysical" zoom="5" show-labels>
+<param ve-map-marker qid="Q3339246">
 <param ve-map-layer geojson active url="/geojson/cartier.json">
 <param title="Jacques Cartier" eid="Q7321" aliases="Cartier">
 {#paragraph2}
@@ -46,7 +47,9 @@ Thanks to the medicinal knowledge of the St. Lawrence Iroquois, Captain Cartier 
 {#paragraph4}
 
 According to Ramusio’s narrative, the tree used to cure the French explorers was called ["Ameda"](https://archive.org/details/dellenavigationi00ramu/page/n835) in the local language. [Florio’s translation also refers to the tree only by its indigenous name.](https://hdl.handle.net/2027/aeu.ark:/13960/t35151v01?urlappend=%253Bseq=85) In fact, all early translations of the account, published by Ramusio (1550), Florio (1580), and the English author Richard Hakluyt (1600), provide nearly identical accounts, pointing to a close translation of the same source. Sadly, none provide an in-depth physical description of the tree called Ameda. Lacking any first-hand accounts with detailed physical descriptions, naturalists, botanists, and historians have debated the identity of the tree of life for more than 450 years.
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3ALa_Terra_De_Hochelaga_Nella_Nova_Francia%2C_Contributed_by_McGill_University_Library.jpg/manifest.json">
+<param ve-image 
+	manifest="https://iiif.juncture-digital.org/wc%3ALa_Terra_De_Hochelaga_Nella_Nova_Francia%2C_Contributed_by_McGill_University_Library.jpg/manifest.json"
+	title="La Terra De Hochelaga Nella Nova Francia, plan dessiné par Giacomo Gastaldi, paru dans le livre en italien de Giovanni Battista Ramusio, Delle Navigationi et Viaggi, volume III (Venise, 1565).">
 <param title="Richard Hakluyt" eid="Q185510" aliases="Hakluyt">
 {#paragraph5}
 

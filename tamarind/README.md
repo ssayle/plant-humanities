@@ -132,8 +132,8 @@ In its mature state, the tamarind tree’s vast crown is a place of refuge. Beca
 
 ### Seeds and Pods
 Tamarind seeds are as versatile as they are valuable. When pilgrims flocked to the desert to meet Khorasan mystic poet and saint Abu Said (1305–1335), they paid good sums to obtain seeds from the tamarind tree he sat beneath.[^ref17] Tamarind seeds are consumable in a number of ways: after they are soaked to remove the seed coat, they can be roasted, boiled, fried, or ground.[^ref18] In Thailand, the ground seeds are used as a coffee substitute.[^ref19] In Ayurvedic medicine, the shells of the tamarind pods are burned to create an "alkaline ash" to then be used in other recipes.[^ref20] In addition to its culinary uses, the seeds can be made into a powder that is used in the textile and paper industries.[^ref21] In India, [Saura tribal painting](https://en.wikipedia.org/wiki/Saura_painting#Paintings) in Orissa (now called Odisha) uses the tamarind seed’s natural brown hue to dye the background of paintings. Likewise, black lacquer, referred to as tamarind-seed script, was and continues to be used to create embellished Burmese characters in religious Pali texts like the _Kammavaca_, a decorative manuscript that details monastic duties.[^ref22]
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/tamarind_pod_Nat_Ag_Lib_public_domain.png/manifest.json"> 
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ABurmese_Kammavaca_Manuscript.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/tamarind_pod_Nat_Ag_Lib_public_domain.png/manifest.json" title ="Amanda Almira Newton, Tamarindus indica (Indian tamarind), 1908, watercolor, 15 x 24 cm."> 
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ABurmese_Kammavaca_Manuscript.jpg/manifest.json" title="Burmese Kammavaca Manuscript, 19th century.">
 <param ve-entity eid="Q22048" title="Orissa">
 <param ve-entity eid="Q36727" title="Pali">
 <param ve-entity eid="Q869" title="Thailand">

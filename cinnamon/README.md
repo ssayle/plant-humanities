@@ -111,17 +111,20 @@ Although their skills were indispensable for the cinnamon trade, peelers were tr
 <param title="Sinhalese people" eid="Q932244" aliases="Sinhalese">
 <param title="Salagama" eid="Q3469487">
 <param ve-image
-	   manifest="https://iiif.juncture-digital.org/wc%3AAMH-7014-KB_Peeling_cinnamon_on_Ceylon.jpg/manifest.json"
-	   fit="contain">
+	manifest="https://iiif.juncture-digital.org/wc%3AAMH-7014-KB_Peeling_cinnamon_on_Ceylon.jpg/manifest.json"
+	fit="contain"
+	title="“How cinnamon is peeled on the island of Ceylon”">
 <param ve-image
-	   manifest="https://iiif.juncture-digital.org/wc%3AKaneel%2C_nootmuskaat%2C_kruidnagel_en_bamboe_Kaneel_en_Nootmus_Canelle%2C_Muscade%2C_Chasse_des_Elephans%2C_etc_Kruytnagelengewas_Girofle%2C_Bambous%2C_Montagne_brulante%2C_etc_%28titel_op_object%29_Les_Indes_Orientales_et_Occidentales_e%2C_BI-1972-1043-16.jpg/manifest.json">
+	manifest="https://iiif.juncture-digital.org/wc%3AKaneel%2C_nootmuskaat%2C_kruidnagel_en_bamboe_Kaneel_en_Nootmus_Canelle%2C_Muscade%2C_Chasse_des_Elephans%2C_etc_Kruytnagelengewas_Girofle%2C_Bambous%2C_Montagne_brulante%2C_etc_%28titel_op_object%29_Les_Indes_Orientales_et_Occidentales_e%2C_BI-1972-1043-16.jpg/manifest.json"
+	title="Imaginary landscapes with spices from the East Indies.">
 {#paragraph9}
 
 The restrictions imposed by the Dutch on cinnamon exports made it the only real monopoly on Sri Lanka in the early modern period. Smuggling was severely punished. In 1704, Bengali traders were allowed to export small amounts of cinnamon, which would not affect the monopoly of the Dutch East India Company (VOC) too much. In the 1720s, export restrictions were loosened for several products, but not cinnamon.[^ref10] The tight grip of the Dutch over this trade was also felt internally. Sri Lankan farmers had long been accustomed to clearing plots of forest to create temporary cultivated fields called _chenas_. Under Dutch rule, they were no longer allowed to practice crop rotation on plots planted with cinnamon, so as not to diminish the total acreage. Around 1700, however, Pieter van Dam, long-term secretary to the VOC, calculated that Sri Lanka produced more than enough cinnamon to supply European and international markets. This assessment makes the suppression of _chena_ practices seem all the more exploitative.[^ref11]
 <param title="Dutch East India Company" eid="Q159766" aliases="Dutch East India Company (VOC)">
 <param title="shifting cultivation" eid="Q287854" aliases="crop rotation">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/NL-HaNA_4.VEL_939A-groot_cropped.jpg/manifest.json">
+	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/NL-HaNA_4.VEL_939A-groot_cropped.jpg/manifest.json"
+	title="Drawing from 1720, showing the benefits that could be made from monocultures of cinnamon on temporary cleared fields (chenas).">
 {#paragraph10}
 
 In 1760, local grievances about the VOC policy concerning _chenas_, and the treatment of peelers by Sinhalese and Dutch officials, created an explosive situation. Backed by the king of Kandy, the peelers rebelled, leading to a war that lasted until 1766. The rebellion finally may have caused the Dutch to rethink their approach to cinnamon production. Starting in 1769, governor Iman Willem Falck (in office 1765–1785) began to experiment with "cinnamon gardens" (_kaneeltuinen_), which amounted to nothing less than a successful colonial plantation system. By the end of his governorship, there were 24 million cinnamon trees growing in these gardens, which increased to 609 million trees (!) by 1794.[^ref12]

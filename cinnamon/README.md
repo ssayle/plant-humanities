@@ -132,8 +132,7 @@ In 1760, local grievances about the VOC policy concerning _chenas_, and the trea
 <param title="plantation" eid="Q188913">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/NL-HaNA_4.VEL_935-groot.jpg/manifest.json"
-	region="2217,1120,852,630"
-	title="“Map of the cinnamon gardens with their main roads in the district of Kaliture.”>
+	region="2217,1120,852,630">
 {#paragraph11}
 
 It was short-lived success, however. When the British took control over the Dutch territories on Sri Lanka in 1796, they failed to maintain the cinnamon plantation economy. Calls for free trade and better working conditions for the peelers, high export duties, and competition with cheaper _cassia_ cinnamon from Java finally led to reforms in 1833. But these measures came too late and were counterproductive: Britain sold many plantations to private owners, who switched to coffee and tea cultivation, thus ending the cinnamon production for years to come.[^ref13]

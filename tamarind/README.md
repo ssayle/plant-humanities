@@ -70,7 +70,7 @@ Some sources suggest that tamarind was introduced into India, the world’s larg
 {#paragraph6}
 
 Today, tamarind orchards are located across India with one of the oldest groves, Nallur Amarai, located just outside of Begaluru. This 54-acre grove and recently declared biodiversity heritage site is believed to have been planted during the Chola dynasty in the twelfth century, though the oldest dated tree is 400 years old. While the plant has been cultivated in orchards and grown as a large-scale crop for commercial purposes, the trees are most frequently referenced in historical literature as singular trees, small ornamental groves (frequently in the shape of bonsai, especially in South Asia), or along roadsides. 
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ANallur_tamarind1.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ANallur_tamarind1.jpg/manifest.json" title="Old tamarind tree, Nallur heritage grove, Bangalore, India, 2018.">
 <param ve-entity eid="Q1355" title="Bengaluru"> 
 <param ve-entity eid="Q151148" title="Chola dynasty">
 <param ve-entity eid="Q64365" title="bonsai"> 

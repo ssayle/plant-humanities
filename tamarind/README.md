@@ -146,9 +146,9 @@ Fifteen-inch tall redware jars like the one housed at the [Strawbery Banke Museu
 
 ### Pulp
 Tamarind pulp makes up roughly 30 to 50 percent of a ripe fruit.[^ref24] The pods are picked at various stages in the fruit’s life cycle for different flavor profiles. The sour fruit from immature pods is incorporated into pickles and chutneys, and is used to season rice, fish, and meat. The mature but unripe fruit can be eaten in food or independently, such as in the Bahamas where the pods are roasted on coals until the skins burst and the hot pulp is eaten coated in wood ashes.[^ref25] The ripe mature pod, which contains a sweet-sour brown pulp, is used as a seasoning for sauces, curries, desserts, drinks, and in a variety of street foods, such as golgappa, pani puri, and phuchka in northern and eastern India.[^ref26]
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ATamarind_%28marketed%29.jpg/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ATamarind_paste.jpg/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3APuliyogare_Or_Tamarind_Rice.jpg/manifest.json">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ATamarind_%28marketed%29.jpg/manifest.json" title-"Tamarind (Tamarindus indica) pods and pulp for sale at a market, Baubau City, Buton Island, Indonesia, 2012.">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3ATamarind_paste.jpg/manifest.json" title="Jarred tamarind paste, 2018.">
+<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3APuliyogare_Or_Tamarind_Rice.jpg/manifest.json" title="Puliyogare (Tamarind Rice), a popular South Indian dish, 2021.">
 {#paragraph17}
 
 Tamarind water is an immensely popular drink, both soothing and cooling, and is offered in restaurants and sold in markets, in the hot climates of Central America, Southeast Asia, and Africa. In north India, tamarind water infused with cumin, pepper, and other spices is a popular summer beverage known as jal jeera. Made by adding tamarind pulp to water and sweetened, tamarind water is easy to make at home—a quick YouTube search reveals dozens of how-to videos for making it.  

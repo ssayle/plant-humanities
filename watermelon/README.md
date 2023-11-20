@@ -96,13 +96,16 @@ By the ninth and twelfth centuries, watermelons had spread, respectively, to Ind
 As the watermelon became common in European kitchen gardens, it began to appear frequently in still life paintings. Seventeenth-century paintings by Albert Eckhout and Giovanni Stanchi reveal whorls of red flesh among white rind, showing how much the fruit has changed since antiquity. The inclusion of watermelons in still lifes also provides insights into the multitude of cultural meanings associated with the plant. While American still lifes, such as those by the prolific Peale family in the early nineteenth century, featured the watermelon amid overwhelming images of abundance and plenty, Baroque artists would quite literally [cut through that fantasy](https://www.flickr.com/photos/104901827@N06/46017346544) with the abrupt imposition of a knife as a symbol of the fleeting nature of life.
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/wc%3AAlbert_Eckhout_1610-1666_Brazilian_fruits.jpg/manifest.json"
-	region="87,334,1667,1233">
+	region="87,334,1667,1233"
+	title="‘Pineapple, watermelons and other fruits (Brazilian fruits)’ by Albert Eckhout (1610–1666).">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/wc%3AGiovanni_Stanchi%2C_Watermelons%2C_Peaches%2C_Pears%2C_and_Other_Fruit_in_a_Landscape.jpg/manifest.json"
-	fit="contain">
+	fit="contain"
+	title="‘Watermelons, peaches, pears and other fruit in a landscape’ by Giovanni Stanchi (1608–1675).">
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/wc%3AStill_Life_with_Watermelon%2C_by_Sarah_Miriam_Peale%2C_1822%2C_oil_on_panel_-_Fogg_Art_Museum%2C_Harvard_University_-_DSC01409.jpg/manifest.json"
-	region="45,108,2088,1544">
+	region="45,108,2088,1544"
+	title="‘Still life with watermelons’ by Sarah Miriam Peale (1800–1855).">
 <param title="still life" eid="Q170571" aliases="still lifes">
 <param title="Albert Eckhout" eid="Q2116186">
 <param title="Giovanni Stanchi" eid="Q3107339" aliases="Giovanni Stanchi">

@@ -199,7 +199,7 @@ Tamil writer Sundara Ramaswamy’s 1966 novel [_Oru Puliyamarathin Kadai_ (Tamar
 {#paragraph24}
 
 Interestingly, tamarind has also been the source of the material on which stories are literally written. In his important text [_The materia medica of the Hindus_](https://archive.org/details/b21934113/page/40/mode/2up)(1877), Uday Chand Dutt includes accounts of how some of the manuscripts he referenced to compile his own text were made from tamarind-seed emulsions: the emulsions were used to make paper providing a surface for easy writing. Perhaps it is no surprise that such an eminently useful plant would help inspire stories as well as serve the purpose of recording narratives, recipes, and histories of which it so often played an important, and ubiquitous, role. The tamarind continues to be a sturdy contradiction even into the present, as we continue to learn from the plant’s many complexities. 
-<param ve-image fit="fill" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/sweet_tamarind_seeds_Flicker_CC_BY_NC_ND_2.0.png/manifest.json">
+<param ve-image fit="fill" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/tamarind/sweet_tamarind_seeds_Flicker_CC_BY_NC_ND_2.0.png/manifest.json" title="Sweet tamarind, 2007.">
 {#paragraph25}
 
 ### References

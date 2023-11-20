@@ -166,7 +166,8 @@ Stories of watermelon theft contributed to the perception of Black criminality f
 The racist notion that watermelon consumption revealed unhealthy habits of African Americans was not an isolated phenomenon: it was paralleled by nineteenth-century associations between watermelon and disease. There was a common belief that eating too much watermelon, especially when overripe, could lead to cholera, which led some cities in the United States to ban the fruit’s sale during epidemics, with watermelons being referred to as "cholera bombshells."[^ref17] While it is unclear whether these direct causal connections between watermelons and disease were accurate, contemporary evidence has shown that raw fruits and vegetables can be a frequent source of cholera infection, especially if fields where they grew had been fertilized with uncomposted manure or irrigated with contaminated water. While the role of watermelons as opposed to other types of fruit in transmitting cholera in the United States was almost certainly exaggerated to serve racial narratives, similar associations were common in other parts of the world.
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/wc%3ACholera_395.1.jpg/manifest.json"
-	region="-82,-89,561,447">
+	region="-82,-89,561,447"
+	title="1849 Cholera prevention poster by the Sanatory Committee, under the sanction of the Medical Counsel, in New York City, published between c. 1830 and c. 1840.">
 <param title="cholera" eid="Q12090">
 {#paragraph13}
 

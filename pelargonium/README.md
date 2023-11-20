@@ -162,7 +162,7 @@ The ubiquity of the _Pelargonium_ in the Victorian era soon began to carry a cul
 
 For many Victorian families who could not afford to have gardens, growing pelargoniums in pots and displaying them on windowsills or balconies became an expression not only of their aesthetic tastes, but also of their social aspirations. Perhaps because of such class-based bias, professional horticulturalists would often look down on the pelargonium with a certain derision. Gertrude Jekyll writes in 1919 that, "It is a common thing for friends to express surprise at seeing scarlet Geraniums ... in my garden, forgetting that it was not the fault of the plants that they were misused or employed in dull or even stupid ways."[^ref26] Her comments imply that it was not the plants themselves that were offensive to garden specialists but, rather, the style and context in which they featured.
 <param ve-entity eid="Q452354" title="Gertrude Jekyll">
-<param ve-iframe src="https://archive.org/embed/jennysgeraniumor00bostiala/page/n7/mode/1up"></param>
+<param ve-iframe src="https://archive.org/embed/jennysgeraniumor00bostiala/page/n7/mode/1up">
 {#paragraph16}
 
 ### Pelargoniums, Imperial Splendor, and Colonial Profit

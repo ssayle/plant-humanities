@@ -197,7 +197,8 @@ And Spain really needed cinnamon. One eighteenth-century report estimated that t
 <param title="Cinnamomum cebuense" eid="Q5121027">
 <param title="Juan de Cuéllar" eid="Q6301228">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ACinnamomum_Verum_vs_Cinnamomum_Burmannii.jpg/manifest.json">
+	manifest="https://iiif.juncture-digital.org/wc%3ACinnamomum_Verum_vs_Cinnamomum_Burmannii.jpg/manifest.json"
+	title="Cinnamon quills from Cinnamomum verum (left) and C. burmanni (right).">
 {#paragraph17}
 
 The last and most daring strategy was to transplant the true cinnamon to Spanish territories. This was an important objective for people like Casimiro Gómez Ortega, director of the Royal Botanical Garden of Madrid between 1771 and 1801, and José Celestino Mutis, the Spanish botanist who initiated the Royal Botanical Expedition to New Granada in 1783. Gómez Ortega published an instruction in 1779, which invited naturalists across the world to contribute plants and plant knowledge for the benefit of the Spanish empire, with cinnamon as one of the target species. Similarly, Mutis addressed the Spanish crown in the 1760s to support his plans for botanical expeditions in South America. New plant knowledge would greatly benefit the empire, he argued, explicitly mentioning cinnamon.[^ref26] However, Spain never succeeded in growing true cinnamon in South America, unlike the French efforts on Guadeloupe (1762) and the British on Saint Vincent (1768).[^ref27]

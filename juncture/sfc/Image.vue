@@ -168,7 +168,7 @@ module.exports = {
         : 'contain'
     },
     currentItemSource() {
-      console.log('currentItemSource', this.currentItem, this.currentItem?.seq || 1)
+      // console.log('currentItemSource', this.currentItem, this.currentItem?.seq || 1)
       return this.currentItem && this.findItem({type:'Annotation', motivation:'painting'}, this.currentItem, this.currentItem.seq || 1).body.id
     },
     currentItemSourceHash() {
@@ -208,17 +208,7 @@ module.exports = {
           ? this.currentItem.label['@value'] || (this.currentItem.label.en ? this.currentItem.label.en[0] : this.currentItem.label)
           : null
     },
-    title() {
-      if (this.viewerItems.length > 0){
-        if (this.viewerItems[0]['title']){
-          if (this.viewerItems[0]['title'] !== "" && this.viewerItems[0]['title'] !== 'true'){
-            return this.viewerItems[0]['title']
-          }
-        }
-      }
-      return null;
-      //return this.viewerItems[0]['title'] ? (this.viewerItems[0]['title'] !== "" ? this.viewerItems[0]['title'] : null) : null
-      },
+    title() { return this.currentItem?.title },
     description() { return this.currentItem ? this.currentItem.description || this.metadata.description : null },
     attribution() { return this.currentItem ? this.currentItem.attribution || this.metadata.attribution : null },
     date() { return this.currentItem ? this.currentItem.date || this.metadata.date : null },
@@ -308,8 +298,8 @@ module.exports = {
         this.viewer.addHandler('page', this.newPage)
         this.viewer.addHandler('viewport-change', this.viewportChange)
         this.viewer.world.addHandler('add-item', (e) => {
-          // console.log('add-item', e, this.currentItem)
-
+          // console.log('add-item', e.item.source['@id'])
+          // let idx  = this.tileSources.findIndex(ts => ts.tileSource.indexOf(e.item.source['@id']) === 0)
           const numItems = this.viewer.world.getItemCount()
           if (this.currentItem && this.currentItem.rotate) {
             e.item.setRotation(parseInt(this.currentItem.rotate), true)
@@ -831,7 +821,7 @@ module.exports = {
           this.loadManifests(this.viewerItems).then(manifests => this.manifests = manifests)
         } else {
           this.page = 0
-          this.currentItem = { ...this.manifests[this.page], ...current[0] }
+          this.currentItem = { ...this.manifests[this.page], ...current[this.page] }
         }
       }
     },
@@ -850,11 +840,11 @@ module.exports = {
         this.displayInfoBox()
 
         this.page = 0
-        this.currentItem = { ...this.manifests[this.page], ...this.viewerItems[0] }
+        this.currentItem = { ...this.manifests[this.page], ...this.viewerItems[this.page] }
       }
     },
     page() {
-      this.currentItem = { ...this.manifests[this.page], ...this.viewerItems[0] }
+      this.currentItem = { ...this.manifests[this.page], ...this.viewerItems[this.page] }
       if (this.goToRegionCoords != null){
         this.$nextTick(() => {
           this.gotoRegion(this.goToRegionCoords)
@@ -881,7 +871,7 @@ module.exports = {
       this.displayInfoBox()
     },
     currentItemSourceHash() { 
-      console.log(`currentItemSource=${this.currentItemSource} hash=${this.currentItemSourceHash}`)
+      // console.log(`currentItemSource=${this.currentItemSource} hash=${this.currentItemSourceHash}`)
       this.loadAnnotations()
     },
     mode() {

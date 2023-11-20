@@ -1,5 +1,18 @@
 <param ve-config title="For problem def and testing" layout="vertical">
 
+# ve-image title
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+<param ve-image 
+       title="Feijoada with rice, fried kale, cassava starch crisps (biscoito de polvilho), cassava flour (farinha), and a mix of olive oil, alcohol vinegar, tomatoes, onions and sometimes bell peppers called vinagrete."
+       manifest="https://iiif.juncture-digital.org/wc%3A%D9%81%D9%8A%D8%AC%D9%88%D8%A7%D8%AF%D8%A7_feijoada.jpg/manifest.json">       
+<param ve-image 
+       title="Feijoada à brasileira."
+       manifest="https://iiif.juncture-digital.org/wc%3AFeijoada_%C3%A0_brasileira_-02.jpg/manifest.json">
+<param ve-image 
+       title="P & C Soul Food Deli, Shreveport, Louisiana."
+       manifest="https://iiif.juncture-digital.org/wc%3ASoul_Food_Deli_Shreveport.jpg/manifest.json"
+       fit="contain">
+
 # ve-compare
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 

@@ -111,11 +111,8 @@ American colonists were quick to recognize the commercial opportunity presented 
 <param ve-map title="New England" basemap="Esri_WorldPhysical" center="42.566426,-71.751354" zoom="6">
 <param ve-map-layer geojson active url="https://raw.githubusercontent.com/plant-humanities/essays/main/mint/13colonies.geojson">
 <param title="Ashfield" eid="Q2536103" fill="#2d862d" marker-symbol="leaf">
-<param ve-map-marker qid=“Q2536103”>
 <param eid="Q1384" fill="#2d862d" marker-symbol="leaf">
-<param ve-map-marker qid=“Q1384”>
 <param title="New Jersey" eid="Q1408" fill="#2d862d" marker-symbol="leaf">
-<param ve-map-marker qid=“Q1408”>
 {#paragraph14}
 
 By the mid-1850s, America’s mint industry was focused in Wayne County, New York. Up until this time peppermint oil was valued for its therapeutic properties. However, as American medicine developed based on new scientific knowledge, herbal remedies lost their popularity and peppermint oil needed a new market. American peppermint would become a popular flavor for confectionary on local and global scales.[^ref13]

@@ -74,6 +74,7 @@ Through linguistic, botanical, and historical analysis numerous trees have been 
 
 Sixteenth- and seventeenth-century European herbals consistently describe the tree of life as a _Thuja_ (a genus of coniferous trees) or similar to a cypress, without fruit (although the cone is now considered a fruit), and very aromatic. From this we can conclude that the tree of life was indeed an evergreen coniferous tree native to the area around present-day Quebec and Montreal.
 <param ve-map center="Q2145" basemap="Esri_WorldPhysical" zoom="6" stroke-width="0">
+<param ve-map-marker qid=Q2145">
 <param ve-map-layer geojson active url="/geojson/ThujaDistribution.json">
 {#paragraph7}
 

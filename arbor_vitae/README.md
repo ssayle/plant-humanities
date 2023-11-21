@@ -36,7 +36,6 @@ A century earlier, French explorer Jacques Cartier and his crew learned of the t
 
 Captain Cartier had noticed that some of the local Indians also suffered from the same affliction as his men, but unlike his men, they made full recoveries. Cartier soon learned of a medicinal decoction (or tea) the locals made and drank from a ["certain tree"](https://hdl.handle.net/2027/aeu.ark:/13960/t35151v01?urlappend=%253Bseq=82) to treat the illness. Eventually, Cartier convinced a local young man named Domagaia to share his therapeutic secret. Domagaia sent a couple of women to fetch about a dozen branches of the tree. The bark and leaves were boiled to make a decoction, which Cartier and his men were instructed to drink every other day. They were also instructed to put the dregs of the mixture on the legs of the sick. Within six days, Cartier’s crew was cured.
 <param ve-map title="Gulf of Saint Lawrence" center="Q544356" basemap="Esri_WorldPhysical" zoom="5.5" stroke-width="0" show-labels>
-<param ve-map-marker qid="Q129060">
 <param ve-map-layer geojson active url="/geojson/St_Lawrence_Iroquoians.json">
 {#paragraph3}
 

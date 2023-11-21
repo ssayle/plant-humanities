@@ -17,10 +17,14 @@
 ### Introduction
 
 Some scents regularly appear in our daily lives and give us a sense of familiarity. Mint is one such example. Its strong scent, and taste, notable green leaves with serrated edges, and broad consumer use (such as toothpaste and chewing gum) are so common to us that they obscure the lesser-known fact that mint has a nuanced history of naming and identification.
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMentha_aquatica_06_ies.jpg/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMentha_x_piperita_002.JPG/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFlowers_of_the_spearmint.JPG/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AGardenology.org-IMG_2751_rbgs11jan.jpg/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMentha_aquatica_06_ies.jpg/manifest.json"
+       title="Mentha pulegium, pennyroyal">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMentha_x_piperita_002.JPG/manifest.json"
+       title="Mentha piperita, peppermint">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFlowers_of_the_spearmint.JPG/manifest.json"
+       title="Mentha spicata, spearmint">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AGardenology.org-IMG_2751_rbgs11jan.jpg/manifest.json"
+       title="Mentha pulegium, pennyroyal">
 {#paragraph1}
 
 Known as the genus _Mentha_, mint is part of the Lamiaceae family (formerly Labiatae). With its ability to naturally hybridize, it includes a wide variety of aromatic and perennial plants including at least 236 genera and over 7,000 species. Happily growing in wet and damp environments, species such as bergamot mint, spearmint, pennyroyal, and peppermint are found across parts of Africa, Asia, Europe, Australia, and North America. To consider how the generic mint plant has become so familiar in our everyday lives, we begin with an account of ancient Greek mythology.

@@ -162,7 +162,8 @@ Due to its near-extinction in the wild, _D. draco_ is officially designated as a
 <param title="Red List of Threatened Species" eid="Q32059">
 <param title="Dracaena draco" eid="Q157952">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ASanguis1.JPG/manifest.json">
+	manifest="https://iiif.juncture-digital.org/wc%3ASanguis1.JPG/manifest.json"
+	title="Dragon’s blood derived from Dracaena cinnabari on the island of Socotra.">
 {#paragraph15}
 
 ### References

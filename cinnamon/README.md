@@ -216,7 +216,8 @@ The last and most daring strategy was to transplant the true cinnamon to Spanish
 Today, Sri Lanka ranks high among [the world’s largest exporters of cinnamon.](http://www.worldstopexports.com/cinnamon-exporters/) But confusion remains: while _Cinnamomum verum_ J.Presl is grown in many countries in the tropical zone, the quality of the end product differs for each region.[^ref28] Moreover, commercial statistics usually bring all market variations under the rubric "cinnamon," without differentiating between different _Cinnamomum_ species. This issue is even more pertinent in the context of medicine. Cinnamon has great potential therapeutic applications, but many studies fail to clarify which species of _Cinnamomum_ they focused on, making it difficult to compare the results.[^ref29] The species epithet _verum_ may sound like an obsolete name in a globalized world, where everyone has access to cinnamon and where cinnamon is grown in many tropical areas. But it still captures the essence of what cinnamon has always been about: distinguishing between what is true and what is not.
 <param ve-image
 	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/cinnamon-production-chart.jpeg/manifest.json"
-	region="0,88,1200,813">
+	region="0,88,1200,813"
+	title="Cinnamon production (all species and varieties) by the top 5 cinnamon-producing countries, 1961–2019.">
 {#paragraph19}
 
 ### References

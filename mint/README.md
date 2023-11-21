@@ -116,8 +116,8 @@ American colonists were quick to recognize the commercial opportunity presented 
 {#paragraph14}
 
 By the mid-1850s, America’s mint industry was focused in Wayne County, New York. Up until this time peppermint oil was valued for its therapeutic properties. However, as American medicine developed based on new scientific knowledge, herbal remedies lost their popularity and peppermint oil needed a new market. American peppermint would become a popular flavor for confectionary on local and global scales.[^ref13]
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3A01033B.jpg/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3ACandy_cane_William_B_Steenberge_Bangor_NY_1844-1922.jpg/manifest.json">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3A01033B.jpg/manifest.json" title="Triunfo mints, 20th century">
+<param ve-image manifest="https://iiif.juncture-digital.org/wc%3ACandy_cane_William_B_Steenberge_Bangor_NY_1844-1922.jpg/manifest.json" title="A Christmas card image of candy canes from the early 1900s">
 {#paragraph15}
 
 Over time, American mint oil production would spread westwards from the east coast in New York State to the Pacific coast in Washington. Peppermint was being produced in Ohio and Michigan by 1833. Commercial peppermint was introduced to Idaho in 1903, and in Oregon’s Willamette River Valley in 1909. In 1917, drained land on Puget Island in a Columbia River estuary in Wahkiakum County, Washington, proved to be ideal land for mint farming on the Pacific coast. By the late 1920s, mint oil prices were high, no doubt the result of significant advertising campaigns fashioned by American manufacturers of mint-flavored confectionary, chewing gum, and toothpaste. Not only was mint valued in the domestic market, but it was exported as well. World War II slowed the export of mint, but the increased need for menthol from American-grown peppermint for supplying the armed forces saw peppermint and spearmint become an essential war crop.[^ref14]

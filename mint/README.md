@@ -18,7 +18,7 @@
 
 Some scents regularly appear in our daily lives and give us a sense of familiarity. Mint is one such example. Its strong scent, and taste, notable green leaves with serrated edges, and broad consumer use (such as toothpaste and chewing gum) are so common to us that they obscure the lesser-known fact that mint has a nuanced history of naming and identification.
 <param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMentha_aquatica_06_ies.jpg/manifest.json"
-       title="Mentha pulegium, pennyroyal">
+       title="Mentha aquatica, water mint">
 <param ve-image manifest="https://iiif.juncture-digital.org/wc%3AMentha_x_piperita_002.JPG/manifest.json"
        title="Mentha piperita, peppermint">
 <param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFlowers_of_the_spearmint.JPG/manifest.json"

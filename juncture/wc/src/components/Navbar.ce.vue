@@ -12,8 +12,8 @@
     </div>
 
     <div class="flex flex-col ml-4">
-      <div class="text-4xl text-white" v-html="props.label"></div>
-      <div v-if="props.subtitle" class="text-xl text-white" v-html="props.subtitle"></div>
+      <div class="text-[2.8rem] mt-[-10px] text-white" v-html="props.label"></div>
+      <div v-if="props.subtitle" class="text-xl text-white font-[Roboto] font-light" v-html="props.subtitle"></div>
     </div>
     
     <div class="flex items-center gap-4 ml-auto mr-4">

@@ -246,5 +246,10 @@
  
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/Dioscorea.jpeg)
 
-.ve-footer
-    - [A link](/)
+.ve-footer sticky=true
+    - A collaboration between: 
+    - [![Dumbarton Oaks](https://raw.githubusercontent.com/jstor-labs/plant-humanities/d862b5c/images/do-logo.svg)](https://www.doaks.org/) {.do-logo}
+    - and
+    - [![JSTOR Labs](https://raw.githubusercontent.com/kent-map/images/main/dickens/JSTOR_Labs_logo.jpg)](https://labs.jstor.org)
+    - with support from
+    - [![Mellon](https://raw.githubusercontent.com/jstor-labs/plant-humanities/d862b5c/images/Mellon_Logomark_Lockup_Black.png)](https://www.mellon.org/)

@@ -76,7 +76,7 @@
 
   function applyProps() {
     shadow.value.style.height = `${props.height}px`
-    // if (props.background) host.value.style.backgroundColor = props.background
+    if (props.background) host.value.style.backgroundColor = props.background
     if (props.offset) shadow.value.style.marginTop = `-${props.offset}px`
     if (props.sticky) {
       host.value.classList.add('sticky')

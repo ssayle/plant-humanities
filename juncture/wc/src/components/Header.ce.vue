@@ -116,4 +116,9 @@
 
 <style>
   @import '../tailwind.css';
+
+  :host {
+  font-family: 'Playfair Display', serif;
+}
+
 </style>

@@ -1,6 +1,6 @@
 <template>
 
-  <div ref="root" class="flex bg-slate-100 p-6 gap-8 mt-8 items-center w-full h-8 justify-between">
+  <div ref="root" class="flex bg-[#ffffff] p-6 gap-3 mt-8 items-center w-full h-8">
     
     <template v-for="li, idx in footerElems" :key="`li-${idx}`">
 
@@ -69,6 +69,7 @@
   watch(host, () => init())
   
   function init() {
+    console.log(props)
     host.value.style.clear = 'both'
     if (props.sticky) setSticky()
     footerElems.value = Array.from(host.value?.querySelectorAll('li'))
@@ -114,6 +115,16 @@
 
 <style>
   @import '../tailwind.css';
+
+  .sticky {
+    position: fixed;
+    bottom: 0;
+  }
+
+  :host {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
 
 /*
   * {box-sizing: border-box;}
@@ -182,6 +193,9 @@
 
 img {
   height: 36px;
+}
+.do-logo img {
+  height: 150px;
 }
 .push {
   margin-left: auto;

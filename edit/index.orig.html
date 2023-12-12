@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <link href="https://juncture-digital.github.io/web-app/static/images/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="https://juncture-digital.github.io/web-app/static/images/favicon.png" rel="icon" type="image/png"/>
   <title>Juncture: Editor</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css" rel="stylesheet"/>
@@ -9,7 +11,30 @@
   <link href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" type="text/css" rel="stylesheet"/>
 
   <style>
-    ve-header ul {display:none;}
+    [v-cloak] {display: none}
+    * {box-sizing: border-box;}
+    body {max-width:1000px; margin: auto !important;}
+    #editor {display:grid; grid-template-rows: auto auto 1fr; height: 100vh;}
+    #mde {font-family:Roboto,sans-serif; height:100%; overflow-y: hidden;}
+    .EasyMDEContainer {height:calc(100%);}
+    .EasyMDEContainer .CodeMirror {height:calc(100% - 75px); font-size:1.2rem; line-height:1.4; color:#444}
+    .preview .EasyMDEContainer .CodeMirror {height:calc(100% - 60px); border:none;}
+    .editor-preview {padding:0; background-color:white; border:none;}
+    .preview .editor-statusbar {display:none;}
+    .cm-ve-tag, .cm-mark {color:red;}
+    #mde .fa {font-size:1.2rem}
+    .cm-s-easymde .cm-header-1{font-size: calc(1rem + 1vw);}
+    .cm-s-easymde .cm-header-2{font-size: calc(1rem + .8vw);}
+    .cm-s-easymde .cm-header-3{font-size: calc(1rem + .7vw);}
+    .cm-s-easymde .cm-header-4{font-size: calc(1rem + .6vw);}
+    .cm-s-easymde .cm-header-5{font-size: calc(1rem + .5vw);}
+    .cm-s-easymde .cm-header-6{font-size: calc(1rem + .5vw);}
+    .editor-toolbar {display: flex;}
+    button.preview, #help, #save, #launch, #copy {font-size: 1.5rem; color:#5B152E;}
+    button.preview i, #mde #help i, #mde #save i, #mde #launch i, #mde #copy i {font-size: 1.4rem;}
+    button.preview {margin-left:auto;}
+    #save:disabled {color: #ddd;}
+    ve-header ul { display: none; }
   </style>
 </head>
 <body>
@@ -17,29 +42,55 @@
   <div id="editor">
 
     <ve-header 
-      label="Editor"
-      logo="https://raw.githubusercontent.com/plant-humanities/media/main/images/phl-website-png-logo.png"
+      v-cloak
+      labe="Editor"
+      background="#5B152E"
+      logo="https://raw.githubusercontent.com/juncture-digital/media/main/images/Juncture_Logo.png"
       url="/"
-      background="#444A1E"
+      contact="Ron.Snyder@ithaka.org"
     >
       <ul>
-        <li><a href="/">
-          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
-          <span>Home</span>
-        </a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/media" target="_blank">Media tool</a></li>
+        <li><a href="/contact">Contact us</a></li>
+        <li><a href="/docs">Help</a></li>
+        <li>auth</li>
       </ul>
     </ve-header>
 
     <ve-content-selector v-if="contentPath !== null" id="contentSelector" :content-path="contentPath" mode="essays" sticky></ve-content-selector>
-  
-    <div id="mde" ref="mde"
-    @paste.prevent="paste" 
-    @drop.prevent="drop" @dragover.prevent @dragover="overDropzone=true" @dragleave="overDropzone=false">
-    <textarea v-cloak ref="content"></textarea>
-  </div>
 
+    <div id="mde" ref="mde"
+      @paste.prevent="paste" 
+      @drop.prevent="drop" @dragover.prevent @dragover="overDropzone=true" @dragleave="overDropzone=false">
+      <textarea v-cloak ref="content"></textarea>
+    </div>
+
+    <b-modal v-cloak id="save-confirm" title="Save file?">
+      <p class="my-4">Path: <b>{{toSavePath}}</b></p>
+      <!-- <div style="height:40vh; overflow-y:scroll;"><pre>{{toSaveContent}}</pre></div> -->
+      <template #modal-footer="{ ok }">
+        <b-button size="sm" variant="normal" @click="setContent()">No</b-button>
+        <b-button size="sm" variant="primary" @click="doSave()">Yes</b-button>
+      </template>
+    </b-modal>
+
+    <b-toast v-cloak id="save-status" title="" solid :auto-hide-delay="saveStatus.status === 200 ? 1000 : 10000" no-close-button><b>Essay save to Github: {{`${saveStatus.status === 200 ? 'success' : 'failed (' + saveStatus.status + ')'} ${saveStatus.statusText}`}}</b></b-toast>
+    <b-toast v-cloak id="link-copied" title="" solid auto-hide-delay="1000" no-close-button><b>Link copied to clipboard:</b>&nbsp;{{link}}</b-toast>
+    <b-toast v-cloak id="text-copied" title="" solid auto-hide-delay="1000" no-close-button><b>Essay text copied to clipboard</b></b-toast>
+  
   </div>
   
+  <!-- This is used for deep linking of Single Page Apps when hosted with GitHub Pages -->
+  <script type="text/javascript">
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        let decoded = l.search.slice(1).split('&').map(s => s.replace(/~and~/g, '&')).join('?')
+        window.history.replaceState(null, null, l.pathname + decoded + l.hash)
+      }
+    }(window.location))
+  </script>
+
   <script src="/juncture/wc/dist/js/index.js" type="module"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
   <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
@@ -101,22 +152,21 @@
     },
     mounted() {
       let pathElems = window.location.pathname.split('/').filter(pe => pe)
-      if (pathElems.length > 0 && pathElems[0] === 'edit') {
-        this.pathRoot = '/edit/'
+      if (pathElems.length > 0 && pathElems[0] === 'editor') {
+        this.pathRoot = '/editor/'
         pathElems = pathElems.slice(1)
       }
       let prior = localStorage.getItem('smde_juncture_path') || ''
+      // console.log(`prior=${prior} current=${pathElems.join('/')}`)
       this.contentPath = pathElems.length === 0 || prior.indexOf(pathElems.join('/')) === 0
         ? prior
         : pathElems.join('/')
-      /*
       this.$nextTick(() => {
         document.getElementById('contentSelector')?.addEventListener('contentPathChanged', async (evt) => {
           this.parseContentPath(evt.detail[0].replace(/^gh:/,''))
         })
         document.getElementById('contentSelector')?.addEventListener('accessChanged', async (evt) => this.userCanUpdate = evt.detail.canUpdate)  
       })
-      */
       this.initEditor()
 
     },
@@ -207,13 +257,21 @@
       },
 
       initEditor() {
-        /*
         CodeMirror.defineMode('ve-tag', () => {
           return {
             token: function (stream, state) {
               if (stream.sol()) {
                 if (stream.match(/\.ve\-\S+/)) return 've-tag'
                 else stream.next()
+                /*
+                let ch
+                while ((ch = stream.next()) != null)
+                  if (stream.next() == ' ') {
+                    // stream.eat(' ')
+                    return 've-tag'
+                  }
+                  return 've-tag'
+                */
               } else if (stream.match(/==[^=]+=={[0-9,a-f:]+}/)) {
                 return 'mark'
               } else {
@@ -223,7 +281,7 @@
             }
           }
         })
-        */
+
         this.easyMDE = new EasyMDE({
           previewRender: this.togglePreview,
           autosave: {
@@ -536,9 +594,6 @@
 
     },
     watch: {
-      contentPath() {
-        console.log(`contentPath=${this.contentPath}`)
-      },
       contentPathIsFile() {
         let container = document.querySelector('.EasyMDEContainer')
         if (container) container.style.visibility = this.contentPathIsFile ? 'visible' : 'hidden'

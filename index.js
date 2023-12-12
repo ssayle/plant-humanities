@@ -208,14 +208,21 @@ function convertWcTagsToElements(root) {
       let tag = p.textContent.trim().split(' ')[0].slice(1).trim()
       let html = componentHtml(p, tag)
       let el = new DOMParser().parseFromString(html, 'text/html').children[0].children[1].children[0]
-      let cls = new RegExp('{(\.|class=)(?<class>.+)}')
+
       Array.from(el.querySelectorAll('li')).forEach(li => {
-        let text = li.textContent.trim()
-        let match = text.match(cls)
-        let classes = text.match(cls)?.groups?.class.split(',') || []
-        if (classes.length > 0) {
-          li.classList.add(...classes)
-          li.innerHTML = li.innerHTML.replace(match[0], '')
+        let liText = li.textContent.trim()
+        let attrs = liText.match(/{[^}]+}$/)?.[0]
+        if (attrs) {
+          let classRegex = new RegExp('(\\.|class=)(?<class>[^\\s}]+)', 'g')
+          let clsMatch = attrs.match(classRegex)
+          let classes = clsMatch?.map(m => m.replace(/\./, '').replace(/class=/, '').replace(/"/g, '').replace(/'/g, '').trim()) || []
+          if (classes.length > 0) li.classList.add(...classes)
+  
+          let styleRegex = new RegExp('style=(?<style>[^\\s}]+)',)
+          let style = attrs.match(styleRegex)?.groups?.style.replace(/"/g, '').replace(/'/g, '')
+          if (style) li.setAttribute('style', style)
+        
+          li.innerHTML = li.innerHTML.replace(attrs, '')
         }
       })
       p.parentNode?.replaceChild(el, p)

@@ -147,6 +147,8 @@ async def serve(path: Optional[str] = None):
     content = open(local_file_path, 'rb').read()
   else:
     content = open(local_file_path, 'r').read()
+    if LOCAL_WC:
+      content = content.replace('/juncture/wc/dist/js/index.js', 'http://localhost:5173/src/main.ts')
   if ext is None: # markdown file
     content = html_from_markdown(content, baseurl=f'/{"/".join(path)}/' if len(path) > 0 else '/')
   media_type = media_types[ext] if ext in media_types else 'text/html'

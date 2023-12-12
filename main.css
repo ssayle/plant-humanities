@@ -26,6 +26,11 @@ body {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
 ez-header, .site-footer {
   display: block;
   margin: 0 auto;
@@ -70,7 +75,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
   grid-auto-rows: 1fr;
-  row-gap: 4rem;
+  row-gap: 2rem;
   column-gap: 3rem;
 }
 

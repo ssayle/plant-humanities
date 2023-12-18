@@ -123,8 +123,9 @@ function structureContent() {
         sectionParam.classList.forEach(c => currentSection.classList.add(c))
       }
       heading.className = ''
-      console.log(heading.textContent)
-      if (!heading.textContent.trim()) heading.remove()
+      let headingText = heading.textContent.trim()
+      console.log(`heading.textContent=${headingText}`)
+      if (headingText) heading.remove()
       else if (heading.id) {
         currentSection.id = heading.id
         heading.removeAttribute('id')

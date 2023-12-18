@@ -123,6 +123,7 @@ function structureContent() {
         sectionParam.classList.forEach(c => currentSection.classList.add(c))
       }
       heading.className = ''
+      console.log(heading.textContent)
       if (heading.id) {
         currentSection.id = heading.id
         heading.removeAttribute('id')

@@ -36,9 +36,8 @@
   
 <script setup lang="ts">
 
-  import { computed, onMounted, ref, toRaw, watch } from 'vue'
+  import { computed, ref, toRaw, watch } from 'vue'
 
-  import { isMobile } from '../utils'
 
   const props = defineProps({
     sticky: { type: Boolean }
@@ -69,7 +68,6 @@
   watch(host, () => init())
   
   function init() {
-    console.log(props)
     host.value.style.clear = 'both'
     if (props.sticky) setSticky()
     footerElems.value = Array.from(host.value?.querySelectorAll('li'))

@@ -82,7 +82,7 @@
   onUpdated(() => applyProps() )
 
   function applyProps() {
-    console.log('applyProps', toRaw(props))
+    // console.log('applyProps', toRaw(props))
     entities.value = props.entities ? props.entities.split(/\s+/).filter(qid => qid) : []
     if (props.background !== undefined && (isURL(props.background) || isManifestShorthand(props.background))) {
       backgroundImage.value = props.background

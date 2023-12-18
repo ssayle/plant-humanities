@@ -329,7 +329,7 @@ module.exports = {
 
     convertResourceUrls(root) {
       // root.querySelectorAll('img').forEach(img => {
-      //  if (img.src.indexOf(window.location.origin) === 0) img.setAttribute('src', convertURL(img.src, this.mdDir))
+      //  if (img.src.indexOf(window.location.origin) === 0) img.('src', convertURL(img.src, this.mdDir))
       //})
       root.querySelectorAll('param').forEach(param => {
         ['url', 'banner', 'article', 'logo'].forEach(attr => {

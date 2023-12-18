@@ -124,7 +124,8 @@ function structureContent() {
       }
       heading.className = ''
       console.log(heading.textContent)
-      if (heading.id) {
+      if (!heading.textContent.trim()) heading.remove()
+      else if (heading.id) {
         currentSection.id = heading.id
         heading.removeAttribute('id')
       }

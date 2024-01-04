@@ -283,6 +283,7 @@ function getDomPath(el) {
 </script>
 
 <style>
+
   .popup {
     background-color: #ffffff;
     border-radius: 4px;

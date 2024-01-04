@@ -1240,9 +1240,8 @@ html {
   font-family: sans-serif;
 }
 
-ve-header ul, 
-ve-menu ul {
-  display: none;
+section {
+  display: flow-root;
 }
 
 .hover\:bg-blue-600:hover {

@@ -90,6 +90,7 @@ function structureContent() {
 
   let main = document.querySelector('main')
   let restructured = document.createElement('main')
+  restructured.id = 'juncture'
   let footer
 
   let children = []

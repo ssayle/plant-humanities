@@ -9,6 +9,8 @@ body {
   line-height: 1.5;
   margin: 0;
   background-color: #f8f8f8;
+  max-width: 1200px;
+  margin: auto;
 }
 
 body {
@@ -27,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
   font-weight: 400;
 }
 
@@ -52,24 +54,40 @@ ul {
   list-style-position: inside;
 }
 
-.section-1 {
-  display: flow-root;
-}
-
 ez-header {
   height: 74px;
   background-color: #444444;
 }
 ez-header ul {
-  display: none;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
 }
 
 h1 {
   font-size: 2.5rem;
   line-height: 1;
-  margin-top: 1rem;
-  font-weight: 400;
+  margin-top: 1.5rem;
 }
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+section {
+  display: flow-root;
+}
+
+.section-1 {
+  /* margin: 1rem 2rem; */
+}
+
+
+/********** Cards **********/
 
 .cards {
   display: grid;
@@ -77,10 +95,6 @@ h1 {
   grid-auto-rows: 1fr;
   row-gap: 2rem;
   column-gap: 3rem;
-}
-
-.section-1 {
-  margin: 1rem 2rem;
 }
 
 .cards.wrapper {
@@ -158,3 +172,4 @@ h1 {
   -webkit-line-clamp: 5
 }
 
+/********** End Cards **********/

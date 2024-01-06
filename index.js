@@ -90,7 +90,7 @@ function structureContent() {
 
   let main = document.querySelector('main')
   let restructured = document.createElement('main')
-  restructured.id = 'juncture'
+  // restructured.id = 'juncture'
   let footer
 
   let children = []
@@ -167,6 +167,30 @@ function structureContent() {
   if (footer) restructured.appendChild(footer)
 
   main?.replaceWith(restructured)
+}
+
+function convertMarkedText() {
+  const markedTextRegex = new RegExp('==(?<text>[^=]+)=={(?<args>[^}]+)}', 'gm')
+  document.querySelector('main').querySelectorAll('p').forEach(p => {
+    let text = p.innerHTML
+    let matches = Array.from(text.matchAll(markedTextRegex))
+    if (matches.length > 0) {
+      let cursor = 0
+      let html = ''
+      for (let match of matches) {
+        html += text.slice(cursor, match.index)
+        let isQid = /^Q\d+/.test(match.groups.args)
+        html += isQid
+          ? `<ve-entity-infobox qid="${match.groups.args}">${match.groups.text}</ve-entity-infobox>`
+          : `<mark zoomto="${match.groups.args}" class="zoomto">${match.groups.text}</mark>`
+        cursor = match.index + match[0].length
+      }
+      html += text.slice(cursor)
+      let revisedP = document.createElement('p')
+      revisedP.innerHTML = html
+      p.replaceWith(revisedP)
+    }
+  })
 }
 
 function isNumeric(arg) { return !isNaN(arg) }
@@ -312,6 +336,7 @@ async function init() {
 
   convertWcTagsToElements()
   structureContent()
+  convertMarkedText()
   setMeta()
 
   await getConfigExtras()

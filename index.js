@@ -50,7 +50,7 @@ function setMeta() {
     ? meta.getAttribute('description')
     : firstParagraph || ''
 
-  let robots =  meta?.getAttribute('robots') || (location.hostname.indexOf('www') === 0 ? '' : 'noindex, nofollow')
+  let robots =  meta?.getAttribute('robots')
 
   if (title) {
     document.title = title

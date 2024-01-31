@@ -7,7 +7,7 @@
        eid="Q105749227"
 	about="Q146118"
        layout="vtl"
-       description="There was no flower on earth that Charles Dickens loved quite as much as the scarlet "geranium." However, the scarlet "geranium" with which Dickens was so enamored and that remains so beloved today is actually an altogether different plant—the pelargonium. Confused with the geranium since its introduction into Europe in the early 1600s, the pelargonium has a remarkable yet lesser-known history all its own. By telling the story of the Pelargonium as an entity separate from the Geranium, this visual narrative highlights the Pelargonium’s unique morphology and nomenclature as well as its far-reaching impact in the spheres of industry, technology, agriculture, culture, and society.">
+       description="There was no flower on earth that Charles Dickens loved quite as much as the scarlet &quot;geranium.&quot; However, the scarlet &quot;geranium &quot; with which Dickens was so enamored and that remains so beloved today is actually an altogether different plant—the pelargonium. Confused with the geranium since its introduction into Europe in the early 1600s, the pelargonium has a remarkable yet lesser-known history all its own. By telling the story of the Pelargonium as an entity separate from the Geranium, this visual narrative highlights the Pelargonium’s unique morphology and nomenclature as well as its far-reaching impact in the spheres of industry, technology, agriculture, culture, and society.">
 
 ### What’s in a Name?
 

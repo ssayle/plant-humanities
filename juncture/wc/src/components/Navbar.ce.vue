@@ -4,19 +4,19 @@
     class="flex sticky top-0 items-center w-full pl-4 z-10 bg-[#000]/30"
     :style="{height: `${props.height}px`}">
     
-    <div v-if="props.logo">
+    <div v-if="props.logo" class="logo">
       <a v-if="props.url" :href="props.url">
-        <img class="h-[80px] w-[80px]" :src="props.logo" alt="logo"/>
+        <img :src="props.logo" alt="logo"/>
       </a>
-      <img v-else :src="props.logo" alt="logo" class="logo"/>
+      <img v-else :src="props.logo" alt="logo"/>
     </div>
 
-    <div class="flex flex-col ml-4">
-      <div class="text-[2.8rem] mt-[-10px] text-white" v-html="props.label"></div>
-      <div v-if="props.subtitle" class="text-xl text-white font-[Roboto] font-light" v-html="props.subtitle"></div>
+    <div class="flex flex-col gap-2 ml-4">
+      <div class="title" v-html="props.label"></div>
+      <div v-if="props.subtitle" class="subtitle clamp1" v-html="props.subtitle"></div>
     </div>
     
-    <div class="flex items-center gap-4 ml-auto mr-4">
+    <div class="flex items-center gap-4 mr-4 ml-auto pl-4">
       <ve-site-search v-if="props.searchDomain" :search-domain="props.searchDomain" :search-cx="props.searchCx" :search-key="props.searchKey"></ve-site-search>
       <ve-menu v-if="navEl !== undefined" :auth="auth" :contact="contact" v-html="navEl"></ve-menu>
     </div>
@@ -101,4 +101,51 @@
 
 <style>
   @import '../tailwind.css';
+
+  .title {
+    font-size: 2em;
+    line-height: 1;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+  }
+
+  .subtitle {
+    font-size: 1.3em;
+    line-height: 1;
+    font-weight: 400;
+    color: white;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .title {
+      font-size: 1.3em;
+    }
+    .subtitle {
+      font-size: 1em;
+    }
+  }
+
+  .logo {
+    display: flex;
+    height: 90%;
+  }
+
+  .logo img {
+    height: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+
+  .clamp1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+
 </style>

@@ -15,6 +15,7 @@ import argparse, json, os, re
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 LOCAL_WC = os.environ.get('LOCAL_WC', 'false').lower() == 'true'
+LOCAL_WC_PORT = os.environ.get('LOCAL_WC_PORT', '5173')
 
 from bs4 import BeautifulSoup
 import markdown
@@ -26,7 +27,20 @@ import uvicorn
 
 from fastapi import FastAPI
 from fastapi.responses import Response
-app = FastAPI(title='Plant Humanities Lab', root_path='/')
+
+from fastapi.middleware.cors import CORSMiddleware
+
+origins = ['*']
+
+app = FastAPI(title='ezsite', root_path='/')
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*'],
+)
 
 media_types = {
   'css': 'text/css',
@@ -38,6 +52,7 @@ media_types = {
   'json': 'application/json',
   'md': 'text/markdown',
   'png': 'image/png',
+  'svg': 'image/svg+xml',
   'txt': 'text/plain',
   'yaml': 'application/x-yaml'
 }
@@ -52,7 +67,7 @@ url = config.get('url', '')
 gh_owner = config.get('github', {}).get('owner', '')
 gh_repo = config.get('github', {}).get('repo', '')
 gh_branch = config.get('github', {}).get('branch', '')
-components = config.get('components', '').replace('/juncture/wc/dist/js/index.js', 'http://localhost:5173/src/main.ts') if LOCAL_WC else config.get('components', '')
+components = config.get('components', '').replace('/juncture/wc/dist/js/index.js', f'http://localhost:{LOCAL_WC_PORT}/src/main.ts') if LOCAL_WC else config.get('components', '')
 
 jsonld_seo = {
   '@context': 'https://schema.org',
@@ -79,7 +94,7 @@ seo = f'''
   </script>
 '''
 
-not_found_page = open(f'{BASEDIR}/404.html', 'r').read()
+not_found_page = open(f'{BASEDIR}/404.html', 'r').read() if os.path.exists(f'{BASEDIR}/404.html') else ''
 header = open(f'{BASEDIR}/_includes/header.html', 'r').read() if os.path.exists(f'{BASEDIR}/_includes/header.html') else ''
 footer = open(f'{BASEDIR}/_includes/footer.html', 'r').read() if os.path.exists(f'{BASEDIR}/_includes/footer.html') else ''
 favicon = open(f'{BASEDIR}/favicon.ico', 'rb').read() if os.path.exists(f'{BASEDIR}/favicon.ico') else None
@@ -88,7 +103,8 @@ html_template = open(f'{BASEDIR}/_layouts/default.html', 'r').read().replace('/e
 html_template = re.sub(r'^\s*{%- include header.html -%}', header, html_template, flags=re.MULTILINE)
 html_template = re.sub(r'^\s*{%- include footer.html -%}', footer, html_template, flags=re.MULTILINE)
 
-# html_template = html_template.replace('https://rsnyder.github.io/ezpage-wc/js/index.js', 'http://localhost:5173/src/main.ts')
+# html_template = html_template.replace('https://rsnyder.github.io/ezsite', '')
+# html_template = html_template.replace('/ezsite/dist/js/index.js', f'http://localhost:{LOCAL_WC_PORT}/main.ts')
 html_template = html_template.replace('{%- seo -%}', seo)
 html_template = html_template.replace('{{ site.mode }}', mode)
 html_template = html_template.replace('{{ site.github.owner }}', gh_owner)
@@ -100,58 +116,77 @@ html_template = html_template.replace('{{ site.components }}', components)
 def html_from_markdown(md, baseurl):
   html = html_template.replace('{{ content }}', markdown.markdown(md, extensions=['extra', 'toc']))
   soup = BeautifulSoup(html, 'html5lib')
-  for tag in soup.find_all(re.compile('^ve-')):
-    parent = tag.parent
-    if parent.next_sibling and parent.next_sibling.name == 'ul':
-      options_list = parent.next_sibling
-      tag.append(options_list)
-      parent.replace_with(tag)
-      # tag.parent.next_sibling.decompose()
+      
   for link in soup.find_all('a'):
     href = link.get('href')
-    if href and not href.startswith('http') and not href.startswith('#') and not href.startswith('/'):
+    if href and not href.startswith('http') and not href.startswith('#') and not href.startswith('/') and not href.startswith('mailto:'):
       link['href'] = f'{baseurl}{href}'
+  
   for img in soup.find_all('img'):
     src = img.get('src')
     if not src.startswith('http') and not src.startswith('/'):
       img['src'] = f'{baseurl}{src}'
+      
+  for code in soup.find_all('code'):
+    if code.parent.name == 'pre':
+      top_div = soup.new_tag('div')
+      if code.get('class'): top_div['class'] = code.get('class')
+      wrapper_div = soup.new_tag('div')
+      top_div.append(wrapper_div)
+      pre = soup.new_tag('pre')
+      wrapper_div.append(pre)
+      new_code = soup.new_tag('code')
+      new_code.string = code.string
+      pre.append(new_code)
+      code.parent.replace_with(top_div)
+      
   for param in soup.find_all('param'):
     node = param.parent
     while node.next_sibling.name == 'param':
       node = node.next_sibling
     node.insert_after(param)
-  for heading in soup.find_all('h1'):
-    if heading.renderContents().decode('utf-8').strip() == '':
-      pass # heading.decompose()
   for para in soup.find_all('p'):
     if para.renderContents().decode('utf-8').strip() == '':
       para.decompose()
-  return soup.prettify()
+      
+  # logger.info(soup.prettify())
+  return str(soup)
   
-@app.get('/{path:path}')
+@app.get('{path:path}')
 async def serve(path: Optional[str] = None):
+  logger.info(f'path: {path}')
   path = [pe for pe in path.split('/') if pe != ''] if path else []
   ext = path[-1].split('.')[-1].lower() if len(path) > 0 and '.' in path[-1] else None
-  local_file_path = f'{BASEDIR}/{"/".join(path)}' if ext else f'{BASEDIR}/{"/".join(path)}/README.md'
-  if os.path.exists(local_file_path):
-    pass
-  else:
+
+  if ext:
+    local_file_path = f'{BASEDIR}/{"/".join(path)}'
+    if not os.path.exists(local_file_path):
+      return Response(status_code=404, content=not_found_page, media_type='text/html')
+  else: 
     local_file_path = f'{BASEDIR}/{"/".join(path)}/index.html'
     if os.path.exists(local_file_path):
       ext = 'html'
     else:
-      return Response(status_code=404, content=not_found_page, media_type='text/html')
+      local_file_path = f'{BASEDIR}/{"/".join(path)}' if ext else f'{BASEDIR}/{"/".join(path)}/README.md'
+      if os.path.exists(local_file_path):
+        pass
+      elif os.path.exists(f'{BASEDIR}/{"/".join(path)}.md'):
+        local_file_path = f'{BASEDIR}/{"/".join(path)}.md'
+      else:
+        return Response(status_code=404, content=not_found_page, media_type='text/html')
   if ext == 'ico':
     content = favicon
   elif ext in ['jpg', 'jpeg', 'png', 'svg']:
     content = open(local_file_path, 'rb').read()
   else:
     content = open(local_file_path, 'r').read()
-    if LOCAL_WC:
-      content = content.replace('/juncture/wc/dist/js/index.js', 'http://localhost:5173/src/main.ts')
+    if LOCAL_WC and ext == 'html':
+      content = content.replace('/ezsite/dist/js/index.js', f'http://localhost:{LOCAL_WC_PORT}/src/main.ts')
   if ext is None: # markdown file
     content = html_from_markdown(content, baseurl=f'/{"/".join(path)}/' if len(path) > 0 else '/')
   media_type = media_types[ext] if ext in media_types else 'text/html'
+
+  logger.info(f'path`: {path} ext: {ext} local_file_path: {local_file_path}')
   return Response(status_code=200, content=content, media_type=media_type)
 
 if __name__ == '__main__':
@@ -159,9 +194,14 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Plant Humanities Lab dev server')  
   parser.add_argument('--reload', type=bool, default=True, help='Reload on change')
   parser.add_argument('--port', type=int, default=8080, help='HTTP port')
-  parser.add_argument('--localwc', action=argparse.BooleanOptionalAction, help='Use local web components')
+  parser.add_argument('--localwc', default=False, action='store_true', help='Use local web components')
+  parser.add_argument('--wcport', type=int, default=5173, help='Port used by local WC server')
+
   args = vars(parser.parse_args())
   
   os.environ['LOCAL_WC'] = str(args['localwc'])
+  os.environ['LOCAL_WC_PORT'] = str(args['wcport'])
+
+  logger.info(f'BASEDIR={BASEDIR} LOCAL_WC={os.environ["LOCAL_WC"]} LOCAL_WC_PORT={os.environ["LOCAL_WC_PORT"]} ')
 
   uvicorn.run('serve:app', port=args['port'], log_level='info', reload=args['reload'])

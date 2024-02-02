@@ -1,4 +1,4 @@
-`ez-header title="How to Read an Herbarium Specimen" background=gh:plant-humanities/media/five-specimens/Rauwolf.jpeg subtitle="Maura Flannery" position=top .sticky` 
+`ez-header title="How to Read an Herbarium Specimen" background=gh:plant-humanities/media/five-specimens/Rauwolf.jpeg subtitle="Maura Flannery" position=top pdf-download-enabled .sticky` 
 
 #
 

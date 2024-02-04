@@ -248,10 +248,11 @@
 
 
 ```
-ez-footer .sticky
-Arbitrary text
-[![Dumbarton Oaks](https://raw.githubusercontent.com/plant-humanities/media/main/images/do-logo.svg) `:width:150px;height:100%`](https://www.doaks.org/) 
-Arbitrary text with attrs `.aclass`
-`.push` [Link with attrs](link1)
-[Link 2](link2) `:color:red`
+ez-footer
+- A collaboration between: 
+- [![Dumbarton Oaks](https://raw.githubusercontent.com/plant-humanities/media/main/images/do-logo.svg)`:width:150px;height:100%`](https://www.doaks.org/)
+- and
+- [![JSTOR Labs](https://raw.githubusercontent.com/plant-humanities/media/main/images/JSTOR_Labs_logo.jpg)](https://labs.jstor.org)
+- with support from
+- [![Mellon](https://raw.githubusercontent.com/plant-humanities/media/main/images/Mellon_Logomark_Lockup_Black.png)](https://www.mellon.org/)
 ```

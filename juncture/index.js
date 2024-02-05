@@ -101,7 +101,7 @@ function _createJunctureV1App() {
   new window.Vue({
     el: '#vue',
     components: {
-      'juncture-v1': window.httpVueLoader('/juncture/v1/Juncture.vue')
+      'juncture-v1': window.httpVueLoader('../juncture/v1/Juncture.vue')
     },
     data: () => ({ html })
   })

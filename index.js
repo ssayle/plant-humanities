@@ -89,6 +89,9 @@ function structureContent() {
   }
 
   let main = document.querySelector('main')
+  let inputHTML = main.outerHTML
+  setTimeout(() => console.log('structureContent.input', new DOMParser().parseFromString(inputHTML, 'text/html').firstChild.children[1].firstChild), 0)
+
   let restructured = document.createElement('main')
   // restructured.id = 'juncture'
   let footer
@@ -166,7 +169,11 @@ function structureContent() {
 
   if (footer) restructured.appendChild(footer)
 
+  let restructuredHTML = restructured.outerHTML
+  setTimeout(() => console.log('structureContent.output', new DOMParser().parseFromString(restructuredHTML, 'text/html').firstChild.children[1].firstChild), 0)
+
   main?.replaceWith(restructured)
+
 }
 
 function convertMarkedText() {
@@ -325,6 +332,9 @@ function loadDependency(dependency, callback) {
 }
 
 async function init() {
+
+  let inputHTML = document.querySelector('main').outerHTML
+  setTimeout(() => console.log('init', new DOMParser().parseFromString(inputHTML, 'text/html').firstChild.children[1].firstChild), 0)
 
   let isPreview = location.pathname === `${config.baseurl}/preview/`
   if (isPreview) {

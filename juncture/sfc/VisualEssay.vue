@@ -49,7 +49,7 @@ module.exports = {
       let essayElem = document.getElementById('essay')
       essayElem.querySelectorAll('.seg-link').forEach(el => el.addEventListener('click', () => navigator.clipboard.writeText(el.dataset.anchor)))
       Array.from(essayElem.querySelectorAll('.collapsible')).forEach(el =>el.addEventListener('click', this.toggleExpandCollapse))
-      this.tagEntities(essayElem)
+      // this.tagEntities(essayElem)
       // this.$emit('set-entities', this.entities)
       this.$nextTick(() => {
         this.addPopups(this.entities)
@@ -166,6 +166,7 @@ module.exports = {
     },
     // Finds words/phrases in content paragraphs that match labels or aliases for entities in scope
     // Matched text is wrapped with a span tag for reacting to hover and click actions
+    /*
     tagEntities(root) {
       Array.from(root.querySelectorAll('.segment p')).forEach(para => {
         let paraHTML = para.innerHTML
@@ -194,23 +195,14 @@ module.exports = {
       })
       Array.from(root.querySelectorAll('p span')).forEach(span => {
         if (span.attributes.eid) {
-          // span.setAttribute('data-eid', span.attributes.eid.value)
-          // span.classList.add('entity', 'tagged')
           let entityInfobox = document.createElement('ve-entity-infobox')
           entityInfobox.innerHTML = span.innerHTML
           entityInfobox.setAttribute('qid', span.attributes.eid.value)
           span.replaceWith(entityInfobox)
         }
       })
-
-      /*
-      Array.from(root.querySelectorAll('span.entity'))
-        .forEach(el => el.addEventListener('click', (e) => {
-          // console.log('entity selected', e.target.dataset.eid)
-        })
-      )
-      */
     }
+    */
   },
   watch: {
     html: {

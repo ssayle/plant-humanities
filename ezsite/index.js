@@ -268,12 +268,10 @@ function structureContent() {
     let target = attrs.previousElementSibling
     while (target?.tagName !== 'P') target = target.previousElementSibling
     let parsed = parseHeadline(attrs.textContent.trim().slice(1,-1))
-    console.log(parsed, target)
     // target = target.parentElement
     if (parsed.id) target.id = parsed.id
     if (parsed.class) parsed.class.split(' ').forEach(c => target.classList.add(c))
     if (parsed.style) target.setAttribute('style', parsed.style)
-    console.log(target)
     attrs.remove()
   })
 
@@ -577,7 +575,7 @@ function observeVisible(callback = null) {
   let topMargin = Array.from(document.querySelectorAll('EZ-HEADER'))
   .map(stickyEl => (parseInt(stickyEl.style.top.replace(/px/,'')) || 0) + stickyEl.getBoundingClientRect().height)?.[0] || 0
 
-  console.log(`observeVisible: topMargin=${topMargin}`)
+  // console.log(`observeVisible: topMargin=${topMargin}`)
 
   const visible = {}
   const observer = new IntersectionObserver((entries, observer) => {

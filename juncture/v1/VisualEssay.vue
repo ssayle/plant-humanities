@@ -76,7 +76,7 @@ module.exports = {
 
         let topMargin = 100
 
-        console.log(`observeVisible: topMargin=${topMargin} active=${self.active}`)
+        // console.log(`observeVisible: topMargin=${topMargin} active=${self.active}`)
 
         const visible = {}
         const observer = new IntersectionObserver((entries, observer) => {

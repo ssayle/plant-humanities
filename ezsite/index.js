@@ -1,4 +1,4 @@
-import { isJunctureV1, createJunctureV1App } from `${window.config?.baseurl || 'https://rsnyder.github.io'}/juncture/index.js`
+import { isJunctureV1, createJunctureV1App } from '../juncture/index.js'
 
 function isNumeric(arg) { return !isNaN(arg) }
 function hasTimestamp(s) { return /\d{1,2}:\d{1,2}/.test(s) }

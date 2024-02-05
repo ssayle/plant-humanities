@@ -174,7 +174,9 @@ function handleCodeEl(rootEl, codeEl) {
 
 function structureContent() {
   let main = document.querySelector('main')
-  // console.log(new DOMParser().parseFromString(main.outerHTML, 'text/html').firstChild.children[1].firstChild)
+  // let inputHTML = main.outerHTML
+  // setTimeout(() => console.log('structureContent.input', new DOMParser().parseFromString(inputHTML, 'text/html').firstChild.children[1].firstChild), 0)
+
   let restructured = document.createElement('main')
   restructured.className = 'page-content markdown-body'
   restructured.setAttribute('aria-label', 'Content')
@@ -234,11 +236,13 @@ function structureContent() {
       parent?.appendChild(currentSection)
       currentSection.setAttribute('data-id', computeDataId(currentSection))
 
-    } else {
-      el.className = 'segment'
-      let segId = `${currentSection.getAttribute('data-id')}.${currentSection.children.length}`
-      el.setAttribute('data-id', segId)
-      el.id = segId
+    } else  {
+      if (el.tagName !== 'PARAM') {
+        el.className = 'segment'
+        let segId = `${currentSection.getAttribute('data-id')}.${currentSection.children.length}`
+        el.setAttribute('data-id', segId)
+        el.id = segId
+      }
       if (el !== sectionParam) currentSection.innerHTML += el.outerHTML
     }
   })
@@ -429,6 +433,10 @@ function structureContent() {
   restructured.style.paddingBottom = '100vh'
   let footer = restructured.querySelector('ez-footer')
   if (footer) restructured.appendChild(footer)
+
+  // let restructuredHTML = restructured.outerHTML
+  // setTimeout(() => console.log('structureContent.output', new DOMParser().parseFromString(restructuredHTML, 'text/html').firstChild.children[1].firstChild), 0)
+
   main?.replaceWith(restructured)
   
 }
@@ -625,6 +633,7 @@ function loadDependencies(dependencies, callback, i) {
 }
 
 function init() {
+  // console.log('init', new DOMParser().parseFromString(document.querySelector('main').outerHTML, 'text/html').firstChild.children[1].firstChild)
   window.config = {...window.config, ...{isJunctureV1}}
   structureContent()
   setMeta()

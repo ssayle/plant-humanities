@@ -117,7 +117,7 @@ def html_from_markdown(md, baseurl):
       img['src'] = f'{baseurl}{src}'
   for param in soup.find_all('param'):
     node = param.parent
-    while node.next_sibling.name == 'param':
+    while node.next_sibling and node.next_sibling.name == 'param':
       node = node.next_sibling
     node.insert_after(param)
   for heading in soup.find_all('h1'):

@@ -2,7 +2,7 @@ window.config.scriptBasePath = Array.from(document.querySelectorAll('script'))
 .filter(script => script.src)
 .filter(script => /\/ezsite\/index\.js$/.test(script.src))
 .map(scriptEl => {
-  let path = new URL(scriptEl.src).pathname.split('/').filter(pe => pe)
+  let path = new URL(scriptEl.src).pathname.split('/').filter(pe => pe).slice(0, -2)
   return path.length > 0 ? `/${path.join('/')}` : ''
 })
 ?.[0] || ''

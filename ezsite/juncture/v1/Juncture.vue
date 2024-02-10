@@ -122,11 +122,8 @@ Array.from(document.querySelectorAll('script'))
   .forEach(script => console.log(`script.src=${script.src}, script.baseURI=${script.baseURI}`))
 
 let scriptBasePath = Array.from(document.querySelectorAll('script'))
-  .filter(script => script.src || script.baseURI)
-  .map(script => script.src || script.baseURI)
-  .filter(src => { console.log(src); return true; })
-  .filter(src => /\/ezsite\/index\.js$/.test(src))
-  .map(src => `/${new URL(src).pathname.split('/').filter(pe => pe).slice(0, -2).join('/')}`)
+  .filter(script => script.baseURI)
+  .map(script => script.baseURI)
   ?.[0] || ''
 
 console.log('scriptBasePath', scriptBasePath)

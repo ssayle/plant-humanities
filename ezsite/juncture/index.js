@@ -1,13 +1,8 @@
-
-let scriptBasePath = Array.from(document.querySelectorAll('script'))
-  .filter(script => script.src)
-  .filter(script => /\/ezsite\/index\.js$/.test(script.src))
-  .map(scriptEl => `/${new URL(scriptEl.src).pathname.split('/').filter(pe => pe).slice(0, -2).join('/')}`)
-  ?.[0] || ''
-
-console.log('scriptBasePath', scriptBasePath)
-
-window.config.scriptBasePath = scriptBasePath
+window.config.scriptBasePath = Array.from(document.querySelectorAll('script'))
+.filter(script => script.src)
+.filter(script => /\/ezsite\/index\.js$/.test(script.src))
+.map(scriptEl => `/${new URL(scriptEl.src).pathname.split('/').filter(pe => pe).slice(0, -2).join('/')}`)
+?.[0] || ''
 
 const junctureDependencies = [
   // {tag: 'link', rel: 'stylesheet', href: `${config.baseurl}juncture/index.css`},

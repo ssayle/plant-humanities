@@ -149,12 +149,8 @@ def html_from_markdown(md, baseurl):
     if para.renderContents().decode('utf-8').strip() == '':
       para.decompose()
       
-  for header in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
-    logger.info(f'header: {header}')
-      
   # logger.info(soup.prettify())
-  # return str(soup)
-  return soup.prettify()
+  return str(soup)
   
 @app.get('{path:path}')
 async def serve(path: Optional[str] = None):

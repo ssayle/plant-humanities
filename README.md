@@ -1,9 +1,9 @@
-.ve-meta title="Plant Humanities Lab" description="Explore the cultural histories of plants and their influence on human societies."
+`ez-meta title="Plant Humanities Lab" description="Explore the cultural histories of plants and their influence on human societies."`
 
-.ve-header label="Plant Humanities Lab" logo=https://raw.githubusercontent.com/plant-humanities/media/main/images/phl-website-png-logo.png background=gh:plant-humanities/media/images/header.jpg subtitle="Explore the cultural histories of plants and their influence on human societies" auth=github contact=ron.snyder@ithaka.org url=/ sticky
+`ez-header title="Plant Humanities Lab" logo=https://raw.githubusercontent.com/plant-humanities/media/main/images/phl-website-png-logo.png background=gh:plant-humanities/media/images/header.jpg subtitle="Explore the cultural histories of plants and their influence on human societies" auth=github contact=ron.snyder@ithaka.org url=/ .sticky`
 
 # Featured Resources 
-<param class="cards">
+`.cards`
 
 ## How to Read an Herbarium Specimen
 [How to Read an Herbarium Specimen](educational/five-specimens)
@@ -14,9 +14,8 @@
 
 This essay provides an approachable overview of herbarium specimens and how they are used.
 
-
 # Featured Plant Narratives 
-<param class="cards">
+`.cards`
 
 ## Eggplant: Food, Sex, and Poison
 [Eggplant: Food, Sex, and Poison](eggplant)
@@ -75,7 +74,7 @@ This essay provides an approachable overview of herbarium specimens and how they
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/Cryptomeria.jpeg)
 
 # All Plant Narratives 
-<param class="cards">
+`.cards`
 
 ## Agave: A Plant with an Intoxicating History
 [Agave: A Plant with an Intoxicating History](Agave)
@@ -259,10 +258,13 @@ This essay provides an approachable overview of herbarium specimens and how they
  
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/Dioscorea.jpeg)
 
-.ve-footer sticky=true
-    - A collaboration between: 
-    - [![Dumbarton Oaks](https://raw.githubusercontent.com/jstor-labs/plant-humanities/d862b5c/images/do-logo.svg)](https://www.doaks.org/) {.do-logo}
-    - and
-    - [![JSTOR Labs](https://raw.githubusercontent.com/kent-map/images/main/dickens/JSTOR_Labs_logo.jpg)](https://labs.jstor.org)
-    - with support from
-    - [![Mellon](https://raw.githubusercontent.com/jstor-labs/plant-humanities/d862b5c/images/Mellon_Logomark_Lockup_Black.png)](https://www.mellon.org/)
+
+```
+ez-footer
+- A collaboration between: 
+- [![Dumbarton Oaks](https://raw.githubusercontent.com/plant-humanities/media/main/images/do-logo.svg)`:width:150px;height:100%`](https://www.doaks.org/)
+- and
+- [![JSTOR Labs](https://raw.githubusercontent.com/plant-humanities/media/main/images/JSTOR_Labs_logo.jpg)](https://labs.jstor.org)
+- with support from
+- [![Mellon](https://raw.githubusercontent.com/plant-humanities/media/main/images/Mellon_Logomark_Lockup_Black.png)](https://www.mellon.org/)
+```

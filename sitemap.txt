@@ -15,6 +15,7 @@ https://lab.plant-humanities.org/Dittany/
 https://lab.plant-humanities.org/dragon_tree/
 https://lab.plant-humanities.org/eggplant/
 https://lab.plant-humanities.org/heliconia/
+https://lab.plant-humanities.org/katsura/
 https://lab.plant-humanities.org/maize/
 https://lab.plant-humanities.org/mint/
 https://lab.plant-humanities.org/peanut/

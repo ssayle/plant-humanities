@@ -117,6 +117,7 @@ const availableViewers = [
   've1-vis-network'
 ]
 
+console.log(document.querySelectorAll('script')))
 let scriptBasePath = Array.from(document.querySelectorAll('script'))
   .filter(script => script.src)
   .filter(script => { console.log(script.src); return true; })

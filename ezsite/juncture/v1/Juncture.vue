@@ -117,6 +117,7 @@ const availableViewers = [
   've1-vis-network'
 ]
 
+console.log(location)
 console.log(document.querySelectorAll('script'))
 Array.from(document.querySelectorAll('script'))
   .forEach(script => console.log(`script.src=${script.src}, script.baseURI=${script.baseURI}`))

@@ -117,19 +117,7 @@ const availableViewers = [
   've1-vis-network'
 ]
 
-console.log(window)
-console.log(document.querySelectorAll('script'))
-Array.from(document.querySelectorAll('script'))
-  .forEach(script => console.log(`script.src=${script.src}, script.baseURI=${script.baseURI}`))
-
-let scriptBasePath = Array.from(document.querySelectorAll('script'))
-  .filter(script => script.baseURI)
-  .map(script => script.baseURI)
-  ?.[0] || ''
-
-console.log('scriptBasePath', scriptBasePath)
-
-const componentsPath = `${scriptBasePath}/ezsite/juncture/v1`
+const componentsPath = `${window.config.scriptBasePath}/ezsite/juncture/v1`
 const componentPrefix = 've1-'
 
 const contentSource = {

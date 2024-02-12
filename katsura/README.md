@@ -97,9 +97,9 @@ Old trees like Dumbarton Oaks' katsura, are contemporaneous with historic events
 
 [^ref2]:	Parsons & Sons Co. et al., _Descriptive Catalogue of Hardy Ornamental Trees, Flowering Shrubs and Vines : Including Rhododendrons, Roses, Magnolias, Chinese and Ghent Azaleas, Camellias, Japanese Maples and Other Rare and Choice Plants_ (Flushing, N.Y: Parsons & Sons Co, 1888). https://doi.org/10.5962/bhl.title.85258.
 
-[^ref3]:	Peter R. Crane and Ashley DuVal, “766. CERCIDIPHYLLUM MAGNIFICUM: Systematic Placement and Fossil History of Cercidiphyllum Siebold & Zuccarini: Cercidiphyllaceae,” Curtis’s Botanical Magazine 30, no. 3 (2013): 177—178.    
+[^ref3]:	Peter R. Crane and Ashley DuVal, “766. CERCIDIPHYLLUM MAGNIFICUM: Systematic Placement and Fossil History of Cercidiphyllum Siebold & Zuccarini: Cercidiphyllaceae,” Curtis’s Botanical Magazine 30, no. 3 (2013): 177—178.
 
-[^ref4]:	McGuire, 19.      
+[^ref4]:	McGuire, 19.
 
 [^ref5]:	Crane and DuVal, 177.
 

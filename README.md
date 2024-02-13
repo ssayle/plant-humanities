@@ -45,19 +45,12 @@ This essay provides an approachable overview of herbarium specimens and how they
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/ayahuasca.jpg)
 
-## Peanut: From Luxury Food to Livestock Feed
-[Peanut: From Luxury Food to Livestock Feed](peanut)
+## Cercidiphyllum japonicum: The Katsura at Dumbarton Oaks
+[Cercidiphyllum japonicum: The Katsura at Dumbarton Oaks](katsura)
 
-- Maria Job, Elizabeth Chant, and Katherine Enright
+- Abner Aldarondo
 
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/peanut.jpg)
-
-## Wild Yam: The Rhizome of the Pill
-[Wild Yam: The Rhizome of the Pill](Dioscoreavillosa)
-
-- Kira Bre Clingen
- 
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/Dioscorea.jpeg)
+![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/katsura.jpg)
 
 ## Cryptomeria japonica: Climate Change, Cultivation, and Culture
 [Cryptomeria japonica: Climate Change, Cultivation, and Culture](Cryptomeria)

@@ -38,13 +38,6 @@ This essay provides an approachable overview of herbarium specimens and how they
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/black_eyed_pea_1.png)
 
-## Tamarind: From Shady Refuge to Versatile Foodstuff
-[Tamarind: From Shady Refuge to Versatile Foodstuff](tamarind)
-
-- Allison Fulton, Amara Santiesteban Serrano, and Jeannette Schollaert
-
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/tamarind.jpg)
-
 ## Ayahuasca: Amazonian Plant Lessons
 [Ayahuasca: Amazonian Plant Lessons](ayahuasca)
 

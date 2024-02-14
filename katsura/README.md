@@ -9,7 +9,7 @@
 
 ### The Katsura at Dumbarton Oaks
 
-One of the oldest katsura trees (<span eid="Q526549">_Cercidiphyllum japonicum_)</span> in North America lives in the gardens of <span eid="Q1264942">Dumbarton Oaks</span>. You can see the sprawling octopus-like tree just beyond the R Street entrance gate on the East Lawn, its long-limbed branches swooping down, out, and then upward. <span eid="Q437714">Beatrix Farrand</span>, the garden landscape architect who designed the gardens, noted in her _Plant Book for Dumbarton Oaks_ that the katsura was growing where it stands today when Robert and Mildred Bliss bought the property in 1920. [^ref1]
+One of the oldest katsura trees <span eid="Q526549">_Cercidiphyllum japonicum_)</span> in North America lives in the gardens of <span eid="Q1264942">Dumbarton Oaks</span>. You can see the sprawling octopus-like tree just beyond the R Street entrance gate on the East Lawn, its long-limbed branches swooping down, out, and then upward. <span eid="Q437714">Beatrix Farrand</span>, the garden landscape architect who designed the gardens, noted in her _Plant Book for Dumbarton Oaks_ that the katsura was growing where it stands today when Robert and Mildred Bliss bought the property in 1920. [^ref1]
 <param ve-iframe src="https://archive.org/embed/mcguire-beatrix-farrands-plant-book-for-dumbarton-oaks/page/20/">
 
 And how did it get there? This essay is an attempt to answer that question and paint a portrait of the katsura as a species over time. This biography looks at disparate moments in which the katsura appears—millions of years ago when dinosaurs roamed the Earth, in poetic images created a millennium after the common era, two hundred years ago during the United States’ horticultural boom, and at Dumbarton Oaks today.

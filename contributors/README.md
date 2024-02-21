@@ -223,6 +223,8 @@ Daisy Reid is a graduate student in comparative literature at the University of 
 
 ## Sierra Roark
 
+[Sierra Roark]()
+
 ![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Roark.jpeg)
 
 Sierra Roark is a doctoral candidate in the Department of Anthropology at the University of North Carolina at Chapel Hill, where she studies human-plant entanglements. Her dissertation "Green Gold: Plant Use, Identity, and Power in the Colonial Chesapeake, 1600-1800" examines archaeobotanical and historical evidence of plant use among the diverse populations living in the Tidewater region of Virginia and Maryland in the 17th- and 18th-centuries. Using a framework of well-being, Roark's research explores cultural exchange, ecological knowledge, foodways, medicinal strategies, land management, and the emergence of colonial botany. Roark holds an MA in Anthropology from the University of North Carolina at Chapel Hill and a BA in History and Anthropology from the University of Tennessee, Knoxville.

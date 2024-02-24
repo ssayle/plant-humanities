@@ -476,7 +476,7 @@ function setMeta() {
     ? meta?.getAttribute('robots')
     : window.config?.robots
       ? window.config.robots
-      : location.hostname.indexOf('www') === 0
+      : location.hostname.indexOf('www') === 0 || location.hostname.indexOf('lab') === 0
         ? '' 
         : 'noindex, nofollow'
 

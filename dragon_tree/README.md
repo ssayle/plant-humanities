@@ -196,7 +196,7 @@ Due to its near-extinction in the wild, _D. draco_ is officially designated as a
 
 [^ref14]: André Pierre Ledru, _Voyages_, 93.
 
-[^ref15]: Aaron González-Castro et al., "Unraveling the Seed Dispersal System of an Insular ‘Ghost’ Dragon Tree (_Dracaena draco_) in the Wild," in _Frontiers in Ecology and Evolution_ 7, no. 39 (February 2019), [DOI:10.3389/fevo.2019.00039](https://doi.org/10.3389/fevo.2019.00039)
+[^ref15]: Aaron Gonzálmdp-Castro et al., "Unraveling the Seed Dispersal System of an Insular ‘Ghost’ Dragon Tree (_Dracaena draco_) in the Wild," in _Frontiers in Ecology and Evolution_ 7, no. 39 (February 2019), [DOI:10.3389/fevo.2019.00039](https://doi.org/10.3389/fevo.2019.00039)
 
 [^ref16]: André Pierre Ledru, _Voyages_, 93.
 
@@ -208,6 +208,6 @@ Due to its near-extinction in the wild, _D. draco_ is officially designated as a
 
 [^ref20]: IUCN Red List, "Dracaena draco," iucnredlist.org, accessed August 3, 2020. [Click here for full article.](https://www.iucnredlist.org/species/30394/9535771)
 
-[^ref21]: Aaron González-Castro et al., "Unraveling the Seed Dispersal System."
+[^ref21]: Aaron Gonzálmdp-Castro et al., "Unraveling the Seed Dispersal System."
 
 [^ref22]: Alexis Galus, Ali Chenari Bouket, and Balbahri Lassaad, "In Vitro Propagation and Acclimatization of Dragon Tree (_Dracaena draco_)," in _Horticulturae_ 5, no. 64 (September 2019), [DOI:10.3390/horticulturae5030064](https://doi.org/10.3390/horticulturae5030064)

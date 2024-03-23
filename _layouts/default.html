@@ -7,9 +7,12 @@
 <link href="https://www.mdpress.io/index.css" rel="stylesheet">
 
 <script>
-  window.site = {
-    github: JSON.parse(`{{ site.github }}`),
-    page: {
+  window.jekyll = {
+    baseurl: '{{ site.baseurl }}',
+    source: {
+      owner: `{{ site.github.owner_name }}`,
+      repository: `{{ site.github.repository_name }}`,
+      branch: `{{ site.github.source.branch }}`,
       dir: `{{ page.dir }}`,
       name: `{{ page.name }}`
     }

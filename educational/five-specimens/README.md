@@ -1,4 +1,4 @@
-`mdp-header title="How to Read an Herbarium Specimen" background=gh:plant-humanities/media/five-specimens/Rauwolf.jpeg subtitle="Maura Flannery" position=top pdf-download-enabled alpha=0.8 color=#837158 .sticky`
+`mdp-header title="How to Read an Herbarium Specimen" background=gh:plant-humanities/media/five-specimens/Rauwolf.jpeg subtitle="Maura Flannery" position=top pdf-download-enabled=true alpha=0.8 color=#837158 .sticky`
 
 #
 

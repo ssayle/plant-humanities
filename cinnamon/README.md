@@ -28,7 +28,7 @@ Cinnamon had a long history before any European ever saw "true" cinnamon (_Cinna
 <param title="East Indies" eid="Q213137">
 <param title="Cassia abbreviata" eid="Q145495">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/18040817.jpg/manifest.json"
+	manifest="gh:plant-humanities/media/cinnamon/18040817.jpg"
 	fit="contain">
 {#paragraph2}
 
@@ -36,10 +36,10 @@ How could this confusion last so long? One possible explanation for the shift fr
 <param title="Garcia de Orta" eid="Q1493994">
 <param title="Old Goa" eid="Q553907" aliases="Goa">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/fc52a528633d7f26fa39d701f2b3e38f6982dcd56e607bcc0d97b86f00b6a16d.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/cinnamon/fc52a528633d7f26fa39d701f2b3e38f6982dcd56e607bcc0d97b86f00b6a16d.yaml"
 	region="-200,282,1001,724">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/95342a4ec6b46ef75aa2426d3fc857ee23cfec5eb52ec947ae8b01362134fa48.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/cinnamon/95342a4ec6b46ef75aa2426d3fc857ee23cfec5eb52ec947ae8b01362134fa48.yaml"
 	region="246,1762,1391,985">
 {#paragraph3}
 
@@ -59,7 +59,7 @@ The attraction of cinnamon—true or other—as a means to enhance the power of 
 <param title="Trajan" eid="Q1425">
 <param title="Persian Gulf" eid="Q34675">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ARoman_Coin%2C_Denarius_of_Trajan_%28FindID_963033%29.jpg/manifest.json"
+	manifest="wc:Roman_Coin%2C_Denarius_of_Trajan_%28FindID_963033%29.jpg"
 	region="1414,152,1586,1031"
 	title="Reverse side of a silver Roman denarius dating from the period 103-111 CE (reign of emperor Trajan), that was found in East Riding of Yorkshire, Britain.">
 {#paragraph5}
@@ -73,7 +73,7 @@ The quest for spices, cinnamon among them, was one important aim that inspired E
 <param title="Syzygium aromaticum" eid="Q26736" aliases="cloves">
 <param title="nutmeg" eid="Q83165">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ACoat_of_Arms_of_Juan_Sebasti%C3%A1n_Elcano_A-71.svg/manifest.json"
+	manifest="wc:Coat_of_Arms_of_Juan_Sebasti%C3%A1n_Elcano_A-71.svg"
 	fit="contain">
 {#paragraph6}
 
@@ -111,11 +111,11 @@ Although their skills were indispensable for the cinnamon trade, peelers were tr
 <param title="Sinhalese people" eid="Q932244" aliases="Sinhalese">
 <param title="Salagama" eid="Q3469487">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AAMH-7014-KB_Peeling_cinnamon_on_Ceylon.jpg/manifest.json"
+	manifest="wc:AMH-7014-KB_Peeling_cinnamon_on_Ceylon.jpg"
 	fit="contain"
 	title="“How cinnamon is peeled on the island of Ceylon”">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AKaneel%2C_nootmuskaat%2C_kruidnagel_en_bamboe_Kaneel_en_Nootmus_Canelle%2C_Muscade%2C_Chasse_des_Elephans%2C_etc_Kruytnagelengewas_Girofle%2C_Bambous%2C_Montagne_brulante%2C_etc_%28titel_op_object%29_Les_Indes_Orientales_et_Occidentales_e%2C_BI-1972-1043-16.jpg/manifest.json"
+	manifest="wc:Kaneel%2C_nootmuskaat%2C_kruidnagel_en_bamboe_Kaneel_en_Nootmus_Canelle%2C_Muscade%2C_Chasse_des_Elephans%2C_etc_Kruytnagelengewas_Girofle%2C_Bambous%2C_Montagne_brulante%2C_etc_%28titel_op_object%29_Les_Indes_Orientales_et_Occidentales_e%2C_BI-1972-1043-16.jpg"
 	title="Imaginary landscapes with spices from the East Indies.">
 {#paragraph9}
 
@@ -123,7 +123,7 @@ The restrictions imposed by the Dutch on cinnamon exports made it the only real 
 <param title="Dutch East India Company" eid="Q159766" aliases="Dutch East India Company (VOC)">
 <param title="shifting cultivation" eid="Q287854" aliases="crop rotation">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/NL-HaNA_4.VEL_939A-groot_cropped.jpg/manifest.json"
+	manifest="gh:plant-humanities/media/cinnamon/NL-HaNA_4.VEL_939A-groot_cropped.jpg"
 	title="Drawing from 1720, showing the benefits that could be made from monocultures of cinnamon on temporary cleared fields (chenas).">
 {#paragraph10}
 
@@ -131,15 +131,15 @@ In 1760, local grievances about the VOC policy concerning _chenas_, and the trea
 <param title="Iman Willem Falck" eid="Q16836179">
 <param title="plantation" eid="Q188913">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/NL-HaNA_4.VEL_935-groot.jpg/manifest.json"
+	manifest="gh:plant-humanities/media/cinnamon/NL-HaNA_4.VEL_935-groot.jpg"
 	region="2217,1120,852,630">
 {#paragraph11}
 
 It was short-lived success, however. When the British took control over the Dutch territories on Sri Lanka in 1796, they failed to maintain the cinnamon plantation economy. Calls for free trade and better working conditions for the peelers, high export duties, and competition with cheaper _cassia_ cinnamon from Java finally led to reforms in 1833. But these measures came too late and were counterproductive: Britain sold many plantations to private owners, who switched to coffee and tea cultivation, thus ending the cinnamon production for years to come.[^ref13]
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ASkinning_the_cinnamon_sticks%2C_Ceylon%2C_photo_from_The_Encyclopedia_of_Food_by_Artemas_Ward.jpg/manifest.json">
+	manifest="wc:Skinning_the_cinnamon_sticks%2C_Ceylon%2C_photo_from_The_Encyclopedia_of_Food_by_Artemas_Ward.jpg">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AForming_the_cinnamon_quills%2C_Ceylon%2C_photo_from_The_Encyclopedia_of_Food_by_Artemas_Ward.jpg/manifest.json">
+	manifest="wc:Forming_the_cinnamon_quills%2C_Ceylon%2C_photo_from_The_Encyclopedia_of_Food_by_Artemas_Ward.jpg">
 {#paragraph12}
 
 ### A Tool of Empire or a Tool of Science?
@@ -150,7 +150,7 @@ Although cinnamon was a successful monopoly during the Dutch period, was it pure
 <param title="Rijckloff van Goens" eid="Q1392981">
 <param title="Batavia" eid="Q1199713"> 
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/512894d1e080b704606357b7a359f0a2acb368985ca08adc478153f51c965c08.yaml/manifest.json">
+	manifest="gh:plant-humanities/media/cinnamon/512894d1e080b704606357b7a359f0a2acb368985ca08adc478153f51c965c08.yaml">
 {#paragraph13}
 
 Imperial agendas and a disinterested search for knowledge could also go hand in hand. The botanist Paul Hermann was employed by the VOC between 1672 and 1677 to gather botanical knowledge on Sri Lanka. Although Hermann barely ventured beyond Colombo, he managed to collect an impressive amount of material, including many cinnamon specimens.[^ref15] Hermann’s collections sustained for decades scholarly interest in Sri Lankan flora. Many specimens served indirectly as input for the _Species Plantarum_ (1753) of Carl Linnaeus, who dreamed of transplanting cinnamon to Lapland.[^ref16] But Hermann already knew that northern Europe was too cold for cinnamon: in spite of the VOC ban on exporting living plants, he had sent trees to several acquaintances in the Dutch Republic, none of which survived the cold winters.[^ref17] Despite the government restrictions, the exchange of knowledge and goods was evidently possible: an extensive, first-hand account of all the cinnamon varieties growing on Sri Lanka even made it into the _Philosophical Transactions_ of the Royal Society in 1730.[^ref18]
@@ -197,7 +197,7 @@ And Spain really needed cinnamon. One eighteenth-century report estimated that t
 <param title="Cinnamomum cebuense" eid="Q5121027">
 <param title="Juan de Cuéllar" eid="Q6301228">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ACinnamomum_Verum_vs_Cinnamomum_Burmannii.jpg/manifest.json"
+	manifest="wc:Cinnamomum_Verum_vs_Cinnamomum_Burmannii.jpg"
 	title="Cinnamon quills from Cinnamomum verum (left) and C. burmanni (right).">
 {#paragraph17}
 
@@ -209,13 +209,13 @@ The last and most daring strategy was to transplant the true cinnamon to Spanish
 <param title="Guadeloupe" eid="Q3118683">
 <param title="Saint Vincent" eid="Q379656">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ACannelle_%28March%C3%A9_de_la_Darse%29.jpg/manifest.json"
+	manifest="wc:Cannelle_%28March%C3%A9_de_la_Darse%29.jpg"
 	title="Cinnamon sticks for sale at the marché de la Darse, Pointe-à-Pitre, Guadeloupe.">
 {#paragraph18}
 
 Today, Sri Lanka ranks high among [the world’s largest exporters of cinnamon.](http://www.worldstopexports.com/cinnamon-exporters/) But confusion remains: while _Cinnamomum verum_ J.Presl is grown in many countries in the tropical zone, the quality of the end product differs for each region.[^ref28] Moreover, commercial statistics usually bring all market variations under the rubric "cinnamon," without differentiating between different _Cinnamomum_ species. This issue is even more pertinent in the context of medicine. Cinnamon has great potential therapeutic applications, but many studies fail to clarify which species of _Cinnamomum_ they focused on, making it difficult to compare the results.[^ref29] The species epithet _verum_ may sound like an obsolete name in a globalized world, where everyone has access to cinnamon and where cinnamon is grown in many tropical areas. But it still captures the essence of what cinnamon has always been about: distinguishing between what is true and what is not.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/cinnamon/cinnamon-production-chart.jpeg/manifest.json"
+	manifest="gh:plant-humanities/media/cinnamon/cinnamon-production-chart.jpeg"
 	region="0,88,1200,813"
 	title="Cinnamon production (all species and varieties) by the top 5 cinnamon-producing countries, 1961–2019.">
 {#paragraph19}

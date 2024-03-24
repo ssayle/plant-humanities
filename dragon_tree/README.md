@@ -40,7 +40,7 @@ Members of today’s _Dracaena_ genus have long been valued for their signature 
 <param title="Dracaena cinnabari" eid="Q133560">
 <param title="resin" eid="Q145205">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/e1637c277aec8ab1f77a9717561584e57eda0ed96e72f1033f17811858df1552.jpg/manifest.json"
+	manifest="gh:plant-humanities/media/dragon-tree/e1637c277aec8ab1f77a9717561584e57eda0ed96e72f1033f17811858df1552.jpg"
 	region="-45,191,1591,1127">
 {#paragraph2}
 
@@ -48,11 +48,11 @@ As the eleventh labor of his famous twelve, Hercules was sent to steal the golde
 <param title="Hercules" eid="Q122248">
 <param title="Ladon" eid="Q274600">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/Dragons_blood_tree_Flickr__Rod_Waddington_CC_BY_SA_2.0.jpg/manifest.json">
+	manifest="gh:plant-humanities/media/dragon-tree/Dragons_blood_tree_Flickr__Rod_Waddington_CC_BY_SA_2.0.jpg">
 <param ve-compare
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/Dragons_blood_tree_Flickr__Rod_Waddington_CC_BY_SA_2.0.jpg/manifest.json">
+	manifest="gh:plant-humanities/media/dragon-tree/Dragons_blood_tree_Flickr__Rod_Waddington_CC_BY_SA_2.0.jpg">
 <param ve-compare
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/45a005cbd95f77cd2ae2ec3f11b724a48fc269497d7224d3f331013775d874e5.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/dragon-tree/45a005cbd95f77cd2ae2ec3f11b724a48fc269497d7224d3f331013775d874e5.yaml"
 	region="372,651,704,640" >
 {#paragraph3}
 
@@ -98,10 +98,10 @@ Throughout its dissemination into European spaces from the Age of Discovery, dra
 <param title="John Parkinson" eid="Q256288">
 <param title="Azores" eid="Q4058447">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/a2f712a0de4cc85c1dbc51c46a2937f223db11debca16dd08348234cb540c1b1.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/dragon-tree/a2f712a0de4cc85c1dbc51c46a2937f223db11debca16dd08348234cb540c1b1.yaml"
 	region="2,942,1802,1314">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/dragon-tree/b29673bd016ac3a6e02314d37b9712f996da8f798f3438ea44c8aea699440cda.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/dragon-tree/b29673bd016ac3a6e02314d37b9712f996da8f798f3438ea44c8aea699440cda.yaml"
 	region="1,478,1831,1297">
 {#paragraph7}
 
@@ -112,10 +112,10 @@ After European colonization, and along with the integration of the Canaries into
 	url="https://images.metmuseum.org/CRDImages/ep/original/DP-1411-001.jpg"
 	region="179,832,3158,2303">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AMap_Alexander_von_Humboldt_expedition-en.svg/manifest.json"
+	manifest="wc:Map_Alexander_von_Humboldt_expedition-en.svg"
 	fit="contain">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ABerthelot_drago_franchy.jpg/manifest.json">
+	manifest="wc:Berthelot_drago_franchy.jpg">
 {#paragraph8}
 
 In 1799, as he stopped in Tenerife before his voyage to the Americas that would make him world-famous, Humboldt found himself in Orotava. While there, he visited the garden of a Monsieur Franchy and was immediately awe-struck by the sheer size and magnitude of its dragon tree—the very same tree that the Guanches had worshipped for centuries. He reported that it measured 60 feet tall and 45 feet in circumference near the roots. "We were told that the trunk of this tree," Humboldt wrote in his [_Personal Narrative_,](https://www.biodiversitylibrary.org/item/228502#page/90/mode/1up) "which is mentioned in several ancient documents as marking the boundaries of a field, was as gigantic in the fifteenth century as it is at the present time." According to his calculations, the specimen was undoubtedly "one of the oldest inhabitants in our world," which called for special protection.[^ref12] Humboldt’s experience with the large _D. draco_ at Orotava was far more than the mere realization of a boyish dream, but was instead a pioneering act that inspired other European travelers to follow in his footsteps and help strengthen a global network of scientific and economic exchanges focused on plants. 
@@ -148,7 +148,7 @@ But even in the face of this acute anthropogenic pressure, the great dragon tree
 
 Unfortunately, the Orotava centenary dragon tree did not outlive Humboldt and Ledru’s visits by very long. In 1819, a storm broke one of its branches, and in 1867, a hurricane-like tempest broke them all off.[^ref17] Despite this inauspicious demise, the tree’s image remains associated with the Canary Islands today, and it is still frequently featured prominently in images of Orotava. Furthermore, both naturalists’ accounts of their encounters with the dragon tree in its native environment stand as proof of its power to equally excite scientific and aesthetic imagination, promote environmental concerns, and reinforce colonial dynamics. 
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AOrotava_Ayuntamiento_04.jpg/manifest.json">
+	manifest="wc:Orotava_Ayuntamiento_04.jpg">
 {#paragraph13}
 
 Just as Humboldt and Ledru observed the centenary _D. draco_ at Orotava and pondered the tree’s age, durability, and its potential influence on theories of a global climate, today’s scientists are weighing the tree’s possible medicinal benefits, including potential cancer treatments, and its commercial value in the cosmetics industry as an ingredient in anti-aging creams in relation to the species’ ongoing battle with extinction and its ecological vulnerability.[^ref18] Since many different species make good sources of what is commonly known as dragon’s blood, more comprehensive research needs to be carried out to fully assess the mythical resin’s true medicinal efficacy.[^ref19]
@@ -162,7 +162,7 @@ Due to its near-extinction in the wild, _D. draco_ is officially designated as a
 <param title="Red List of Threatened Species" eid="Q32059">
 <param title="Dracaena draco" eid="Q157952">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ASanguis1.JPG/manifest.json"
+	manifest="wc:Sanguis1.JPG"
 	title="Dragon’s blood derived from Dracaena cinnabari on the island of Socotra.">
 {#paragraph15}
 

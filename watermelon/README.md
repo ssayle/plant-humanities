@@ -22,7 +22,7 @@
 
 Mark Twain once said that the watermelon "is the chief of this world’s luxuries, king by the grace of God over all the fruits of the earth. When one has tasted it, he knows what the angels eat."[^ref1] Though today the word "watermelon" calls to mind a sturdy gourd with refreshing, sweet, red flesh, for most of its millennia-long history as a cultivated crop it was known as a pale, hard, sometimes bitter fruit with relatively tender rind. Not until the sixth century CE were watermelons associated with sweet fruits such as figs and grapes; and it was not until well into the 1400s that the uniformly red, thick-rinded watermelons that are familiar to us today began to appear. Throughout its history across the globe, the watermelon was primarily a source of food, medicine, and drink. Its cultural history, however, reveals not only stories of racism, but also of contagion and disease, a darker side to the delicious summer fruit that we know and love.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ABulgarian_watermelon.JPG/manifest.json">
+	manifest="wc:Bulgarian_watermelon.JPG">
 <param title="Watermelon" eid="Q17507129">
 <param title="Mark Twain" eid="Q7245">
 {#paragraph1}
@@ -54,7 +54,7 @@ Watermelon-like fruit were referenced in ancient Greek and Roman texts using a v
 	manifest="https://iiif.lib.harvard.edu/manifests/drs:459932907"
 	region="0,636,999,729">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/watermelon/3e27120be13105fa9eb8f2192865431b3d4a049968650d89560a44ee70d0b59a.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/watermelon/3e27120be13105fa9eb8f2192865431b3d4a049968650d89560a44ee70d0b59a.yaml"
 	fit="contain">
 <param title="Pliny" eid="Q82778">
 <param title="Pliny, Natural History" eid="Q442" aliases="Naturalis Historia">
@@ -62,10 +62,10 @@ Watermelon-like fruit were referenced in ancient Greek and Roman texts using a v
 
 Watermelons were cultivated in Spain after the Arab conquest, with evidence of their agricultural use, mostly in the form of seeds, dating to the tenth century. Illuminated manuscripts from southern Italy illustrate the varieties of watermelons grown there. Early health treatises, such as _Tacuinum Sanitatis_, show harvesters [who taste-test them](http://visualiseur.bnf.fr/ConsulterElementNum?O=08100553&E=JPEG&Deb=75&Fin=75&Param=C) in the fields. However, sweetness did not appear to be a consistent characteristic of watermelons. Writing in the late sixteenth century, John Gerard, in his [_Herball_,](https://www.biodiversitylibrary.org/page/35441755) described their flesh as "spungie and of a flimsie substance," which could be "eaten rawe, but more commonly boiled"; whereas the plant itself was still associated with curative properties: "it ingendereth a waterish bloud, mitigateth the extremitie of heat of the inner parts, and tempereth the sharpness and fervent heat of choler."[^ref9]
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/watermelon/24fbed52e86696cb37140f6f620904e670da4591568f870a2c4ffa8cae09072e.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/watermelon/24fbed52e86696cb37140f6f620904e670da4591568f870a2c4ffa8cae09072e.yaml"
 	fit="contain">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/watermelon/cd5f23691da4afad6982b09719aa8ca78e524fa35be6dcad7dced4e0bf1685b2.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/watermelon/cd5f23691da4afad6982b09719aa8ca78e524fa35be6dcad7dced4e0bf1685b2.yaml"
 	fit="contain">
 <param title="Tacuinum Sanitatis" eid="Q608662">
 <param title="John Gerard" eid="Q1333338">
@@ -80,13 +80,13 @@ In fact, centuries later, in 1888, watermelons were still being promoted as a fa
 
 By the ninth and twelfth centuries, watermelons had spread, respectively, to India and China, travelling regional trade routes.[^ref11] Distinguished by its sinewy vines, the fruit was associated with vitality and playfulness and soon became the object of artistic attention. Fourteenth-century Japanese representations of <span eid="Q225932">arhats</span>—those who reached nirvana in the Buddhist tradition—for instance, show watermelons as a religious offering. Korean paintings from the Joseon Dynasty by the female artist Shin Saimdang (1504–1551) [depict watermelons](https://www.museum.go.kr/site/eng/relic/represent/view?relicId=2061) alongside flowers, butterflies, and mice, with their arching vines and exposed seeds symbolizing a wish for healthy and abundant children.[^ref12] One of Shin’s depictions of watermelons appears on the 5,000 won banknote today.[^ref13]
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/watermelon/7d16df5a9fb02bda51652ef1e1f915e6aa57140b0298cfc1d34adb38e9c5fc6c.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/watermelon/7d16df5a9fb02bda51652ef1e1f915e6aa57140b0298cfc1d34adb38e9c5fc6c.yaml"
 	fit="contain">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/watermelon/c5b3b1cb6c555d3b462659c8b5e94e4dadd6c1946ead061f7c26c30f78e2cb82.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/watermelon/c5b3b1cb6c555d3b462659c8b5e94e4dadd6c1946ead061f7c26c30f78e2cb82.yaml"
 	fit="contain">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3A5000_won_serieV_reverse.jpeg/manifest.json"
+	manifest="wc:5000_won_serieV_reverse.jpeg"
 	fit="fit">
 <param title="arhat" eid="Q225932" aliases="arhats">
 <param title="Joseon Dynasty" eid="Q28179" aliases="Joseon Dynasty">
@@ -95,15 +95,15 @@ By the ninth and twelfth centuries, watermelons had spread, respectively, to Ind
 
 As the watermelon became common in European kitchen gardens, it began to appear frequently in still life paintings. Seventeenth-century paintings by Albert Eckhout and Giovanni Stanchi reveal whorls of red flesh among white rind, showing how much the fruit has changed since antiquity. The inclusion of watermelons in still lifes also provides insights into the multitude of cultural meanings associated with the plant. While American still lifes, such as those by the prolific Peale family in the early nineteenth century, featured the watermelon amid overwhelming images of abundance and plenty, Baroque artists would quite literally [cut through that fantasy](https://www.flickr.com/photos/104901827@N06/46017346544) with the abrupt imposition of a knife as a symbol of the fleeting nature of life.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AAlbert_Eckhout_1610-1666_Brazilian_fruits.jpg/manifest.json"
+	manifest="wc:Albert_Eckhout_1610-1666_Brazilian_fruits.jpg"
 	region="87,334,1667,1233"
 	title="‘Pineapple, watermelons and other fruits (Brazilian fruits)’ by Albert Eckhout (1610–1666).">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AGiovanni_Stanchi%2C_Watermelons%2C_Peaches%2C_Pears%2C_and_Other_Fruit_in_a_Landscape.jpg/manifest.json"
+	manifest="wc:Giovanni_Stanchi%2C_Watermelons%2C_Peaches%2C_Pears%2C_and_Other_Fruit_in_a_Landscape.jpg"
 	fit="contain"
 	title="‘Watermelons, peaches, pears and other fruit in a landscape’ by Giovanni Stanchi (1608–1675).">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AStill_Life_with_Watermelon%2C_by_Sarah_Miriam_Peale%2C_1822%2C_oil_on_panel_-_Fogg_Art_Museum%2C_Harvard_University_-_DSC01409.jpg/manifest.json"
+	manifest="wc:Still_Life_with_Watermelon%2C_by_Sarah_Miriam_Peale%2C_1822%2C_oil_on_panel_-_Fogg_Art_Museum%2C_Harvard_University_-_DSC01409.jpg"
 	region="45,108,2088,1544"
 	title="‘Still life with watermelons’ by Sarah Miriam Peale (1800–1855).">
 <param title="still life" eid="Q170571" aliases="still lifes">
@@ -119,7 +119,7 @@ Another artistic context in which watermelons were occasionally featured concern
 	seq="38"
 	region="180,2179,4002,2751">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/watermelon/d21bb537725d603ee2dbadf9c3d1e291a6b7aed215d36a34e58a1a3b0daa5084.yaml/manifest.json">
+	manifest="gh:plant-humanities/media/watermelon/d21bb537725d603ee2dbadf9c3d1e291a6b7aed215d36a34e58a1a3b0daa5084.yaml">
 <param title="Maria Sibylla Merian" eid="Q62530" aliases="Maria Sibylla Merian’s">
 {#paragraph9}
 
@@ -127,7 +127,7 @@ Another artistic context in which watermelons were occasionally featured concern
 
 Paradoxically, the bright and appealing nature of the watermelon also lent itself to racist tropes in nineteenth-century America. Watermelons were introduced there in the sixteenth century and were cultivated widely, from colonists’ kitchen gardens to those tended by African slaves. The ease with which watermelons were grown and sold meant that after the 1863 Emancipation Proclamation, they became a source of income for freed slaves.[^ref14] Their cultivation and consumption became a means of enacting newfound freedoms as a public and communal activity. Emblematizing the potential for African Americans to escape the plantation economy, the watermelon soon became perceived as a threat by white southerners, who proceeded to transform it into a symbol of Black people’s unfitness for freedom and citizenship.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AAfrican_Americans_dancing_around_a_pile_of_watermelons_%28cropped%29.jpg/manifest.json"
+	manifest="wc:African_Americans_dancing_around_a_pile_of_watermelons_%28cropped%29.jpg"
 	fit="contain">
 <param title="Atlantic slave trade" eid="Q10701282" aliases="slaves">
 <param title="Emancipation Proclamation" eid="Q391358">
@@ -165,7 +165,7 @@ Stories of watermelon theft contributed to the perception of Black criminality f
 
 The racist notion that watermelon consumption revealed unhealthy habits of African Americans was not an isolated phenomenon: it was paralleled by nineteenth-century associations between watermelon and disease. There was a common belief that eating too much watermelon, especially when overripe, could lead to cholera, which led some cities in the United States to ban the fruit’s sale during epidemics, with watermelons being referred to as "cholera bombshells."[^ref17] While it is unclear whether these direct causal connections between watermelons and disease were accurate, contemporary evidence has shown that raw fruits and vegetables can be a frequent source of cholera infection, especially if fields where they grew had been fertilized with uncomposted manure or irrigated with contaminated water. While the role of watermelons as opposed to other types of fruit in transmitting cholera in the United States was almost certainly exaggerated to serve racial narratives, similar associations were common in other parts of the world.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ACholera_395.1.jpg/manifest.json"
+	manifest="wc:Cholera_395.1.jpg"
 	region="-82,-89,561,447"
 	title="1849 Cholera prevention poster by the Sanatory Committee, under the sanction of the Medical Counsel, in New York City, published between c. 1830 and c. 1840.">
 <param title="cholera" eid="Q12090">
@@ -182,7 +182,7 @@ At the turn of the twentieth century, for instance, British mine owners in Korea
 
 The intensified commodification of the watermelon during the twentieth and especially early twenty-first centuries transformed the fruit’s appearance. In many countries around the world watermelons have grown smaller, rounder, and more uniform in size in order to stack better for transit and sale. These so-called "personal melons" are more practical for transportation and refrigeration. Importantly, they bring farmers bigger profits per acre, heralding a shift from the watermelon as communally consumed to a commodified fruit.[^ref19] Yet watermelons continue to vary significantly in shape and size. Novelty square and heart-shaped watermelons were introduced in the 1980s in Japan for easy refrigeration storage and sold at higher prices. They are used, however, almost exclusively for decorative purposes, as they are always underripe due to the constrictive molds in which they are grown.[^ref20]
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ASquare_watermelon.jpg/manifest.json"
+	manifest="wc:Square_watermelon.jpg"
 	fit="contain">
 <param ve-plant-specimen
 	eid="Q17507129"

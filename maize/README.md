@@ -12,23 +12,23 @@ The year was 2014, and many Guatemalans were incensed. With a population of 14 m
 <param ve-map-layer geojson active title="The Pan-American Highway in Guatemala." url="/geojson/roadguatemala2.json">
 
 While the law sought to regulate the use of particular <span eid="Q11575">maize</span> seeds engineered by Monsanto to withstand the company’s <span eid="Q60741370">glyphosate-based herbicide</span>, <span eid="Q905161">Roundup</span>, the Guatemalan public saw several problems with this protection for privatized seeds, or <span eid="Q182726">genetically modified</span> seeds subject to a patent or copyright. This included anticipating that the law would increase farmer dependence on big agribusiness. Opposition to the law swelled, bringing together, according to cultural anthropologist Liza Grandia, a motley crew of protestors, including "peasant federations, health workers, biologists, Maya spiritual leaders, environmentalists, Pentecostals who regard Monsanto as an anti-Christ, opportunistic politicians, college students, and even Guatemala City foodies."[^ref2]
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/d8d0dbd3d2bbe25e66aae6e4b8e333c318210fd42555f29cb20bc1b8b3235d92.yaml/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/ae972ab362bf22b1cce43a9678d5de92e91755b3bbbf784a94f71c8ef456bfaf.yaml/manifest.json">
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/86ec9cb397196fd0ffe3bb203ed6f10a7dca12259a4234b1afe7185db05da325.yaml/manifest.json">
+<param ve-image fit="contain" manifest="gh:plant-humanities/media/maize/d8d0dbd3d2bbe25e66aae6e4b8e333c318210fd42555f29cb20bc1b8b3235d92.yaml">
+<param ve-image fit="contain" manifest="gh:plant-humanities/media/maize/ae972ab362bf22b1cce43a9678d5de92e91755b3bbbf784a94f71c8ef456bfaf.yaml">
+<param ve-image fit="contain" manifest="gh:plant-humanities/media/maize/86ec9cb397196fd0ffe3bb203ed6f10a7dca12259a4234b1afe7185db05da325.yaml">
 {#paragraph2}
 
 Why did this new policy about maize inspire such strong reactions? Since its <span eid="Q11395">domestication</span> over 9,000 years ago, achieved through the ingenuity and acumen of Mesoamerican communities, maize has provided necessary sustenance. In turn, these communities constructed their societies, cosmologies, and cultures around the plant. The Monsanto Law would dissolve this sacred symbiosis between local communities and maize. The history of maize thus demonstrates the complexities of human relationships to plants, which resist categorization solely as units to be bought, sold, or patented under capitalism.
-<param ve-compare sync region="full" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/c86bb754a4422136fa653bc9da3e9d6cb8e05dddbf4c2483c7b3263a8cdd8c53.yaml/manifest.json">
-<param ve-compare manifest="https://iiif.juncture-digital.org/wc%3ANeuch%C3%A2tel_Herbarium_-_Zea_mays_-_NEU000092649.jpg/manifest.json">
+<param ve-compare sync region="full" manifest="gh:plant-humanities/media/maize/c86bb754a4422136fa653bc9da3e9d6cb8e05dddbf4c2483c7b3263a8cdd8c53.yaml">
+<param ve-compare manifest="wc:Neuch%C3%A2tel_Herbarium_-_Zea_mays_-_NEU000092649.jpg">
 {#paragraph3}
 
 ### A Kernel of Science
 What is maize? How did it develop? These questions may seem simple, particularly given the ubiquity of corn-based products, but the large body of scholarship on the crop shows the answers to be anything but straightforward. Maize, in taxonomic parlance <span eid="Q11575">_Zea mays_</span> L., is a cereal grain consisting of a <span data-click-image-zoomto="663,1166,773,707">stalk</span>, <span data-click-image-zoomto="712,400,773,707">tassels of pollen</span>, and <span data-click-image-zoomto="298,745,773,707">ears filled with cobs of kernels</span> (averaging 800 kernels spread across 16 rows).
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/wc%3APurple_Grackle_or_Common_Crow_Blackbird_%28Audubon%29.jpg/manifest.json" title="John Audobon, Common Purple Crow-Blackbird, 1. Male 2. Female (Maize or Indian Corn. [Zea Mays]), 1842.">
+<param ve-image fit="contain" manifest="wc:Purple_Grackle_or_Common_Crow_Blackbird_%28Audubon%29.jpg" title="John Audobon, Common Purple Crow-Blackbird, 1. Male 2. Female (Maize or Indian Corn. [Zea Mays]), 1842.">
 {#paragraph4}
 
 The reliance of many human societies on maize, the "[most dominant and productive crop](https://futureoffood.org/insights/the-global-importance-of-maize-diversity/#:~:text=As%20the%20world's%20most%20dominant,%2C%20sweeteners%2C%20starch%2C%20and%20for)" for their survival, is well known. Less understood is the plant’s reliance on humans for its survival. Maize most likely was domesticated from <span eid="Q7701197">teosinte</span>, a grass with tassels and several small-clustered ears. However, there are clear differences between modern-day maize and teosinte: while tesonite is made up of 6–12 kernels held in two rows surrounded by a protective shell, maize proffers a cob with approximately 20 rows of kernels without a hard outer shell.[^ref3] These differences are so profound that, as [one article in _PNAS_](https://doi.org/10.1073/pnas.0901122106) notes, "19th-century botanists failed to recognize the close relationship between these plants, placing teosinte in its own genus, [_Euchlaena_.](https://www.ipni.org/n/18060-1)" Present-day scholars have shown that maize was domesticated from teosinte through humans selecting for a larger ear size and more kernels.
-<param ve-image fit="contain" manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/4614001e695a239ebb2c971840cffa1780df8763a65513d47f97e70ae9ee3f51.yaml/manifest.json">
+<param ve-image fit="contain" manifest="gh:plant-humanities/media/maize/4614001e695a239ebb2c971840cffa1780df8763a65513d47f97e70ae9ee3f51.yaml">
 {#paragraph5}
 
 Indigenous groups in what is now southwestern Mexico played a major role in the domestication process and subsequent plant transfer. Recent <span eid="Q171184">phylogenetic analysis</span> has shown that maize most likely arose from a single domestication event, which probably occurred in the Rio Balsas (Balsas River) Valley around 9,000 years ago.[^ref4] Agrobiodiversity researchers have noted that "much of the evolution of maize during domestication may have been gradual, and there is evidence of increases in cob size over the first 2,000 years of selection."[^ref5] An incredible diversity in terms of types of maize occurred after its initial domestication. Many scholars describe maize as a "mirror" to its cultivators, and different Indigenous groups domesticated and cultivated various types of maize depending on "environmental and also [on] social and cultural factors," suggesting the role communities played in developing different types of maize most suited to their needs.[^ref6]
@@ -59,18 +59,18 @@ In addition to domesticating maize and dispersing it throughout South America an
 <param ve-image
        label="The Cruz-Badiano Codex is another important source of Mesoamerican herbal knowledge. Written most likely in Nahuatl by an &quot;Indian doctor&quot; and translated into Latin, it preserves several Indigenous names for crops. Many scholars have shown how the Indigenous names for various flowers and crops refers to their physical similarities to maize. For more, see Arthur O. Tucker and Jules Janick, Flora of the Codex Cruz-Badianus (Cham, Switzerland: Springer International Publishing, 2020)."
        fit="contain"
-       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml/manifest.json"> 
+       manifest="gh:plant-humanities/media/maize/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml"> 
 <param ve-image
        label="Francisco Hernández was a Spanish physician who went on the first scientific expedition from Europe to the Americas in 1570. He spent four years researching how the Nahua people used plants, including maize. Here, Hernández writes that maize is &quot;exceedingly beneficial to the healthy and sick alike; it is easy to cultivate, it grows abundantly and without any risk almost anywhere it is planted, and it is hardly susceptible to damage from drought and the rigors of climate.&quot; For more, see: Felipe Ledesma-Núñez, &quot;Colonial Epidemics and Mesoamerican Medicine in Sixteenth-Century Mexico,&quot; Exhibit (Washington, DC: Dumbarton Oaks). https://www.doaks.org/resources/online-exhibits/epidemics. Francisco Hernández. Rerum Medicarum Novae Hispaniae Thesaurus. 1648. P. 243."
        fit="contain"
-       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml/manifest.json">	    
+       manifest="gh:plant-humanities/media/maize/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml">	    
 {#paragraph7}
 
 ### Milpa and Mesoamerica
 After its domestication, maize quickly became an important crop for Mesoamerican people, both nutritionally and culturally. Scholars and food policy experts have noted that maize is one of the most productive and nutritious crops in terms of calories per acre and [extol](https://www.cimmyt.org/news/classic-milpa-maize-intercrop-can-help-feed-communities-forgotten-by-development/) the <span eid="Q45914">Maya peoples’</span> practice of <span eid="Q1537558">milpa agriculture,</span> an agroecosystem that relies on extensive <span eid="Q853859">intercropping</span> as a means to promote biodiversity and address food insecurity. Under this system, maize was intercropped with plants including beans, <span data-click-image-zoomto="35,701,468,500">squash</span>, peppers, tomatoes, and potatoes, allowing for greater soil and landscape regeneration when compared to <span eid="Q220212">monocrops</span>. This practice was incredibly productive: scientists have shown that in a milpa "<span data-click-image-zoomto="140,127,651,696">the maize stalk</span> supports <span data-click-image-zoomto="139,587,468,500">the climbing bean</span>, increasing the latter’s access to light, while the bean plant fixes additional nitrogen in the soil."[^ref8] Maize thus not only represented an important source of nutrition in and of itself, but also enabled the growth of other nutritionally significant crops. Using carbon <span eid="Q518459">isotope analysis</span> of human bones and teeth, archeologists have shown how "maize was an important dietary component throughout life" for populations throughout the Maya area.[^ref9]
 <param ve-image
        fit="cover"
-       manifest="https://iiif.juncture-digital.org/wc%3AThree_Sisters_planting_visual_graphic.png/manifest.json"
+       manifest="wc:Three_Sisters_planting_visual_graphic.png"
        title="Illustration of Milpa agriculture. In this intercropping method, Maya farmers rotate annual crops with shorter-term perennial crops. In addition, land is left fallow for eight years following two years of cultivation to improve the regrowth of vegetation and maintain soil health.">
 {#paragraph8}
 
@@ -80,7 +80,7 @@ To obtain the utmost nutrients from maize, Mesoamericans practiced a process cal
        region="3530,4341,1787,1476" seq="130" manifest="https://iiif.bodleian.ox.ac.uk/iiif/manifest/2fea788e-2aa2-4f08-b6d9-648c00486220.json">
 <param ve-image
        fit="cover"
-       manifest="https://iiif.juncture-digital.org/wc%3ATortilleras_Nebel.jpg/manifest.json"> 
+       manifest="wc:Tortilleras_Nebel.jpg"> 
 {#paragraph8}
 
 The nutritional importance of maize cannot be separated from its cultural significance. In the <span eid="Q220264">_Popol Vuh_</span>, which recounts the Maya creation story, humans were quite literally molded out of maize by the deities. Scholars have long recognized motifs of maize in <span eid="Q135364">Olmec</span> and Maya iconography. However, in the past four decades, scholars have begun to identify a specific "<span eid="Q12744013">Maize God</span>" that has an "<span data-click-image-zoomto="1273,834,669,591">elongated, tonsured head</span> [that] mimics the long tasseled cob," and often has "maize grain ... infixed into his head," among other qualities.[^ref11] While there is much about the Maize God that remains to be explained in the scholarly literature, it is clear "that the corn cycle was the central metaphor of life and death for the Maya and the nucleus around which much of their religiosity was formed."[^ref12]
@@ -88,13 +88,13 @@ The nutritional importance of maize cannot be separated from its cultural signif
 <param ve-image
        label="Bowl with Anthropomorphic Cacao Trees from Early Classic Maya Period. Scholars have shown the central figure represents the Maize God as an embodied cacao tree. See: Simon Martin, &quot;Cacao in Ancient Maya Religion: First Fruit from the Maize Tree and Other Tales from the Underworld,&quot; in Chocolate in Mesoamerica, ed. Cameron McNeil (University Press of Florida, 2009), 154–83."
        fit="contain"
-       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/CacaoVessel.jpg/manifest.json">
+       manifest="gh:plant-humanities/media/images/CacaoVessel.jpg">
 {#paragraph9}
 
 For the Maya, maize was and is more than simply a metaphor and powerful image in the Mesoamerican visual lexicon. Seventeenth-century records reveal how in highland Guatemala, upon the birth of a son, the Maya community would burn the blood of the umbilical cord. Then, they would "pas[s] an ear of maize through the smoke," which would subsequently be planted in the maize field. Ethnographers have recorded that "parents used the maize from this small patch of land to feed the child ‘until he reached the age when he could plant for himself, saying that thus he not only ate by the sweat of his brow, but of his own blood as well.’"[^ref13] In certain regions, mothers "place an ear of maize into the palm of their newborns, and eat only dishes made from maize while breast-feeding to ensure that the child grows ‘true flesh.’"[^ref14]  Maize, for Maya people, thus represents more than both calories or symbol: it is a sacred plant from which all life grows. 
 <param ve-image
        fit="contain"
-       manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/maize/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml/manifest.json">
+       manifest="gh:plant-humanities/media/maize/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml">
 {#paragraph10}
  
 ### Colonial and Postcolonial Eras

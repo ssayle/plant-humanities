@@ -6,12 +6,23 @@
 <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/plant-humanities/media/main/images/phl-website-png-logo.png">
 <link href="https://plant-humanities.github.io/mdpress/index.css" rel="stylesheet">
 
-<script>window.options = `
+<script>
+  window.jekyll = {
+    baseurl: '{{ site.baseurl }}',
+    source: {
+      owner: `{{ site.github.owner_name }}`,
+      repository: `{{ site.github.repository_name }}`,
+      branch: `{{ site.github.source.branch }}`,
+      dir: `{{ page.dir }}`,
+      name: `{{ page.name }}`
+    }
+  };
+  window.options = `
   baseurl: '{{ site.baseurl }}'
   title: Plant Humanities Lab
   description: Explore the cultural histories of plants and their influence on human societies.
   defaults:
-    iiifServer: iiif.mdpress.io
+    iiifServer: iiif.juncture-digital.org
     header:
       subtitle: Explore the cultural histories of plants and their influence on human societies.
       backgroundImage: gh:plant-humanities/media/images/header.jpg
@@ -42,4 +53,5 @@
   {{ content }}
 </main>
 <script src="https://plant-humanities.github.io/mdpress/wc/dist/js/index.js" type="module"></script>
+<script src="https://plant-humanities.github.io/mdpress/juncture/v2/dist/js/index.js" type="module"></script>
 <script src="https://plant-humanities.github.io/mdpress/index.js" type="module"></script>

@@ -72,7 +72,7 @@ Boxwood is a genus of evergreen shrubs that enjoys great commercial success as o
 <param title="Buxus" eid="Q158703" aliases="Boxwood">
 <param title="shrub" eid="Q42295" aliases="shrubs">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/boxwood/6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.yaml"
 	region="154,53,900,667">
 {#paragraph2}
 
@@ -113,11 +113,11 @@ Given this close association of boxwood with the gardens of Roman antiquity, it 
 <param title="espalier"	eid="Q1754876" aliases="espaliers">
 <param title="hedge" eid="Q235779" aliases="hedges">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AEntrance_of_Castle_Middachten_with_nice_Buxus_garden_-_panoramio.jpg/manifest.json">
+	manifest="wc:Entrance_of_Castle_Middachten_with_nice_Buxus_garden_-_panoramio.jpg">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AVrtbovsk%C3%A1_zahrada%2C_z_druh%C3%A9ho_parteru.JPG/manifest.json">
+	manifest="wc:Vrtbovsk%C3%A1_zahrada%2C_z_druh%C3%A9ho_parteru.JPG">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AOldway_Mansion_03.jpg/manifest.json">
+	manifest="wc:Oldway_Mansion_03.jpg">
 {#paragraph5}
 
 The real issue with boxwood was what sixteenth-century English physician John Gerard described as the "evil and loathsome smell," which, according to Soderini, was not only "annoying," but could give one headaches as it "infested the air."[^ref11] To mitigate the odor, the recommended solution was to plant boxwood in combination with other strongly scented evergreens such as myrtle, mastic, and rosemary.[^ref12] These mixed hedges benefitted from the robust texture of boxwood. Boxwood’s other selective use, also due to its thick and dense foliage, was planting it in thicket-like bird trapping grounds, _ragnaie_.[^ref13] Yet, compared to other plants that could serve analogous purposes or occupy the same garden spaces, boxwood, in Soderini’s words, was "valued little or not at all."[^ref14]
@@ -133,14 +133,14 @@ Boxwood’s potential medicinal applications met with a similar lack of enthusia
 
 If Mattioli and Parkinson considered boxwood primarily an ornamental plant "well adapted to weaving espaliers in gardens and dividing one space from another,"[^ref17] its slow growth rate had important industrial implications. Hardened through the process of gradual maturation, its timber acquired such valued qualities as durability and density, making it indeed similar to guaiacum.[^ref18] Boxwood, according to Soderini, could last "forever" and "was good for the printing industry and other fine woodwork."[^ref19] Since it lent itself well to lathing, Gerard considered it particularly suitable for "dagger hafts, boxes, and suchlike uses."[^ref20] Sixteenth-century Netherlandish rosary beads—true miracles of late Gothic craftsmanship—testify to these remarkable properties. These exquisite boxwood carvings, which often measure less than two inches in diameter, could represent on a tiny scale multi-figure biblical scenes without losing any of their dramatic intensity.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3APrayer_Bead_with_the_Adoration_of_the_Magi_and_the_Crucifixion_MET_DP371957.jpg/manifest.json"
+	manifest="wc:Prayer_Bead_with_the_Adoration_of_the_Magi_and_the_Crucifixion_MET_DP371957.jpg"
 	title="Sixteenth-century Netherlandish rosary bead (exterior).">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3APrayer_Bead_with_the_Adoration_of_the_Magi_and_the_Crucifixion_MET_DP371961.jpg/manifest.json"
+	manifest="wc:Prayer_Bead_with_the_Adoration_of_the_Magi_and_the_Crucifixion_MET_DP371961.jpg"
 	title="Sixteenth-century Netherlandish rosary bead (interior)."
 	region="109,1836,2762,2043">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/992f20a62764c5437c3aa6ec3bb7a871711f5066a928fe3499a9ccd8c8d4d423.yaml/manifest.json"
+	manifest="gh:plant-humanities/media/boxwood/992f20a62764c5437c3aa6ec3bb7a871711f5066a928fe3499a9ccd8c8d4d423.yaml"
 	title="Sixteenth-century Netherlandish rosary bead (interior)."
 	region="133,185,2777,2083">
 {#paragraph8}
@@ -183,25 +183,25 @@ Mollet’s planting and stylistic innovations gained the fullest expression in t
 	rotate="90"
 	region="42,362,2798,3776">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/9a88a39cc18938dc0f88459f92f26e3dcaddb17790bbf200474080b4e1105f4a.yaml/manifest.json">
+	manifest="gh:plant-humanities/media/boxwood/9a88a39cc18938dc0f88459f92f26e3dcaddb17790bbf200474080b4e1105f4a.yaml">
 <param title="Gardens of Versailles" eid="Q3162464" aliases="gardens">
 {#paragraph11}
 
 Closely connected with these expatriate circles was British landscape architect Cecil Pinsent, another contemporary of Farrand’s, who extensively used boxwood in his landscaping projects. Most famous among his gardens was the Villa I Tatti in Settignano, Italy, designed for the American art historian and connoisseur Bernard Berenson. Another celebrated work was the lower terrace of the fifteenth-century Villa Medici in Fiesole that Pinsent furnished with a "carpet of box parterre," regarded by landscape historian Geoffrey Jellicoe as fully integral to the historic character of the property.[^ref29] Popularized by postcards and book illustrations, Pinsent’s design became an iconic image of the Italian Renaissance garden, with its boxwood geometry—purposely projected into the Medicean age—serving as a visible bridge between distant antiquity and a more recent but equally glorious past.
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3AVilla_i_tatti%2C_ext.%2C_giardino_05.JPG/manifest.json"
+	manifest="wc:Villa_i_tatti%2C_ext.%2C_giardino_05.JPG"
 	title="Boxwood pattern in the gardens of Villa I Tatti.">
 <param ve-image
-	manifest="https://iiif.juncture-digital.org/wc%3ABernard_Berenson_in_the_gardens_of_Villa_I_Tatti.jpg/manifest.json"
+	manifest="wc:Bernard_Berenson_in_the_gardens_of_Villa_I_Tatti.jpg"
 	title="Bernard Berenson in the gardens of Villa I Tatti.">
 {#paragraph12}
 
 ### Humble Yet Resilient
 
 Deeply invested with cultural symbolism, boxwood represents the rich legacy of the formal gardens of Europe characterized by geometric layout, controlling vistas, and ambitious scale. Characterized by climate resistance and malleability, it has served not merely as plant material, but a key medium of stylistic expression across the globe, reflecting a horticultural tradition with origins in antiquity. The story of boxwood is that of a humble yet resilient plant, which, after centuries of disparagement and neglect, succeeded in taking over the garden world. Whether or not it would be able retain this hard-earned preeminence as the most sought-after ornamental shrub, only time can tell.[^ref30]
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/a2ee4ea3121a86a07070561d61cb70a9eeacd940e965428f9617dbb6e9a6014a.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/4044fb7cac396304085f6be9299b99b3fb645fd184df34c743df34156afa35d9.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/boxwood/c248d7ade5a3440a8f5307a8cc155774a84e651b3dd92a0a9a32611547cceed5.yaml/manifest.json">
+<param ve-image manifest="gh:plant-humanities/media/boxwood/a2ee4ea3121a86a07070561d61cb70a9eeacd940e965428f9617dbb6e9a6014a.yaml">
+<param ve-image manifest="gh:plant-humanities/media/boxwood/4044fb7cac396304085f6be9299b99b3fb645fd184df34c743df34156afa35d9.yaml">
+<param ve-image manifest="gh:plant-humanities/media/boxwood/c248d7ade5a3440a8f5307a8cc155774a84e651b3dd92a0a9a32611547cceed5.yaml">
 {#paragraph13}
 
 ### References

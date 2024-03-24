@@ -21,7 +21,7 @@
 ### The Mysterious Tree of Life
 
 In his 1640 herbal _Theatrum Botanicum_, John Parkinson described the "tree of life," or "arbor vitæ," as ["a tall tree being similar to a cypress and covered by a dark reddish bark on the trunk and an even redder bark on the branches."](https://www.biodiversitylibrary.org/page/56601375#page/1502/mode/1up) Parkinson went on to explain that the tree, unknown to the ancients, originated in the New World and was introduced to Europe by the French. He explained that while it was presented to the French King, Francis I, as the tree of life he had no idea why. Clearly, Parkinson was unaware of the miraculous stories associated with arbor vitæ.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml/manifest.json">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml">
 <param title="John Parkinson" eid="Q256288">
 <param title="Francis I of France" eid="Q129857" aliases="Francis I">
 {#paragraph1}
@@ -48,7 +48,7 @@ Thanks to the medicinal knowledge of the St. Lawrence Iroquois, Captain Cartier 
 
 According to Ramusio’s narrative, the tree used to cure the French explorers was called ["Ameda"](https://archive.org/details/dellenavigationi00ramu/page/n835) in the local language. [Florio’s translation also refers to the tree only by its indigenous name.](https://hdl.handle.net/2027/aeu.ark:/13960/t35151v01?urlappend=%253Bseq=85) In fact, all early translations of the account, published by Ramusio (1550), Florio (1580), and the English author Richard Hakluyt (1600), provide nearly identical accounts, pointing to a close translation of the same source. Sadly, none provide an in-depth physical description of the tree called Ameda. Lacking any first-hand accounts with detailed physical descriptions, naturalists, botanists, and historians have debated the identity of the tree of life for more than 450 years.
 <param ve-image 
-	manifest="https://iiif.juncture-digital.org/wc%3ALa_Terra_De_Hochelaga_Nella_Nova_Francia%2C_Contributed_by_McGill_University_Library.jpg/manifest.json"
+	manifest="wc:La_Terra_De_Hochelaga_Nella_Nova_Francia%2C_Contributed_by_McGill_University_Library.jpg"
 	title="La Terra De Hochelaga Nella Nova Francia, plan dessiné par Giacomo Gastaldi, paru dans le livre en italien de Giovanni Battista Ramusio, Delle Navigationi et Viaggi, volume III (Venise, 1565).">
 <param title="Richard Hakluyt" eid="Q185510" aliases="Hakluyt">
 {#paragraph5}
@@ -56,11 +56,11 @@ According to Ramusio’s narrative, the tree used to cure the French explorers w
 ### Indigenous Coniferous Medicinal Knowledge
 
 Through linguistic, botanical, and historical analysis numerous trees have been put forward as the miraculous tree that saved Cartier and his men–the balsam fir (_Abies balsamea_), white spruce (_Picea glauca_), red spruce (_Picea rubens_), black spruce (_Picea mariana_), eastern white pine (_Pinus strobus_), red pine (_Pinus resinosa_), white cedar (_Thuja occidentalis_), and eastern hemlock (_Tsuga canadensis_). Even sassafras (_Sassafras albidum_) has been considered, although it is generally agreed that based on sixteenth-century descriptions and its natural distribution, sassafras could not be a candidate.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/06899bdb35b51e3aa242683600d76bdda3e75cf77b6be6d641c4d02f42f9a6c2.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/2590dcc37f428c625d7501b5c5c15d0cb82d841f5932674dc88b61bf8b338be3.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/c4cb01176ad0111c3176708c6d95ee14be07bbf2c38baf593136b44f6510df3d.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/57153230461530f57f2f89fbfbc592524bb7bddb7e8cfcbc16e01028ff8d8404.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/b921b36b61895a1fc848fc4c37180b9b3b70085a48062e47d7db42231e488e8d.yaml/manifest.json">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/06899bdb35b51e3aa242683600d76bdda3e75cf77b6be6d641c4d02f42f9a6c2.yaml">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/2590dcc37f428c625d7501b5c5c15d0cb82d841f5932674dc88b61bf8b338be3.yaml">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/c4cb01176ad0111c3176708c6d95ee14be07bbf2c38baf593136b44f6510df3d.yaml">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/57153230461530f57f2f89fbfbc592524bb7bddb7e8cfcbc16e01028ff8d8404.yaml">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/b921b36b61895a1fc848fc4c37180b9b3b70085a48062e47d7db42231e488e8d.yaml">
 <param title="Abies balsamea" eid="Q428023" aliases="fir">
 <param title="Picea glauca" eid="Q128116">
 <param title="Picea rubens" eid="Q469151" aliases="red spruce">
@@ -97,18 +97,18 @@ Unlike the European view of Indigenous medicines, which they often described as 
 {#paragraph10}
 
 Scurvy is an acute chronic illness caused by a dietary deficiency of ascorbic acid, or vitamin C.[^ref7] Historically, scurvy was common in sailors because sea voyages often required long periods of time at sea without fresh fruits and vegetables (common dietary sources of vitamin C). Lacking vitamin C, the human body cannot properly use the carbohydrates, fats, and protein it digests. Untreated, scurvy leads to exhaustion, anemia, bleeding and bruising, pain in the limbs (especially the legs), swelling of extremities, and in severe cases decay of gum tissue and loss of teeth. While scurvy is generally thought of as a maritime disease, we now know that exposure to long periods of cold temperatures can also lead to ascorbic-acid insufficiency and cause scurvy. This is exactly what happen to Cartier’s men, who, thanks to that winter’s icy conditions, were stranded in the Gulf of Saint Lawrence.
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AA_case_of_Scurvy_journal_of_Henry_Walsh_Mahon.jpg/manifest.json">
+<param ve-image manifest="wc:A_case_of_Scurvy_journal_of_Henry_Walsh_Mahon.jpg">
 <param title="scurvy" eid="Q163865">
 {#paragraph11}
 
 Today, adult scurvy is treated with 300–1,000 mg of ascorbic acid per day. Although lemons and oranges are traditionally associated with high levels of vitamin C (50 mg/100 g) the reduced ascorbic acid in 100 grams of fresh needles and shoots from many conifers exceeds or matches the vitamin C in citrus. For example, balsam fir has 270 mg, red spruce 169 mg, and white cedar 45 mg.[^ref8] Furthermore, as Don J. Durzan has highlighted in his scientific analysis of coniferous biofactors, in the winter when food was scarce and the temperature plummeted, the coniferous trees of life provided vital vitamins, arginine, proline, other conditionally and essential amino acids, and antioxidants, all of which aided in the recovery from scurvy.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/images/Vitamin_C_in_conifers.jpg/manifest.json">
+<param ve-image manifest="gh:plant-humanities/media/images/Vitamin_C_in_conifers.jpg">
 {#paragraph12}
 
 ### Identifying the Tree of Life
 Cartier returned to France with seeds from the Ameda tree, which were presented to the French King, Francis I, as from the tree of life. Unfortunately, because accounts of Cartier’s explorations were not widely published until the end of the sixteenth century, the miraculous story of the arbor vitæ was not well known until well into the seventeenth century. We do know, however, thanks to a French naturalist, Pierre Belon, that the seeds presented to the king were planted and the tree later propagated in France. In 1553, Belon wrote the first botanical work devoted to coniferous trees, in which he noted that there were many arbor vitæs growing in the royal garden at Fontainebleau. Unfortunately, Belon makes no mention of Cartier and his crew’s recovery or where the tree originated, only that the tree was brought to the King and was given the name arbor vitæ.
 <param ve-map title="France" center="48.402007, 2.700250" zoom="10" stroke-width="0" show-labels>
-<param ve-image manifest="https://iiif.juncture-digital.org/wc%3AFontainebleau_bird%27s_eye_view.jpg/manifest.json">
+<param ve-image manifest="wc:Fontainebleau_bird%27s_eye_view.jpg">
 <param title="Pierre Belon" eid="Q445560">
 <param title="Palace of Fontainebleau" eid="Q201428" aliases="Fontainebleau">
 {#paragraph13}
@@ -130,10 +130,10 @@ It is clear that by the mid-seventeenth century much of the medicinal knowledge 
 {#paragraph15}
 
 In 1753, botanist Carl Linnaeus’s pioneering work, _Systema Naturae_, which cemented a system of binomial classification for plants, identified the arbor vitæ, the _Thuja Theophrasis_, and the _Thuja strobilis lævibus_ as the same plant, which he reclassified as [_Thuja occidentalis_.](https://www.biodiversitylibrary.org/page/359023#page/444/mode/1up) Since then, _Thuja occidentalis_ has generally been accepted as the Ameda tree that saved Cartier and his men.
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/c0e159b31943ffdd1e9ca4ee375cab4fb943eee135123a8e6fbe61895f2abce5.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/8e20ed504a26ed8c6e857ba507a5d0d445c17cb5e226a7ddd34be988bf46d8de.yaml/manifest.json">
-<param ve-image manifest="https://iiif.juncture-digital.org/gh%3Aplant-humanities/media/arbor-vitae/4c243d16800bb00d3fe8396c3c685d214d67327657ce8eddfa4be582866b1e64.yaml/manifest.json">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/bf599541d0c3a7754d7acc34ccf5c3a345987cd6adc991442aa8be5ffba2e428.yaml">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/c0e159b31943ffdd1e9ca4ee375cab4fb943eee135123a8e6fbe61895f2abce5.yaml">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/8e20ed504a26ed8c6e857ba507a5d0d445c17cb5e226a7ddd34be988bf46d8de.yaml">
+<param ve-image manifest="gh:plant-humanities/media/arbor-vitae/4c243d16800bb00d3fe8396c3c685d214d67327657ce8eddfa4be582866b1e64.yaml">
 <param title="Carl Linnaeus" eid="Q1043">
 {#paragraph16}
 

@@ -17,6 +17,13 @@ This essay provides an approachable overview of herbarium specimens and how they
 # Featured Plant Narratives 
 `.cards`
 
+## Cercidiphyllum japonicum: The Katsura at Dumbarton Oaks
+[Cercidiphyllum japonicum: The Katsura at Dumbarton Oaks](katsura)
+
+- Abner Aldarondo
+
+![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/katsura.jpeg)
+
 ## Eggplant: Food, Sex, and Poison
 [Eggplant: Food, Sex, and Poison](eggplant)
 
@@ -38,33 +45,12 @@ This essay provides an approachable overview of herbarium specimens and how they
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/black_eyed_pea_1.png)
 
-## Tamarind: From Shady Refuge to Versatile Foodstuff
-[Tamarind: From Shady Refuge to Versatile Foodstuff](tamarind)
-
-- Allison Fulton, Amara Santiesteban Serrano, and Jeannette Schollaert
-
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/tamarind.jpg)
-
 ## Ayahuasca: Amazonian Plant Lessons
 [Ayahuasca: Amazonian Plant Lessons](ayahuasca)
 
 - Ashley Thuthao Keng Dam, Diana Heredia-López, Rachael Nelson, and Erin Wrightson
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/ayahuasca.jpg)
-
-## Peanut: From Luxury Food to Livestock Feed
-[Peanut: From Luxury Food to Livestock Feed](peanut)
-
-- Maria Job, Elizabeth Chant, and Katherine Enright
-
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/peanut.jpg)
-
-## Wild Yam: The Rhizome of the Pill
-[Wild Yam: The Rhizome of the Pill](Dioscoreavillosa)
-
-- Kira Bre Clingen
- 
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/Dioscorea.jpeg)
 
 ## Cryptomeria japonica: Climate Change, Cultivation, and Culture
 [Cryptomeria japonica: Climate Change, Cultivation, and Culture](Cryptomeria)

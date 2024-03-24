@@ -19,7 +19,7 @@ And how did it get there? This essay is an attempt to answer that question and p
        
 ### The Japanese Judas Tree 
 
-The katsura is one of the two species that belong to the genus <span eid="Q858028">_Cercidiphyllum_</span>, the other being _Cercidiphyllum magnificum_. The genus refers to the two species having heart-shaped leaves similar to the Judas tree (<span eid="Q29488">_Cercis siliquastrum_</span>). Samuel B. Parsons’s Kissena Nursery in Flushing, New York, was probably the first commercial nursery to sell katsuras in the United States; one of the nursery’s descriptive catalogs compares the katsura to a Judas tree.[^ref2] Its species name, japonicum, refers to the katsura being native to Japan. Found in the country’s mountainous regions, its light and soft wood is used in cabinetry and the interior finish of buildings. The tree also grows in Southern China’s moist <spain eid="Q3079086">mixed forests</span> of Southern China, disturbed and secondary mixed forests, and along bodies of water in the mountains.[^ref3] 
+The katsura is one of the two species that belong to the genus <span eid="Q858028">_Cercidiphyllum_</span>, the other being _Cercidiphyllum magnificum_. The genus refers to the two species having heart-shaped leaves similar to the Judas tree (<span eid="Q29488">_Cercis siliquastrum_</span>). Samuel B. Parsons’s Kissena Nursery in Flushing, New York, was probably the first commercial nursery to sell katsuras in the United States; one of the nursery’s descriptive catalogs compares the katsura to a Judas tree.[^ref2] Its species name, japonicum, refers to the katsura being native to Japan. Found in the country’s mountainous regions, its light and soft wood is used in cabinetry and the interior finish of buildings. The tree also grows in Southern China’s moist <span eid="Q3079086">mixed forests</span> of Southern China, disturbed and secondary mixed forests, and along bodies of water in the mountains.[^ref3]
 <param ve-compare sync region="full" title="Leaves of katsura (left) and Judas tree (right)." manifest="https://iiif.juncture-digital.org/manifest/587848062a94363edc3cd18cfc0dab55136e209fe4581a80eca9d44430b13c20">
 <param ve-compare manifest="https://iiif.juncture-digital.org/manifest/26108d03009f4dc15b2b9b22907f2deafa4b4237118f2d16f7af10c3cbf7a24e">
 
@@ -44,7 +44,7 @@ The awe-inspiring and ornamental qualities of trees have inspired artistic pursu
        label="The Geppa-Rō."
        url="https://upload.wikimedia.org/wikipedia/commons/1/1d/Geppa-ro.jpg">
 
-In Japanese mythology and folklore, the katsura links the heavens and the Earth. One myth tells the story of the descent of the moon god Tsukuyomi to Earth and his visit to the goddess of food, Ukemochi. She prepares dinner for him by spitting out boiled rice, seafood, and game. Disgusted, Tsukuyomi murders Ukemochi and body becomes the Earth's food; her limbs generate foodstuffs such as rice, red beans, and soya grains—it is through her death that human life becomes possible. The _Yamashiro no kuni fudoki_ (‘Annals of Yamashiro Province’), an eigth-century compilation of traditions in Yamashiro province, tells a similiar version of the tale, but specifies that Tsukuyomi manifested as a katsura tree when he met Ukemochi. The katsura's sweet bark smell, often described as like cinnamon, attracted Tsukuyomi to the tree. The Annals add that Katsura Village, now a neighborhood in modern-day Kyoto, is home to the tree where the moon god descended upon the Earth.[^ref10]
+In Japanese mythology and folklore, the katsura links the heavens and the Earth. One myth tells the story of the descent of the moon god Tsukuyomi to Earth and his visit to the goddess of food, Ukemochi. She prepares dinner for him by spitting out boiled rice, seafood, and game. Disgusted, Tsukuyomi murders Ukemochi and body becomes the Earth's food; her limbs generate foodstuffs such as rice, red beans, and soya grains—it is through her death that human life becomes possible. The _Yamashiro no kuni fudoki_ (‘Annals of Yamashiro Province’), an eighth-century compilation of traditions in Yamashiro province, tells a similiar version of the tale, but specifies that Tsukuyomi manifested as a katsura tree when he met Ukemochi. The katsura's sweet bark smell, often described as like cinnamon, attracted Tsukuyomi to the tree. The Annals add that Katsura Village, now a neighborhood in modern-day Kyoto, is home to the tree where the moon god descended upon the Earth.[^ref10]
 <param ve-image
        label="An image of the god, Tsukuyomi."
        url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Shinto-Tsukuyomi-no-Mikoto-Old-Artwork.png/710px-Shinto-Tsukuyomi-no-Mikoto-Old-Artwork.png?20210104130149">
@@ -97,9 +97,9 @@ Old trees like Dumbarton Oaks' katsura, are contemporaneous with historic events
 
 [^ref2]:	Parsons & Sons Co. et al., _Descriptive Catalogue of Hardy Ornamental Trees, Flowering Shrubs and Vines : Including Rhododendrons, Roses, Magnolias, Chinese and Ghent Azaleas, Camellias, Japanese Maples and Other Rare and Choice Plants_ (Flushing, N.Y: Parsons & Sons Co, 1888). https://doi.org/10.5962/bhl.title.85258.
 
-[^ref3]:	Peter R. Crane and Ashley DuVal, “766. CERCIDIPHYLLUM MAGNIFICUM: Systematic Placement and Fossil History of Cercidiphyllum Siebold & Zuccarini: Cercidiphyllaceae,” Curtis’s Botanical Magazine 30, no. 3 (2013): 177—178.    
+[^ref3]:	Peter R. Crane and Ashley DuVal, “766. CERCIDIPHYLLUM MAGNIFICUM: Systematic Placement and Fossil History of Cercidiphyllum Siebold & Zuccarini: Cercidiphyllaceae,” Curtis’s Botanical Magazine 30, no. 3 (2013): 177—178.
 
-[^ref4]:	McGuire, 19.      
+[^ref4]:	McGuire, 19.
 
 [^ref5]:	Crane and DuVal, 177.
 

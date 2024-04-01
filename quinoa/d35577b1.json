@@ -1,0 +1,62 @@
+[
+  {
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Elongated ears symbolizes his status as an Incan nobleman who would be able to wear ear ornaments.",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://4x4rr42s5yd4hr7mdrjqp3euqm0hnpoe.lambda-url.us-east-1.on.aws/iiif/2/d35577b1a2d1688cde29121dc51059da5c74ea0fe431225f805c75c159dbc24a",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:797.6217651367188,205.28334045410156,828.4489135742188,834.7011566162109"
+      }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "#472b27de-e665-45aa-a6fa-eb02b6aa1d49"
+  },
+  {
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The figure's body was likely once clothed with a cloak, headress, and other adornments",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://4x4rr42s5yd4hr7mdrjqp3euqm0hnpoe.lambda-url.us-east-1.on.aws/iiif/2/d35577b1a2d1688cde29121dc51059da5c74ea0fe431225f805c75c159dbc24a",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:833.7713012695312,1014.4075317382812,739.7955932617188,807.7128295898438"
+      }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "#1121543b-5384-4b0f-859f-fb74a1914dbe"
+  },
+  {
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The bulge in the figure's cheek is a common way to represent coca chewing in Incan art. ",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://4x4rr42s5yd4hr7mdrjqp3euqm0hnpoe.lambda-url.us-east-1.on.aws/iiif/2/d35577b1a2d1688cde29121dc51059da5c74ea0fe431225f805c75c159dbc24a",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:1102.6259765625,631.077392578125,423.2313232421875,348.10321044921875"
+      }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "#c23ac329-3744-4580-8a88-15168eaa6d8f"
+  }
+]

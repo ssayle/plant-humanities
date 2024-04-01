@@ -20,7 +20,7 @@ In fact, quinoa has a long history, dating back several thousand years to the An
 
 ### The Ethnobotany of Quinoa
 The word quinoa comes from Quechua, an Indigenous language family spoken in the Andes. Quinoa is in the genus _Chenopodium_ or the goosefoot family, so-called because the leaves resemble the three-pointed feet of a goose. Of the nearly 250 species in the _Chenopodium_ family, quinoa is the most well-known. Closely related species include lamb's quarters (_Chenopodium album_), a common species of the same genus found around the world and widely considered a weed, and amaranth and spinach, in the same wider family (_Amaranthaceae_).
-<param ve-plant-specimen jpid="10.5555/al.ap.specimen.us00036845", title="A quinoa herbarium specimen collected by O.F. Cook and G.B. Gilbert in Peru, April 11, 1915">
+<param ve-plant-specimen jpid="10.5555/al.ap.specimen.us00036845" title="A quinoa herbarium specimen collected by O.F. Cook and G.B. Gilbert in Peru, April 11, 1915">
 <param ve-entity eid="Q5218">
 <param ve-entity eid="Q158094">
 <param ve-entity eid="Q155931">

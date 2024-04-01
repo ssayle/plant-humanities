@@ -17,6 +17,13 @@ This essay provides an approachable overview of herbarium specimens and how they
 # Featured Plant Narratives 
 `.cards`
 
+## Quinoa: From Indigenous Crop to International Superfood
+[Quinoa: From Indigenous Crop to International Superfood](quinoa)
+
+- Matthew Turetsky
+
+![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/quinoa.jpg)
+
 ## Cercidiphyllum japonicum: The Katsura at Dumbarton Oaks
 [Cercidiphyllum japonicum: The Katsura at Dumbarton Oaks](katsura)
 
@@ -51,13 +58,6 @@ This essay provides an approachable overview of herbarium specimens and how they
 - Ashley Thuthao Keng Dam, Diana Heredia-López, Rachael Nelson, and Erin Wrightson
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/ayahuasca.jpg)
-
-## Cryptomeria japonica: Climate Change, Cultivation, and Culture
-[Cryptomeria japonica: Climate Change, Cultivation, and Culture](Cryptomeria)
-
-- Kira Bre Clingen and Edyth Jostol
- 
-![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/Cryptomeria.jpeg)
 
 # All Plant Narratives 
 `.cards`
@@ -207,6 +207,13 @@ This essay provides an approachable overview of herbarium specimens and how they
 - Kristan M. Hanson
 
 ![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/Sunflower_thumbnail.jpg)
+
+## Quinoa: From Indigenous Crop to International Superfood
+[Quinoa: From Indigenous Crop to International Superfood](quinoa)
+
+- Matthew Turetsky
+
+![](https://raw.githubusercontent.com/plant-humanities/media/main/thumbnails/quinoa.jpg)
 
 ## Tamarind: From Shady Refuge to Versatile Foodstuff
 [Tamarind: From Shady Refuge to Versatile Foodstuff](tamarind)

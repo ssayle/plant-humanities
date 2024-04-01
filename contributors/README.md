@@ -271,7 +271,7 @@ Anatole Tchikine is curator of rare books at Dumbarton Oaks. An architectural hi
 
 ## Matthew Turetsky
 
-[Matthew Turetsky]
+[Matthew Turetsky]()
 
 ![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Turetsky.jpg)
 

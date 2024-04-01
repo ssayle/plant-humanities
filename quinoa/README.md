@@ -65,7 +65,7 @@ In an illustrated chronicle written in 1615 in the form of a letter to the king 
 <param ve-entity eid="Q185292">
 {#paragraph9}
 
-In general, Spanish colonizers rejected all types of Indigenous foods in part because they associated it with Indigenous people and in part because they suspected that the foreign foods would harm to their bodies.[^12] Over time, countless New World foods, such as maize, chocolate, peppers, tomatoes, pineapples, and potatoes, became widely popular in Europe.[^13] Some of the earliest Spanish explorers and chroniclers of the Andes were fascinated by quinoa, but it took much longer for quinoa to become popular outside the Andes compared to other plants. Garcilaso explained that both Indigenous people and Spaniards enjoyed quinoa in various soups and stews “for they are tasty and very nourishing.”[^14]
+In general, Spanish colonizers rejected all types of Indigenous foods in part because they associated it with Indigenous people and in part because they suspected that the foreign foods would harm their bodies.[^12] Over time, countless New World foods, such as maize, chocolate, peppers, tomatoes, pineapples, and potatoes, became widely popular in Europe.[^13] Some of the earliest Spanish explorers and chroniclers of the Andes were fascinated by quinoa, but it took much longer for quinoa to become popular outside the Andes compared to other plants. Garcilaso explained that both Indigenous people and Spaniards enjoyed quinoa in various soups and stews “for they are tasty and very nourishing.”[^14]
 <param ve-iframe src="https://archive.org/details/royalcommentarie0000vega/page/498/mode/2up?view=theater">
 {#paragraph10}
 

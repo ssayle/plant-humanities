@@ -269,6 +269,14 @@ Susanto’s research investigates the practices of health and medicine in eighte
 
 Anatole Tchikine is curator of rare books at Dumbarton Oaks. An architectural historian and a specialist on early modern Italy, he holds a PhD from the University of Dublin, Trinity College. His work mainly addresses the intersections of art and science, including the history of fountain design, botanical gardens, and collecting and representations of nature. He is the author, with Pierre de la Ruffinière du Prey, of _"Discrizione della Villa Pliniana": Reimagining Antiquity in the Landscape of Umbria_ (2021), editor of _The Three Natures: Gardens and Landscapes of the Italian Renaissance_ (forthcoming), and coeditor of _The Botany of Empire in the Long Eighteenth Century_ (2016) and _Military Landscapes_ (2021).
 
+## Matthew Turetsky
+
+[Matthew Turetsky]
+
+![](https://raw.githubusercontent.com/plant-humanities/essays/main/contributors/Turetsky.jpg)
+
+Matthew Turetsky is a Ph.D. student in History at Carnegie Mellon University studying Latin American and environmental history. His research focuses on the history of biodiversity conservation, cuisine, and food sovereignty in the Andes. He uses quinoa as a case study to understand the promotion, production, and consumption of traditional Andean crops in twentieth-century Peru and Bolivia. In 2023, he participated in the Plant Humanities Summer Program at Dumbarton Oaks.
+
 ## May Wang
 
 [May Wang]()

@@ -20,10 +20,10 @@ The opium poppy is one of many species in the poppy family (*Papaveraceae*), inc
 Poppies, like most plants we know today, were domesticated and have coevolved to meet the needs of humans. It is not known where poppies are native, as the first mention of poppies was as cultivated plants. Opium poppies were able to live and thrive across many environments. Like many plants used for hallucinogenic effects, opium poppies were first used for ritual and sacrifice purposes. Salavert et al. (2020) confirm that poppy seed remains and deposits were first found in Neolithic sites in "the central and Western Mediterranean, northwestern temperate Europe, and the Western Alps."[^ref1] Representations of the opium poppy seed pods were found in artifacts like stelaes, sculpture, and other decorative objects from the Mediterranean and parts of what is now the Middle East, as well as Greece, Crete, Cyprus, Egypt, Palestine, and Syria. Their seed capsules were considered precious, magical, and even divine.[^ref2]
 
 <param ve-map
-       Title="Origin of Poppy Plant - Western Europe, Mediterranean, Western Alps"
-       zoom="4"
-       center="47.77, 12.98"
-       prefer-geojson>
+       Title="Origin of Poppy Plant - Western Europe, Mediterranean, Western Alps"
+       zoom="4"
+       center="47.77, 12.98"
+       prefer-geojson>
        
 <param ve-entity
        eid="Q36422"

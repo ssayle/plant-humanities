@@ -21,9 +21,9 @@ Poppies, like most plants we know today, were domesticated and have coevolved to
 
 <param ve-map
        Title="Origin of Poppy Plant - Western Europe, Mediterranean, Western Alps"
-       zoom="4"
-       center="47.77, 12.98"
-       prefer-geojson>
+       zoom="4"
+       center="47.77, 12.98"
+       prefer-geojson>
 
 <param ve-entity
        eid="Q36422"

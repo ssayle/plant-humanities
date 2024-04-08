@@ -11,7 +11,7 @@ The opium poppy is one of many species in the poppy family (*Papaveraceae*), inc
 
 <param ve-entity eid="Q220984" title="Opium Wars">
 <param ve-image
-	url="Besler_Poppy3.jpg"
+	url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Besler_Poppy3.jpg"
 	label="Papaver flor. luteo. Cornicu. latum, or Papaver purpureo color."
 	description="Basilius Besler, 1713. Courtesy of Oak Spring Garden Foundation."
 	fit="contain">
@@ -20,15 +20,15 @@ The opium poppy is one of many species in the poppy family (*Papaveraceae*), inc
 Poppies, like most plants we know today, were domesticated and have coevolved to meet the needs of humans. It is not known where poppies are native, as the first mention of poppies was as cultivated plants. Opium poppies were able to live and thrive across many environments. Like many plants used for hallucinogenic effects, opium poppies were first used for ritual and sacrifice purposes. Salavert et al. (2020) confirm that poppy seed remains and deposits were first found in Neolithic sites in "the central and Western Mediterranean, northwestern temperate Europe, and the Western Alps."[^ref1] Representations of the opium poppy seed pods were found in artifacts like stelaes, sculpture, and other decorative objects from the Mediterranean and parts of what is now the Middle East, as well as Greece, Crete, Cyprus, Egypt, Palestine, and Syria. Their seed capsules were considered precious, magical, and even divine.[^ref2]
 
 <param ve-map
-       Title="Origin of Poppy Plant - Western Europe, Mediterranean, Western Alps"
+       Title="Origin of Poppy Plant - Western Europe, Mediterranean, Western Alps"
        zoom="4"
        center="47.77, 12.98"
        prefer-geojson>
-       
+
 <param ve-entity
        eid="Q36422"
        title="Neolithic">
-       
+
 ## Divine Remedies
  
 During the early Neolithic, the opium poppy was the only oily plant cultivated in the western Mediterranean. The poppy's flower had yet to make much of an entrance into popular culture until the spread of the Roman empire (6 B.C.E. - 473 C.E), when barley and poppy were both associated with “Persephone and the promise of perpetual rebirth,” the Minoan goddess of poppies, and Demeter/Isis, goddess of agriculture.[^ref3] 
@@ -153,13 +153,13 @@ Century after century, social perceptions of the opium poppy have changed drasti
 
 While prehistoric and ancient depictions of opium poppies mostly referred to seed capsules and the dried seed heads of poppies, the poppy flower gained notoriety in the sixteenth and seventeenth centuries in aesthetics, including in botanical illustrations, floral arrangements, still lifes, and textiles. Illustrations of wild poppies, double red poppies, common poppies, feathery poppies, and annual poppies were common. During the Early Modern period (1500–1800), poppies were considered beautiful objects rather than functional tools for human use.[^ref14] Yet, they were still used as medicine, including for their sleep-inducing effects. 
 <param ve-image
-       url="French_School_Poppy.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/French_School_Poppy.jpg"
        label="Papaver somniferum"
        description="Artist unknown, Pencil on paper, circa 18th century. Courtesy of Oak Spring Garden Foundation."
        fit="contain">
        
 <param ve-image
-       url="Besler_Poppy_2.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Besler_Poppy_2.jpg"
        label="Papaver flore multiplicipurpura scente"
        description="Another variety of Papaver somniferum, by Basilius Besler, 1713. Courtesy of Oak Spring Garden Foundation."
        fit="contain">
@@ -168,13 +168,13 @@ Angelo Sala, Italian doctor, chemist, and promoter of chemical remedies, discuss
 <param ve-entity eid="Q453933" title="Angelo Sala">
 <param ve-compare
         curtain="true"
-	url="Sala_image.jpg"
+	url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Sala_image.jpg"
 	label="Opium Extraction" 
 	description="Image from Sala's Opiologia"
 	license="CC BY-SA 4.0">
 	
 <param ve-compare
-	url="Wedel_image1.jpg"
+	url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Wedel_image1.jpg"
 	label="Opium Extraction" 
 	description="Image from Wedel’s Opiologia"
 	license="CC BY-SA 4.0">
@@ -213,14 +213,14 @@ This question of morality was heightened by the drug trade being fueled in Briti
 Archival records and objects held at The Royal Botanic Gardens, Kew display the role of the institution in this colonial network of trade, describing "Experimental Poppy Gardens" in India that sought to examine methods of poppy cultivation, including disease and soil conditions impacting the plants and the yield of opium they produced.[^ref18] The opium poppy was considered a "useful plant", and a volume entitled "India: Economic Products: Opium" is dedicated to it in Kew’s Miscellaneous Reports, an archival collection which records activities in the network of botanical gardens across the British Empire. As an economic product of financial value whose cultivation was regulated by the East India Company, it is clear that the opium poppy was of interest in the context of nineteenth century colonial economic botany.
 <param ve-entity eid="Q188617" title="Kew">
 <param ve-image 
-       url="MR146_India_Opium_Spine.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/MR146_India_Opium_Spine.jpg"
        label="India: Economic Products: Opium, from the Miscellaneous Reports of the Royal Botanic Gardens, Kew"
        description="MCR/5/1/45, India: Economic Products: Opium, Miscellaneous Reports, Archives of the Royal Botanic Gardens, Kew"> 
                               
 Joseph Hooker, director of Kew Gardens between 1865 and 1885, visited the opium manufactory in Patna in India in 1848. In his [*Himalayan Journals*](https://www.google.co.uk/books/edition/Himalayan_Journals/sCYKAQAAIAAJ?hl=en&gbpv=1&printsec=frontcover) Hooker gives an account of the process of cultivation and labor-intensive methods of extraction, from the granting of licenses from the East India Company, the flowering of the poppies in late January and early February, and the extraction of latex from the seed pods in February and March, to the transportation of the opium jars to stores and the creation of "balls" of opium by men working "ten hours a day" to be sent to market.[^ref19]
 <param ve-entity eid="Q157501" title="Joseph Hooker">
 <param ve-image
-       url="Stacking_room.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Stacking_room.jpg"
        label="A busy stacking room in the opium factory at Patna, India, 1856"
        description="Lithograph after Walter Stanhope Sherwill"
        license="public domain"
@@ -232,7 +232,7 @@ While Britain waged war with China over the trade of the opium poppy’s valuabl
 <param ve-entity eid="Q82409" title="Samuel Taylor Coleridge">
 <param ve-entity eid="Q317160" title="Thomas De Quincey">
 <param ve-image
-       url="Coleridge.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Coleridge.jpg"
        label="Kubla Khan manuscript by Samuel Taylor Coleridge, completed in 1797"
        description="Manuscript handwritten by Coleridge describing a 'reverie brought on by two grains of opium.'"
        license="public domain"
@@ -263,7 +263,7 @@ Marianne North (1830-1890), a botanical artist whose extensive paintings are dis
 
 The plant’s influence continued into the twentieth century with Frank Baum’s [*The Wonderful Wizard of Oz*](https://books.google.co.uk/books?id=UzmIDwAAQBAJ&newbks=0&lpg=PP1&dq=the%20wonderful%20wizard%20of%20oz&pg=PP1) (1900), in which the scent of opium poppies puts Dorothy to sleep in the chapter entitled "The Deadly Poppy Field," and the covers of some editions of the text portray vivid red poppies. Thomas De Quincey’s nineteenth century autobiographical account inspired the 1962 American crime film, *Confessions of an Opium Eater*. The long-lasting mystique of opium in both literature and cinema has continued into the twenty-first century with novels such as Amitav Ghosh’s *Sea of Poppies* (2008) as well as his more recent history of opium, *Smoke and Ashes* (2024).
 <param ve-image
-       url="Wizard_oz.jpeg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Wizard_oz.jpg"
        label="Cover of The Wonderful Wizard of Oz by Frank Baum"
        license="public domain"
        region="-248,113,1778,1414">
@@ -272,7 +272,7 @@ However, as opium became entwined with the indulgence and decadence of the fin d
 <param ve-entity eid="Q265581" title="fin de siècle">
 <param ve-entity eid="Q472270" title="Max Nordau">
 <param ve-image
-       url="EBC_apparatus.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/EBC_apparatus.jpg"
        label="Apparatus for Opium Smoking, from RBG, Kew's Economic Botany Collection"
        description="Consists of a tray, knife, scrapers, and pots."
        license="Image used with permission of the Board of Trustees of the Royal Botanic Gardens, Kew"
@@ -283,7 +283,7 @@ The nineteenth century opened and closed with significant developments in the pr
 <param ve-entity eid="Q152051" title="Bayer">
 <param ve-entity eid="Q751398" title="International Opium Convention">
 <param ve-image
-       url="Wellcome_morphine.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Wellcome_morphine.jpg"
        label="Clear glass shop round for liquid morphine, made in the United States, labelled ‘Solution of morphine’ in abbreviated Latin"
        description="The bottle was originally owned by J A Reid, a chemist in Dumfriesshire, Scotland and is now held in the Science Museum, London."
        license="public domain">
@@ -297,7 +297,7 @@ At the end of the twentieth century, the opium poppy went from being an unknown 
 The artwork of the contemporary Colombian artist Juan Fernando Herrán (Bogotá, Colombia, 1963) is an expression of this process of shifting between a romantic botanical conception of the poppy to a more social, political, and ecological matter. In a photograph from 2000, we see the moment when the head of the poppy has been delicately cut off and liquid surges from it. The plant transforms into a powerful image that distances itself from previous representations depicting it as an exotic; here, the photograph shows the opium poppy capsule as a visual element that connects a relationship of the plant with the human and the animal life. The capsule evokes its relevance as a raw material and also displays that both material and spiritual human and non-human forces coexist in poppy plant.[^ref22]
 
 <param ve-image 
-       url="juanpoppycolombia1.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/juanpoppycolombia1.jpg"
        label="Stained Poppy, Clack and White Pothograph and Ink"
        license="Image used with permission of the artist">
 				
@@ -312,7 +312,7 @@ This phenomenon of eradication and the intervention of other governments did not
 In his Papaver somniferum series, artist Juan Fernando Herrán presents a Tríptico judicial, for which he appropriated a photograph from one of the most important newspapers in Bogota. The image in the center shows two peasants who have been caught by the police and are shown with what they have been arrested for. A table with a delicate tablecloth displays, stretching from side to side, a large bouquet of opium poppies. On one side of the table, almost imperceptibly, we can see two blades and two containers, “proof” that the two men are guilty even before their trial. On either side of the image, Herrán has added two “natural” capsules, composing a scene where the two capsules are two portraits in dialogue with the photograph. The artist conceives the scratching action on each of the capsules as the inscription of an "invitation": a promise that is to come while at the same time is being cut off. The plant represents the place where certain impoverished communities can dream of a better future, but the dream is disrupted, and the invitation becomes a sign of deception, injustice, and displacement for those communities.
 
 <param ve-image 
-       url="juanpoppycolombia22.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/juanpoppycolombia22.jpg"
        label="Judicial Triptych, Color and Black and White Prints"
        license="Image used with permission of the artist">
 
@@ -341,7 +341,7 @@ Carlos Uribe's (Medellín, Colombia, 1964) painting, Horizonte con glifosato (19
        
 Curiously, the pilots had to direct their gazes to the beauty of the opium poppy flower. Wherever they saw red, they had to spray. The plant becomes a sign of its own precariousness and a threat to the vegetation that covers or hides it. Different reports from both the state and environmental organizations warned of the consequences of aerial spraying for both humans and the environment. Artist Maria Elvira Escallon (1954) displays the encounter between landscape and herbicide. For twenty-six days she took pictures to show the slow and damaging effect of the glyphosate. Her artwork reveals how the opium poppy is entwined with the small and the large. Uribe's and Escallón's artwork question the poppy relationship to an idea of life and of death, with the intimate, the public, and the private. The opium poppy becomes an allegory and accumulation of that which is criminal and immoral. Even today we cannot consider the history of Colombia without understanding the agency of the opium poppy, and its relationship with the environment, the animals, and the human.
        
-<param ve-image url="Paisajedomestico.jpg"> 
+<param ve-image url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Paisajedomestico.jpg"> 
 
 
 ## References			  
@@ -373,6 +373,3 @@ Curiously, the pilots had to direct their gazes to the beauty of the opium poppy
 [^ref25]: Hermann Kreutzmann, ‘Afghanistan and the Opium World Market: Poppy Production and Trade’, *Iranian Studies*, 40 (2007), 605-621 (p. 605)
 [^ref26]:‘Opium Cultivation in Afghanistan: Latests findings and emerging threats’, UNODC Research Brief November 2022
 [^ref27]: James M Shultz, Angela Milena Gómez Ceballos, Zelde Espinel, Sofia Rios Oliveros, Maria Fernanda Fonseca & Luis Jorge Hernandez Florez (2014) Internal Displacement in Colombia, *Disaster Health*, 2:1 (2014), 13-24.
-
-			  
-https://juncture-digital.org/hrcraddock/plants/opiumpoppy/

@@ -1,5 +1,3 @@
-<!--Use this link to preview: https://juncture-digital.org/haleyrp1803/Black-Eyed-Peas-->
-
 <a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
 
 <param ve-config 

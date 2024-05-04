@@ -1,6 +1,6 @@
-`mdp-meta title="Plant Humanities Lab: About"`
+`ve-meta title="Plant Humanities Lab: About"`
 
-`mdp-header subtitle="About the Plant Humanities Lab"`
+`ve-header subtitle="About the Plant Humanities Lab"`
 
 # Welcome to Plant Humanities Lab
 

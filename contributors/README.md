@@ -1,6 +1,6 @@
-`mdp-meta title="Plant Humanities Lab: Contributors"`
+`ve-meta title="Plant Humanities Lab: Contributors"`
 
-`mdp-header subtitle="Contributors"`
+`ve-header subtitle="Contributors"`
 
 # Essay Contributors 
 `.cards`

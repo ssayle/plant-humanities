@@ -1,6 +1,6 @@
-`mdp-meta title="Plant Humanities Lab" description="Explore the cultural histories of plants and their influence on human societies."`
+`ve-meta title="Plant Humanities Lab" description="Explore the cultural histories of plants and their influence on human societies."`
 
-`mdp-header title="Plant Humanities Lab" logo=https://raw.githubusercontent.com/plant-humanities/media/main/images/phl-website-png-logo.png background=gh:plant-humanities/media/images/header.jpg subtitle="Explore the cultural histories of plants and their influence on human societies" url=/ .sticky`
+`ve-header title="Plant Humanities Lab" logo=https://raw.githubusercontent.com/plant-humanities/media/main/images/phl-website-png-logo.png background=gh:plant-humanities/media/images/header.jpg subtitle="Explore the cultural histories of plants and their influence on human societies" url=/ .sticky`
 
 # Featured Resources 
 `.cards`
@@ -253,7 +253,7 @@ This essay provides an approachable overview of herbarium specimens and how they
 
 
 ```
-mdp-footer
+ve-footer
 - A collaboration between: 
 - [![Dumbarton Oaks](https://raw.githubusercontent.com/plant-humanities/media/main/images/do-logo.svg)`:width:150px;height:100%`](https://www.doaks.org/)
 - and

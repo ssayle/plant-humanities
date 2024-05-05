@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/ve-button.png)](https://v3.juncture-digital.org)
+
 <param ve-config
 	   title="Agave: A Plant with an Intoxicating History"
 	   source-image="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Gc29_agave_americana.jpg/1920px-Gc29_agave_americana.jpg"

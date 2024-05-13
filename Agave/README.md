@@ -1,5 +1,3 @@
-[![](https://v3.juncture-digital.org/images/ve-button.png)](https://v3.juncture-digital.org)
-
 [![](https://v3.juncture-digital.org/images/preview.svg)](https://v3.juncture-digital.org)
 [![](https://v3.juncture-digital.org/images/edit.svg)](https://editor.juncture-digital.org)
 

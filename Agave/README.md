@@ -1,4 +1,4 @@
-[![](https://v3.juncture-digital.org/images/view.svg)](https://v3.juncture-digital.org) [![](https://v3.juncture-digital.org/images/edit.svg)](https://editor.juncture-digital.org)
+[![](https://v3.juncture-digital.org/images/view.svg)](https://v3.juncture-digital.org) [![](https://v3.juncture-digital.org/images/edit.svg)](https://v3.juncture-digital.org/edit)
 
 
 <param ve-config

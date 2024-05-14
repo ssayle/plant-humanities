@@ -60,12 +60,14 @@ A label with at least the plant’s name identifies the herbarium specimen.  Ear
 
 This additional data makes specimens useful in research beyond plant identification. [Geographic coordinates](zoom/1095,2865,2000,3000) are employed in mapping a species’ range and in predicting the effects of global warming on it. Since specimens have been collected for centuries, particularly intensively in the last two, they provide evidence of changes in flowering and fruiting times due to climate change. Over the past decade, there have been massive efforts to digitize specimen data to make them available to researchers worldwide in order to study environmental changes and document the earth’s biodiversity as it comes under increasing threat.[^7] Online access also means increased availability of plant data for those in the global south, where biodiversity is greater, despite the fact that a much higher percentage of specimens are stored in herbaria in the global north, one of the effects of centuries of collecting by colonial powers.[^8]
 
-#
+##
 
 For more on herbaria, Maura Flannery has a blog [Herbarium World](https://herbariumworld.wordpress.com/) and has published *[In the Herbarium: The Hidden World of Collecting and Preserving Plants](https://yalebooks.yale.edu/book/9780300247916/in-the-herbarium/)* (Yale University Press, 2023).
 
 
 # References
+`.keep-together`
+
 [^1]: Thijsse, Gerard. 2022. “‘Everlasting Gardens’: Origin, Spread and Purpose of the First Herbaria.” In *The Green Middle Ages: The Depiction and Use of Plants in the Western World  600-1600,* edited by Claudine A. Chavannes-Mazel and Linda IJpelaar, 72–107. Amsterdam: University of Amsterdam Press.
 
 [^2]: Andel, Tinde van, Rutger A. Vos, Ewout Michels, and Anastasia Stefanaki. 2022. “Sixteenth-Century Tomatoes in Europe: Who Saw Them, What They Looked like, and Where They Came From.” *PeerJ* 10: e12790. [https://doi.org/10.7717/peerj.12790](https://doi.org/10.7717/peerj.12790).

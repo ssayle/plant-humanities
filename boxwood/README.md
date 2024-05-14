@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	title="Boxwood: A Plant That Took Over the Garden World"
 	banner="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Gew%C3%B6hnlicher_Buchsbaum%2C_Buxus_sempervirens_.JPG/1024px-Gew%C3%B6hnlicher_Buchsbaum%2C_Buxus_sempervirens_.JPG"

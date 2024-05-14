@@ -1,4 +1,5 @@
-<a href="https://dev.visual-essays.app"><img src="https://dev-visual-essays.netlify.app/images/ve-button.png"></a>
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	title="Cassava: From Toxic Tuber to Food Staple"
 	banner="http://free.iiifhosting.com/iiif/313605661600042de3bc4df1f3959c48cc760cfed05a65b802f8f182b9af57a8/full/1000,/0/default.jpg"

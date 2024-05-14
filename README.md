@@ -1,4 +1,4 @@
-[![](https://v3.juncture-digital.org/images/ve-button.png)](https://v3.juncture-digital.org)
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
 `ve-meta title="Plant Humanities Lab" description="Explore the cultural histories of plants and their influence on human societies."`
 

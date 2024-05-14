@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config 
        title="Mint: The Ubiquity of a Commercial Crop" 
        source-image="https://upload.wikimedia.org/wikipedia/commons/0/0f/English_botany%2C_or%2C_Coloured_figures_of_British_plants_%281863%29_%2814784245103%29.jpg"

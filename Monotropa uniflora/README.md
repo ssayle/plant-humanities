@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	   title="Monotropa uniflora: Finding Emily's Flowers"
 	   source-image="https://www.talkplant.com/wp-content/uploads/2017/05/mushroom-1853282_1920.jpg"

@@ -1,4 +1,4 @@
-[![](https://v3.juncture-digital.org/images/view.svg)](https://v3.juncture-digital.org) [![](https://v3.juncture-digital.org/images/edit.svg)](https://v3.juncture-digital.org/editor)
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
 <param ve-config
 	   title="Agave: A Plant with an Intoxicating History"

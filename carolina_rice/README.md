@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	title="Carolina Rice: An Agricultural Legacy of Enslaved Peoples"
        source-image="https://images.nypl.org/index.php?id=G92F023_016F&t=w"

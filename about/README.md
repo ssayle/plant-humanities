@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 `ve-meta title="Plant Humanities Lab: About"`
 
 `ve-header subtitle="About the Plant Humanities Lab"`

@@ -1,4 +1,5 @@
-<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	   title="Venus Flytrap: Queen of the Carnivorous Plants"
 	   source-image="https://user-images.githubusercontent.com/72099600/152094218-60a541f4-3712-444c-bc5b-778e82863867.jpg"

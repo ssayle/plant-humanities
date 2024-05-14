@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	   title="Dittany: Women’s Herbs and Reproductive Control"
 	   banner="https://upload.wikimedia.org/wikipedia/commons/e/e1/Origanum-dictamnus-1.jpg"

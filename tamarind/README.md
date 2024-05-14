@@ -1,4 +1,5 @@
-<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config 
        title="Tamarind: From Shady Refuge to Versatile Foodstuff"
        eid="" 

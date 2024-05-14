@@ -59,7 +59,7 @@ A label with at least the plant’s name identifies the herbarium specimen.  Ear
 
 This additional data makes specimens useful in research beyond plant identification. [Geographic coordinates](zoom/1095,2865,2000,3000) are employed in mapping a species’ range and in predicting the effects of global warming on it. Since specimens have been collected for centuries, particularly intensively in the last two, they provide evidence of changes in flowering and fruiting times due to climate change. Over the past decade, there have been massive efforts to digitize specimen data to make them available to researchers worldwide in order to study environmental changes and document the earth’s biodiversity as it comes under increasing threat.[^7] Online access also means increased availability of plant data for those in the global south, where biodiversity is greater, despite the fact that a much higher percentage of specimens are stored in herbaria in the global north, one of the effects of centuries of collecting by colonial powers.[^8]
 
-## &nbsp;
+## More
 
 For more on herbaria, Maura Flannery has a blog [Herbarium World](https://herbariumworld.wordpress.com/) and has published *[In the Herbarium: The Hidden World of Collecting and Preserving Plants](https://yalebooks.yale.edu/book/9780300247916/in-the-herbarium/)* (Yale University Press, 2023).
 

@@ -24,7 +24,6 @@ Torrey named the species *[Darlingtonia californica](Q1138945)* after his friend
 
 ### Comparison
 `.mcol`
-`
 
 ####
 `ve-image src=gh:plant-humanities/media/five-specimens/Darlingtonia_Illustration.jpeg`

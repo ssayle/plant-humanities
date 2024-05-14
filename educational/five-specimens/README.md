@@ -14,6 +14,7 @@ There are over 340,000 known flowering plant species: a lot to keep track of. Wi
 In the past, herbarium sheets were often bound into book form to preserve them, as with the Italian [En Tibi](https://bioportal.naturalis.nl/en/highlights/en_tibi) herbarium now in the Naturalis Biodiversity Center in the Netherlands. This page from about 1558 is typical of collecting’s early years when little more than a plant’s name was given, usually in Latin, and often two or more species were attached to a sheet. To the right is a [tomato plant](zoom/2364,477,2843,4101)(*Solanum lycopersicum*), an early example of this Latin American species grown and preserved in Europe. A small sample of this specimen was used to sequence its DNA, and the plant was found to be a domesticated variety.[^2]  Examples like this reveal that a number of Latin American and Asian species were found in many European countries early in the history of European exploration. 
 
 ## Collecting Voyages and Naming Plants: The Case of *Darlingtonia*
+`.keep-together`
 
 `ve-image src=gh:plant-humanities/media/five-specimens/Darlingtonia_californica.jpg .right`
 
@@ -22,7 +23,8 @@ From the 16th century on plant collectors were dispatched around the world in se
 Torrey named the species *[Darlingtonia californica](Q1138945)* after his friend [William Darlington](Q8007604) of Pennsylvania with whom he traded specimens. It was often through such connections that plants received their names. The specimen shown here is called the type specimen because it is the one that Torrey described in the article he published; this is how plants are officially named, made public to the botanical community.[^3] Types are considered particularly important in referencing species’ traits. As with this specimen, they are usually [marked](zoom/1303,4136,1068,1501) and often stored separately with extra security against damage.  In anticipation of publication, Torrey sent a portion of the specimen to a botanical illustrator who returned a sketch giving dimensionality to the flattened plant. The drawing gave form to the specimen, and it was lithographed for the article on *Darlingtonia*. The photograph on the right reveals what is lost when a plant is dried.  
 
 ### Comparison
-`.mcol`
+`.mcol `.keep-together`
+`
 
 ####
 `ve-image src=gh:plant-humanities/media/five-specimens/Darlingtonia_Illustration.jpeg`
@@ -31,6 +33,7 @@ Torrey named the species *[Darlingtonia californica](Q1138945)* after his friend
 `ve-image src=gh:plant-humanities/media/five-specimens/Darlingtonia_photo.jpg`
 
 ## The Continuing Story of Specimens: The Lewis and Clark Collections
+`.keep-together`
 
 `ve-image src=gh:plant-humanities/media/five-specimens/Berberis.jpg caption="Oregon Grape" .right`
 
@@ -41,6 +44,7 @@ Specimens can also hold stories about what happened to them after collection. Wh
 The remainder of the collection was left unstudied in Philadelphia’s [American Philosophical Society](Q466089) until the late 19th century when it were reunited at the Academy of Natural Sciences with the Lambert material, 227 sheets in all. Some of this history can be read on the specimens. The long-leaved sage (*Artemesia longifolia*) specimen remained in Philadelphia and has the [original Lewis label](142,637,441,638,386db45b) of colored blotting paper he used to press specimens; only 34 of these still exist. Pursh had rewritten many of Lewis’s labels and then disposed of the originals, a rather common practice at the time. Today, every bit of information on a specimen is retained in case it may be valuable in the future. More recent slips note botanists who have examined the specimens and confirmed identifications. Lewis's specimens provide microhistories of who has researched them over more than two centuries. When they are studied along with the expedition’s journals and other documentation, they provide a fuller picture of where and when they were collected and what has happened to them since. These plants are historical documents as much as they are scientific ones.
 
 ## Recording Indigenous Knowledge: Richard Spruce's Herbarium
+`.keep-together`
 
 `ve-image src=gh:plant-humanities/media/five-specimens/Parica.jpeg .right`
 
@@ -49,6 +53,7 @@ The British botanist [Richard Spruce](Q1349394) often took notes on the indigeno
 The history of plant collecting is closely tied to the history of colonization worldwide. Nations like Britain had powerful navies that sailed around the world often with naturalists to survey the resources of lands they visited. Because they knew little about these areas, collectors had to rely on indigenous peoples to find and identify plants and their uses. When reporting on their travels, collectors sometimes ignored or minimized these contributions. In other cases, this information was lost in transit or discarded by those who didn’t consider it important. In this way indigenous contributions to plant discovery were often erased.[^5] This is not the case here, where Spruce gave detailed information gained by direction observation of the daily lives of the individuals he encountered. Today, the Royal Botanic Gardens, Kew, this specimen's home, is working with indigenous peoples from the Amazon region where Spruce collected, both informing them about the collection and seeking their knowledge and experience to better understand it and use it in the future.[^6]
 
 ## Today’s Labels: Information for Tracking Biodiversity and Climate Change
+`.keep-together`
 
 `ve-image src=gh:plant-humanities/media/five-specimens/Narrowleaf_Silkgrass.jpeg .right`
 

@@ -8,7 +8,7 @@ There are over 340,000 known flowering plant species: a lot to keep track of. Wi
 
 ## Five Hundred Years of Herbaria: A 16th-Century Tomato
 
-`ve-image src=gh:plant-humanities/media/five-specimens/En_Tibi_Herbarium_Tomato_Specimen.jpg width=300 .right`
+`ve-image src=gh:plant-humanities/media/five-specimens/En_Tibi_Herbarium_Tomato_Specimen.jpg .right`
 
 In the past, herbarium sheets were often bound into book form to preserve them, as with the Italian [En Tibi](https://bioportal.naturalis.nl/en/highlights/en_tibi) herbarium now in the Naturalis Biodiversity Center in the Netherlands. This page from about 1558 is typical of collecting’s early years when little more than a plant’s name was given, usually in Latin, and often two or more species were attached to a sheet. To the right is a [tomato plant](zoom/2364,477,2843,4101)(*Solanum lycopersicum*), an early example of this Latin American species grown and preserved in Europe. A small sample of this specimen was used to sequence its DNA, and the plant was found to be a domesticated variety.[^2]  Examples like this reveal that a number of Latin American and Asian species were found in many European countries early in the history of European exploration. 
 

@@ -1,7 +1,7 @@
 [![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
 <style>
-			.section2 { break-inside: avoid; }
+			.section2, .section3 { break-inside: avoid; }
 </style>
 
 `ve-header title="How to Read an Herbarium Specimen" background=gh:plant-humanities/media/five-specimens/Rauwolf.jpeg subtitle="Maura Flannery" position=top pdf-download-enabled=true alpha=0.8 color=#837158 .sticky`

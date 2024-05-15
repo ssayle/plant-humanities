@@ -212,7 +212,7 @@ In her painting _Cassava Garden_, Crosby juxtaposes a cassava plant with an Indi
 {#paragraph22}
 
 On the other hand, Crosby associates cassava with Nigerian village life, which is why her painting incorporates imagery from her childhood in <span eid="Q1033">Nigeria</span>. Along the right side of the painting, we see a textile featuring a portrait of her mother, which came from her mother's funeral.[^ref37] Photographs from Nigeria are also incorporated into the cassava’s leaves, creating a layered effect that Crosby refers to as a "visual vibration."[^ref38] This melding of present and past in the juxtaposition of a South American-cum-Nigerian plant and an Indian rubber tree makes these connections across time and space so strong. Much like its vegetal subject itself, Crosby’s painting seems to ask, "When does something belong to a place?"[^ref39]
-<param ve-image fit="contain" manifest="gh:plant-humanities/media/cassava/15.09.047_NA12_Cassava Garden_2015.jpg">
+<param ve-image fit="contain" manifest="gh:plant-humanities/media/cassava/15.09.047_NA12_Cassava_Garden_2015.jpg">
 {#paragraph23}
 
 ### References

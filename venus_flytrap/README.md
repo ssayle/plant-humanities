@@ -2,8 +2,7 @@
 
 <param ve-config
 	   title="Venus Flytrap: Queen of the Carnivorous Plants"
-	   source-image="https://user-images.githubusercontent.com/72099600/152094218-60a541f4-3712-444c-bc5b-778e82863867.jpg"
-	   banner="https://user-images.githubusercontent.com/72099600/152094218-60a541f4-3712-444c-bc5b-778e82863867.jpg"
+	   banner="https://raw.githubusercontent.com/plant-humanities/media/main/venus-flytrap/banner.jpg"
 	   about="John Ellis. Dionaea Muscipula: Or, Venus’s Fly-Trap. (London, 1770)."
 	   layout="vtl"
 	   author="John R. Schaefer">
@@ -16,7 +15,7 @@ The Venus flytrap, <span eid="Q155825">*Dionaea muscipula*</span>, is easily the
 {#paragraph1}
 
 <span eid="Q1043">Carl Linnaeus</span>, having seen no small number of extraordinary plants in his lifetime, declared the Venus flytrap *miraculum naturae*, "miracle of nature," in his [_Systema Vegetabilium_](https://www.biodiversitylibrary.org/page/1479854) (1774). <span eid="Q1035">Charles Darwin</span> even considered it to be among the "most wonderful" plants in the world.[^ref2] The story of this carnivorous curiosity highlights transatlantic networks of correspondence and specimen exchange as critical to the rise of early modern botany, and traces the terrifying delights this tiny plant inspired through centuries of visual, poetic, and empirical mediums. Furthermore, this narrative reveals our tendency to anthropomorphize and gender the "Queen of the Carnivorous Plants," alongside countless other denizens of the plant kingdom.
-<param ve-video vid="ee7muQ_qKU0?t=218">
+<param ve-video vid="ee7muQ_qKU0" start="218">
 {#paragraph2}
 
 ### Discovering Carnivory

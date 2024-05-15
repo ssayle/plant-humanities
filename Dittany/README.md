@@ -44,11 +44,11 @@ One such lore was the power of dittany for women’s health. According to the Ro
 
 By the early modern period, dittany was often described in herbals [in three forms.](https://biodiversitylibrary.org/page/56599913) The first was true dittany, a rare herb which, as Pliny wrote, grew only on rocky cliffs on the island of Crete. The second was white dittany (sometimes called fraxinella), and the third was bastard or false dittany. Today, these correlate to three different species across three related genera—<span eid="Q1227336">_Origanum dictamnus_</span>, <span eid="Q157755">_Dictamnus albus_</span>, and _Ballota pseudodictamnus_ respectively. While we now classify dittany as three distinct species, in early modern herbals the main differences between the three were origin and, most importantly, potency. Whether described in two or three forms, dittany continued to be classified as a potent emmenagogue and an expellant for both a fetus and afterbirth in early modern herbals.
 <param ve-entity eid="Q15345437" title="Ballota pseudodictamnus">
-<param ve-compare sync region="0,-2043,11040,7895"
+<param ve-image region="0,-2043,11040,7895"
        manifest="gh:plant-humanities/media/dittany/2a8d3ff777f06996b55f34312ded1dfaa6f513ef4d9ec770f15aae46843cd50a.yaml">
-<param ve-compare
+<param ve-image
        manifest="gh:plant-humanities/media/dittany/3d13c3c61f78f56bd9f063c11b4d82b6b3e75af49952951faee9697313541875.yaml">
-<param ve-compare
+<param ve-image
        manifest="gh:plant-humanities/media/dittany/7c876b6f3affb2130639db6ed6361ddcf97a767b5819cf10927c56ff090e5fe8.yaml">
 {#paragraph5}
 

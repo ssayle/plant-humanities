@@ -151,7 +151,7 @@ Aspects of the fruit became bound up with [representations of African Americans,
 	label="[3 African American boys eating watermelon], ca. 1902, photographic print. Photo copyrighted by F.W. Guerin, St. Louis." 
 	attribution="Library of Congress Prints and Photographs Division" 
 	icense="No known restrictions on publication." 
-	url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/watermelon/3_African_American_boys_LOC_No_known_restrictions_on%20publication.jpg?raw=true" 
+	url="https://raw.githubusercontent.com/plant-humanities/media/main/watermelon/3_African_American_boys_LOC_No_known_restrictions_on_publication.jpg" 
 	fit="contain">
 {#paragraph11}
 

@@ -65,7 +65,7 @@ Assumptions that eggplant was domesticated in the Indian subcontinent rest partl
        license="Public domain"
        fit="contain">
 <param ve-image 
-url="https://media.britishmuseum.org/media/Repository/Documents/2014_10/17_10/26991ccc_7559_460b_ad27_a3c700aa9665/mid_01032763_001.jpg"
+       url="https://media.britishmuseum.org/media/Repository/Documents/2014_10/17_10/26991ccc_7559_460b_ad27_a3c700aa9665/mid_01032763_001.jpg"
        label="Company School watercolor painting, Calcutta (19th century)"
        description="Watercolor painting on paper"
        attribution="© The Trustees of the British Museum"
@@ -129,7 +129,7 @@ Eggplant traveled light, leaving much of its cultural meaning behind and acquiri
        license="Public domain"
        region="-230,161,1645,1490">
 <param ve-image 
-       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/IBN_BUTLA%CC%82N_Tacuinum_sanitatis__btv1b105072169_55.jpeg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/eggplant/IBN_BUTL%C3%82N_Tacuinum_sanitatis__btv1b105072169_55.jpeg"
        label="Ibn Buṭlān, Tacuinum sanitatis (11th century)" 
        description="Tacuinum sanitatis, Folio 21r, Latin 9333"
        attribution="Bibliothèque nationale de France"

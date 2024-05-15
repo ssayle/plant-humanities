@@ -199,7 +199,7 @@ And Spain really needed cinnamon. One eighteenth-century report estimated that t
 <param title="Cinnamomum cebuense" eid="Q5121027">
 <param title="Juan de Cuéllar" eid="Q6301228">
 <param ve-image
-	manifest="wc:Cinnamomum_Verum_vs_Cinnamomum_Burmannii.jpg"
+	manifest="wc:Cinnamomum%20verum%20vs%20Cinnamomum%20burmanni.jpg"
 	title="Cinnamon quills from Cinnamomum verum (left) and C. burmanni (right).">
 {#paragraph17}
 

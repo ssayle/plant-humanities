@@ -57,7 +57,7 @@ The striking beauty of heliconias continued to attract both the plant explorer a
 <param ve-entity eid="Q717" title=" Venezuela">
 <param ve-entity eid="Q131792" title="Orinoco">
 <param ve-entity eid="Q14290" title="Vaupés River">
-<param ve-image primary fit="contain" manifest="gh:plant-humanities/media/images/heliconia_Kress%20and%20team%20with%20heliconia_DO-standard-scale-2_00x-gigapixel.jpg">
+<param ve-image primary fit="contain" manifest="gh:plant-humanities/media/heliconia/heliconia_Kress_and_team_with_heliconia_DO-standard-scale-2_00x-gigapixel.jpg">
 <param ve-image region="612,-255,2209,2560" manifest="https://ids.si.edu/ids/manifest/ark:/65665/m3f47a8c4303da4eca8a2e8c80993477c4" rotate="270" label="_Heliconia chartacea_ var. _meeana_ W.J. Kress, Venezuela.">
 <param ve-image fit="contain" manifest="https://ids.si.edu/ids/manifest/ark:/65665/m3cb339e5de25b46b8a7630b51986fef57" label="_Heliconia chartacea_ var. _meeana_ W.J. Kress, Venezuela.">
 <param ve-image fit="contain" manifest="https://ids.si.edu/ids/manifest/ark:/65665/m3069ebeb405254391a4868f9eb7c90c50" label="_Heliconia chartacea_ var. _meeana_ W.J. Kress, Venezuela.">

@@ -1,13 +1,5 @@
 [![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
-<style>
-			ve-image {
-				page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-				page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-				page-break-inside: avoid; /* or 'auto' */
-		}
-</style>
-
 `ve-header title="How to Read an Herbarium Specimen" background=gh:plant-humanities/media/five-specimens/Rauwolf.jpeg subtitle="Maura Flannery" position=top pdf-download-enabled=true alpha=0.8 color=#837158 .sticky`
 
 #

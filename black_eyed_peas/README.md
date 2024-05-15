@@ -24,7 +24,7 @@ Black-eyed peas ([_Vigna unguiculata_](https://powo.science.kew.org/taxon/urn:ls
 <param ve-image
        fit="contain"
        label="Proposed spread of cowpea from its origins of domestication in Africa. Ira A. Herniter et al., 2020, &quot;Genetic, textual, and archeological evidence of the historical global spread of cowpea (Vigna unguiculata [L.] Walp.),&quot; Legume Science (2020). https://doi.org/10.1002/leg3.57, © 2020 The Authors. Legume Science published by Wiley Periodicals LLC. CC BY 4.0."
-       url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/black_eyed_peas/Herniter_Mun%CC%83oz-Amatriai%CC%81n_Close_Proposed_spread_of_cowpea_Copyright_2020_The%20Authors.%20Legume%20Science_published_Wiley_Periodicals_LLC_CC_BY_4.0.jpg?raw=true">
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/black-eyed-peas/Herniter_Muñoz-Amatriaín_Close_Proposed_spread_of_cowpea_Copyright_2020_The_Authors._Legume_Science_published_Wiley_Periodicals_LLC_CC_BY_4.0.jpg">
 {#paragraph2}
        
 ### Cultural Perceptions in Europe
@@ -50,7 +50,7 @@ In contrast, many more artists took inspiration from the <span eid="Q25237">gree
 
 ### Peas and Beans in Early Modern Texts and Images
 Visual representations of black-eyed peas and other varieties of beans and peas shaped European understanding of the plant. Beginning in the sixteenth century, the dramatic rise in the production and circulation of printed texts with images, such as <span eid="Q6165948">herbals</span> and natural histories, reinforced the codification of plants based on their geographic origins. Unprecedented global travel also formed European ideas about the ways in which close observation of the natural world could reveal the domestic or foreign origins of a person, plant, or animal. One result of this was a shift in European attitudes toward the black-eyed pea.
-<param ve-image region="275,48,1380,1253" manifest="gh:plant-humanities/media/black-eyed-peas/Clusius_Rariorum_Plantarum_Historia_Biblioteca_del_Real_Jardín_Botánico_CC_BY_NC_SA">
+<param ve-image region="275,48,1380,1253" manifest="gh:plant-humanities/media/black-eyed-peas/Clusius_Rariorum_Plantarum_Historia_Biblioteca_del_Real_Jardín_Botánico_CC_BY_NC_SA.jpg">
 {#paragraph7}
        
 Despite the millennia-old European presence of the black-eyed pea, it was now understood in Europe as an itinerant body within a Eurocentric <span eid="Q8269924">taxonomy</span> of plants. European explorers visiting Africa, Asia, and the Americas reinforced this idea. Their observations, often reported in books, were soon taken throughout Europe as factual. For example, Dutch trader and explorer <span eid="Q3117063">Pieter de Marees’</span> 1602 book about West Africa includes an illustration of the <span data-click-image-zoomto="418,756,583,437">black-eyed pea</span> in an idealized landscape alongside people and other plants.[^ref7]

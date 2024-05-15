@@ -27,7 +27,7 @@ Carolina rice, the "heritage grain" lost to history in the Reconstruction era, h
 
 Yet behind Carolina Rice (which Serious Eats refers to in part as "the Best Rice You’ve Never Tasted") is a long and fraught history, which manifests stories of settler colonialism, slavery, and famine. Its story spans the eighteenth and nineteenth centuries, crisscrossing the globe from West Africa to the eponymous American colony to India. Its history demonstrates how the British Empire and the newly independent America were built on the labor and knowledge of enslaved people. It was this very knowledge that changed cultivation patterns and foodways across the Atlantic and Indian Oceans, resulting in today’s global food system.
 <param ve-map title="Different Areas of Carolina Rice Cultivation" center="23.950780, 0.270493" zoom="2">
-<param ve-map-layer geojson active title="Different areas of Carolina Rice Cultivation" url="/geojson/carolina rice points.json">
+<param ve-map-layer geojson active title="Different areas of Carolina Rice Cultivation" url="/geojson/carolina_rice_points.json">
 <param title="foodways" eid="Q5465576">
 {#paragraph2}
 
@@ -41,7 +41,7 @@ Carolina rice typically refers to the type of _Oryza sativa_, or Asian rice, tha
 
 Recently, however, scholars have noted types of _Oryza glaberrima_—African rice—also growing in Carolina. Evidence of this red, nutty rice can be found in descriptions of plantations from the eighteenth century. In the [1731 pamphlet _The Importance of the British Plantations in America to this Kingdom..._,](https://archive.org/details/importanceofbrit00hall/page/n6/mode/2up)—which is, according to historian A.S. Salley, the "first published account that the writer has been able to find of the beginning of rice culture in South Carolina"—the pamphleteer describes a "Red Rice in Contradistinction to the White, from the Redness of the inner Husk or Rind of this Sort, tho’ they both clean and become white alike."[^ref1]
 <param ve-map title="The Origins of Carolina Rice" center="12.586420, -8.107447" zoom="3">
-<param ve-map-layer geojson active title="The Origins of Oryza glaberrima" url="/geojson/west africa.json">
+<param ve-map-layer geojson active title="The Origins of Oryza glaberrima" url="/geojson/west_africa.json">
 <param title="Oryza glaberrima" eid="Q2670252">
 {#paragraph4}
 
@@ -100,7 +100,7 @@ In the end, the Carolina rice experiments in India were considered a failure by 
 ### An Agricultural Legacy of Enslaved People
 Through the complex history of Carolina rice, we not only see how rice was explicitly integrated into the imperial policies of the British government, but also how its consumption—from America to Britain—was predicated not only on the toil of enslaved people, but also on their cultivation knowledge, brought to America on the violent Middle Passage. This interconnected history of the movements of plants and people suggests the ways in which enslaved people influenced the food systems not only of the American colonies, but of the British Empire at large.
 <param ve-map title="The Varied Geographies of Carolina Rice" center="23.950780, 0.270493" zoom="2">
-<param ve-map-layer geojson active title="The Varied Geographies of Carolina Rice" url="/geojson/carolina rice points.json">
+<param ve-map-layer geojson active title="The Varied Geographies of Carolina Rice" url="/geojson/carolina_rice_points.json">
 {#paragraph15}
 
 ### References

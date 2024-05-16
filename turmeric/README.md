@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
        title="Turmeric: Herb of the Sun"
 	   source-image="https://images.nypl.org/index.php?id=1126115&t=w"

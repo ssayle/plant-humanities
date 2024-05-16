@@ -1,4 +1,4 @@
-<a href="https://juncture-digital.org"> <img src="https://juncture-digital.org/images/ve-button.png"> </a>
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
 <param ve-config 
        title="Ayahuasca: Amazonian Plant Lessons"
@@ -49,7 +49,7 @@ The earliest archaeological evidence of the use of _Banisteriopsis caapi_ and _P
 <param ve-map basemap="Esri_WorldPhysical" center="-3.0122651992426195, -59.98159174927297" zoom="4.8" title="Map of South America showing Indigenous territories (green), Bolivia (purple), and Cueva del Chileno (photo). GeoJSON files courtesy of Native Land Digital, 2015, CC0. https://native-land.ca/">
 <param ve-map-layer geojson active url="South_America_Native_Lands.json" title="Indigenous territories (green)." show-labels>
 <param ve-map-layer geojson active url="Bolivia.json" title="Bolivia (purple)." show-labels>
-<param ve-map-marker url="https://github.com/JSTOR-Labs/plant-humanities/blob/staging-7/ayahuasca/Juan_V._Albarracin-Jordan_Jose%CC%81_M._Capriles_Cueva_del_Chileno_EurekaAlert_no_known_copyright_restrictions.jpg?raw=true"
+<param ve-map-marker url="https://raw.githubusercontent.com/plant-humanities/media/main/ayahuasca/Juan_V._Albarracin-Jordan_José_M._Capriles_Cueva_del_Chileno_EurekaAlert_no_known_copyright_restrictions.jpg"
 	coords="-22.692, -67.757"
 	size="129, 170"
 	circle="true">
@@ -63,7 +63,7 @@ How did apparently isolated Amazonian communities come to know the synergistic e
        manifest="gh:plant-humanities/media/ayahuasca/Decorated_ritual_ceramic_vase_54-21-30%3A7536_Peabody_Museum_Copyright_2021_The_President_and_Fellows_of_Harvard_College.jpg"
        fit="contain">
 <param ve-image 
-       manifest="gh:plant-humanities/media/ayahuasca/Pottery_cup_with%20raised_base_35-25-30%3A1108_Peabody_Museum_Copyright_2021_The_President_and_Fellows_of_Harvard_College_1.jpg"
+       manifest="gh:plant-humanities/media/ayahuasca/Pottery_cup_with_raised_base_35-25-30%3A1108_Peabody_Museum_Copyright_2021_The_President_and_Fellows_of_Harvard_College_1.jpg"
        fit="contain">
 {#paragraph7}
 

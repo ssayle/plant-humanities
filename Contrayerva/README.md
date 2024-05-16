@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	title="Contrayerva"
 	banner="https://raw.githubusercontent.com/JSTOR-Labs/plant-humanities/main/Contrayerva/Contrayerva_Header.jpg"

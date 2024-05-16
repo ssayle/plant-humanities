@@ -1,6 +1,4 @@
-<!--Use this link to preview: https://juncture-digital.org/haleyrp1803/Black-Eyed-Peas-->
-
-<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
 <param ve-config 
        banner="https://newsroom.ucr.edu/images/releases/1708_0hi.jpg" 
@@ -26,7 +24,7 @@ Black-eyed peas ([_Vigna unguiculata_](https://powo.science.kew.org/taxon/urn:ls
 <param ve-image
        fit="contain"
        label="Proposed spread of cowpea from its origins of domestication in Africa. Ira A. Herniter et al., 2020, &quot;Genetic, textual, and archeological evidence of the historical global spread of cowpea (Vigna unguiculata [L.] Walp.),&quot; Legume Science (2020). https://doi.org/10.1002/leg3.57, © 2020 The Authors. Legume Science published by Wiley Periodicals LLC. CC BY 4.0."
-       url="https://github.com/JSTOR-Labs/plant-humanities/blob/main/black_eyed_peas/Herniter_Mun%CC%83oz-Amatriai%CC%81n_Close_Proposed_spread_of_cowpea_Copyright_2020_The%20Authors.%20Legume%20Science_published_Wiley_Periodicals_LLC_CC_BY_4.0.jpg?raw=true">
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/black-eyed-peas/Herniter_Muñoz-Amatriaín_Close_Proposed_spread_of_cowpea_Copyright_2020_The_Authors._Legume_Science_published_Wiley_Periodicals_LLC_CC_BY_4.0.jpg">
 {#paragraph2}
        
 ### Cultural Perceptions in Europe
@@ -52,7 +50,7 @@ In contrast, many more artists took inspiration from the <span eid="Q25237">gree
 
 ### Peas and Beans in Early Modern Texts and Images
 Visual representations of black-eyed peas and other varieties of beans and peas shaped European understanding of the plant. Beginning in the sixteenth century, the dramatic rise in the production and circulation of printed texts with images, such as <span eid="Q6165948">herbals</span> and natural histories, reinforced the codification of plants based on their geographic origins. Unprecedented global travel also formed European ideas about the ways in which close observation of the natural world could reveal the domestic or foreign origins of a person, plant, or animal. One result of this was a shift in European attitudes toward the black-eyed pea.
-<param ve-image region="275,48,1380,1253" manifest="gh:plant-humanities/media/black-eyed-peas/Clusius_Rariorum_Plantarum_Historia_Biblioteca_del_Real_Jardín_Botánico_CC_BY_NC_SA">
+<param ve-image region="275,48,1380,1253" manifest="gh:plant-humanities/media/black-eyed-peas/Clusius_Rariorum_Plantarum_Historia_Biblioteca_del_Real_Jardín_Botánico_CC_BY_NC_SA.jpg">
 {#paragraph7}
        
 Despite the millennia-old European presence of the black-eyed pea, it was now understood in Europe as an itinerant body within a Eurocentric <span eid="Q8269924">taxonomy</span> of plants. European explorers visiting Africa, Asia, and the Americas reinforced this idea. Their observations, often reported in books, were soon taken throughout Europe as factual. For example, Dutch trader and explorer <span eid="Q3117063">Pieter de Marees’</span> 1602 book about West Africa includes an illustration of the <span data-click-image-zoomto="418,756,583,437">black-eyed pea</span> in an idealized landscape alongside people and other plants.[^ref7]
@@ -194,7 +192,7 @@ Black-eyed pea’s many names reflect its worldwide appeal. It is known as crowd
 [^ref17]: George Washington, 1787 letter. [https://founders.archives.gov/documents/Washington/04-05-02-0442](https://founders.archives.gov/documents/Washington/04-05-02-0442)
 [^ref18]: Research has not yet revealed if enslaved peoples also grew weary of the bean or if such attitudes were largely held by free people with more variety in their diets. Further work on this subject might yield more insight into the relationship between the availability of food and the development of dietary preferences and foodways. Our thanks to Professor Alicia Monroe for raising this question. Adelaide Stuart Dimitry, _Wartime Sketches, Historical and Otherwise_ (Louisiana Printing Co. Press, 1911), 75. [https://digital.ncdcr.gov/digital/collection/p15012coll8/id/6384/rec/75](https://digital.ncdcr.gov/digital/collection/p15012coll8/id/6384/rec/75)
 [^ref19]: George Washington Carver, "Some Possibilities of the Cowpea in Macon County, Alabama," Experiment Station Tuskegee Normal and Industrial Institute Tuskegee Institute, Alabama, _Bulletin_ No. 19 (Tuskegee, Alabama: Tuskegee Institute Press, 1910), 5.
-[^ref20]: Kew Science, "Vigna Unguiculata (L.) Walp. | Plants of the World Online | Kew Science," _Plants of the World Online_. Accessed July 12, 2021. [http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1127257-2](http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1127257-2)
+[^ref20]: Kew Science, "Vigna Unguiculata (L.) Walp.; Plants of the World Online; Kew Science," _Plants of the World Online_. Accessed July 12, 2021. [http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1127257-2](http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1127257-2)
 [^ref21]: "Afroculinaria – Exploring Culinary Traditions of Africa, African America and the African Diaspora." Accessed July 23, 2021. [https://afroculinaria.com/](https://afroculinaria.com/)
 [^ref22]: "Afroculinaria."
 [^ref23]: The Southern Heritage Vegetables Cookbook (Birmingham, Alabama: Oxmoor House, 1983). [http://archive.org/details/southernheritage0000unse](http://archive.org/details/southernheritage0000unse); Michael W. Twitty.

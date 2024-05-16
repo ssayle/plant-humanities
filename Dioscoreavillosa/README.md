@@ -1,4 +1,4 @@
-<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
 <param ve-config
        title="Wild Yam: The Rhizome of the Pill" 
@@ -55,7 +55,7 @@ Long before the 1903 herbarium sample was flattened, dried, and adhered to a pap
 
 While representing whole plants with roots had become a somewhat standard practice in European illustrations of plants, the painting nonetheless helps the reader understand that its medicinal qualities derive from the whole plant, not only what is visible above ground. In this way, the painting poses questions about the limitations of images in communicating therapeutic information, the agency of indigenous artists in creating plant portraits, and the roles of images and text in the transmission and dissemination of medicinal knowledge.  
 
-<param ve-compare curtain manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/dioscoreavillosa/dv_herbarium.jpg/manifest.json">
+<param ve-compare manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/dioscoreavillosa/dv_herbarium.jpg/manifest.json">
 <param ve-compare manifest="https://iiif.juncture-digital.org/gh:plant-humanities/media/dioscoreavillosa/dv_codex1.jpg/manifest.json">
 
 

@@ -1,6 +1,8 @@
-`mdp-meta title="Plant Humanities Lab: Contributors"`
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
 
-`mdp-header subtitle="Contributors"`
+`ve-meta title="Plant Humanities Lab: Contributors"`
+
+`ve-header subtitle="Contributors"`
 
 # Essay Contributors 
 `.cards`

@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	title="The Corpse Flower - Amorphophallus titanium"
 	source-image="https://upload.wikimedia.org/wikipedia/commons/d/da/Corpse_flower_%2871304%29f.jpg"

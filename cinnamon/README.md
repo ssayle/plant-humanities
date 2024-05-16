@@ -1,3 +1,5 @@
+[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+
 <param ve-config
 	title="Cinnamomum verum: Discovering &quot;True&quot; Cinnamon"
 	banner="https://free.iiifhosting.com/iiif/b938df4335d5aaa2745efdf3c245ee75f2ee428020c64da87133184c160c10a/pct:0,40,100,40/full/0/color.jpg"
@@ -197,7 +199,7 @@ And Spain really needed cinnamon. One eighteenth-century report estimated that t
 <param title="Cinnamomum cebuense" eid="Q5121027">
 <param title="Juan de Cuéllar" eid="Q6301228">
 <param ve-image
-	manifest="wc:Cinnamomum_Verum_vs_Cinnamomum_Burmannii.jpg"
+	manifest="wc:Cinnamomum%20verum%20vs%20Cinnamomum%20burmanni.jpg"
 	title="Cinnamon quills from Cinnamomum verum (left) and C. burmanni (right).">
 {#paragraph17}
 

@@ -4,6 +4,8 @@
 
 `ve-header title="Plant Humanities Lab" logo=https://raw.githubusercontent.com/plant-humanities/media/main/images/phl-website-png-logo.png background=gh:plant-humanities/media/images/header.jpg subtitle="Explore the cultural histories of plants and their influence on human societies" url=/ .sticky`
 
+`:font-size=1em`
+
 # Featured Resources 
 `.cards`
 

@@ -255,7 +255,7 @@ url="https://upload.wikimedia.org/wikipedia/commons/c/cd/Les_fleurs_animees_BHL1
 Marianne North (1830-1890), a botanical artist whose extensive paintings are displayed in the gallery she built in the Royal Botanic Gardens, Kew, painted the [opium poppy](https://artuk.org/discover/artworks/foliage-flowers-and-seed-vessel-of-the-opium-poppy-87954/search/keyword:marianne-opium--referrer:global-search) with emphasis on a seedpod in the foreground, unscarred and untouched. Artistic representations of opium poppies continually accentuate the vibrant colors of the petals which form large yet delicate flowers, but also the distinctive shape of the seedpod, all contributing to the association of opium poppies with floral beauty.
 <param ve-entity eid="Q271648" title="Marianne North">
 <param ve-image
-       url="MarianneNorth.jpg"
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/MarianneNorth.jpg"
        label="Foliage, Flowers and Seed-Vessel of the Opium Poppy"
        description="Painting by Marianne North"
        license="CC BY-NC 4.0"
@@ -290,16 +290,16 @@ The nineteenth century opened and closed with significant developments in the pr
 
 ## The Cursed Flower in Colombia
 
+<param ve-image 
+       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/juanpoppycolombia1.jpg"
+       label="Stained Poppy, Clack and White Pothograph and Ink"
+       license="Image used with permission of the artist">
+
 Throughout the twentieth century, the poppy trade and trafficking and smuggling routes became a global business with producers in Asia and Latin America: The Golden Crescent (Afghanistan, Iran and Pakistan), The Golden Triangle (Burma, Thailand, Laos and Vietnam) and in the Americas, Colombia and Mexico. These regions of the world where most of the world's poppies are produced are also places which, despite their differences, share certain political, social, economic and environmental particularities: good climate and perfect land for production, constant war, political instability, paramilitary personnel, inequality, among other reasons. To illustrate in more depth what the presence of opium poppy has meant in a specific case, we chose to talk about Colombia, and the way in which this plant has generated a clear political, social, economic, and environmental effects for human and non-humans communities. 
 
 At the end of the twentieth century, the opium poppy went from being an unknown plant in Colombia to a metaphor for beauty—the hidden and the forbidden, to one of consumption, excess, and precariousness. Once it flourished in Colombia’s mountain ranges, the seeds spread swiftly in humid and tropical forests, and became an object of desire for its precious “honey,” as the peasants call the latex that oozes from its fruit. Once admired for its beauty, it has transformed into the “the cursed flower” (“la flor maldita” in Spanish).  
 
 The artwork of the contemporary Colombian artist Juan Fernando Herrán (Bogotá, Colombia, 1963) is an expression of this process of shifting between a romantic botanical conception of the poppy to a more social, political, and ecological matter. In a photograph from 2000, we see the moment when the head of the poppy has been delicately cut off and liquid surges from it. The plant transforms into a powerful image that distances itself from previous representations depicting it as an exotic; here, the photograph shows the opium poppy capsule as a visual element that connects a relationship of the plant with the human and the animal life. The capsule evokes its relevance as a raw material and also displays that both material and spiritual human and non-human forces coexist in poppy plant.[^ref22]
-
-<param ve-image 
-       url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/juanpoppycolombia1.jpg"
-       label="Stained Poppy, Clack and White Pothograph and Ink"
-       license="Image used with permission of the artist">
 				
 ## Policing, Farmers, Eradication
 

@@ -106,7 +106,7 @@ While prehistoric and ancient depictions of opium poppies mostly referred to see
 	license="CC BY-SA 4.0">
 <param ve-compare
 	url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Wedel_image1.jpg"
-	label="Opium Extraction" 
+	label="Opium Extraction"
 	description="Image from Wedel’s Opiologia"
 	license="CC BY-SA 4.0">
       

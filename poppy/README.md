@@ -101,7 +101,7 @@ While prehistoric and ancient depictions of opium poppies mostly referred to see
 <param ve-compare
         curtain="true"
 	url="https://raw.githubusercontent.com/plant-humanities/media/main/poppy/Sala_image.jpg"
-	label="Opium Extraction" 
+	label="Opium Extraction"
 	description="Image from Sala's Opiologia"
 	license="CC BY-SA 4.0">
 <param ve-compare

@@ -36,13 +36,13 @@ _Girl with a Pearl Earring_ (Dutch: Meisje met de parel) is an oil painting by D
 
 The work has been in the collection of the Mauritshuis in The Hague since 1902 and has been the subject of various literary treatments. In 2006, the Dutch public selected it as the most beautiful painting in the Netherlands.
 <param ve-map
-center="42.2529, 73.7909"
-zoom="5"
-Title="Hudson, NY"
+       center="42.2529, 73.7909"
+       zoom="5"
+       Title="Hudson, NY"
        prefer-geojson>
-show-labels>
-<param ve-map-layer geojson
-url="https://raw.githubusercontent.com/ssayle/plant-humanities/main/hudsonmap.json">
+       show-labels>
+       <param ve-map-layer geojson
+       url="https://raw.githubusercontent.com/ssayle/plant-humanities/main/hudsonmap.json">
 
 ## Multiple viewers
 

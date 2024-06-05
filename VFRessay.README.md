@@ -39,10 +39,11 @@ The work has been in the collection of the Mauritshuis in The Hague since 1902 a
 center="42.2529Â, 73.7909"
 zoom="5"
 Title="Hudson, NY"
+       prefer-geojson>
 show-labels>
 <param ve-map-layer geojson
 <param ve-map-layer geojson
-url="https://raw.githubusercontent.com/ssayle/plant-humanities/main/Peony/hudsonmap.json">
+url="https://raw.githubusercontent.com/ssayle/plant-humanities/main/hudsonmap.json">
 
 ## Multiple viewers
 
